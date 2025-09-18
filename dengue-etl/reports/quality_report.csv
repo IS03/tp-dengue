@@ -1,0 +1,9 @@
+file,status,rows_in,rows_after_clean,rows_out,dup_removed
+raw/dengue2019.xlsx,OK,1273,1273,1249,24
+raw/dengue2024.csv,OK,35257,35256,35152,104
+raw/dengue2018.csv,OK,922,888,888,0
+raw/dengue2020.xlsx,OK,11034,9919,9918,1
+raw/dengue2025.csv,OK,3067,3067,2993,74
+raw/dengue2022.csv,OK,293,293,292,1
+raw/dengue2023.csv,OK,18228,18228,18197,31
+raw/dengue2021.xlsx,OK,1164,1164,1163,1
