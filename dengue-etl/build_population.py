@@ -295,63 +295,63 @@ def validate_data(df: pd.DataFrame) -> Tuple[bool, List[str]]:
 
 def generate_quality_report(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Genera el reporte de calidad.
+    Genera el reporte de calidad por departamento.
     """
     quality_data = []
     
+    # Iterar por cada combinación de provincia, departamento y año
     for provincia in df['provincia_nombre'].unique():
-        for anio in df['anio'].unique():
-            deptos_con_poblacion = df[
-                (df['provincia_nombre'] == provincia) & 
-                (df['anio'] == anio)
-            ]['departamento_nombre'].nunique()
-            
-            poblacion_total = df[
-                (df['provincia_nombre'] == provincia) & 
-                (df['anio'] == anio)
-            ]['poblacion'].sum()
-            
-            # Estimación de departamentos totales
-            deptos_estimados = {
-                'BUENOS AIRES': 135,
-                'CIUDAD AUTONOMA DE BUENOS AIRES': 15,
-                'CATAMARCA': 16,
-                'CHACO': 25,
-                'CHUBUT': 15,
-                'CORDOBA': 26,
-                'CORRIENTES': 25,
-                'ENTRE RIOS': 17,
-                'FORMOSA': 9,
-                'JUJUY': 16,
-                'LA PAMPA': 22,
-                'LA RIOJA': 18,
-                'MENDOZA': 18,
-                'MISIONES': 17,
-                'NEUQUEN': 16,
-                'RIO NEGRO': 13,
-                'SALTA': 23,
-                'SAN JUAN': 19,
-                'SAN LUIS': 9,
-                'SANTA CRUZ': 7,
-                'SANTA FE': 19,
-                'SANTIAGO DEL ESTERO': 27,
-                'TIERRA DEL FUEGO': 3,
-                'TUCUMAN': 17
-            }
-            
-            deptos_total_estimado = deptos_estimados.get(provincia, 20)
-            cobertura_pct = (deptos_con_poblacion / deptos_total_estimado) * 100
-            
-            quality_data.append({
-                'provincia_nombre': provincia,
-                'anio': int(anio),
-                'n_deptos_con_poblacion': deptos_con_poblacion,
-                'n_deptos_total_estimado': deptos_total_estimado,
-                'cobertura_pct': round(cobertura_pct, 2),
-                'poblacion_total_prov_anio': int(poblacion_total)
-            })
+        for departamento in df[df['provincia_nombre'] == provincia]['departamento_nombre'].unique():
+            for anio in df['anio'].unique():
+                # Filtrar datos para esta combinación específica
+                depto_data = df[
+                    (df['provincia_nombre'] == provincia) & 
+                    (df['departamento_nombre'] == departamento) &
+                    (df['anio'] == anio)
+                ]
+                
+                if not depto_data.empty:
+                    poblacion = depto_data['poblacion'].iloc[0]
+                    
+                    # Validaciones de calidad
+                    tiene_poblacion = poblacion is not None and poblacion > 0
+                    poblacion_valida = poblacion is not None and poblacion >= 0
+                    
+                    # Clasificar el estado de los datos
+                    if not poblacion_valida:
+                        estado = "ERROR"
+                    elif not tiene_poblacion:
+                        estado = "SIN_POBLACION"
+                    elif poblacion < 1000:
+                        estado = "POBLACION_BAJA"
+                    else:
+                        estado = "OK"
+                    
+                    quality_data.append({
+                        'provincia_nombre': provincia,
+                        'departamento_nombre': departamento,
+                        'anio': int(anio),
+                        'poblacion': int(poblacion) if poblacion is not None else 0,
+                        'tiene_poblacion': tiene_poblacion,
+                        'poblacion_valida': poblacion_valida,
+                        'estado': estado,
+                        'observaciones': _get_observations(estado, poblacion)
+                    })
     
     return pd.DataFrame(quality_data)
+
+def _get_observations(estado: str, poblacion: float) -> str:
+    """
+    Genera observaciones basadas en el estado de los datos.
+    """
+    if estado == "ERROR":
+        return "Datos de población inválidos o faltantes"
+    elif estado == "SIN_POBLACION":
+        return "Departamento sin población registrada"
+    elif estado == "POBLACION_BAJA":
+        return f"Población muy baja ({poblacion:,.0f} habitantes)"
+    else:
+        return "Datos válidos"
 
 def main():
     """
@@ -422,7 +422,8 @@ def main():
         print(f"Filas totales: {len(df_final):,}")
         print(f"Provincias únicas: {df_final['provincia_nombre'].nunique()}")
         print(f"Rango de años: {df_final['anio'].min()}-{df_final['anio'].max()}")
-        print(f"Cobertura promedio: {quality_df['cobertura_pct'].mean():.1f}%")
+        print(f"Departamentos con datos: {len(quality_df)}")
+        print(f"Estados de calidad: {quality_df['estado'].value_counts().to_dict()}")
         print(f"Archivos generados:")
         print(f"  - {OUT_CSV}")
         print(f"  - {QUALITY_CSV}")
