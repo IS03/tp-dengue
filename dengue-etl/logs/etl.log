@@ -1,0 +1,324 @@
+2025-09-19 12:53:31,219 - dengue_etl - INFO - === INICIANDO ETL DE DENGUE ===
+2025-09-19 12:53:40,179 - dengue_etl - INFO - === INICIANDO ETL DE DENGUE ===
+2025-09-19 12:53:40,182 - dengue_etl - DEBUG - Modo verbose activado
+2025-09-19 12:53:40,183 - dengue_etl - INFO - Directorio de entrada: raw
+2025-09-19 12:53:40,183 - dengue_etl - INFO - Directorio de salida: processed
+2025-09-19 12:53:40,184 - dengue_etl - INFO - Archivos encontrados para procesar: 8
+2025-09-19 12:53:40,184 - dengue_etl - INFO - Procesando archivo: raw\dengue2018.csv
+2025-09-19 12:53:40,251 - dengue_etl - DEBUG - Archivo CSV leído exitosamente: 922 filas
+2025-09-19 12:53:40,251 - dengue_etl - DEBUG - Filas leídas: 922
+2025-09-19 12:53:40,252 - dengue_etl - DEBUG - Mapeando columnas. Columnas originales: ['departamento_id', 'departamento_nombre', 'provincia_id', 'provincia_nombre', 'ano', 'semanas_epidemiologicas', 'evento_nombre', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos']
+2025-09-19 12:53:40,255 - dengue_etl - DEBUG - Mapeando columna 'provincia_id' -> 'provincia_id'
+2025-09-19 12:53:40,259 - dengue_etl - DEBUG - Mapeando columna 'provincia_nombre' -> 'provincia_nombre'
+2025-09-19 12:53:40,260 - dengue_etl - DEBUG - Mapeando columna 'departamento_id' -> 'departamento_id'
+2025-09-19 12:53:40,263 - dengue_etl - DEBUG - Mapeando columna 'departamento_nombre' -> 'departamento_nombre'
+2025-09-19 12:53:40,264 - dengue_etl - DEBUG - Mapeando columna 'ano' -> 'anio'
+2025-09-19 12:53:40,265 - dengue_etl - DEBUG - Mapeando columna 'semanas_epidemiologicas' -> 'semana_epi'
+2025-09-19 12:53:40,265 - dengue_etl - DEBUG - Mapeando columna 'evento_nombre' -> 'evento_nombre'
+2025-09-19 12:53:40,266 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_id' -> 'grupo_edad_id'
+2025-09-19 12:53:40,266 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_desc' -> 'grupo_edad_desc'
+2025-09-19 12:53:40,267 - dengue_etl - DEBUG - Mapeando columna 'cantidad_casos' -> 'cantidad_casos'
+2025-09-19 12:53:40,297 - dengue_etl - DEBUG - Agregando columna faltante: fecha
+2025-09-19 12:53:40,311 - dengue_etl - DEBUG - Columnas mapeadas. Filas: 922
+2025-09-19 12:53:40,313 - dengue_etl - INFO - Iniciando limpieza de tipos. Filas iniciales: 922
+2025-09-19 12:53:40,329 - dengue_etl - DEBUG - Normalizada columna de texto: provincia_nombre
+2025-09-19 12:53:40,350 - dengue_etl - DEBUG - Normalizada columna de texto: departamento_nombre
+2025-09-19 12:53:40,368 - dengue_etl - DEBUG - Normalizada columna de texto: evento_nombre
+2025-09-19 12:53:40,385 - dengue_etl - DEBUG - Normalizada columna de texto: grupo_edad_desc
+2025-09-19 12:53:40,398 - dengue_etl - DEBUG - Aplicados sinónimos de provincias
+2025-09-19 12:53:40,402 - dengue_etl - DEBUG - Convertida a numérico: anio
+2025-09-19 12:53:40,408 - dengue_etl - DEBUG - Convertida a numérico: semana_epi
+2025-09-19 12:53:40,412 - dengue_etl - DEBUG - Convertida a numérico: grupo_edad_id
+2025-09-19 12:53:40,415 - dengue_etl - DEBUG - Convertida a numérico: cantidad_casos
+2025-09-19 12:53:40,418 - dengue_etl - DEBUG - Convertida a numérico: provincia_id
+2025-09-19 12:53:40,420 - dengue_etl - DEBUG - Convertida a numérico: departamento_id
+2025-09-19 12:53:40,449 - dengue_etl - DEBUG - Convertida columna fecha
+2025-09-19 12:53:40,459 - dengue_etl - INFO - Filtrados eventos de dengue. Filas después del filtro: 888 (eliminadas: 34)
+2025-09-19 12:53:40,497 - dengue_etl - INFO - Filtrados años válidos. Filas restantes: 888
+2025-09-19 12:53:41,250 - dengue_etl - INFO - Filtradas semanas válidas. Filas restantes: 888
+2025-09-19 12:53:41,252 - dengue_etl - INFO - Limpieza completada. Filas finales: 888
+2025-09-19 12:53:41,253 - dengue_etl - DEBUG - Después de limpieza: 888 filas
+2025-09-19 12:53:41,296 - dengue_etl - INFO - Archivo procesado exitosamente. Filas finales: 888
+2025-09-19 12:53:41,297 - dengue_etl - DEBUG - Archivo dengue2018.csv agregado al conjunto de datos
+2025-09-19 12:53:41,299 - dengue_etl - INFO - Procesando archivo: raw\dengue2019.xlsx
+2025-09-19 12:53:44,871 - dengue_etl - DEBUG - Archivo Excel leído exitosamente: 1273 filas
+2025-09-19 12:53:44,873 - dengue_etl - DEBUG - Filas leídas: 1273
+2025-09-19 12:53:44,873 - dengue_etl - DEBUG - Mapeando columnas. Columnas originales: ['departamento_id', 'departamento_nombre', 'provincia_id', 'provincia_nombre', 'año', 'semanas_epidemiologicas', 'evento_nombre', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'depto_full_id']
+2025-09-19 12:53:44,875 - dengue_etl - DEBUG - Mapeando columna 'provincia_id' -> 'provincia_id'
+2025-09-19 12:53:44,876 - dengue_etl - DEBUG - Mapeando columna 'provincia_nombre' -> 'provincia_nombre'
+2025-09-19 12:53:44,878 - dengue_etl - DEBUG - Mapeando columna 'departamento_id' -> 'departamento_id'
+2025-09-19 12:53:44,878 - dengue_etl - DEBUG - Mapeando columna 'departamento_nombre' -> 'departamento_nombre'
+2025-09-19 12:53:44,879 - dengue_etl - DEBUG - Mapeando columna 'año' -> 'anio'
+2025-09-19 12:53:44,879 - dengue_etl - DEBUG - Mapeando columna 'semanas_epidemiologicas' -> 'semana_epi'
+2025-09-19 12:53:44,880 - dengue_etl - DEBUG - Mapeando columna 'evento_nombre' -> 'evento_nombre'
+2025-09-19 12:53:44,880 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_id' -> 'grupo_edad_id'
+2025-09-19 12:53:44,881 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_desc' -> 'grupo_edad_desc'
+2025-09-19 12:53:44,881 - dengue_etl - DEBUG - Mapeando columna 'cantidad_casos' -> 'cantidad_casos'
+2025-09-19 12:53:44,883 - dengue_etl - DEBUG - Agregando columna faltante: fecha
+2025-09-19 12:53:44,885 - dengue_etl - DEBUG - Columnas mapeadas. Filas: 1273
+2025-09-19 12:53:44,885 - dengue_etl - INFO - Iniciando limpieza de tipos. Filas iniciales: 1273
+2025-09-19 12:53:44,892 - dengue_etl - DEBUG - Normalizada columna de texto: provincia_nombre
+2025-09-19 12:53:44,899 - dengue_etl - DEBUG - Normalizada columna de texto: departamento_nombre
+2025-09-19 12:53:44,906 - dengue_etl - DEBUG - Normalizada columna de texto: evento_nombre
+2025-09-19 12:53:44,918 - dengue_etl - DEBUG - Normalizada columna de texto: grupo_edad_desc
+2025-09-19 12:53:44,920 - dengue_etl - DEBUG - Aplicados sinónimos de provincias
+2025-09-19 12:53:44,923 - dengue_etl - DEBUG - Convertida a numérico: anio
+2025-09-19 12:53:44,925 - dengue_etl - DEBUG - Convertida a numérico: semana_epi
+2025-09-19 12:53:44,927 - dengue_etl - DEBUG - Convertida a numérico: grupo_edad_id
+2025-09-19 12:53:44,929 - dengue_etl - DEBUG - Convertida a numérico: cantidad_casos
+2025-09-19 12:53:44,931 - dengue_etl - DEBUG - Convertida a numérico: provincia_id
+2025-09-19 12:53:44,933 - dengue_etl - DEBUG - Convertida a numérico: departamento_id
+2025-09-19 12:53:44,936 - dengue_etl - DEBUG - Convertida columna fecha
+2025-09-19 12:53:44,940 - dengue_etl - INFO - Filtrados eventos de dengue. Filas después del filtro: 1273 (eliminadas: 0)
+2025-09-19 12:53:44,948 - dengue_etl - INFO - Filtrados años válidos. Filas restantes: 1273
+2025-09-19 12:53:45,537 - dengue_etl - INFO - Filtradas semanas válidas. Filas restantes: 1273
+2025-09-19 12:53:45,540 - dengue_etl - INFO - Limpieza completada. Filas finales: 1273
+2025-09-19 12:53:45,541 - dengue_etl - DEBUG - Después de limpieza: 1273 filas
+2025-09-19 12:53:45,561 - dengue_etl - INFO - Archivo procesado exitosamente. Filas finales: 1249
+2025-09-19 12:53:45,562 - dengue_etl - DEBUG - Archivo dengue2019.xlsx agregado al conjunto de datos
+2025-09-19 12:53:45,563 - dengue_etl - INFO - Procesando archivo: raw\dengue2020.xlsx
+2025-09-19 12:53:47,810 - dengue_etl - DEBUG - Archivo Excel leído exitosamente: 11034 filas
+2025-09-19 12:53:47,811 - dengue_etl - DEBUG - Filas leídas: 11034
+2025-09-19 12:53:47,811 - dengue_etl - DEBUG - Mapeando columnas. Columnas originales: ['departamento_id', 'departamento_nombre', 'provincia_id', 'provincia_nombre', 'año', 'semanas_epidemiologicas', 'evento_nombre', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'depto_full_id']
+2025-09-19 12:53:47,812 - dengue_etl - DEBUG - Mapeando columna 'provincia_id' -> 'provincia_id'
+2025-09-19 12:53:47,812 - dengue_etl - DEBUG - Mapeando columna 'provincia_nombre' -> 'provincia_nombre'
+2025-09-19 12:53:47,813 - dengue_etl - DEBUG - Mapeando columna 'departamento_id' -> 'departamento_id'
+2025-09-19 12:53:47,813 - dengue_etl - DEBUG - Mapeando columna 'departamento_nombre' -> 'departamento_nombre'
+2025-09-19 12:53:47,814 - dengue_etl - DEBUG - Mapeando columna 'año' -> 'anio'
+2025-09-19 12:53:47,814 - dengue_etl - DEBUG - Mapeando columna 'semanas_epidemiologicas' -> 'semana_epi'
+2025-09-19 12:53:47,815 - dengue_etl - DEBUG - Mapeando columna 'evento_nombre' -> 'evento_nombre'
+2025-09-19 12:53:47,815 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_id' -> 'grupo_edad_id'
+2025-09-19 12:53:47,815 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_desc' -> 'grupo_edad_desc'
+2025-09-19 12:53:47,816 - dengue_etl - DEBUG - Mapeando columna 'cantidad_casos' -> 'cantidad_casos'
+2025-09-19 12:53:47,819 - dengue_etl - DEBUG - Agregando columna faltante: fecha
+2025-09-19 12:53:47,826 - dengue_etl - DEBUG - Columnas mapeadas. Filas: 11034
+2025-09-19 12:53:47,826 - dengue_etl - INFO - Iniciando limpieza de tipos. Filas iniciales: 11034
+2025-09-19 12:53:47,878 - dengue_etl - DEBUG - Normalizada columna de texto: provincia_nombre
+2025-09-19 12:53:47,945 - dengue_etl - DEBUG - Normalizada columna de texto: departamento_nombre
+2025-09-19 12:53:47,985 - dengue_etl - DEBUG - Normalizada columna de texto: evento_nombre
+2025-09-19 12:53:48,014 - dengue_etl - DEBUG - Normalizada columna de texto: grupo_edad_desc
+2025-09-19 12:53:48,018 - dengue_etl - DEBUG - Aplicados sinónimos de provincias
+2025-09-19 12:53:48,029 - dengue_etl - DEBUG - Convertida a numérico: anio
+2025-09-19 12:53:48,040 - dengue_etl - DEBUG - Convertida a numérico: semana_epi
+2025-09-19 12:53:48,058 - dengue_etl - DEBUG - Convertida a numérico: grupo_edad_id
+2025-09-19 12:53:48,067 - dengue_etl - DEBUG - Convertida a numérico: cantidad_casos
+2025-09-19 12:53:48,080 - dengue_etl - DEBUG - Convertida a numérico: provincia_id
+2025-09-19 12:53:48,092 - dengue_etl - DEBUG - Convertida a numérico: departamento_id
+2025-09-19 12:53:48,104 - dengue_etl - DEBUG - Convertida columna fecha
+2025-09-19 12:53:48,130 - dengue_etl - INFO - Filtrados eventos de dengue. Filas después del filtro: 9919 (eliminadas: 1115)
+2025-09-19 12:53:48,183 - dengue_etl - INFO - Filtrados años válidos. Filas restantes: 9919
+2025-09-19 12:54:00,546 - dengue_etl - INFO - Filtradas semanas válidas. Filas restantes: 9919
+2025-09-19 12:54:00,549 - dengue_etl - INFO - Limpieza completada. Filas finales: 9919
+2025-09-19 12:54:00,550 - dengue_etl - DEBUG - Después de limpieza: 9919 filas
+2025-09-19 12:54:00,580 - dengue_etl - INFO - Archivo procesado exitosamente. Filas finales: 9918
+2025-09-19 12:54:00,583 - dengue_etl - DEBUG - Archivo dengue2020.xlsx agregado al conjunto de datos
+2025-09-19 12:54:00,583 - dengue_etl - INFO - Procesando archivo: raw\dengue2021.xlsx
+2025-09-19 12:54:01,349 - dengue_etl - DEBUG - Archivo Excel leído exitosamente: 1164 filas
+2025-09-19 12:54:01,349 - dengue_etl - DEBUG - Filas leídas: 1164
+2025-09-19 12:54:01,350 - dengue_etl - DEBUG - Mapeando columnas. Columnas originales: ['departamento_id', 'departamento_nombre', 'provincia_id', 'provincia_nombre', 'año', 'semanas_epidemiologicas', 'evento_nombre', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'depto_full_id']
+2025-09-19 12:54:01,352 - dengue_etl - DEBUG - Mapeando columna 'provincia_id' -> 'provincia_id'
+2025-09-19 12:54:01,353 - dengue_etl - DEBUG - Mapeando columna 'provincia_nombre' -> 'provincia_nombre'
+2025-09-19 12:54:01,364 - dengue_etl - DEBUG - Mapeando columna 'departamento_id' -> 'departamento_id'
+2025-09-19 12:54:01,366 - dengue_etl - DEBUG - Mapeando columna 'departamento_nombre' -> 'departamento_nombre'
+2025-09-19 12:54:01,366 - dengue_etl - DEBUG - Mapeando columna 'año' -> 'anio'
+2025-09-19 12:54:01,367 - dengue_etl - DEBUG - Mapeando columna 'semanas_epidemiologicas' -> 'semana_epi'
+2025-09-19 12:54:01,368 - dengue_etl - DEBUG - Mapeando columna 'evento_nombre' -> 'evento_nombre'
+2025-09-19 12:54:01,368 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_id' -> 'grupo_edad_id'
+2025-09-19 12:54:01,370 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_desc' -> 'grupo_edad_desc'
+2025-09-19 12:54:01,375 - dengue_etl - DEBUG - Mapeando columna 'cantidad_casos' -> 'cantidad_casos'
+2025-09-19 12:54:01,381 - dengue_etl - DEBUG - Agregando columna faltante: fecha
+2025-09-19 12:54:01,383 - dengue_etl - DEBUG - Columnas mapeadas. Filas: 1164
+2025-09-19 12:54:01,383 - dengue_etl - INFO - Iniciando limpieza de tipos. Filas iniciales: 1164
+2025-09-19 12:54:01,398 - dengue_etl - DEBUG - Normalizada columna de texto: provincia_nombre
+2025-09-19 12:54:01,485 - dengue_etl - DEBUG - Normalizada columna de texto: departamento_nombre
+2025-09-19 12:54:01,566 - dengue_etl - DEBUG - Normalizada columna de texto: evento_nombre
+2025-09-19 12:54:02,111 - dengue_etl - DEBUG - Normalizada columna de texto: grupo_edad_desc
+2025-09-19 12:54:02,168 - dengue_etl - DEBUG - Aplicados sinónimos de provincias
+2025-09-19 12:54:02,267 - dengue_etl - DEBUG - Convertida a numérico: anio
+2025-09-19 12:54:02,311 - dengue_etl - DEBUG - Convertida a numérico: semana_epi
+2025-09-19 12:54:02,314 - dengue_etl - DEBUG - Convertida a numérico: grupo_edad_id
+2025-09-19 12:54:02,327 - dengue_etl - DEBUG - Convertida a numérico: cantidad_casos
+2025-09-19 12:54:02,333 - dengue_etl - DEBUG - Convertida a numérico: provincia_id
+2025-09-19 12:54:02,337 - dengue_etl - DEBUG - Convertida a numérico: departamento_id
+2025-09-19 12:54:02,346 - dengue_etl - DEBUG - Convertida columna fecha
+2025-09-19 12:54:02,361 - dengue_etl - INFO - Filtrados eventos de dengue. Filas después del filtro: 1164 (eliminadas: 0)
+2025-09-19 12:54:02,501 - dengue_etl - INFO - Filtrados años válidos. Filas restantes: 1164
+2025-09-19 12:54:03,624 - dengue_etl - INFO - Filtradas semanas válidas. Filas restantes: 1164
+2025-09-19 12:54:03,626 - dengue_etl - INFO - Limpieza completada. Filas finales: 1164
+2025-09-19 12:54:03,627 - dengue_etl - DEBUG - Después de limpieza: 1164 filas
+2025-09-19 12:54:03,635 - dengue_etl - INFO - Archivo procesado exitosamente. Filas finales: 1163
+2025-09-19 12:54:03,636 - dengue_etl - DEBUG - Archivo dengue2021.xlsx agregado al conjunto de datos
+2025-09-19 12:54:03,640 - dengue_etl - INFO - Procesando archivo: raw\dengue2022.csv
+2025-09-19 12:54:03,669 - dengue_etl - DEBUG - Archivo CSV leído exitosamente: 293 filas
+2025-09-19 12:54:03,670 - dengue_etl - DEBUG - Filas leídas: 293
+2025-09-19 12:54:03,670 - dengue_etl - DEBUG - Mapeando columnas. Columnas originales: ['departamento_id', 'departamento_nombre', 'provincia_id', 'provincia_nombre', 'año', 'semanas_epidemiologicas', 'evento_nombre', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'depto_full_id']
+2025-09-19 12:54:03,675 - dengue_etl - DEBUG - Mapeando columna 'provincia_id' -> 'provincia_id'
+2025-09-19 12:54:03,675 - dengue_etl - DEBUG - Mapeando columna 'provincia_nombre' -> 'provincia_nombre'
+2025-09-19 12:54:03,676 - dengue_etl - DEBUG - Mapeando columna 'departamento_id' -> 'departamento_id'
+2025-09-19 12:54:03,677 - dengue_etl - DEBUG - Mapeando columna 'departamento_nombre' -> 'departamento_nombre'
+2025-09-19 12:54:03,678 - dengue_etl - DEBUG - Mapeando columna 'año' -> 'anio'
+2025-09-19 12:54:03,680 - dengue_etl - DEBUG - Mapeando columna 'semanas_epidemiologicas' -> 'semana_epi'
+2025-09-19 12:54:03,681 - dengue_etl - DEBUG - Mapeando columna 'evento_nombre' -> 'evento_nombre'
+2025-09-19 12:54:03,684 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_id' -> 'grupo_edad_id'
+2025-09-19 12:54:03,685 - dengue_etl - DEBUG - Mapeando columna 'grupo_edad_desc' -> 'grupo_edad_desc'
+2025-09-19 12:54:03,686 - dengue_etl - DEBUG - Mapeando columna 'cantidad_casos' -> 'cantidad_casos'
+2025-09-19 12:54:03,695 - dengue_etl - DEBUG - Agregando columna faltante: fecha
+2025-09-19 12:54:03,697 - dengue_etl - DEBUG - Columnas mapeadas. Filas: 293
+2025-09-19 12:54:03,698 - dengue_etl - INFO - Iniciando limpieza de tipos. Filas iniciales: 293
+2025-09-19 12:54:03,703 - dengue_etl - DEBUG - Normalizada columna de texto: provincia_nombre
+2025-09-19 12:54:03,712 - dengue_etl - DEBUG - Normalizada columna de texto: departamento_nombre
+2025-09-19 12:54:03,716 - dengue_etl - DEBUG - Normalizada columna de texto: evento_nombre
+2025-09-19 12:54:03,724 - dengue_etl - DEBUG - Normalizada columna de texto: grupo_edad_desc
+2025-09-19 12:54:03,727 - dengue_etl - DEBUG - Aplicados sinónimos de provincias
+2025-09-19 12:54:03,729 - dengue_etl - DEBUG - Convertida a numérico: anio
+2025-09-19 12:54:03,732 - dengue_etl - DEBUG - Convertida a numérico: semana_epi
+2025-09-19 12:54:03,736 - dengue_etl - DEBUG - Convertida a numérico: grupo_edad_id
+2025-09-19 12:54:03,737 - dengue_etl - DEBUG - Convertida a numérico: cantidad_casos
+2025-09-19 12:54:03,741 - dengue_etl - DEBUG - Convertida a numérico: provincia_id
+2025-09-19 12:54:03,743 - dengue_etl - DEBUG - Convertida a numérico: departamento_id
+2025-09-19 12:54:03,746 - dengue_etl - DEBUG - Convertida columna fecha
+2025-09-19 12:54:03,752 - dengue_etl - INFO - Filtrados eventos de dengue. Filas después del filtro: 293 (eliminadas: 0)
+2025-09-19 12:54:03,763 - dengue_etl - INFO - Filtrados años válidos. Filas restantes: 293
+2025-09-19 12:54:04,068 - dengue_etl - INFO - Filtradas semanas válidas. Filas restantes: 293
+2025-09-19 12:54:04,076 - dengue_etl - INFO - Limpieza completada. Filas finales: 293
+2025-09-19 12:54:04,078 - dengue_etl - DEBUG - Después de limpieza: 293 filas
+2025-09-19 12:54:04,095 - dengue_etl - INFO - Archivo procesado exitosamente. Filas finales: 292
+2025-09-19 12:54:04,096 - dengue_etl - DEBUG - Archivo dengue2022.csv agregado al conjunto de datos
+2025-09-19 12:54:04,098 - dengue_etl - INFO - Procesando archivo: raw\dengue2023.csv
+2025-09-19 12:54:04,187 - dengue_etl - DEBUG - Archivo CSV leído exitosamente: 18228 filas
+2025-09-19 12:54:04,192 - dengue_etl - DEBUG - Filas leídas: 18228
+2025-09-19 12:54:04,193 - dengue_etl - DEBUG - Mapeando columnas. Columnas originales: ['id_depto_indec_residencia', 'departamento_residencia', 'id_prov_indec_residencia', 'provincia_residencia', 'anio_min', 'evento', 'id_grupo_etario', 'grupo_etario', 'sepi_min', 'cantidad', 'depto_full_id']
+2025-09-19 12:54:04,194 - dengue_etl - DEBUG - Mapeando columna 'id_prov_indec_residencia' -> 'provincia_id'
+2025-09-19 12:54:04,195 - dengue_etl - DEBUG - Mapeando columna 'provincia_residencia' -> 'provincia_nombre'
+2025-09-19 12:54:04,196 - dengue_etl - DEBUG - Mapeando columna 'id_depto_indec_residencia' -> 'departamento_id'
+2025-09-19 12:54:04,197 - dengue_etl - DEBUG - Mapeando columna 'departamento_residencia' -> 'departamento_nombre'
+2025-09-19 12:54:04,198 - dengue_etl - DEBUG - Mapeando columna 'anio_min' -> 'anio'
+2025-09-19 12:54:04,198 - dengue_etl - DEBUG - Mapeando columna 'sepi_min' -> 'semana_epi'
+2025-09-19 12:54:04,199 - dengue_etl - DEBUG - Mapeando columna 'evento' -> 'evento_nombre'
+2025-09-19 12:54:04,199 - dengue_etl - DEBUG - Mapeando columna 'id_grupo_etario' -> 'grupo_edad_id'
+2025-09-19 12:54:04,200 - dengue_etl - DEBUG - Mapeando columna 'grupo_etario' -> 'grupo_edad_desc'
+2025-09-19 12:54:04,200 - dengue_etl - DEBUG - Mapeando columna 'cantidad' -> 'cantidad_casos'
+2025-09-19 12:54:04,206 - dengue_etl - DEBUG - Agregando columna faltante: fecha
+2025-09-19 12:54:04,217 - dengue_etl - DEBUG - Columnas mapeadas. Filas: 18228
+2025-09-19 12:54:04,217 - dengue_etl - INFO - Iniciando limpieza de tipos. Filas iniciales: 18228
+2025-09-19 12:54:04,366 - dengue_etl - DEBUG - Normalizada columna de texto: provincia_nombre
+2025-09-19 12:54:04,569 - dengue_etl - DEBUG - Normalizada columna de texto: departamento_nombre
+2025-09-19 12:54:04,694 - dengue_etl - DEBUG - Normalizada columna de texto: evento_nombre
+2025-09-19 12:54:04,878 - dengue_etl - DEBUG - Normalizada columna de texto: grupo_edad_desc
+2025-09-19 12:54:04,886 - dengue_etl - DEBUG - Aplicados sinónimos de provincias
+2025-09-19 12:54:04,914 - dengue_etl - DEBUG - Convertida a numérico: anio
+2025-09-19 12:54:04,942 - dengue_etl - DEBUG - Convertida a numérico: semana_epi
+2025-09-19 12:54:04,964 - dengue_etl - DEBUG - Convertida a numérico: grupo_edad_id
+2025-09-19 12:54:04,986 - dengue_etl - DEBUG - Convertida a numérico: cantidad_casos
+2025-09-19 12:54:05,031 - dengue_etl - DEBUG - Convertida a numérico: provincia_id
+2025-09-19 12:54:05,053 - dengue_etl - DEBUG - Convertida a numérico: departamento_id
+2025-09-19 12:54:05,080 - dengue_etl - DEBUG - Convertida columna fecha
+2025-09-19 12:54:05,114 - dengue_etl - INFO - Filtrados eventos de dengue. Filas después del filtro: 18228 (eliminadas: 0)
+2025-09-19 12:54:05,143 - dengue_etl - INFO - Filtrados años válidos. Filas restantes: 18228
+2025-09-19 12:54:16,969 - dengue_etl - INFO - Filtradas semanas válidas. Filas restantes: 18228
+2025-09-19 12:54:16,978 - dengue_etl - WARNING - Encontrados 356 registros con departamento desconocido (ID: 999)
+2025-09-19 12:54:16,981 - dengue_etl - WARNING - Encontrados 188 registros con provincia desconocida (ID: 99)
+2025-09-19 12:54:16,992 - dengue_etl - INFO - Limpieza completada. Filas finales: 18228
+2025-09-19 12:54:16,995 - dengue_etl - DEBUG - Después de limpieza: 18228 filas
+2025-09-19 12:54:17,111 - dengue_etl - INFO - Archivo procesado exitosamente. Filas finales: 18197
+2025-09-19 12:54:17,114 - dengue_etl - DEBUG - Archivo dengue2023.csv agregado al conjunto de datos
+2025-09-19 12:54:17,115 - dengue_etl - INFO - Procesando archivo: raw\dengue2024.csv
+2025-09-19 12:54:17,277 - dengue_etl - DEBUG - Archivo CSV leído exitosamente: 35257 filas
+2025-09-19 12:54:17,278 - dengue_etl - DEBUG - Filas leídas: 35257
+2025-09-19 12:54:17,279 - dengue_etl - DEBUG - Mapeando columnas. Columnas originales: ['id_depto_indec_residencia', 'departamento_residencia', 'id_prov_indec_residencia', 'provincia_residencia', 'anio_min', 'evento', 'id_grupo_etario', 'grupo_etario', 'sepi_min', 'cantidad', 'depto_full_id']
+2025-09-19 12:54:17,280 - dengue_etl - DEBUG - Mapeando columna 'id_prov_indec_residencia' -> 'provincia_id'
+2025-09-19 12:54:17,281 - dengue_etl - DEBUG - Mapeando columna 'provincia_residencia' -> 'provincia_nombre'
+2025-09-19 12:54:17,281 - dengue_etl - DEBUG - Mapeando columna 'id_depto_indec_residencia' -> 'departamento_id'
+2025-09-19 12:54:17,282 - dengue_etl - DEBUG - Mapeando columna 'departamento_residencia' -> 'departamento_nombre'
+2025-09-19 12:54:17,283 - dengue_etl - DEBUG - Mapeando columna 'anio_min' -> 'anio'
+2025-09-19 12:54:17,283 - dengue_etl - DEBUG - Mapeando columna 'sepi_min' -> 'semana_epi'
+2025-09-19 12:54:17,284 - dengue_etl - DEBUG - Mapeando columna 'evento' -> 'evento_nombre'
+2025-09-19 12:54:17,285 - dengue_etl - DEBUG - Mapeando columna 'id_grupo_etario' -> 'grupo_edad_id'
+2025-09-19 12:54:17,286 - dengue_etl - DEBUG - Mapeando columna 'grupo_etario' -> 'grupo_edad_desc'
+2025-09-19 12:54:17,286 - dengue_etl - DEBUG - Mapeando columna 'cantidad' -> 'cantidad_casos'
+2025-09-19 12:54:17,301 - dengue_etl - DEBUG - Agregando columna faltante: fecha
+2025-09-19 12:54:17,316 - dengue_etl - DEBUG - Columnas mapeadas. Filas: 35257
+2025-09-19 12:54:17,316 - dengue_etl - INFO - Iniciando limpieza de tipos. Filas iniciales: 35257
+2025-09-19 12:54:17,659 - dengue_etl - DEBUG - Normalizada columna de texto: provincia_nombre
+2025-09-19 12:54:17,980 - dengue_etl - DEBUG - Normalizada columna de texto: departamento_nombre
+2025-09-19 12:54:18,169 - dengue_etl - DEBUG - Normalizada columna de texto: evento_nombre
+2025-09-19 12:54:18,527 - dengue_etl - DEBUG - Normalizada columna de texto: grupo_edad_desc
+2025-09-19 12:54:18,549 - dengue_etl - DEBUG - Aplicados sinónimos de provincias
+2025-09-19 12:54:18,570 - dengue_etl - DEBUG - Convertida a numérico: anio
+2025-09-19 12:54:18,608 - dengue_etl - DEBUG - Convertida a numérico: semana_epi
+2025-09-19 12:54:18,636 - dengue_etl - DEBUG - Convertida a numérico: grupo_edad_id
+2025-09-19 12:54:18,663 - dengue_etl - DEBUG - Convertida a numérico: cantidad_casos
+2025-09-19 12:54:18,692 - dengue_etl - DEBUG - Convertida a numérico: provincia_id
+2025-09-19 12:54:18,717 - dengue_etl - DEBUG - Convertida a numérico: departamento_id
+2025-09-19 12:54:18,752 - dengue_etl - DEBUG - Convertida columna fecha
+2025-09-19 12:54:18,813 - dengue_etl - INFO - Filtrados eventos de dengue. Filas después del filtro: 35257 (eliminadas: 0)
+2025-09-19 12:54:18,876 - dengue_etl - WARNING - Encontrados 1 registros con años inválidos: <IntegerArray>
+[<NA>]
+Length: 1, dtype: Int64
+2025-09-19 12:54:18,909 - dengue_etl - INFO - Filtrados años válidos. Filas restantes: 35256
+2025-09-19 12:54:41,815 - dengue_etl - INFO - Filtradas semanas válidas. Filas restantes: 35256
+2025-09-19 12:54:41,817 - dengue_etl - WARNING - Encontrados 694 registros con departamento desconocido (ID: 999)
+2025-09-19 12:54:41,817 - dengue_etl - WARNING - Encontrados 323 registros con provincia desconocida (ID: 99)
+2025-09-19 12:54:41,827 - dengue_etl - INFO - Limpieza completada. Filas finales: 35256
+2025-09-19 12:54:41,829 - dengue_etl - DEBUG - Después de limpieza: 35256 filas
+2025-09-19 12:54:41,918 - dengue_etl - INFO - Archivo procesado exitosamente. Filas finales: 35152
+2025-09-19 12:54:41,920 - dengue_etl - DEBUG - Archivo dengue2024.csv agregado al conjunto de datos
+2025-09-19 12:54:41,920 - dengue_etl - INFO - Procesando archivo: raw\dengue2025.csv
+2025-09-19 12:54:41,948 - dengue_etl - DEBUG - Archivo CSV leído exitosamente: 3067 filas
+2025-09-19 12:54:41,948 - dengue_etl - DEBUG - Filas leídas: 3067
+2025-09-19 12:54:41,952 - dengue_etl - DEBUG - Mapeando columnas. Columnas originales: ['id_depto_indec_residencia', 'departamento_residencia', 'id_prov_indec_residencia', 'provincia_residencia', 'anio_min', 'evento', 'id_grupo_etario', 'grupo_etario', 'sepi_min', 'cantidad', 'depto_full_id']
+2025-09-19 12:54:41,953 - dengue_etl - DEBUG - Mapeando columna 'id_prov_indec_residencia' -> 'provincia_id'
+2025-09-19 12:54:41,954 - dengue_etl - DEBUG - Mapeando columna 'provincia_residencia' -> 'provincia_nombre'
+2025-09-19 12:54:41,957 - dengue_etl - DEBUG - Mapeando columna 'id_depto_indec_residencia' -> 'departamento_id'
+2025-09-19 12:54:41,958 - dengue_etl - DEBUG - Mapeando columna 'departamento_residencia' -> 'departamento_nombre'
+2025-09-19 12:54:41,959 - dengue_etl - DEBUG - Mapeando columna 'anio_min' -> 'anio'
+2025-09-19 12:54:41,960 - dengue_etl - DEBUG - Mapeando columna 'sepi_min' -> 'semana_epi'
+2025-09-19 12:54:41,960 - dengue_etl - DEBUG - Mapeando columna 'evento' -> 'evento_nombre'
+2025-09-19 12:54:41,961 - dengue_etl - DEBUG - Mapeando columna 'id_grupo_etario' -> 'grupo_edad_id'
+2025-09-19 12:54:41,962 - dengue_etl - DEBUG - Mapeando columna 'grupo_etario' -> 'grupo_edad_desc'
+2025-09-19 12:54:41,965 - dengue_etl - DEBUG - Mapeando columna 'cantidad' -> 'cantidad_casos'
+2025-09-19 12:54:41,971 - dengue_etl - DEBUG - Agregando columna faltante: fecha
+2025-09-19 12:54:41,976 - dengue_etl - DEBUG - Columnas mapeadas. Filas: 3067
+2025-09-19 12:54:41,977 - dengue_etl - INFO - Iniciando limpieza de tipos. Filas iniciales: 3067
+2025-09-19 12:54:42,008 - dengue_etl - DEBUG - Normalizada columna de texto: provincia_nombre
+2025-09-19 12:54:42,027 - dengue_etl - DEBUG - Normalizada columna de texto: departamento_nombre
+2025-09-19 12:54:42,055 - dengue_etl - DEBUG - Normalizada columna de texto: evento_nombre
+2025-09-19 12:54:42,096 - dengue_etl - DEBUG - Normalizada columna de texto: grupo_edad_desc
+2025-09-19 12:54:42,101 - dengue_etl - DEBUG - Aplicados sinónimos de provincias
+2025-09-19 12:54:42,108 - dengue_etl - DEBUG - Convertida a numérico: anio
+2025-09-19 12:54:42,114 - dengue_etl - DEBUG - Convertida a numérico: semana_epi
+2025-09-19 12:54:42,119 - dengue_etl - DEBUG - Convertida a numérico: grupo_edad_id
+2025-09-19 12:54:42,127 - dengue_etl - DEBUG - Convertida a numérico: cantidad_casos
+2025-09-19 12:54:42,132 - dengue_etl - DEBUG - Convertida a numérico: provincia_id
+2025-09-19 12:54:42,136 - dengue_etl - DEBUG - Convertida a numérico: departamento_id
+2025-09-19 12:54:42,144 - dengue_etl - DEBUG - Convertida columna fecha
+2025-09-19 12:54:42,151 - dengue_etl - INFO - Filtrados eventos de dengue. Filas después del filtro: 3067 (eliminadas: 0)
+2025-09-19 12:54:42,164 - dengue_etl - INFO - Filtrados años válidos. Filas restantes: 3067
+2025-09-19 12:54:44,120 - dengue_etl - INFO - Filtradas semanas válidas. Filas restantes: 3067
+2025-09-19 12:54:44,125 - dengue_etl - WARNING - Encontrados 149 registros con departamento desconocido (ID: 999)
+2025-09-19 12:54:44,126 - dengue_etl - WARNING - Encontrados 138 registros con provincia desconocida (ID: 99)
+2025-09-19 12:54:44,127 - dengue_etl - INFO - Limpieza completada. Filas finales: 3067
+2025-09-19 12:54:44,128 - dengue_etl - DEBUG - Después de limpieza: 3067 filas
+2025-09-19 12:54:44,143 - dengue_etl - INFO - Archivo procesado exitosamente. Filas finales: 2993
+2025-09-19 12:54:44,144 - dengue_etl - DEBUG - Archivo dengue2025.csv agregado al conjunto de datos
+2025-09-19 12:54:44,145 - dengue_etl - INFO - Combinando 8 archivos procesados
+2025-09-19 12:54:44,167 - dengue_etl - INFO - Dataset combinado: 69852 filas, 9 columnas
+2025-09-19 12:54:44,167 - dengue_etl - INFO - Validando consistencia geográfica
+2025-09-19 12:54:44,202 - dengue_etl - WARNING - Provincias inválidas encontradas: [0.0, nan]
+2025-09-19 12:54:44,203 - dengue_etl - WARNING - Departamentos inválidos encontrados: [34014.0, 22112.0, 54028.0, 22039.0, 2009.0, 86035.0, 86049.0, 2004.0, 6035.0, 34035.0, 2003.0, 6658.0, 2015.0, 6427.0, 6568.0, 2002.0, 6274.0, 6434.0, 6539.0, 22140.0, 54077.0, 2005.0, 2012.0, 6091.0, 6231.0, 6270.0, 6364.0, 6410.0, 6490.0, 18021.0, 54063.0, 66105.0, 66126.0, 2008.0, 14014.0, 14021.0, 74028.0, 2006.0, 22014.0, 22021.0, 6441.0, 6861.0, 30084.0, 90021.0, 6840.0, 22070.0, 66049.0, 66056.0, 82084.0, 2001.0, 2010.0, 6028.0, 18168.0, 6588.0, 22043.0, 2007.0, 22036.0, 22098.0, 46063.0, 86063.0, 6665.0, 18154.0, 18126.0, 22084.0, 34028.0, 86147.0, 6260.0, 6412.0, 54035.0, 82119.0, 82049.0, 6805.0, 30015.0, 54084.0, 66028.0, 82021.0, 82077.0, 90119.0, 14161.0, 18133.0, 54098.0, 50028.0, 2014.0, 6252.0, 34007.0, 54049.0, 82035.0, 22028.0, 54042.0, 66133.0, 82063.0, 34056.0, 6882.0, 50119.0, 66161.0, 6623.0, 38035.0, 38070.0, 82091.0, 54007.0, 6760.0, 66070.0, 82070.0, 6515.0, 22063.0, 54056.0, 66007.0, 90084.0, 6357.0, 6532.0, 86161.0, 22154.0, 82014.0, 82105.0, 90105.0, 66147.0, 6791.0, 54091.0, 66035.0, 22105.0, 38105.0, 14091.0, 66112.0, nan, 38007.0, 66077.0, 22049.0, 18084.0, 38042.0, 38056.0, 6266.0, 34049.0, 54112.0, 2013.0, 30021.0, 54021.0, 54105.0, 6560.0, 2011.0, 6371.0, 6413.0, 6638.0, 14175.0, 22077.0, 30098.0, 38021.0, 46014.0, 50007.0, 50021.0, 6469.0, 14140.0, 30056.0, 34.0, 54070.0, 86175.0, 0.0, 6408.0, 14042.0, 14147.0, 18077.0, 38014.0, 54014.0, 58091.0, 6707.0, 6756.0, 10042.0, 14098.0, 14105.0, 22007.0, 30028.0, 34021.0, 34042.0, 50077.0, 66.0, 82028.0, 6134.0, 6385.0, 6581.0, 6749.0, 6778.0, 10049.0, 10112.0, 14119.0, 18049.0, 18112.0, 22126.0, 34063.0, 38063.0, 46084.0, 54119.0, 58035.0, 74035.0, 82056.0, 86056.0, 86098.0, 6098.0, 6112.0, 6238.0, 6483.0, 6525.0, 6644.0, 6648.0, 10021.0, 10070.0, 14126.0, 14182.0, 18007.0, 18035.0, 18042.0, 18105.0, 26021.0, 42028.0, 42056.0, 78021.0, 42154.0, 46028.0, 46035.0, 50070.0, 62021.0, 62042.0, 82007.0, 82098.0, 6049.0, 6056.0, 6497.0, 6672.0, 6763.0, 10084.0, 10105.0, 14028.0, 14084.0, 18070.0, 18119.0, 22133.0, 30008.0, 30077.0, 46007.0, 46042.0, 46056.0, 46119.0, 50105.0, 62014.0, 66660.0, 74056.0, 86042.0, 90063.0, 94014.0, 6161.0, 6203.0, 6630.0, 6655.0, 10007.0, 10035.0, 10077.0, 14007.0, 14035.0, 14056.0, 18014.0, 18063.0, 18140.0, 22056.0, 42021.0, 46126.0, 70028.0, 70070.0, 70077.0, 70098.0, 70119.0, 82126.0, 86021.0, 6175.0, 6210.0, 6518.0, 6595.0, 10056.0, 10063.0, 18056.0, 22147.0, 22168.0, 30070.0, 38028.0, 46021.0, 46091.0, 66021.0, 70042.0, 70126.0, 82133.0, 86133.0, 94007.0, 6126.0, 6245.0, 6735.0, 6826.0, 10098.0, 14049.0, 14070.0, 14133.0, 30091.0, 30105.0, 46049.0, 46098.0, 26042.0, 42133.0, 66098.0, 78028.0, 6784.0, 14063.0, 30035.0, 30049.0, 30113.0, 42077.0, 66140.0, 70084.0, 78014.0, 58014.0, 86140.0, 90014.0, 6420.0, 6728.0, 6847.0, 14077.0, 18028.0, 42105.0, 82112.0, 78035.0, 90112.0, 6119.0, 10091.0, 38182.0, 90077.0, 18.0, 70063.0, 90070.0, 6224.0, 34340.0, 38.0, 82042.0, 90007.0, 6679.0, 22119.0, 50063.0, 70007.0, 18161.0, 26035.0, 6301.0, 46112.0, 66042.0, 42035.0, 50098.0, 46070.0, 46105.0, 999.0, 466.0]
+2025-09-19 12:54:44,228 - dengue_etl - INFO - Aplicando enriquecimientos opcionales
+2025-09-19 12:54:44,292 - dengue_etl - INFO - Cargando datos de población desde: ref/poblacion.csv
+2025-09-19 12:54:44,350 - dengue_etl - DEBUG - Datos de población cargados: 9072 filas
+2025-09-19 12:54:44,631 - dengue_etl - INFO - Merge de población completado. Filas con población: 61291/69852 (87.7%)
+2025-09-19 12:54:44,899 - dengue_etl - INFO - Resumen de calidad: 69852 filas, 0 duplicados
+2025-09-19 12:54:44,900 - dengue_etl - INFO - Guardando archivo principal
+2025-09-19 12:54:47,164 - dengue_etl - INFO - Generando agregación semanal por departamento
+2025-09-19 12:54:47,619 - dengue_etl - INFO - Agregación semanal guardada: 17109 filas
+2025-09-19 12:54:47,623 - dengue_etl - INFO - Generando agregación mensual por provincia
+2025-09-19 12:55:05,528 - dengue_etl - INFO - Agregación mensual guardada: 903 filas
+2025-09-19 12:55:05,529 - dengue_etl - INFO - Generando reporte de calidad
+2025-09-19 12:55:05,532 - dengue_etl - INFO - === ETL COMPLETADO EXITOSAMENTE ===
+2025-09-19 12:55:05,533 - dengue_etl - INFO - Archivos procesados: 8
+2025-09-19 12:55:05,533 - dengue_etl - INFO - Filas limpias totales: 69,852
+2025-09-19 12:55:05,534 - dengue_etl - INFO - Archivos generados en: processed
+2025-09-19 12:55:05,534 - dengue_etl - INFO - Reporte de calidad en: reports\quality_report.csv
