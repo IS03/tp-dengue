@@ -1,0 +1,1144 @@
+departamento_nombre,provincia_id,provincia_nombre,ano,semanas_epidemiologicas,evento_nombre,grupo_edad_id,grupo_edad_desc,cantidad_casos,departamento_nombre_normalizado,provincia_nombre_normalizado,fila_original,departamento_id_uta_2020,poblacion
+patino,34,formosa,2021,6,dengue,1,posneonato 29 hasta 365 dias,1,patino,formosa,2,34035,77488
+patino,34,formosa,2021,8,dengue,1,posneonato 29 hasta 365 dias,1,patino,formosa,3,34035,77488
+patino,34,formosa,2021,10,dengue,1,posneonato 29 hasta 365 dias,1,patino,formosa,4,34035,77488
+la rioja capital,46,la rioja,2021,12,dengue,1,posneonato 29 hasta 365 dias,1,la rioja capital,la rioja,5,46014,226872
+iguazu,54,misiones,2021,6,dengue,1,posneonato 29 hasta 365 dias,1,iguazu,misiones,6,54063,101413
+anta,66,salta,2021,11,dengue,1,posneonato 29 hasta 365 dias,1,anta,salta,7,66007,69909
+anta,66,salta,2021,16,dengue,1,posneonato 29 hasta 365 dias,1,anta,salta,8,66007,69909
+general jose de san martin,66,salta,2021,14,dengue,1,posneonato 29 hasta 365 dias,1,general jose de san martin,salta,9,66056,187231
+oran,66,salta,2021,17,dengue,1,posneonato 29 hasta 365 dias,1,oran,salta,10,66126,164544
+oran,66,salta,2021,18,dengue,1,posneonato 29 hasta 365 dias,1,oran,salta,11,66126,164544
+patino,34,formosa,2021,10,dengue,2,de 13 a 24 meses,1,patino,formosa,12,34035,77488
+la rioja capital,46,la rioja,2021,9,dengue,2,de 13 a 24 meses,1,la rioja capital,la rioja,13,46014,226872
+anta,66,salta,2021,14,dengue,2,de 13 a 24 meses,1,anta,salta,14,66007,69909
+general jose de san martin,66,salta,2021,7,dengue,2,de 13 a 24 meses,1,general jose de san martin,salta,15,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,2,de 13 a 24 meses,1,general jose de san martin,salta,16,66056,187231
+oran,66,salta,2021,18,dengue,2,de 13 a 24 meses,1,oran,salta,17,66126,164544
+oran,66,salta,2021,19,dengue,2,de 13 a 24 meses,1,oran,salta,18,66126,164544
+federacion,30,entre rios,2021,16,dengue,3,de 2 a 4 anos,1,federacion,entre rios,19,30028,84769
+patino,34,formosa,2021,6,dengue,3,de 2 a 4 anos,1,patino,formosa,20,34035,77488
+patino,34,formosa,2021,8,dengue,3,de 2 a 4 anos,1,patino,formosa,21,34035,77488
+patino,34,formosa,2021,10,dengue,3,de 2 a 4 anos,1,patino,formosa,22,34035,77488
+ledesma,38,jujuy,2021,17,dengue,3,de 2 a 4 anos,1,ledesma,jujuy,23,38035,89823
+la rioja capital,46,la rioja,2021,10,dengue,3,de 2 a 4 anos,1,la rioja capital,la rioja,24,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,3,de 2 a 4 anos,2,la rioja capital,la rioja,25,46014,226872
+la rioja capital,46,la rioja,2021,21,dengue,3,de 2 a 4 anos,1,la rioja capital,la rioja,26,46014,226872
+misiones capital,54,misiones,2021,10,dengue,3,de 2 a 4 anos,2,misiones capital,misiones,27,54028,375429
+misiones capital,54,misiones,2021,12,dengue,3,de 2 a 4 anos,1,misiones capital,misiones,28,54028,375429
+anta,66,salta,2021,13,dengue,3,de 2 a 4 anos,1,anta,salta,29,66007,69909
+anta,66,salta,2021,15,dengue,3,de 2 a 4 anos,1,anta,salta,30,66007,69909
+general jose de san martin,66,salta,2021,6,dengue,3,de 2 a 4 anos,1,general jose de san martin,salta,31,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,3,de 2 a 4 anos,2,general jose de san martin,salta,32,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,3,de 2 a 4 anos,1,general jose de san martin,salta,33,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,3,de 2 a 4 anos,1,general jose de san martin,salta,34,66056,187231
+general jose de san martin,66,salta,2021,13,dengue,3,de 2 a 4 anos,1,general jose de san martin,salta,35,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,3,de 2 a 4 anos,1,general jose de san martin,salta,36,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,3,de 2 a 4 anos,1,general jose de san martin,salta,37,66056,187231
+oran,66,salta,2021,11,dengue,3,de 2 a 4 anos,2,oran,salta,38,66126,164544
+oran,66,salta,2021,15,dengue,3,de 2 a 4 anos,3,oran,salta,39,66126,164544
+oran,66,salta,2021,16,dengue,3,de 2 a 4 anos,4,oran,salta,40,66126,164544
+oran,66,salta,2021,17,dengue,3,de 2 a 4 anos,4,oran,salta,41,66126,164544
+oran,66,salta,2021,19,dengue,3,de 2 a 4 anos,1,oran,salta,42,66126,164544
+oran,66,salta,2021,22,dengue,3,de 2 a 4 anos,1,oran,salta,43,66126,164544
+rivadavia,66,mendoza,2021,16,dengue,3,de 2 a 4 anos,1,rivadavia,salta,44,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,3,de 2 a 4 anos,2,rivadavia,salta,45,50084,64071
+merlo,6,buenos aires,2021,13,dengue,4,de 5 a 9 anos,1,merlo,buenos aires,46,6539,613509
+federacion,30,entre rios,2021,17,dengue,4,de 5 a 9 anos,1,federacion,entre rios,47,30028,84769
+patino,34,formosa,2021,5,dengue,4,de 5 a 9 anos,4,patino,formosa,48,34035,77488
+patino,34,formosa,2021,6,dengue,4,de 5 a 9 anos,2,patino,formosa,49,34035,77488
+patino,34,formosa,2021,7,dengue,4,de 5 a 9 anos,2,patino,formosa,50,34035,77488
+patino,34,formosa,2021,8,dengue,4,de 5 a 9 anos,1,patino,formosa,51,34035,77488
+patino,34,formosa,2021,10,dengue,4,de 5 a 9 anos,5,patino,formosa,52,34035,77488
+patino,34,formosa,2021,11,dengue,4,de 5 a 9 anos,2,patino,formosa,53,34035,77488
+patino,34,formosa,2021,13,dengue,4,de 5 a 9 anos,1,patino,formosa,54,34035,77488
+ledesma,38,jujuy,2021,14,dengue,4,de 5 a 9 anos,1,ledesma,jujuy,55,38035,89823
+ledesma,38,jujuy,2021,15,dengue,4,de 5 a 9 anos,1,ledesma,jujuy,56,38035,89823
+ledesma,38,jujuy,2021,16,dengue,4,de 5 a 9 anos,3,ledesma,jujuy,57,38035,89823
+ledesma,38,jujuy,2021,17,dengue,4,de 5 a 9 anos,2,ledesma,jujuy,58,38035,89823
+ledesma,38,jujuy,2021,22,dengue,4,de 5 a 9 anos,1,ledesma,jujuy,59,38035,89823
+santa barbara,38,jujuy,2021,17,dengue,4,de 5 a 9 anos,2,santa barbara,jujuy,60,38070,19185
+santa barbara,38,jujuy,2021,18,dengue,4,de 5 a 9 anos,1,santa barbara,jujuy,61,38070,19185
+santa barbara,38,jujuy,2021,20,dengue,4,de 5 a 9 anos,1,santa barbara,jujuy,62,38070,19185
+santa barbara,38,jujuy,2021,21,dengue,4,de 5 a 9 anos,1,santa barbara,jujuy,63,38070,19185
+santa barbara,38,jujuy,2021,23,dengue,4,de 5 a 9 anos,1,santa barbara,jujuy,64,38070,19185
+la rioja capital,46,la rioja,2021,9,dengue,4,de 5 a 9 anos,1,la rioja capital,la rioja,65,46014,226872
+la rioja capital,46,la rioja,2021,10,dengue,4,de 5 a 9 anos,2,la rioja capital,la rioja,66,46014,226872
+la rioja capital,46,la rioja,2021,11,dengue,4,de 5 a 9 anos,2,la rioja capital,la rioja,67,46014,226872
+la rioja capital,46,la rioja,2021,12,dengue,4,de 5 a 9 anos,1,la rioja capital,la rioja,68,46014,226872
+la rioja capital,46,la rioja,2021,13,dengue,4,de 5 a 9 anos,1,la rioja capital,la rioja,69,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,4,de 5 a 9 anos,4,la rioja capital,la rioja,70,46014,226872
+la rioja capital,46,la rioja,2021,16,dengue,4,de 5 a 9 anos,3,la rioja capital,la rioja,71,46014,226872
+la rioja capital,46,la rioja,2021,17,dengue,4,de 5 a 9 anos,3,la rioja capital,la rioja,72,46014,226872
+la rioja capital,46,la rioja,2021,18,dengue,4,de 5 a 9 anos,4,la rioja capital,la rioja,73,46014,226872
+la rioja capital,46,la rioja,2021,19,dengue,4,de 5 a 9 anos,2,la rioja capital,la rioja,74,46014,226872
+la rioja capital,46,la rioja,2021,20,dengue,4,de 5 a 9 anos,2,la rioja capital,la rioja,75,46014,226872
+misiones capital,54,misiones,2021,4,dengue,4,de 5 a 9 anos,1,misiones capital,misiones,76,54028,375429
+misiones capital,54,misiones,2021,7,dengue,4,de 5 a 9 anos,1,misiones capital,misiones,77,54028,375429
+misiones capital,54,misiones,2021,12,dengue,4,de 5 a 9 anos,2,misiones capital,misiones,78,54028,375429
+anta,66,salta,2021,14,dengue,4,de 5 a 9 anos,1,anta,salta,79,66007,69909
+anta,66,salta,2021,16,dengue,4,de 5 a 9 anos,2,anta,salta,80,66007,69909
+anta,66,salta,2021,17,dengue,4,de 5 a 9 anos,4,anta,salta,81,66007,69909
+anta,66,salta,2021,18,dengue,4,de 5 a 9 anos,1,anta,salta,82,66007,69909
+anta,66,salta,2021,19,dengue,4,de 5 a 9 anos,1,anta,salta,83,66007,69909
+anta,66,salta,2021,22,dengue,4,de 5 a 9 anos,1,anta,salta,84,66007,69909
+salta capital,66,salta,2021,13,dengue,4,de 5 a 9 anos,1,salta capital,salta,85,66028,639055
+general jose de san martin,66,salta,2021,7,dengue,4,de 5 a 9 anos,1,general jose de san martin,salta,86,66056,187231
+general jose de san martin,66,salta,2021,8,dengue,4,de 5 a 9 anos,1,general jose de san martin,salta,87,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,4,de 5 a 9 anos,4,general jose de san martin,salta,88,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,4,de 5 a 9 anos,6,general jose de san martin,salta,89,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,4,de 5 a 9 anos,1,general jose de san martin,salta,90,66056,187231
+general jose de san martin,66,salta,2021,13,dengue,4,de 5 a 9 anos,3,general jose de san martin,salta,91,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,4,de 5 a 9 anos,4,general jose de san martin,salta,92,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,4,de 5 a 9 anos,1,general jose de san martin,salta,93,66056,187231
+la caldera,66,salta,2021,9,dengue,4,de 5 a 9 anos,1,la caldera,salta,94,66077,10804
+oran,66,salta,2021,3,dengue,4,de 5 a 9 anos,2,oran,salta,95,66126,164544
+oran,66,salta,2021,4,dengue,4,de 5 a 9 anos,2,oran,salta,96,66126,164544
+oran,66,salta,2021,5,dengue,4,de 5 a 9 anos,1,oran,salta,97,66126,164544
+oran,66,salta,2021,6,dengue,4,de 5 a 9 anos,1,oran,salta,98,66126,164544
+oran,66,salta,2021,7,dengue,4,de 5 a 9 anos,2,oran,salta,99,66126,164544
+oran,66,salta,2021,8,dengue,4,de 5 a 9 anos,2,oran,salta,100,66126,164544
+oran,66,salta,2021,9,dengue,4,de 5 a 9 anos,1,oran,salta,101,66126,164544
+oran,66,salta,2021,10,dengue,4,de 5 a 9 anos,3,oran,salta,102,66126,164544
+oran,66,salta,2021,11,dengue,4,de 5 a 9 anos,3,oran,salta,103,66126,164544
+oran,66,salta,2021,12,dengue,4,de 5 a 9 anos,2,oran,salta,104,66126,164544
+oran,66,salta,2021,13,dengue,4,de 5 a 9 anos,2,oran,salta,105,66126,164544
+oran,66,salta,2021,14,dengue,4,de 5 a 9 anos,3,oran,salta,106,66126,164544
+oran,66,salta,2021,15,dengue,4,de 5 a 9 anos,5,oran,salta,107,66126,164544
+oran,66,salta,2021,16,dengue,4,de 5 a 9 anos,5,oran,salta,108,66126,164544
+oran,66,salta,2021,17,dengue,4,de 5 a 9 anos,3,oran,salta,109,66126,164544
+oran,66,salta,2021,18,dengue,4,de 5 a 9 anos,8,oran,salta,110,66126,164544
+oran,66,salta,2021,19,dengue,4,de 5 a 9 anos,6,oran,salta,111,66126,164544
+oran,66,salta,2021,20,dengue,4,de 5 a 9 anos,2,oran,salta,112,66126,164544
+oran,66,salta,2021,21,dengue,4,de 5 a 9 anos,1,oran,salta,113,66126,164544
+oran,66,salta,2021,22,dengue,4,de 5 a 9 anos,2,oran,salta,114,66126,164544
+oran,66,salta,2021,23,dengue,4,de 5 a 9 anos,1,oran,salta,115,66126,164544
+rivadavia,66,mendoza,2021,11,dengue,4,de 5 a 9 anos,1,rivadavia,salta,116,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,4,de 5 a 9 anos,1,rivadavia,salta,117,50084,64071
+rivadavia,66,mendoza,2021,19,dengue,4,de 5 a 9 anos,1,rivadavia,salta,118,50084,64071
+la capital,74,santa fe,2021,10,dengue,4,de 5 a 9 anos,1,la capital,san luis,119,82063,588016
+corrientes capital,18,corrientes,2021,14,dengue,5,de 10 a 14 anos,1,corrientes capital,corrientes,120,18021,414927
+federacion,30,entre rios,2021,17,dengue,5,de 10 a 14 anos,1,federacion,entre rios,121,30028,84769
+patino,34,formosa,2021,2,dengue,5,de 10 a 14 anos,1,patino,formosa,122,34035,77488
+patino,34,formosa,2021,4,dengue,5,de 10 a 14 anos,2,patino,formosa,123,34035,77488
+patino,34,formosa,2021,5,dengue,5,de 10 a 14 anos,2,patino,formosa,124,34035,77488
+patino,34,formosa,2021,6,dengue,5,de 10 a 14 anos,2,patino,formosa,125,34035,77488
+patino,34,formosa,2021,7,dengue,5,de 10 a 14 anos,2,patino,formosa,126,34035,77488
+patino,34,formosa,2021,8,dengue,5,de 10 a 14 anos,3,patino,formosa,127,34035,77488
+patino,34,formosa,2021,10,dengue,5,de 10 a 14 anos,3,patino,formosa,128,34035,77488
+patino,34,formosa,2021,11,dengue,5,de 10 a 14 anos,1,patino,formosa,129,34035,77488
+el carmen,38,jujuy,2021,13,dengue,5,de 10 a 14 anos,2,el carmen,jujuy,130,38014,118397
+ledesma,38,jujuy,2021,11,dengue,5,de 10 a 14 anos,1,ledesma,jujuy,131,38035,89823
+ledesma,38,jujuy,2021,14,dengue,5,de 10 a 14 anos,1,ledesma,jujuy,132,38035,89823
+ledesma,38,jujuy,2021,15,dengue,5,de 10 a 14 anos,2,ledesma,jujuy,133,38035,89823
+ledesma,38,jujuy,2021,16,dengue,5,de 10 a 14 anos,6,ledesma,jujuy,134,38035,89823
+ledesma,38,jujuy,2021,17,dengue,5,de 10 a 14 anos,5,ledesma,jujuy,135,38035,89823
+ledesma,38,jujuy,2021,19,dengue,5,de 10 a 14 anos,1,ledesma,jujuy,136,38035,89823
+ledesma,38,jujuy,2021,21,dengue,5,de 10 a 14 anos,1,ledesma,jujuy,137,38035,89823
+ledesma,38,jujuy,2021,22,dengue,5,de 10 a 14 anos,1,ledesma,jujuy,138,38035,89823
+ledesma,38,jujuy,2021,24,dengue,5,de 10 a 14 anos,1,ledesma,jujuy,139,38035,89823
+santa barbara,38,jujuy,2021,16,dengue,5,de 10 a 14 anos,1,santa barbara,jujuy,140,38070,19185
+santa barbara,38,jujuy,2021,18,dengue,5,de 10 a 14 anos,2,santa barbara,jujuy,141,38070,19185
+santa barbara,38,jujuy,2021,19,dengue,5,de 10 a 14 anos,1,santa barbara,jujuy,142,38070,19185
+santa barbara,38,jujuy,2021,21,dengue,5,de 10 a 14 anos,2,santa barbara,jujuy,143,38070,19185
+la rioja capital,46,la rioja,2021,7,dengue,5,de 10 a 14 anos,1,la rioja capital,la rioja,144,46014,226872
+la rioja capital,46,la rioja,2021,8,dengue,5,de 10 a 14 anos,1,la rioja capital,la rioja,145,46014,226872
+la rioja capital,46,la rioja,2021,9,dengue,5,de 10 a 14 anos,3,la rioja capital,la rioja,146,46014,226872
+la rioja capital,46,la rioja,2021,10,dengue,5,de 10 a 14 anos,2,la rioja capital,la rioja,147,46014,226872
+la rioja capital,46,la rioja,2021,11,dengue,5,de 10 a 14 anos,5,la rioja capital,la rioja,148,46014,226872
+la rioja capital,46,la rioja,2021,12,dengue,5,de 10 a 14 anos,4,la rioja capital,la rioja,149,46014,226872
+la rioja capital,46,la rioja,2021,13,dengue,5,de 10 a 14 anos,6,la rioja capital,la rioja,150,46014,226872
+la rioja capital,46,la rioja,2021,14,dengue,5,de 10 a 14 anos,7,la rioja capital,la rioja,151,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,5,de 10 a 14 anos,8,la rioja capital,la rioja,152,46014,226872
+la rioja capital,46,la rioja,2021,16,dengue,5,de 10 a 14 anos,8,la rioja capital,la rioja,153,46014,226872
+la rioja capital,46,la rioja,2021,17,dengue,5,de 10 a 14 anos,6,la rioja capital,la rioja,154,46014,226872
+la rioja capital,46,la rioja,2021,18,dengue,5,de 10 a 14 anos,9,la rioja capital,la rioja,155,46014,226872
+la rioja capital,46,la rioja,2021,19,dengue,5,de 10 a 14 anos,6,la rioja capital,la rioja,156,46014,226872
+la rioja capital,46,la rioja,2021,20,dengue,5,de 10 a 14 anos,2,la rioja capital,la rioja,157,46014,226872
+la rioja capital,46,la rioja,2021,21,dengue,5,de 10 a 14 anos,2,la rioja capital,la rioja,158,46014,226872
+misiones capital,54,misiones,2021,4,dengue,5,de 10 a 14 anos,1,misiones capital,misiones,159,54028,375429
+misiones capital,54,misiones,2021,6,dengue,5,de 10 a 14 anos,1,misiones capital,misiones,160,54028,375429
+misiones capital,54,misiones,2021,12,dengue,5,de 10 a 14 anos,1,misiones capital,misiones,161,54028,375429
+misiones capital,54,misiones,2021,13,dengue,5,de 10 a 14 anos,2,misiones capital,misiones,162,54028,375429
+eldorado,54,misiones,2021,16,dengue,5,de 10 a 14 anos,1,eldorado,misiones,163,54042,91543
+iguazu,54,misiones,2021,18,dengue,5,de 10 a 14 anos,1,iguazu,misiones,164,54063,101413
+san ignacio,54,misiones,2021,15,dengue,5,de 10 a 14 anos,1,san ignacio,misiones,165,54098,61963
+anta,66,salta,2021,10,dengue,5,de 10 a 14 anos,1,anta,salta,166,66007,69909
+anta,66,salta,2021,11,dengue,5,de 10 a 14 anos,1,anta,salta,167,66007,69909
+anta,66,salta,2021,14,dengue,5,de 10 a 14 anos,3,anta,salta,168,66007,69909
+anta,66,salta,2021,16,dengue,5,de 10 a 14 anos,2,anta,salta,169,66007,69909
+anta,66,salta,2021,17,dengue,5,de 10 a 14 anos,1,anta,salta,170,66007,69909
+anta,66,salta,2021,18,dengue,5,de 10 a 14 anos,1,anta,salta,171,66007,69909
+anta,66,salta,2021,19,dengue,5,de 10 a 14 anos,1,anta,salta,172,66007,69909
+anta,66,salta,2021,21,dengue,5,de 10 a 14 anos,1,anta,salta,173,66007,69909
+anta,66,salta,2021,22,dengue,5,de 10 a 14 anos,2,anta,salta,174,66007,69909
+anta,66,salta,2021,23,dengue,5,de 10 a 14 anos,3,anta,salta,175,66007,69909
+salta capital,66,salta,2021,14,dengue,5,de 10 a 14 anos,1,salta capital,salta,176,66028,639055
+general jose de san martin,66,salta,2021,5,dengue,5,de 10 a 14 anos,2,general jose de san martin,salta,177,66056,187231
+general jose de san martin,66,salta,2021,7,dengue,5,de 10 a 14 anos,5,general jose de san martin,salta,178,66056,187231
+general jose de san martin,66,salta,2021,8,dengue,5,de 10 a 14 anos,2,general jose de san martin,salta,179,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,5,de 10 a 14 anos,4,general jose de san martin,salta,180,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,5,de 10 a 14 anos,9,general jose de san martin,salta,181,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,5,de 10 a 14 anos,9,general jose de san martin,salta,182,66056,187231
+general jose de san martin,66,salta,2021,12,dengue,5,de 10 a 14 anos,1,general jose de san martin,salta,183,66056,187231
+general jose de san martin,66,salta,2021,13,dengue,5,de 10 a 14 anos,2,general jose de san martin,salta,184,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,5,de 10 a 14 anos,5,general jose de san martin,salta,185,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,5,de 10 a 14 anos,1,general jose de san martin,salta,186,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,5,de 10 a 14 anos,1,general jose de san martin,salta,187,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,5,de 10 a 14 anos,1,general jose de san martin,salta,188,66056,187231
+oran,66,salta,2021,1,dengue,5,de 10 a 14 anos,1,oran,salta,189,66126,164544
+oran,66,salta,2021,4,dengue,5,de 10 a 14 anos,4,oran,salta,190,66126,164544
+oran,66,salta,2021,5,dengue,5,de 10 a 14 anos,1,oran,salta,191,66126,164544
+oran,66,salta,2021,7,dengue,5,de 10 a 14 anos,2,oran,salta,192,66126,164544
+oran,66,salta,2021,8,dengue,5,de 10 a 14 anos,1,oran,salta,193,66126,164544
+oran,66,salta,2021,9,dengue,5,de 10 a 14 anos,1,oran,salta,194,66126,164544
+oran,66,salta,2021,10,dengue,5,de 10 a 14 anos,3,oran,salta,195,66126,164544
+oran,66,salta,2021,11,dengue,5,de 10 a 14 anos,4,oran,salta,196,66126,164544
+oran,66,salta,2021,12,dengue,5,de 10 a 14 anos,8,oran,salta,197,66126,164544
+oran,66,salta,2021,13,dengue,5,de 10 a 14 anos,9,oran,salta,198,66126,164544
+oran,66,salta,2021,14,dengue,5,de 10 a 14 anos,5,oran,salta,199,66126,164544
+oran,66,salta,2021,15,dengue,5,de 10 a 14 anos,8,oran,salta,200,66126,164544
+oran,66,salta,2021,16,dengue,5,de 10 a 14 anos,17,oran,salta,201,66126,164544
+oran,66,salta,2021,17,dengue,5,de 10 a 14 anos,15,oran,salta,202,66126,164544
+oran,66,salta,2021,18,dengue,5,de 10 a 14 anos,16,oran,salta,203,66126,164544
+oran,66,salta,2021,19,dengue,5,de 10 a 14 anos,8,oran,salta,204,66126,164544
+oran,66,salta,2021,20,dengue,5,de 10 a 14 anos,2,oran,salta,205,66126,164544
+oran,66,salta,2021,21,dengue,5,de 10 a 14 anos,5,oran,salta,206,66126,164544
+oran,66,salta,2021,22,dengue,5,de 10 a 14 anos,3,oran,salta,207,66126,164544
+rivadavia,66,mendoza,2021,10,dengue,5,de 10 a 14 anos,1,rivadavia,salta,208,50084,64071
+rivadavia,66,mendoza,2021,11,dengue,5,de 10 a 14 anos,1,rivadavia,salta,209,50084,64071
+rivadavia,66,mendoza,2021,15,dengue,5,de 10 a 14 anos,1,rivadavia,salta,210,50084,64071
+rivadavia,66,mendoza,2021,16,dengue,5,de 10 a 14 anos,3,rivadavia,salta,211,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,5,de 10 a 14 anos,2,rivadavia,salta,212,50084,64071
+rivadavia,66,mendoza,2021,19,dengue,5,de 10 a 14 anos,2,rivadavia,salta,213,50084,64071
+rivadavia,66,mendoza,2021,20,dengue,5,de 10 a 14 anos,1,rivadavia,salta,214,50084,64071
+rivadavia,66,mendoza,2021,21,dengue,5,de 10 a 14 anos,1,rivadavia,salta,215,50084,64071
+rivadavia,66,mendoza,2021,22,dengue,5,de 10 a 14 anos,1,rivadavia,salta,216,50084,64071
+san cristobal,82,santa fe,2021,12,dengue,5,de 10 a 14 anos,1,san cristobal,santa fe,217,82091,77917
+tucuman capital,90,tucuman,2021,16,dengue,5,de 10 a 14 anos,1,tucuman capital,tucuman,218,90084,609681
+tucuman capital,90,tucuman,2021,18,dengue,5,de 10 a 14 anos,1,tucuman capital,tucuman,219,90084,609681
+tucuman capital,90,tucuman,2021,24,dengue,5,de 10 a 14 anos,1,tucuman capital,tucuman,220,90084,609681
+comuna 6,2,ciudad de buenos aires,2021,10,dengue,6,de 15 a 19 anos,1,comuna 6,ciudad de buenos aires,221,2006,185620
+presidente peron,6,buenos aires,2021,12,dengue,6,de 15 a 19 anos,1,presidente peron,buenos aires,222,6648,108203
+cordoba capital,14,cordoba,2021,18,dengue,6,de 15 a 19 anos,1,cordoba capital,cordoba,223,14014,1460905
+corrientes capital,18,corrientes,2021,11,dengue,6,de 15 a 19 anos,1,corrientes capital,corrientes,224,18021,414927
+federacion,30,entre rios,2021,13,dengue,6,de 15 a 19 anos,1,federacion,entre rios,225,30028,84769
+patino,34,formosa,2021,1,dengue,6,de 15 a 19 anos,1,patino,formosa,226,34035,77488
+patino,34,formosa,2021,2,dengue,6,de 15 a 19 anos,2,patino,formosa,227,34035,77488
+patino,34,formosa,2021,3,dengue,6,de 15 a 19 anos,2,patino,formosa,228,34035,77488
+patino,34,formosa,2021,4,dengue,6,de 15 a 19 anos,4,patino,formosa,229,34035,77488
+patino,34,formosa,2021,5,dengue,6,de 15 a 19 anos,3,patino,formosa,230,34035,77488
+patino,34,formosa,2021,6,dengue,6,de 15 a 19 anos,2,patino,formosa,231,34035,77488
+patino,34,formosa,2021,8,dengue,6,de 15 a 19 anos,6,patino,formosa,232,34035,77488
+patino,34,formosa,2021,10,dengue,6,de 15 a 19 anos,2,patino,formosa,233,34035,77488
+el carmen,38,jujuy,2021,14,dengue,6,de 15 a 19 anos,2,el carmen,jujuy,234,38014,118397
+el carmen,38,jujuy,2021,16,dengue,6,de 15 a 19 anos,1,el carmen,jujuy,235,38014,118397
+ledesma,38,jujuy,2021,10,dengue,6,de 15 a 19 anos,1,ledesma,jujuy,236,38035,89823
+ledesma,38,jujuy,2021,11,dengue,6,de 15 a 19 anos,1,ledesma,jujuy,237,38035,89823
+ledesma,38,jujuy,2021,12,dengue,6,de 15 a 19 anos,3,ledesma,jujuy,238,38035,89823
+ledesma,38,jujuy,2021,13,dengue,6,de 15 a 19 anos,2,ledesma,jujuy,239,38035,89823
+ledesma,38,jujuy,2021,14,dengue,6,de 15 a 19 anos,2,ledesma,jujuy,240,38035,89823
+ledesma,38,jujuy,2021,15,dengue,6,de 15 a 19 anos,2,ledesma,jujuy,241,38035,89823
+ledesma,38,jujuy,2021,16,dengue,6,de 15 a 19 anos,3,ledesma,jujuy,242,38035,89823
+ledesma,38,jujuy,2021,17,dengue,6,de 15 a 19 anos,5,ledesma,jujuy,243,38035,89823
+ledesma,38,jujuy,2021,19,dengue,6,de 15 a 19 anos,1,ledesma,jujuy,244,38035,89823
+ledesma,38,jujuy,2021,20,dengue,6,de 15 a 19 anos,1,ledesma,jujuy,245,38035,89823
+ledesma,38,jujuy,2021,23,dengue,6,de 15 a 19 anos,1,ledesma,jujuy,246,38035,89823
+santa barbara,38,jujuy,2021,15,dengue,6,de 15 a 19 anos,1,santa barbara,jujuy,247,38070,19185
+santa barbara,38,jujuy,2021,17,dengue,6,de 15 a 19 anos,3,santa barbara,jujuy,248,38070,19185
+santa barbara,38,jujuy,2021,20,dengue,6,de 15 a 19 anos,1,santa barbara,jujuy,249,38070,19185
+santa barbara,38,jujuy,2021,22,dengue,6,de 15 a 19 anos,2,santa barbara,jujuy,250,38070,19185
+santa barbara,38,jujuy,2021,23,dengue,6,de 15 a 19 anos,2,santa barbara,jujuy,251,38070,19185
+conhelo,42,la pampa,2021,10,dengue,6,de 15 a 19 anos,1,conhelo,la pampa,252,42035,14165
+la rioja capital,46,la rioja,2021,6,dengue,6,de 15 a 19 anos,1,la rioja capital,la rioja,253,46014,226872
+la rioja capital,46,la rioja,2021,7,dengue,6,de 15 a 19 anos,1,la rioja capital,la rioja,254,46014,226872
+la rioja capital,46,la rioja,2021,8,dengue,6,de 15 a 19 anos,3,la rioja capital,la rioja,255,46014,226872
+la rioja capital,46,la rioja,2021,9,dengue,6,de 15 a 19 anos,1,la rioja capital,la rioja,256,46014,226872
+la rioja capital,46,la rioja,2021,10,dengue,6,de 15 a 19 anos,10,la rioja capital,la rioja,257,46014,226872
+la rioja capital,46,la rioja,2021,11,dengue,6,de 15 a 19 anos,8,la rioja capital,la rioja,258,46014,226872
+la rioja capital,46,la rioja,2021,12,dengue,6,de 15 a 19 anos,4,la rioja capital,la rioja,259,46014,226872
+la rioja capital,46,la rioja,2021,13,dengue,6,de 15 a 19 anos,3,la rioja capital,la rioja,260,46014,226872
+la rioja capital,46,la rioja,2021,14,dengue,6,de 15 a 19 anos,10,la rioja capital,la rioja,261,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,6,de 15 a 19 anos,11,la rioja capital,la rioja,262,46014,226872
+la rioja capital,46,la rioja,2021,16,dengue,6,de 15 a 19 anos,19,la rioja capital,la rioja,263,46014,226872
+la rioja capital,46,la rioja,2021,17,dengue,6,de 15 a 19 anos,13,la rioja capital,la rioja,264,46014,226872
+la rioja capital,46,la rioja,2021,18,dengue,6,de 15 a 19 anos,7,la rioja capital,la rioja,265,46014,226872
+la rioja capital,46,la rioja,2021,19,dengue,6,de 15 a 19 anos,7,la rioja capital,la rioja,266,46014,226872
+la rioja capital,46,la rioja,2021,20,dengue,6,de 15 a 19 anos,5,la rioja capital,la rioja,267,46014,226872
+la rioja capital,46,la rioja,2021,21,dengue,6,de 15 a 19 anos,3,la rioja capital,la rioja,268,46014,226872
+castro barros,46,la rioja,2021,15,dengue,6,de 15 a 19 anos,1,castro barros,la rioja,269,46021,4566
+general belgrano,46,chaco,2021,18,dengue,6,de 15 a 19 anos,1,general belgrano,la rioja,270,22049,14977
+rosario vera penaloza,46,la rioja,2021,16,dengue,6,de 15 a 19 anos,1,rosario vera penaloza,la rioja,271,46112,15736
+misiones capital,54,misiones,2021,6,dengue,6,de 15 a 19 anos,1,misiones capital,misiones,272,54028,375429
+misiones capital,54,misiones,2021,9,dengue,6,de 15 a 19 anos,1,misiones capital,misiones,273,54028,375429
+misiones capital,54,misiones,2021,13,dengue,6,de 15 a 19 anos,1,misiones capital,misiones,274,54028,375429
+misiones capital,54,misiones,2021,17,dengue,6,de 15 a 19 anos,1,misiones capital,misiones,275,54028,375429
+eldorado,54,misiones,2021,17,dengue,6,de 15 a 19 anos,1,eldorado,misiones,276,54042,91543
+iguazu,54,misiones,2021,15,dengue,6,de 15 a 19 anos,1,iguazu,misiones,277,54063,101413
+anta,66,salta,2021,11,dengue,6,de 15 a 19 anos,1,anta,salta,278,66007,69909
+anta,66,salta,2021,14,dengue,6,de 15 a 19 anos,4,anta,salta,279,66007,69909
+anta,66,salta,2021,15,dengue,6,de 15 a 19 anos,3,anta,salta,280,66007,69909
+anta,66,salta,2021,16,dengue,6,de 15 a 19 anos,1,anta,salta,281,66007,69909
+anta,66,salta,2021,17,dengue,6,de 15 a 19 anos,1,anta,salta,282,66007,69909
+anta,66,salta,2021,18,dengue,6,de 15 a 19 anos,2,anta,salta,283,66007,69909
+anta,66,salta,2021,21,dengue,6,de 15 a 19 anos,4,anta,salta,284,66007,69909
+anta,66,salta,2021,23,dengue,6,de 15 a 19 anos,2,anta,salta,285,66007,69909
+salta capital,66,salta,2021,17,dengue,6,de 15 a 19 anos,1,salta capital,salta,286,66028,639055
+general jose de san martin,66,salta,2021,2,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,287,66056,187231
+general jose de san martin,66,salta,2021,7,dengue,6,de 15 a 19 anos,2,general jose de san martin,salta,288,66056,187231
+general jose de san martin,66,salta,2021,8,dengue,6,de 15 a 19 anos,5,general jose de san martin,salta,289,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,6,de 15 a 19 anos,3,general jose de san martin,salta,290,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,6,de 15 a 19 anos,6,general jose de san martin,salta,291,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,6,de 15 a 19 anos,2,general jose de san martin,salta,292,66056,187231
+general jose de san martin,66,salta,2021,12,dengue,6,de 15 a 19 anos,2,general jose de san martin,salta,293,66056,187231
+general jose de san martin,66,salta,2021,13,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,294,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,6,de 15 a 19 anos,2,general jose de san martin,salta,295,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,6,de 15 a 19 anos,2,general jose de san martin,salta,296,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,297,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,298,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,299,66056,187231
+oran,66,salta,2021,2,dengue,6,de 15 a 19 anos,3,oran,salta,300,66126,164544
+oran,66,salta,2021,3,dengue,6,de 15 a 19 anos,2,oran,salta,301,66126,164544
+oran,66,salta,2021,4,dengue,6,de 15 a 19 anos,2,oran,salta,302,66126,164544
+oran,66,salta,2021,5,dengue,6,de 15 a 19 anos,3,oran,salta,303,66126,164544
+oran,66,salta,2021,6,dengue,6,de 15 a 19 anos,1,oran,salta,304,66126,164544
+oran,66,salta,2021,7,dengue,6,de 15 a 19 anos,5,oran,salta,305,66126,164544
+oran,66,salta,2021,8,dengue,6,de 15 a 19 anos,5,oran,salta,306,66126,164544
+oran,66,salta,2021,9,dengue,6,de 15 a 19 anos,3,oran,salta,307,66126,164544
+oran,66,salta,2021,10,dengue,6,de 15 a 19 anos,3,oran,salta,308,66126,164544
+oran,66,salta,2021,11,dengue,6,de 15 a 19 anos,5,oran,salta,309,66126,164544
+oran,66,salta,2021,12,dengue,6,de 15 a 19 anos,3,oran,salta,310,66126,164544
+oran,66,salta,2021,13,dengue,6,de 15 a 19 anos,6,oran,salta,311,66126,164544
+oran,66,salta,2021,14,dengue,6,de 15 a 19 anos,1,oran,salta,312,66126,164544
+oran,66,salta,2021,15,dengue,6,de 15 a 19 anos,1,oran,salta,313,66126,164544
+oran,66,salta,2021,16,dengue,6,de 15 a 19 anos,13,oran,salta,314,66126,164544
+oran,66,salta,2021,17,dengue,6,de 15 a 19 anos,7,oran,salta,315,66126,164544
+oran,66,salta,2021,18,dengue,6,de 15 a 19 anos,13,oran,salta,316,66126,164544
+oran,66,salta,2021,19,dengue,6,de 15 a 19 anos,5,oran,salta,317,66126,164544
+oran,66,salta,2021,20,dengue,6,de 15 a 19 anos,6,oran,salta,318,66126,164544
+oran,66,salta,2021,21,dengue,6,de 15 a 19 anos,2,oran,salta,319,66126,164544
+oran,66,salta,2021,23,dengue,6,de 15 a 19 anos,3,oran,salta,320,66126,164544
+oran,66,salta,2021,24,dengue,6,de 15 a 19 anos,1,oran,salta,321,66126,164544
+rivadavia,66,mendoza,2021,11,dengue,6,de 15 a 19 anos,1,rivadavia,salta,322,50084,64071
+rivadavia,66,mendoza,2021,15,dengue,6,de 15 a 19 anos,1,rivadavia,salta,323,50084,64071
+rivadavia,66,mendoza,2021,16,dengue,6,de 15 a 19 anos,2,rivadavia,salta,324,50084,64071
+rivadavia,66,mendoza,2021,17,dengue,6,de 15 a 19 anos,2,rivadavia,salta,325,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,6,de 15 a 19 anos,1,rivadavia,salta,326,50084,64071
+rivadavia,66,mendoza,2021,19,dengue,6,de 15 a 19 anos,2,rivadavia,salta,327,50084,64071
+rivadavia,66,mendoza,2021,21,dengue,6,de 15 a 19 anos,1,rivadavia,salta,328,50084,64071
+rivadavia,66,mendoza,2021,22,dengue,6,de 15 a 19 anos,2,rivadavia,salta,329,50084,64071
+rivadavia,66,mendoza,2021,24,dengue,6,de 15 a 19 anos,1,rivadavia,salta,330,50084,64071
+la capital,74,santa fe,2021,17,dengue,6,de 15 a 19 anos,1,la capital,san luis,331,82063,588016
+san cristobal,82,santa fe,2021,11,dengue,6,de 15 a 19 anos,2,san cristobal,santa fe,332,82091,77917
+san cristobal,82,santa fe,2021,14,dengue,6,de 15 a 19 anos,1,san cristobal,santa fe,333,82091,77917
+san cristobal,82,santa fe,2021,15,dengue,6,de 15 a 19 anos,1,san cristobal,santa fe,334,82091,77917
+san cristobal,82,santa fe,2021,16,dengue,6,de 15 a 19 anos,1,san cristobal,santa fe,335,82091,77917
+san cristobal,82,santa fe,2021,17,dengue,6,de 15 a 19 anos,1,san cristobal,santa fe,336,82091,77917
+san cristobal,82,santa fe,2021,20,dengue,6,de 15 a 19 anos,1,san cristobal,santa fe,337,82091,77917
+san cristobal,82,santa fe,2021,21,dengue,6,de 15 a 19 anos,1,san cristobal,santa fe,338,82091,77917
+tucuman capital,90,tucuman,2021,18,dengue,6,de 15 a 19 anos,1,tucuman capital,tucuman,339,90084,609681
+tucuman capital,90,tucuman,2021,24,dengue,6,de 15 a 19 anos,1,tucuman capital,tucuman,340,90084,609681
+ituzaingo,18,corrientes,2021,15,dengue,7,de 20 a 24 anos,1,ituzaingo,corrientes,341,18084,33815
+bermejo,34,formosa,2021,6,dengue,7,de 20 a 24 anos,1,bermejo,formosa,342,34007,16431
+formosa,34,formosa,2021,24,dengue,7,de 20 a 24 anos,1,formosa,formosa,343,34014,273881
+formosa,34,formosa,2021,53,dengue,7,de 20 a 24 anos,1,formosa,formosa,344,34014,273881
+matacos,34,formosa,2021,9,dengue,7,de 20 a 24 anos,1,matacos,formosa,345,34028,17356
+patino,34,formosa,2021,3,dengue,7,de 20 a 24 anos,1,patino,formosa,346,34035,77488
+patino,34,formosa,2021,4,dengue,7,de 20 a 24 anos,5,patino,formosa,347,34035,77488
+patino,34,formosa,2021,5,dengue,7,de 20 a 24 anos,2,patino,formosa,348,34035,77488
+patino,34,formosa,2021,6,dengue,7,de 20 a 24 anos,1,patino,formosa,349,34035,77488
+patino,34,formosa,2021,7,dengue,7,de 20 a 24 anos,5,patino,formosa,350,34035,77488
+patino,34,formosa,2021,8,dengue,7,de 20 a 24 anos,4,patino,formosa,351,34035,77488
+patino,34,formosa,2021,9,dengue,7,de 20 a 24 anos,1,patino,formosa,352,34035,77488
+patino,34,formosa,2021,10,dengue,7,de 20 a 24 anos,3,patino,formosa,353,34035,77488
+patino,34,formosa,2021,11,dengue,7,de 20 a 24 anos,1,patino,formosa,354,34035,77488
+el carmen,38,jujuy,2021,17,dengue,7,de 20 a 24 anos,1,el carmen,jujuy,355,38014,118397
+ledesma,38,jujuy,2021,11,dengue,7,de 20 a 24 anos,1,ledesma,jujuy,356,38035,89823
+ledesma,38,jujuy,2021,13,dengue,7,de 20 a 24 anos,4,ledesma,jujuy,357,38035,89823
+ledesma,38,jujuy,2021,16,dengue,7,de 20 a 24 anos,6,ledesma,jujuy,358,38035,89823
+ledesma,38,jujuy,2021,17,dengue,7,de 20 a 24 anos,7,ledesma,jujuy,359,38035,89823
+ledesma,38,jujuy,2021,19,dengue,7,de 20 a 24 anos,2,ledesma,jujuy,360,38035,89823
+ledesma,38,jujuy,2021,22,dengue,7,de 20 a 24 anos,1,ledesma,jujuy,361,38035,89823
+ledesma,38,jujuy,2021,23,dengue,7,de 20 a 24 anos,2,ledesma,jujuy,362,38035,89823
+san pedro,38,buenos aires,2021,19,dengue,7,de 20 a 24 anos,1,san pedro,jujuy,363,6770,64066
+santa barbara,38,jujuy,2021,14,dengue,7,de 20 a 24 anos,1,santa barbara,jujuy,364,38070,19185
+santa barbara,38,jujuy,2021,16,dengue,7,de 20 a 24 anos,1,santa barbara,jujuy,365,38070,19185
+santa barbara,38,jujuy,2021,17,dengue,7,de 20 a 24 anos,3,santa barbara,jujuy,366,38070,19185
+santa barbara,38,jujuy,2021,21,dengue,7,de 20 a 24 anos,1,santa barbara,jujuy,367,38070,19185
+santa barbara,38,jujuy,2021,22,dengue,7,de 20 a 24 anos,2,santa barbara,jujuy,368,38070,19185
+la rioja capital,46,la rioja,2021,4,dengue,7,de 20 a 24 anos,1,la rioja capital,la rioja,369,46014,226872
+la rioja capital,46,la rioja,2021,5,dengue,7,de 20 a 24 anos,1,la rioja capital,la rioja,370,46014,226872
+la rioja capital,46,la rioja,2021,6,dengue,7,de 20 a 24 anos,1,la rioja capital,la rioja,371,46014,226872
+la rioja capital,46,la rioja,2021,7,dengue,7,de 20 a 24 anos,2,la rioja capital,la rioja,372,46014,226872
+la rioja capital,46,la rioja,2021,8,dengue,7,de 20 a 24 anos,1,la rioja capital,la rioja,373,46014,226872
+la rioja capital,46,la rioja,2021,9,dengue,7,de 20 a 24 anos,1,la rioja capital,la rioja,374,46014,226872
+la rioja capital,46,la rioja,2021,10,dengue,7,de 20 a 24 anos,9,la rioja capital,la rioja,375,46014,226872
+la rioja capital,46,la rioja,2021,11,dengue,7,de 20 a 24 anos,5,la rioja capital,la rioja,376,46014,226872
+la rioja capital,46,la rioja,2021,12,dengue,7,de 20 a 24 anos,4,la rioja capital,la rioja,377,46014,226872
+la rioja capital,46,la rioja,2021,13,dengue,7,de 20 a 24 anos,4,la rioja capital,la rioja,378,46014,226872
+la rioja capital,46,la rioja,2021,14,dengue,7,de 20 a 24 anos,10,la rioja capital,la rioja,379,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,7,de 20 a 24 anos,15,la rioja capital,la rioja,380,46014,226872
+la rioja capital,46,la rioja,2021,16,dengue,7,de 20 a 24 anos,18,la rioja capital,la rioja,381,46014,226872
+la rioja capital,46,la rioja,2021,17,dengue,7,de 20 a 24 anos,16,la rioja capital,la rioja,382,46014,226872
+la rioja capital,46,la rioja,2021,18,dengue,7,de 20 a 24 anos,8,la rioja capital,la rioja,383,46014,226872
+la rioja capital,46,la rioja,2021,19,dengue,7,de 20 a 24 anos,10,la rioja capital,la rioja,384,46014,226872
+la rioja capital,46,la rioja,2021,20,dengue,7,de 20 a 24 anos,7,la rioja capital,la rioja,385,46014,226872
+la rioja capital,46,la rioja,2021,21,dengue,7,de 20 a 24 anos,4,la rioja capital,la rioja,386,46014,226872
+la rioja capital,46,la rioja,2021,22,dengue,7,de 20 a 24 anos,1,la rioja capital,la rioja,387,46014,226872
+la rioja capital,46,la rioja,2021,23,dengue,7,de 20 a 24 anos,1,la rioja capital,la rioja,388,46014,226872
+chamical,46,la rioja,2021,18,dengue,7,de 20 a 24 anos,1,chamical,la rioja,389,46035,15775
+chilecito,46,la rioja,2021,16,dengue,7,de 20 a 24 anos,1,chilecito,la rioja,390,46042,60721
+apostoles,54,misiones,2021,15,dengue,7,de 20 a 24 anos,1,apostoles,misiones,391,54007,47819
+misiones capital,54,misiones,2021,6,dengue,7,de 20 a 24 anos,1,misiones capital,misiones,392,54028,375429
+misiones capital,54,misiones,2021,9,dengue,7,de 20 a 24 anos,1,misiones capital,misiones,393,54028,375429
+misiones capital,54,misiones,2021,10,dengue,7,de 20 a 24 anos,1,misiones capital,misiones,394,54028,375429
+misiones capital,54,misiones,2021,11,dengue,7,de 20 a 24 anos,1,misiones capital,misiones,395,54028,375429
+misiones capital,54,misiones,2021,12,dengue,7,de 20 a 24 anos,3,misiones capital,misiones,396,54028,375429
+misiones capital,54,misiones,2021,13,dengue,7,de 20 a 24 anos,1,misiones capital,misiones,397,54028,375429
+concepcion,54,corrientes,2021,16,dengue,7,de 20 a 24 anos,1,concepcion,misiones,398,18028,26209
+eldorado,54,misiones,2021,16,dengue,7,de 20 a 24 anos,1,eldorado,misiones,399,54042,91543
+iguazu,54,misiones,2021,15,dengue,7,de 20 a 24 anos,1,iguazu,misiones,400,54063,101413
+iguazu,54,misiones,2021,16,dengue,7,de 20 a 24 anos,1,iguazu,misiones,401,54063,101413
+iguazu,54,misiones,2021,17,dengue,7,de 20 a 24 anos,1,iguazu,misiones,402,54063,101413
+iguazu,54,misiones,2021,18,dengue,7,de 20 a 24 anos,1,iguazu,misiones,403,54063,101413
+anta,66,salta,2021,12,dengue,7,de 20 a 24 anos,1,anta,salta,404,66007,69909
+anta,66,salta,2021,13,dengue,7,de 20 a 24 anos,2,anta,salta,405,66007,69909
+anta,66,salta,2021,14,dengue,7,de 20 a 24 anos,3,anta,salta,406,66007,69909
+anta,66,salta,2021,15,dengue,7,de 20 a 24 anos,1,anta,salta,407,66007,69909
+anta,66,salta,2021,16,dengue,7,de 20 a 24 anos,7,anta,salta,408,66007,69909
+anta,66,salta,2021,17,dengue,7,de 20 a 24 anos,2,anta,salta,409,66007,69909
+anta,66,salta,2021,18,dengue,7,de 20 a 24 anos,2,anta,salta,410,66007,69909
+anta,66,salta,2021,19,dengue,7,de 20 a 24 anos,3,anta,salta,411,66007,69909
+anta,66,salta,2021,20,dengue,7,de 20 a 24 anos,1,anta,salta,412,66007,69909
+anta,66,salta,2021,22,dengue,7,de 20 a 24 anos,1,anta,salta,413,66007,69909
+anta,66,salta,2021,23,dengue,7,de 20 a 24 anos,1,anta,salta,414,66007,69909
+anta,66,salta,2021,24,dengue,7,de 20 a 24 anos,1,anta,salta,415,66007,69909
+salta capital,66,salta,2021,12,dengue,7,de 20 a 24 anos,1,salta capital,salta,416,66028,639055
+general jose de san martin,66,salta,2021,6,dengue,7,de 20 a 24 anos,2,general jose de san martin,salta,417,66056,187231
+general jose de san martin,66,salta,2021,8,dengue,7,de 20 a 24 anos,2,general jose de san martin,salta,418,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,7,de 20 a 24 anos,4,general jose de san martin,salta,419,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,7,de 20 a 24 anos,5,general jose de san martin,salta,420,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,7,de 20 a 24 anos,5,general jose de san martin,salta,421,66056,187231
+general jose de san martin,66,salta,2021,13,dengue,7,de 20 a 24 anos,3,general jose de san martin,salta,422,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,7,de 20 a 24 anos,2,general jose de san martin,salta,423,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,7,de 20 a 24 anos,1,general jose de san martin,salta,424,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,7,de 20 a 24 anos,1,general jose de san martin,salta,425,66056,187231
+oran,66,salta,2021,1,dengue,7,de 20 a 24 anos,2,oran,salta,426,66126,164544
+oran,66,salta,2021,3,dengue,7,de 20 a 24 anos,3,oran,salta,427,66126,164544
+oran,66,salta,2021,4,dengue,7,de 20 a 24 anos,1,oran,salta,428,66126,164544
+oran,66,salta,2021,5,dengue,7,de 20 a 24 anos,5,oran,salta,429,66126,164544
+oran,66,salta,2021,6,dengue,7,de 20 a 24 anos,2,oran,salta,430,66126,164544
+oran,66,salta,2021,7,dengue,7,de 20 a 24 anos,6,oran,salta,431,66126,164544
+oran,66,salta,2021,8,dengue,7,de 20 a 24 anos,7,oran,salta,432,66126,164544
+oran,66,salta,2021,9,dengue,7,de 20 a 24 anos,4,oran,salta,433,66126,164544
+oran,66,salta,2021,10,dengue,7,de 20 a 24 anos,4,oran,salta,434,66126,164544
+oran,66,salta,2021,11,dengue,7,de 20 a 24 anos,5,oran,salta,435,66126,164544
+oran,66,salta,2021,12,dengue,7,de 20 a 24 anos,4,oran,salta,436,66126,164544
+oran,66,salta,2021,13,dengue,7,de 20 a 24 anos,2,oran,salta,437,66126,164544
+oran,66,salta,2021,14,dengue,7,de 20 a 24 anos,11,oran,salta,438,66126,164544
+oran,66,salta,2021,15,dengue,7,de 20 a 24 anos,5,oran,salta,439,66126,164544
+oran,66,salta,2021,16,dengue,7,de 20 a 24 anos,5,oran,salta,440,66126,164544
+oran,66,salta,2021,17,dengue,7,de 20 a 24 anos,6,oran,salta,441,66126,164544
+oran,66,salta,2021,18,dengue,7,de 20 a 24 anos,9,oran,salta,442,66126,164544
+oran,66,salta,2021,19,dengue,7,de 20 a 24 anos,7,oran,salta,443,66126,164544
+oran,66,salta,2021,20,dengue,7,de 20 a 24 anos,1,oran,salta,444,66126,164544
+oran,66,salta,2021,21,dengue,7,de 20 a 24 anos,5,oran,salta,445,66126,164544
+oran,66,salta,2021,22,dengue,7,de 20 a 24 anos,2,oran,salta,446,66126,164544
+oran,66,salta,2021,24,dengue,7,de 20 a 24 anos,2,oran,salta,447,66126,164544
+rivadavia,66,mendoza,2021,13,dengue,7,de 20 a 24 anos,1,rivadavia,salta,448,50084,64071
+rivadavia,66,mendoza,2021,15,dengue,7,de 20 a 24 anos,3,rivadavia,salta,449,50084,64071
+rivadavia,66,mendoza,2021,16,dengue,7,de 20 a 24 anos,4,rivadavia,salta,450,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,7,de 20 a 24 anos,3,rivadavia,salta,451,50084,64071
+rivadavia,66,mendoza,2021,21,dengue,7,de 20 a 24 anos,1,rivadavia,salta,452,50084,64071
+rivadavia,66,mendoza,2021,22,dengue,7,de 20 a 24 anos,3,rivadavia,salta,453,50084,64071
+rivadavia,66,mendoza,2021,24,dengue,7,de 20 a 24 anos,1,rivadavia,salta,454,50084,64071
+la capital,74,santa fe,2021,10,dengue,7,de 20 a 24 anos,1,la capital,san luis,455,82063,588016
+san cristobal,82,santa fe,2021,14,dengue,7,de 20 a 24 anos,2,san cristobal,santa fe,456,82091,77917
+san cristobal,82,santa fe,2021,18,dengue,7,de 20 a 24 anos,1,san cristobal,santa fe,457,82091,77917
+san cristobal,82,santa fe,2021,19,dengue,7,de 20 a 24 anos,1,san cristobal,santa fe,458,82091,77917
+comuna 3,2,ciudad de buenos aires,2021,15,dengue,8,de 25 a 34 anos,1,comuna 3,ciudad de buenos aires,459,2003,193425
+comuna 15,2,ciudad de buenos aires,2021,11,dengue,8,de 25 a 34 anos,1,comuna 15,ciudad de buenos aires,460,2015,182485
+general san martin,6,cordoba,2021,12,dengue,8,de 25 a 34 anos,1,general san martin,buenos aires,461,14042,145973
+lomas de zamora,6,buenos aires,2021,15,dengue,8,de 25 a 34 anos,1,lomas de zamora,buenos aires,462,6490,650678
+calamuchita,14,cordoba,2021,18,dengue,8,de 25 a 34 anos,1,calamuchita,cordoba,463,14007,72164
+cordoba capital,14,cordoba,2021,11,dengue,8,de 25 a 34 anos,1,cordoba capital,cordoba,464,14014,1460905
+cruz del eje,14,cordoba,2021,18,dengue,8,de 25 a 34 anos,1,cruz del eje,cordoba,465,14028,69645
+corrientes capital,18,corrientes,2021,15,dengue,8,de 25 a 34 anos,3,corrientes capital,corrientes,466,18021,414927
+corrientes capital,18,corrientes,2021,16,dengue,8,de 25 a 34 anos,1,corrientes capital,corrientes,467,18021,414927
+santo tome,18,corrientes,2021,7,dengue,8,de 25 a 34 anos,1,santo tome,corrientes,468,18168,74106
+san fernando,22,chaco,2021,14,dengue,8,de 25 a 34 anos,1,san fernando,chaco,469,22140,446661
+federacion,30,entre rios,2021,14,dengue,8,de 25 a 34 anos,1,federacion,entre rios,470,30028,84769
+federacion,30,entre rios,2021,15,dengue,8,de 25 a 34 anos,1,federacion,entre rios,471,30028,84769
+federacion,30,entre rios,2021,16,dengue,8,de 25 a 34 anos,1,federacion,entre rios,472,30028,84769
+formosa,34,formosa,2021,23,dengue,8,de 25 a 34 anos,1,formosa,formosa,473,34014,273881
+matacos,34,formosa,2021,6,dengue,8,de 25 a 34 anos,1,matacos,formosa,474,34028,17356
+patino,34,formosa,2021,2,dengue,8,de 25 a 34 anos,1,patino,formosa,475,34035,77488
+patino,34,formosa,2021,3,dengue,8,de 25 a 34 anos,3,patino,formosa,476,34035,77488
+patino,34,formosa,2021,4,dengue,8,de 25 a 34 anos,2,patino,formosa,477,34035,77488
+patino,34,formosa,2021,5,dengue,8,de 25 a 34 anos,11,patino,formosa,478,34035,77488
+patino,34,formosa,2021,6,dengue,8,de 25 a 34 anos,10,patino,formosa,479,34035,77488
+patino,34,formosa,2021,7,dengue,8,de 25 a 34 anos,6,patino,formosa,480,34035,77488
+patino,34,formosa,2021,8,dengue,8,de 25 a 34 anos,5,patino,formosa,481,34035,77488
+patino,34,formosa,2021,9,dengue,8,de 25 a 34 anos,1,patino,formosa,482,34035,77488
+patino,34,formosa,2021,10,dengue,8,de 25 a 34 anos,9,patino,formosa,483,34035,77488
+patino,34,formosa,2021,11,dengue,8,de 25 a 34 anos,2,patino,formosa,484,34035,77488
+patino,34,formosa,2021,16,dengue,8,de 25 a 34 anos,1,patino,formosa,485,34035,77488
+ramon lista,34,formosa,2021,13,dengue,8,de 25 a 34 anos,1,ramon lista,formosa,486,34063,17256
+el carmen,38,jujuy,2021,19,dengue,8,de 25 a 34 anos,1,el carmen,jujuy,487,38014,118397
+ledesma,38,jujuy,2021,10,dengue,8,de 25 a 34 anos,2,ledesma,jujuy,488,38035,89823
+ledesma,38,jujuy,2021,11,dengue,8,de 25 a 34 anos,1,ledesma,jujuy,489,38035,89823
+ledesma,38,jujuy,2021,12,dengue,8,de 25 a 34 anos,6,ledesma,jujuy,490,38035,89823
+ledesma,38,jujuy,2021,13,dengue,8,de 25 a 34 anos,2,ledesma,jujuy,491,38035,89823
+ledesma,38,jujuy,2021,14,dengue,8,de 25 a 34 anos,2,ledesma,jujuy,492,38035,89823
+ledesma,38,jujuy,2021,15,dengue,8,de 25 a 34 anos,3,ledesma,jujuy,493,38035,89823
+ledesma,38,jujuy,2021,16,dengue,8,de 25 a 34 anos,8,ledesma,jujuy,494,38035,89823
+ledesma,38,jujuy,2021,17,dengue,8,de 25 a 34 anos,11,ledesma,jujuy,495,38035,89823
+ledesma,38,jujuy,2021,18,dengue,8,de 25 a 34 anos,7,ledesma,jujuy,496,38035,89823
+ledesma,38,jujuy,2021,20,dengue,8,de 25 a 34 anos,1,ledesma,jujuy,497,38035,89823
+ledesma,38,jujuy,2021,21,dengue,8,de 25 a 34 anos,5,ledesma,jujuy,498,38035,89823
+san pedro,38,buenos aires,2021,15,dengue,8,de 25 a 34 anos,1,san pedro,jujuy,499,6770,64066
+santa barbara,38,jujuy,2021,15,dengue,8,de 25 a 34 anos,4,santa barbara,jujuy,500,38070,19185
+santa barbara,38,jujuy,2021,17,dengue,8,de 25 a 34 anos,5,santa barbara,jujuy,501,38070,19185
+santa barbara,38,jujuy,2021,18,dengue,8,de 25 a 34 anos,9,santa barbara,jujuy,502,38070,19185
+santa barbara,38,jujuy,2021,19,dengue,8,de 25 a 34 anos,3,santa barbara,jujuy,503,38070,19185
+santa barbara,38,jujuy,2021,21,dengue,8,de 25 a 34 anos,1,santa barbara,jujuy,504,38070,19185
+santa barbara,38,jujuy,2021,22,dengue,8,de 25 a 34 anos,3,santa barbara,jujuy,505,38070,19185
+santa barbara,38,jujuy,2021,23,dengue,8,de 25 a 34 anos,3,santa barbara,jujuy,506,38070,19185
+santa barbara,38,jujuy,2021,25,dengue,8,de 25 a 34 anos,1,santa barbara,jujuy,507,38070,19185
+la rioja capital,46,la rioja,2021,1,dengue,8,de 25 a 34 anos,1,la rioja capital,la rioja,508,46014,226872
+la rioja capital,46,la rioja,2021,6,dengue,8,de 25 a 34 anos,3,la rioja capital,la rioja,509,46014,226872
+la rioja capital,46,la rioja,2021,7,dengue,8,de 25 a 34 anos,3,la rioja capital,la rioja,510,46014,226872
+la rioja capital,46,la rioja,2021,8,dengue,8,de 25 a 34 anos,4,la rioja capital,la rioja,511,46014,226872
+la rioja capital,46,la rioja,2021,9,dengue,8,de 25 a 34 anos,4,la rioja capital,la rioja,512,46014,226872
+la rioja capital,46,la rioja,2021,10,dengue,8,de 25 a 34 anos,9,la rioja capital,la rioja,513,46014,226872
+la rioja capital,46,la rioja,2021,11,dengue,8,de 25 a 34 anos,7,la rioja capital,la rioja,514,46014,226872
+la rioja capital,46,la rioja,2021,12,dengue,8,de 25 a 34 anos,15,la rioja capital,la rioja,515,46014,226872
+la rioja capital,46,la rioja,2021,13,dengue,8,de 25 a 34 anos,15,la rioja capital,la rioja,516,46014,226872
+la rioja capital,46,la rioja,2021,14,dengue,8,de 25 a 34 anos,21,la rioja capital,la rioja,517,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,8,de 25 a 34 anos,38,la rioja capital,la rioja,518,46014,226872
+la rioja capital,46,la rioja,2021,16,dengue,8,de 25 a 34 anos,26,la rioja capital,la rioja,519,46014,226872
+la rioja capital,46,la rioja,2021,17,dengue,8,de 25 a 34 anos,27,la rioja capital,la rioja,520,46014,226872
+la rioja capital,46,la rioja,2021,18,dengue,8,de 25 a 34 anos,19,la rioja capital,la rioja,521,46014,226872
+la rioja capital,46,la rioja,2021,19,dengue,8,de 25 a 34 anos,20,la rioja capital,la rioja,522,46014,226872
+la rioja capital,46,la rioja,2021,20,dengue,8,de 25 a 34 anos,8,la rioja capital,la rioja,523,46014,226872
+la rioja capital,46,la rioja,2021,21,dengue,8,de 25 a 34 anos,4,la rioja capital,la rioja,524,46014,226872
+la rioja capital,46,la rioja,2021,22,dengue,8,de 25 a 34 anos,2,la rioja capital,la rioja,525,46014,226872
+la rioja capital,46,la rioja,2021,23,dengue,8,de 25 a 34 anos,1,la rioja capital,la rioja,526,46014,226872
+la rioja capital,46,la rioja,2021,25,dengue,8,de 25 a 34 anos,1,la rioja capital,la rioja,527,46014,226872
+sanagasta,46,la rioja,2021,16,dengue,8,de 25 a 34 anos,2,sanagasta,la rioja,528,46126,2691
+san martin,50,corrientes,2021,13,dengue,8,de 25 a 34 anos,1,san martin,mendoza,529,18147,15197
+misiones capital,54,misiones,2021,6,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,530,54028,375429
+misiones capital,54,misiones,2021,7,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,531,54028,375429
+misiones capital,54,misiones,2021,8,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,532,54028,375429
+misiones capital,54,misiones,2021,9,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,533,54028,375429
+misiones capital,54,misiones,2021,10,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,534,54028,375429
+misiones capital,54,misiones,2021,11,dengue,8,de 25 a 34 anos,7,misiones capital,misiones,535,54028,375429
+misiones capital,54,misiones,2021,12,dengue,8,de 25 a 34 anos,2,misiones capital,misiones,536,54028,375429
+misiones capital,54,misiones,2021,14,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,537,54028,375429
+concepcion,54,corrientes,2021,11,dengue,8,de 25 a 34 anos,1,concepcion,misiones,538,18028,26209
+eldorado,54,misiones,2021,7,dengue,8,de 25 a 34 anos,1,eldorado,misiones,539,54042,91543
+eldorado,54,misiones,2021,16,dengue,8,de 25 a 34 anos,3,eldorado,misiones,540,54042,91543
+general manuel belgrano,54,misiones,2021,14,dengue,8,de 25 a 34 anos,1,general manuel belgrano,misiones,541,54049,54289
+guarani,54,misiones,2021,16,dengue,8,de 25 a 34 anos,1,guarani,misiones,542,54056,80568
+guarani,54,misiones,2021,17,dengue,8,de 25 a 34 anos,1,guarani,misiones,543,54056,80568
+iguazu,54,misiones,2021,8,dengue,8,de 25 a 34 anos,1,iguazu,misiones,544,54063,101413
+iguazu,54,misiones,2021,14,dengue,8,de 25 a 34 anos,1,iguazu,misiones,545,54063,101413
+iguazu,54,misiones,2021,17,dengue,8,de 25 a 34 anos,1,iguazu,misiones,546,54063,101413
+leandro n alem,54,buenos aires,2021,19,dengue,8,de 25 a 34 anos,1,leandro n alem,misiones,547,6462,17489
+anta,66,salta,2021,11,dengue,8,de 25 a 34 anos,3,anta,salta,548,66007,69909
+anta,66,salta,2021,12,dengue,8,de 25 a 34 anos,1,anta,salta,549,66007,69909
+anta,66,salta,2021,13,dengue,8,de 25 a 34 anos,3,anta,salta,550,66007,69909
+anta,66,salta,2021,14,dengue,8,de 25 a 34 anos,4,anta,salta,551,66007,69909
+anta,66,salta,2021,15,dengue,8,de 25 a 34 anos,2,anta,salta,552,66007,69909
+anta,66,salta,2021,16,dengue,8,de 25 a 34 anos,8,anta,salta,553,66007,69909
+anta,66,salta,2021,17,dengue,8,de 25 a 34 anos,3,anta,salta,554,66007,69909
+anta,66,salta,2021,18,dengue,8,de 25 a 34 anos,1,anta,salta,555,66007,69909
+anta,66,salta,2021,19,dengue,8,de 25 a 34 anos,6,anta,salta,556,66007,69909
+anta,66,salta,2021,20,dengue,8,de 25 a 34 anos,3,anta,salta,557,66007,69909
+anta,66,salta,2021,23,dengue,8,de 25 a 34 anos,1,anta,salta,558,66007,69909
+salta capital,66,salta,2021,5,dengue,8,de 25 a 34 anos,1,salta capital,salta,559,66028,639055
+salta capital,66,salta,2021,6,dengue,8,de 25 a 34 anos,1,salta capital,salta,560,66028,639055
+salta capital,66,salta,2021,7,dengue,8,de 25 a 34 anos,1,salta capital,salta,561,66028,639055
+salta capital,66,salta,2021,9,dengue,8,de 25 a 34 anos,1,salta capital,salta,562,66028,639055
+salta capital,66,salta,2021,10,dengue,8,de 25 a 34 anos,1,salta capital,salta,563,66028,639055
+salta capital,66,salta,2021,12,dengue,8,de 25 a 34 anos,1,salta capital,salta,564,66028,639055
+salta capital,66,salta,2021,13,dengue,8,de 25 a 34 anos,1,salta capital,salta,565,66028,639055
+salta capital,66,salta,2021,16,dengue,8,de 25 a 34 anos,3,salta capital,salta,566,66028,639055
+salta capital,66,salta,2021,19,dengue,8,de 25 a 34 anos,1,salta capital,salta,567,66028,639055
+general guemes,66,chaco,2021,16,dengue,8,de 25 a 34 anos,1,general guemes,salta,568,22063,78289
+general jose de san martin,66,salta,2021,4,dengue,8,de 25 a 34 anos,2,general jose de san martin,salta,569,66056,187231
+general jose de san martin,66,salta,2021,5,dengue,8,de 25 a 34 anos,1,general jose de san martin,salta,570,66056,187231
+general jose de san martin,66,salta,2021,6,dengue,8,de 25 a 34 anos,3,general jose de san martin,salta,571,66056,187231
+general jose de san martin,66,salta,2021,7,dengue,8,de 25 a 34 anos,2,general jose de san martin,salta,572,66056,187231
+general jose de san martin,66,salta,2021,8,dengue,8,de 25 a 34 anos,2,general jose de san martin,salta,573,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,8,de 25 a 34 anos,7,general jose de san martin,salta,574,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,8,de 25 a 34 anos,7,general jose de san martin,salta,575,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,8,de 25 a 34 anos,6,general jose de san martin,salta,576,66056,187231
+general jose de san martin,66,salta,2021,12,dengue,8,de 25 a 34 anos,1,general jose de san martin,salta,577,66056,187231
+general jose de san martin,66,salta,2021,13,dengue,8,de 25 a 34 anos,1,general jose de san martin,salta,578,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,8,de 25 a 34 anos,1,general jose de san martin,salta,579,66056,187231
+general jose de san martin,66,salta,2021,16,dengue,8,de 25 a 34 anos,3,general jose de san martin,salta,580,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,8,de 25 a 34 anos,1,general jose de san martin,salta,581,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,8,de 25 a 34 anos,2,general jose de san martin,salta,582,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,8,de 25 a 34 anos,1,general jose de san martin,salta,583,66056,187231
+oran,66,salta,2021,1,dengue,8,de 25 a 34 anos,1,oran,salta,584,66126,164544
+oran,66,salta,2021,2,dengue,8,de 25 a 34 anos,3,oran,salta,585,66126,164544
+oran,66,salta,2021,3,dengue,8,de 25 a 34 anos,4,oran,salta,586,66126,164544
+oran,66,salta,2021,4,dengue,8,de 25 a 34 anos,4,oran,salta,587,66126,164544
+oran,66,salta,2021,5,dengue,8,de 25 a 34 anos,10,oran,salta,588,66126,164544
+oran,66,salta,2021,6,dengue,8,de 25 a 34 anos,1,oran,salta,589,66126,164544
+oran,66,salta,2021,7,dengue,8,de 25 a 34 anos,2,oran,salta,590,66126,164544
+oran,66,salta,2021,8,dengue,8,de 25 a 34 anos,9,oran,salta,591,66126,164544
+oran,66,salta,2021,9,dengue,8,de 25 a 34 anos,2,oran,salta,592,66126,164544
+oran,66,salta,2021,10,dengue,8,de 25 a 34 anos,6,oran,salta,593,66126,164544
+oran,66,salta,2021,11,dengue,8,de 25 a 34 anos,10,oran,salta,594,66126,164544
+oran,66,salta,2021,12,dengue,8,de 25 a 34 anos,8,oran,salta,595,66126,164544
+oran,66,salta,2021,13,dengue,8,de 25 a 34 anos,10,oran,salta,596,66126,164544
+oran,66,salta,2021,14,dengue,8,de 25 a 34 anos,13,oran,salta,597,66126,164544
+oran,66,salta,2021,15,dengue,8,de 25 a 34 anos,18,oran,salta,598,66126,164544
+oran,66,salta,2021,16,dengue,8,de 25 a 34 anos,22,oran,salta,599,66126,164544
+oran,66,salta,2021,17,dengue,8,de 25 a 34 anos,22,oran,salta,600,66126,164544
+oran,66,salta,2021,18,dengue,8,de 25 a 34 anos,11,oran,salta,601,66126,164544
+oran,66,salta,2021,19,dengue,8,de 25 a 34 anos,9,oran,salta,602,66126,164544
+oran,66,salta,2021,20,dengue,8,de 25 a 34 anos,7,oran,salta,603,66126,164544
+oran,66,salta,2021,21,dengue,8,de 25 a 34 anos,5,oran,salta,604,66126,164544
+oran,66,salta,2021,22,dengue,8,de 25 a 34 anos,4,oran,salta,605,66126,164544
+oran,66,salta,2021,23,dengue,8,de 25 a 34 anos,1,oran,salta,606,66126,164544
+oran,66,salta,2021,24,dengue,8,de 25 a 34 anos,1,oran,salta,607,66126,164544
+oran,66,salta,2021,53,dengue,8,de 25 a 34 anos,2,oran,salta,608,66126,164544
+rivadavia,66,mendoza,2021,14,dengue,8,de 25 a 34 anos,1,rivadavia,salta,609,50084,64071
+rivadavia,66,mendoza,2021,15,dengue,8,de 25 a 34 anos,2,rivadavia,salta,610,50084,64071
+rivadavia,66,mendoza,2021,16,dengue,8,de 25 a 34 anos,3,rivadavia,salta,611,50084,64071
+rivadavia,66,mendoza,2021,17,dengue,8,de 25 a 34 anos,5,rivadavia,salta,612,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,8,de 25 a 34 anos,9,rivadavia,salta,613,50084,64071
+rivadavia,66,mendoza,2021,19,dengue,8,de 25 a 34 anos,2,rivadavia,salta,614,50084,64071
+rivadavia,66,mendoza,2021,20,dengue,8,de 25 a 34 anos,1,rivadavia,salta,615,50084,64071
+rivadavia,66,mendoza,2021,22,dengue,8,de 25 a 34 anos,2,rivadavia,salta,616,50084,64071
+rivadavia,66,mendoza,2021,24,dengue,8,de 25 a 34 anos,1,rivadavia,salta,617,50084,64071
+rosario de lerma,66,salta,2021,17,dengue,8,de 25 a 34 anos,1,rosario de lerma,salta,618,66147,46467
+la capital,74,santa fe,2021,14,dengue,8,de 25 a 34 anos,2,la capital,san luis,619,82063,588016
+la capital,74,santa fe,2021,16,dengue,8,de 25 a 34 anos,1,la capital,san luis,620,82063,588016
+san cristobal,82,santa fe,2021,14,dengue,8,de 25 a 34 anos,1,san cristobal,santa fe,621,82091,77917
+san cristobal,82,santa fe,2021,16,dengue,8,de 25 a 34 anos,3,san cristobal,santa fe,622,82091,77917
+san cristobal,82,santa fe,2021,17,dengue,8,de 25 a 34 anos,1,san cristobal,santa fe,623,82091,77917
+san cristobal,82,santa fe,2021,18,dengue,8,de 25 a 34 anos,1,san cristobal,santa fe,624,82091,77917
+tucuman capital,90,tucuman,2021,18,dengue,8,de 25 a 34 anos,1,tucuman capital,tucuman,625,90084,609681
+tucuman capital,90,tucuman,2021,19,dengue,8,de 25 a 34 anos,1,tucuman capital,tucuman,626,90084,609681
+tucuman capital,90,tucuman,2021,21,dengue,8,de 25 a 34 anos,2,tucuman capital,tucuman,627,90084,609681
+tafi viejo,90,tucuman,2021,18,dengue,8,de 25 a 34 anos,1,tafi viejo,tucuman,628,90105,152557
+almirante brown,6,buenos aires,2021,14,dengue,9,de 35 a 44 anos,1,almirante brown,buenos aires,629,6028,601618
+la plata,6,buenos aires,2021,10,dengue,9,de 35 a 44 anos,1,la plata,buenos aires,630,6441,719013
+cordoba capital,14,cordoba,2021,17,dengue,9,de 35 a 44 anos,1,cordoba capital,cordoba,631,14014,1460905
+federacion,30,entre rios,2021,13,dengue,9,de 35 a 44 anos,1,federacion,entre rios,632,30028,84769
+federacion,30,entre rios,2021,15,dengue,9,de 35 a 44 anos,2,federacion,entre rios,633,30028,84769
+federacion,30,entre rios,2021,16,dengue,9,de 35 a 44 anos,1,federacion,entre rios,634,30028,84769
+federacion,30,entre rios,2021,17,dengue,9,de 35 a 44 anos,1,federacion,entre rios,635,30028,84769
+patino,34,formosa,2021,3,dengue,9,de 35 a 44 anos,4,patino,formosa,636,34035,77488
+patino,34,formosa,2021,4,dengue,9,de 35 a 44 anos,2,patino,formosa,637,34035,77488
+patino,34,formosa,2021,5,dengue,9,de 35 a 44 anos,9,patino,formosa,638,34035,77488
+patino,34,formosa,2021,6,dengue,9,de 35 a 44 anos,9,patino,formosa,639,34035,77488
+patino,34,formosa,2021,7,dengue,9,de 35 a 44 anos,5,patino,formosa,640,34035,77488
+patino,34,formosa,2021,8,dengue,9,de 35 a 44 anos,10,patino,formosa,641,34035,77488
+patino,34,formosa,2021,10,dengue,9,de 35 a 44 anos,3,patino,formosa,642,34035,77488
+patino,34,formosa,2021,11,dengue,9,de 35 a 44 anos,1,patino,formosa,643,34035,77488
+el carmen,38,jujuy,2021,15,dengue,9,de 35 a 44 anos,1,el carmen,jujuy,644,38014,118397
+ledesma,38,jujuy,2021,7,dengue,9,de 35 a 44 anos,1,ledesma,jujuy,645,38035,89823
+ledesma,38,jujuy,2021,10,dengue,9,de 35 a 44 anos,1,ledesma,jujuy,646,38035,89823
+ledesma,38,jujuy,2021,11,dengue,9,de 35 a 44 anos,3,ledesma,jujuy,647,38035,89823
+ledesma,38,jujuy,2021,12,dengue,9,de 35 a 44 anos,1,ledesma,jujuy,648,38035,89823
+ledesma,38,jujuy,2021,13,dengue,9,de 35 a 44 anos,3,ledesma,jujuy,649,38035,89823
+ledesma,38,jujuy,2021,14,dengue,9,de 35 a 44 anos,2,ledesma,jujuy,650,38035,89823
+ledesma,38,jujuy,2021,15,dengue,9,de 35 a 44 anos,5,ledesma,jujuy,651,38035,89823
+ledesma,38,jujuy,2021,16,dengue,9,de 35 a 44 anos,10,ledesma,jujuy,652,38035,89823
+ledesma,38,jujuy,2021,17,dengue,9,de 35 a 44 anos,5,ledesma,jujuy,653,38035,89823
+ledesma,38,jujuy,2021,18,dengue,9,de 35 a 44 anos,4,ledesma,jujuy,654,38035,89823
+ledesma,38,jujuy,2021,19,dengue,9,de 35 a 44 anos,2,ledesma,jujuy,655,38035,89823
+ledesma,38,jujuy,2021,21,dengue,9,de 35 a 44 anos,1,ledesma,jujuy,656,38035,89823
+ledesma,38,jujuy,2021,23,dengue,9,de 35 a 44 anos,1,ledesma,jujuy,657,38035,89823
+san pedro,38,buenos aires,2021,12,dengue,9,de 35 a 44 anos,1,san pedro,jujuy,658,6770,64066
+santa barbara,38,jujuy,2021,14,dengue,9,de 35 a 44 anos,2,santa barbara,jujuy,659,38070,19185
+santa barbara,38,jujuy,2021,15,dengue,9,de 35 a 44 anos,4,santa barbara,jujuy,660,38070,19185
+santa barbara,38,jujuy,2021,16,dengue,9,de 35 a 44 anos,3,santa barbara,jujuy,661,38070,19185
+santa barbara,38,jujuy,2021,17,dengue,9,de 35 a 44 anos,2,santa barbara,jujuy,662,38070,19185
+santa barbara,38,jujuy,2021,18,dengue,9,de 35 a 44 anos,7,santa barbara,jujuy,663,38070,19185
+santa barbara,38,jujuy,2021,19,dengue,9,de 35 a 44 anos,1,santa barbara,jujuy,664,38070,19185
+santa barbara,38,jujuy,2021,20,dengue,9,de 35 a 44 anos,1,santa barbara,jujuy,665,38070,19185
+santa barbara,38,jujuy,2021,21,dengue,9,de 35 a 44 anos,3,santa barbara,jujuy,666,38070,19185
+santa barbara,38,jujuy,2021,22,dengue,9,de 35 a 44 anos,3,santa barbara,jujuy,667,38070,19185
+santa barbara,38,jujuy,2021,23,dengue,9,de 35 a 44 anos,3,santa barbara,jujuy,668,38070,19185
+santa barbara,38,jujuy,2021,25,dengue,9,de 35 a 44 anos,1,santa barbara,jujuy,669,38070,19185
+arauco,46,la rioja,2021,16,dengue,9,de 35 a 44 anos,1,arauco,la rioja,670,46007,18309
+la rioja capital,46,la rioja,2021,3,dengue,9,de 35 a 44 anos,1,la rioja capital,la rioja,671,46014,226872
+la rioja capital,46,la rioja,2021,6,dengue,9,de 35 a 44 anos,2,la rioja capital,la rioja,672,46014,226872
+la rioja capital,46,la rioja,2021,7,dengue,9,de 35 a 44 anos,1,la rioja capital,la rioja,673,46014,226872
+la rioja capital,46,la rioja,2021,8,dengue,9,de 35 a 44 anos,3,la rioja capital,la rioja,674,46014,226872
+la rioja capital,46,la rioja,2021,9,dengue,9,de 35 a 44 anos,2,la rioja capital,la rioja,675,46014,226872
+la rioja capital,46,la rioja,2021,10,dengue,9,de 35 a 44 anos,7,la rioja capital,la rioja,676,46014,226872
+la rioja capital,46,la rioja,2021,11,dengue,9,de 35 a 44 anos,13,la rioja capital,la rioja,677,46014,226872
+la rioja capital,46,la rioja,2021,12,dengue,9,de 35 a 44 anos,12,la rioja capital,la rioja,678,46014,226872
+la rioja capital,46,la rioja,2021,13,dengue,9,de 35 a 44 anos,14,la rioja capital,la rioja,679,46014,226872
+la rioja capital,46,la rioja,2021,14,dengue,9,de 35 a 44 anos,22,la rioja capital,la rioja,680,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,9,de 35 a 44 anos,11,la rioja capital,la rioja,681,46014,226872
+la rioja capital,46,la rioja,2021,16,dengue,9,de 35 a 44 anos,16,la rioja capital,la rioja,682,46014,226872
+la rioja capital,46,la rioja,2021,17,dengue,9,de 35 a 44 anos,23,la rioja capital,la rioja,683,46014,226872
+la rioja capital,46,la rioja,2021,18,dengue,9,de 35 a 44 anos,11,la rioja capital,la rioja,684,46014,226872
+la rioja capital,46,la rioja,2021,19,dengue,9,de 35 a 44 anos,16,la rioja capital,la rioja,685,46014,226872
+la rioja capital,46,la rioja,2021,20,dengue,9,de 35 a 44 anos,8,la rioja capital,la rioja,686,46014,226872
+la rioja capital,46,la rioja,2021,21,dengue,9,de 35 a 44 anos,5,la rioja capital,la rioja,687,46014,226872
+la rioja capital,46,la rioja,2021,22,dengue,9,de 35 a 44 anos,1,la rioja capital,la rioja,688,46014,226872
+la rioja capital,46,la rioja,2021,24,dengue,9,de 35 a 44 anos,1,la rioja capital,la rioja,689,46014,226872
+misiones capital,54,misiones,2021,2,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,690,54028,375429
+misiones capital,54,misiones,2021,5,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,691,54028,375429
+misiones capital,54,misiones,2021,6,dengue,9,de 35 a 44 anos,2,misiones capital,misiones,692,54028,375429
+misiones capital,54,misiones,2021,9,dengue,9,de 35 a 44 anos,3,misiones capital,misiones,693,54028,375429
+misiones capital,54,misiones,2021,10,dengue,9,de 35 a 44 anos,4,misiones capital,misiones,694,54028,375429
+misiones capital,54,misiones,2021,12,dengue,9,de 35 a 44 anos,2,misiones capital,misiones,695,54028,375429
+misiones capital,54,misiones,2021,16,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,696,54028,375429
+misiones capital,54,misiones,2021,17,dengue,9,de 35 a 44 anos,4,misiones capital,misiones,697,54028,375429
+concepcion,54,corrientes,2021,11,dengue,9,de 35 a 44 anos,1,concepcion,misiones,698,18028,26209
+eldorado,54,misiones,2021,16,dengue,9,de 35 a 44 anos,1,eldorado,misiones,699,54042,91543
+eldorado,54,misiones,2021,17,dengue,9,de 35 a 44 anos,1,eldorado,misiones,700,54042,91543
+iguazu,54,misiones,2021,15,dengue,9,de 35 a 44 anos,1,iguazu,misiones,701,54063,101413
+libertador general san martin,54,san luis,2021,17,dengue,9,de 35 a 44 anos,2,libertador general san martin,misiones,702,74063,4343
+libertador general san martin,54,san luis,2021,19,dengue,9,de 35 a 44 anos,1,libertador general san martin,misiones,703,74063,4343
+anta,66,salta,2021,10,dengue,9,de 35 a 44 anos,1,anta,salta,704,66007,69909
+anta,66,salta,2021,11,dengue,9,de 35 a 44 anos,2,anta,salta,705,66007,69909
+anta,66,salta,2021,12,dengue,9,de 35 a 44 anos,3,anta,salta,706,66007,69909
+anta,66,salta,2021,14,dengue,9,de 35 a 44 anos,2,anta,salta,707,66007,69909
+anta,66,salta,2021,15,dengue,9,de 35 a 44 anos,4,anta,salta,708,66007,69909
+anta,66,salta,2021,16,dengue,9,de 35 a 44 anos,6,anta,salta,709,66007,69909
+anta,66,salta,2021,17,dengue,9,de 35 a 44 anos,8,anta,salta,710,66007,69909
+anta,66,salta,2021,19,dengue,9,de 35 a 44 anos,4,anta,salta,711,66007,69909
+anta,66,salta,2021,20,dengue,9,de 35 a 44 anos,1,anta,salta,712,66007,69909
+anta,66,salta,2021,22,dengue,9,de 35 a 44 anos,2,anta,salta,713,66007,69909
+anta,66,salta,2021,23,dengue,9,de 35 a 44 anos,1,anta,salta,714,66007,69909
+salta capital,66,salta,2021,5,dengue,9,de 35 a 44 anos,1,salta capital,salta,715,66028,639055
+salta capital,66,salta,2021,13,dengue,9,de 35 a 44 anos,1,salta capital,salta,716,66028,639055
+salta capital,66,salta,2021,18,dengue,9,de 35 a 44 anos,1,salta capital,salta,717,66028,639055
+general jose de san martin,66,salta,2021,7,dengue,9,de 35 a 44 anos,1,general jose de san martin,salta,718,66056,187231
+general jose de san martin,66,salta,2021,8,dengue,9,de 35 a 44 anos,2,general jose de san martin,salta,719,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,9,de 35 a 44 anos,5,general jose de san martin,salta,720,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,9,de 35 a 44 anos,7,general jose de san martin,salta,721,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,9,de 35 a 44 anos,5,general jose de san martin,salta,722,66056,187231
+general jose de san martin,66,salta,2021,12,dengue,9,de 35 a 44 anos,1,general jose de san martin,salta,723,66056,187231
+general jose de san martin,66,salta,2021,13,dengue,9,de 35 a 44 anos,2,general jose de san martin,salta,724,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,9,de 35 a 44 anos,6,general jose de san martin,salta,725,66056,187231
+general jose de san martin,66,salta,2021,15,dengue,9,de 35 a 44 anos,1,general jose de san martin,salta,726,66056,187231
+general jose de san martin,66,salta,2021,16,dengue,9,de 35 a 44 anos,3,general jose de san martin,salta,727,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,9,de 35 a 44 anos,1,general jose de san martin,salta,728,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,9,de 35 a 44 anos,2,general jose de san martin,salta,729,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,9,de 35 a 44 anos,1,general jose de san martin,salta,730,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,9,de 35 a 44 anos,1,general jose de san martin,salta,731,66056,187231
+oran,66,salta,2021,3,dengue,9,de 35 a 44 anos,2,oran,salta,732,66126,164544
+oran,66,salta,2021,4,dengue,9,de 35 a 44 anos,5,oran,salta,733,66126,164544
+oran,66,salta,2021,5,dengue,9,de 35 a 44 anos,6,oran,salta,734,66126,164544
+oran,66,salta,2021,6,dengue,9,de 35 a 44 anos,2,oran,salta,735,66126,164544
+oran,66,salta,2021,7,dengue,9,de 35 a 44 anos,4,oran,salta,736,66126,164544
+oran,66,salta,2021,8,dengue,9,de 35 a 44 anos,4,oran,salta,737,66126,164544
+oran,66,salta,2021,9,dengue,9,de 35 a 44 anos,4,oran,salta,738,66126,164544
+oran,66,salta,2021,10,dengue,9,de 35 a 44 anos,1,oran,salta,739,66126,164544
+oran,66,salta,2021,11,dengue,9,de 35 a 44 anos,5,oran,salta,740,66126,164544
+oran,66,salta,2021,12,dengue,9,de 35 a 44 anos,10,oran,salta,741,66126,164544
+oran,66,salta,2021,13,dengue,9,de 35 a 44 anos,8,oran,salta,742,66126,164544
+oran,66,salta,2021,14,dengue,9,de 35 a 44 anos,6,oran,salta,743,66126,164544
+oran,66,salta,2021,15,dengue,9,de 35 a 44 anos,15,oran,salta,744,66126,164544
+oran,66,salta,2021,16,dengue,9,de 35 a 44 anos,19,oran,salta,745,66126,164544
+oran,66,salta,2021,17,dengue,9,de 35 a 44 anos,14,oran,salta,746,66126,164544
+oran,66,salta,2021,18,dengue,9,de 35 a 44 anos,15,oran,salta,747,66126,164544
+oran,66,salta,2021,19,dengue,9,de 35 a 44 anos,12,oran,salta,748,66126,164544
+oran,66,salta,2021,20,dengue,9,de 35 a 44 anos,4,oran,salta,749,66126,164544
+oran,66,salta,2021,21,dengue,9,de 35 a 44 anos,3,oran,salta,750,66126,164544
+oran,66,salta,2021,22,dengue,9,de 35 a 44 anos,4,oran,salta,751,66126,164544
+oran,66,salta,2021,23,dengue,9,de 35 a 44 anos,4,oran,salta,752,66126,164544
+rivadavia,66,mendoza,2021,11,dengue,9,de 35 a 44 anos,1,rivadavia,salta,753,50084,64071
+rivadavia,66,mendoza,2021,14,dengue,9,de 35 a 44 anos,1,rivadavia,salta,754,50084,64071
+rivadavia,66,mendoza,2021,15,dengue,9,de 35 a 44 anos,1,rivadavia,salta,755,50084,64071
+rivadavia,66,mendoza,2021,16,dengue,9,de 35 a 44 anos,3,rivadavia,salta,756,50084,64071
+rivadavia,66,mendoza,2021,17,dengue,9,de 35 a 44 anos,3,rivadavia,salta,757,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,9,de 35 a 44 anos,7,rivadavia,salta,758,50084,64071
+rivadavia,66,mendoza,2021,19,dengue,9,de 35 a 44 anos,1,rivadavia,salta,759,50084,64071
+rivadavia,66,mendoza,2021,20,dengue,9,de 35 a 44 anos,1,rivadavia,salta,760,50084,64071
+rivadavia,66,mendoza,2021,21,dengue,9,de 35 a 44 anos,1,rivadavia,salta,761,50084,64071
+rivadavia,66,mendoza,2021,22,dengue,9,de 35 a 44 anos,2,rivadavia,salta,762,50084,64071
+rosario,82,santa fe,2021,1,dengue,9,de 35 a 44 anos,1,rosario,santa fe,763,82084,1297681
+rosario,82,santa fe,2021,17,dengue,9,de 35 a 44 anos,1,rosario,santa fe,764,82084,1297681
+san cristobal,82,santa fe,2021,14,dengue,9,de 35 a 44 anos,2,san cristobal,santa fe,765,82091,77917
+san cristobal,82,santa fe,2021,15,dengue,9,de 35 a 44 anos,1,san cristobal,santa fe,766,82091,77917
+tucuman capital,90,tucuman,2021,8,dengue,9,de 35 a 44 anos,1,tucuman capital,tucuman,767,90084,609681
+tucuman capital,90,tucuman,2021,10,dengue,9,de 35 a 44 anos,1,tucuman capital,tucuman,768,90084,609681
+tucuman capital,90,tucuman,2021,16,dengue,9,de 35 a 44 anos,1,tucuman capital,tucuman,769,90084,609681
+tucuman capital,90,tucuman,2021,17,dengue,9,de 35 a 44 anos,1,tucuman capital,tucuman,770,90084,609681
+tucuman capital,90,tucuman,2021,24,dengue,9,de 35 a 44 anos,1,tucuman capital,tucuman,771,90084,609681
+berazategui,6,buenos aires,2021,10,dengue,10,de 45 a 65 anos,1,berazategui,buenos aires,772,6091,369294
+berazategui,6,buenos aires,2021,15,dengue,10,de 45 a 65 anos,1,berazategui,buenos aires,773,6091,369294
+san isidro,6,buenos aires,2021,14,dengue,10,de 45 a 65 anos,1,san isidro,buenos aires,774,6756,291963
+la paz,10,entre rios,2021,17,dengue,10,de 45 a 65 anos,1,la paz,catamarca,775,30070,72378
+calamuchita,14,cordoba,2021,15,dengue,10,de 45 a 65 anos,1,calamuchita,cordoba,776,14007,72164
+corrientes capital,18,corrientes,2021,14,dengue,10,de 45 a 65 anos,1,corrientes capital,corrientes,777,18021,414927
+corrientes capital,18,corrientes,2021,16,dengue,10,de 45 a 65 anos,1,corrientes capital,corrientes,778,18021,414927
+santo tome,18,corrientes,2021,15,dengue,10,de 45 a 65 anos,1,santo tome,corrientes,779,18168,74106
+federacion,30,entre rios,2021,13,dengue,10,de 45 a 65 anos,2,federacion,entre rios,780,30028,84769
+federacion,30,entre rios,2021,16,dengue,10,de 45 a 65 anos,2,federacion,entre rios,781,30028,84769
+federacion,30,entre rios,2021,17,dengue,10,de 45 a 65 anos,1,federacion,entre rios,782,30028,84769
+formosa,34,formosa,2021,5,dengue,10,de 45 a 65 anos,1,formosa,formosa,783,34014,273881
+patino,34,formosa,2021,1,dengue,10,de 45 a 65 anos,1,patino,formosa,784,34035,77488
+patino,34,formosa,2021,2,dengue,10,de 45 a 65 anos,1,patino,formosa,785,34035,77488
+patino,34,formosa,2021,3,dengue,10,de 45 a 65 anos,5,patino,formosa,786,34035,77488
+patino,34,formosa,2021,4,dengue,10,de 45 a 65 anos,2,patino,formosa,787,34035,77488
+patino,34,formosa,2021,5,dengue,10,de 45 a 65 anos,6,patino,formosa,788,34035,77488
+patino,34,formosa,2021,6,dengue,10,de 45 a 65 anos,25,patino,formosa,789,34035,77488
+patino,34,formosa,2021,7,dengue,10,de 45 a 65 anos,9,patino,formosa,790,34035,77488
+patino,34,formosa,2021,8,dengue,10,de 45 a 65 anos,7,patino,formosa,791,34035,77488
+patino,34,formosa,2021,9,dengue,10,de 45 a 65 anos,1,patino,formosa,792,34035,77488
+patino,34,formosa,2021,10,dengue,10,de 45 a 65 anos,9,patino,formosa,793,34035,77488
+patino,34,formosa,2021,11,dengue,10,de 45 a 65 anos,2,patino,formosa,794,34035,77488
+patino,34,formosa,2021,12,dengue,10,de 45 a 65 anos,1,patino,formosa,795,34035,77488
+patino,34,formosa,2021,17,dengue,10,de 45 a 65 anos,1,patino,formosa,796,34035,77488
+el carmen,38,jujuy,2021,13,dengue,10,de 45 a 65 anos,1,el carmen,jujuy,797,38014,118397
+ledesma,38,jujuy,2021,9,dengue,10,de 45 a 65 anos,1,ledesma,jujuy,798,38035,89823
+ledesma,38,jujuy,2021,10,dengue,10,de 45 a 65 anos,1,ledesma,jujuy,799,38035,89823
+ledesma,38,jujuy,2021,11,dengue,10,de 45 a 65 anos,2,ledesma,jujuy,800,38035,89823
+ledesma,38,jujuy,2021,12,dengue,10,de 45 a 65 anos,1,ledesma,jujuy,801,38035,89823
+ledesma,38,jujuy,2021,13,dengue,10,de 45 a 65 anos,5,ledesma,jujuy,802,38035,89823
+ledesma,38,jujuy,2021,14,dengue,10,de 45 a 65 anos,3,ledesma,jujuy,803,38035,89823
+ledesma,38,jujuy,2021,15,dengue,10,de 45 a 65 anos,4,ledesma,jujuy,804,38035,89823
+ledesma,38,jujuy,2021,16,dengue,10,de 45 a 65 anos,8,ledesma,jujuy,805,38035,89823
+ledesma,38,jujuy,2021,17,dengue,10,de 45 a 65 anos,11,ledesma,jujuy,806,38035,89823
+ledesma,38,jujuy,2021,18,dengue,10,de 45 a 65 anos,4,ledesma,jujuy,807,38035,89823
+ledesma,38,jujuy,2021,19,dengue,10,de 45 a 65 anos,4,ledesma,jujuy,808,38035,89823
+ledesma,38,jujuy,2021,20,dengue,10,de 45 a 65 anos,2,ledesma,jujuy,809,38035,89823
+ledesma,38,jujuy,2021,21,dengue,10,de 45 a 65 anos,2,ledesma,jujuy,810,38035,89823
+ledesma,38,jujuy,2021,23,dengue,10,de 45 a 65 anos,2,ledesma,jujuy,811,38035,89823
+ledesma,38,jujuy,2021,24,dengue,10,de 45 a 65 anos,1,ledesma,jujuy,812,38035,89823
+santa barbara,38,jujuy,2021,15,dengue,10,de 45 a 65 anos,1,santa barbara,jujuy,813,38070,19185
+santa barbara,38,jujuy,2021,16,dengue,10,de 45 a 65 anos,3,santa barbara,jujuy,814,38070,19185
+santa barbara,38,jujuy,2021,17,dengue,10,de 45 a 65 anos,1,santa barbara,jujuy,815,38070,19185
+santa barbara,38,jujuy,2021,18,dengue,10,de 45 a 65 anos,3,santa barbara,jujuy,816,38070,19185
+santa barbara,38,jujuy,2021,20,dengue,10,de 45 a 65 anos,3,santa barbara,jujuy,817,38070,19185
+santa barbara,38,jujuy,2021,21,dengue,10,de 45 a 65 anos,1,santa barbara,jujuy,818,38070,19185
+santa barbara,38,jujuy,2021,23,dengue,10,de 45 a 65 anos,1,santa barbara,jujuy,819,38070,19185
+santa barbara,38,jujuy,2021,24,dengue,10,de 45 a 65 anos,1,santa barbara,jujuy,820,38070,19185
+la rioja capital,46,la rioja,2021,3,dengue,10,de 45 a 65 anos,1,la rioja capital,la rioja,821,46014,226872
+la rioja capital,46,la rioja,2021,4,dengue,10,de 45 a 65 anos,1,la rioja capital,la rioja,822,46014,226872
+la rioja capital,46,la rioja,2021,6,dengue,10,de 45 a 65 anos,4,la rioja capital,la rioja,823,46014,226872
+la rioja capital,46,la rioja,2021,7,dengue,10,de 45 a 65 anos,5,la rioja capital,la rioja,824,46014,226872
+la rioja capital,46,la rioja,2021,8,dengue,10,de 45 a 65 anos,3,la rioja capital,la rioja,825,46014,226872
+la rioja capital,46,la rioja,2021,9,dengue,10,de 45 a 65 anos,10,la rioja capital,la rioja,826,46014,226872
+la rioja capital,46,la rioja,2021,10,dengue,10,de 45 a 65 anos,10,la rioja capital,la rioja,827,46014,226872
+la rioja capital,46,la rioja,2021,11,dengue,10,de 45 a 65 anos,16,la rioja capital,la rioja,828,46014,226872
+la rioja capital,46,la rioja,2021,12,dengue,10,de 45 a 65 anos,18,la rioja capital,la rioja,829,46014,226872
+la rioja capital,46,la rioja,2021,13,dengue,10,de 45 a 65 anos,11,la rioja capital,la rioja,830,46014,226872
+la rioja capital,46,la rioja,2021,14,dengue,10,de 45 a 65 anos,11,la rioja capital,la rioja,831,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,10,de 45 a 65 anos,25,la rioja capital,la rioja,832,46014,226872
+la rioja capital,46,la rioja,2021,16,dengue,10,de 45 a 65 anos,33,la rioja capital,la rioja,833,46014,226872
+la rioja capital,46,la rioja,2021,17,dengue,10,de 45 a 65 anos,27,la rioja capital,la rioja,834,46014,226872
+la rioja capital,46,la rioja,2021,18,dengue,10,de 45 a 65 anos,22,la rioja capital,la rioja,835,46014,226872
+la rioja capital,46,la rioja,2021,19,dengue,10,de 45 a 65 anos,15,la rioja capital,la rioja,836,46014,226872
+la rioja capital,46,la rioja,2021,20,dengue,10,de 45 a 65 anos,9,la rioja capital,la rioja,837,46014,226872
+la rioja capital,46,la rioja,2021,21,dengue,10,de 45 a 65 anos,4,la rioja capital,la rioja,838,46014,226872
+la rioja capital,46,la rioja,2021,22,dengue,10,de 45 a 65 anos,1,la rioja capital,la rioja,839,46014,226872
+chamical,46,la rioja,2021,4,dengue,10,de 45 a 65 anos,1,chamical,la rioja,840,46035,15775
+general angel vera penaloza,46,la rioja,2021,10,dengue,10,de 45 a 65 anos,1,general angel v penaloza,la rioja,841,46056,3188
+misiones capital,54,misiones,2021,2,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,842,54028,375429
+misiones capital,54,misiones,2021,8,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,843,54028,375429
+misiones capital,54,misiones,2021,9,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,844,54028,375429
+misiones capital,54,misiones,2021,10,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,845,54028,375429
+misiones capital,54,misiones,2021,11,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,846,54028,375429
+misiones capital,54,misiones,2021,17,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,847,54028,375429
+concepcion,54,corrientes,2021,10,dengue,10,de 45 a 65 anos,1,concepcion,misiones,848,18028,26209
+iguazu,54,misiones,2021,18,dengue,10,de 45 a 65 anos,1,iguazu,misiones,849,54063,101413
+anta,66,salta,2021,11,dengue,10,de 45 a 65 anos,2,anta,salta,850,66007,69909
+anta,66,salta,2021,12,dengue,10,de 45 a 65 anos,3,anta,salta,851,66007,69909
+anta,66,salta,2021,13,dengue,10,de 45 a 65 anos,3,anta,salta,852,66007,69909
+anta,66,salta,2021,14,dengue,10,de 45 a 65 anos,4,anta,salta,853,66007,69909
+anta,66,salta,2021,15,dengue,10,de 45 a 65 anos,3,anta,salta,854,66007,69909
+anta,66,salta,2021,16,dengue,10,de 45 a 65 anos,4,anta,salta,855,66007,69909
+anta,66,salta,2021,17,dengue,10,de 45 a 65 anos,3,anta,salta,856,66007,69909
+anta,66,salta,2021,18,dengue,10,de 45 a 65 anos,2,anta,salta,857,66007,69909
+anta,66,salta,2021,20,dengue,10,de 45 a 65 anos,1,anta,salta,858,66007,69909
+anta,66,salta,2021,21,dengue,10,de 45 a 65 anos,1,anta,salta,859,66007,69909
+anta,66,salta,2021,22,dengue,10,de 45 a 65 anos,1,anta,salta,860,66007,69909
+salta capital,66,salta,2021,7,dengue,10,de 45 a 65 anos,1,salta capital,salta,861,66028,639055
+salta capital,66,salta,2021,13,dengue,10,de 45 a 65 anos,2,salta capital,salta,862,66028,639055
+cerrillos,66,salta,2021,10,dengue,10,de 45 a 65 anos,1,cerrillos,salta,863,66035,49825
+general jose de san martin,66,salta,2021,6,dengue,10,de 45 a 65 anos,1,general jose de san martin,salta,864,66056,187231
+general jose de san martin,66,salta,2021,7,dengue,10,de 45 a 65 anos,4,general jose de san martin,salta,865,66056,187231
+general jose de san martin,66,salta,2021,8,dengue,10,de 45 a 65 anos,10,general jose de san martin,salta,866,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,10,de 45 a 65 anos,15,general jose de san martin,salta,867,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,10,de 45 a 65 anos,6,general jose de san martin,salta,868,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,10,de 45 a 65 anos,14,general jose de san martin,salta,869,66056,187231
+general jose de san martin,66,salta,2021,12,dengue,10,de 45 a 65 anos,1,general jose de san martin,salta,870,66056,187231
+general jose de san martin,66,salta,2021,13,dengue,10,de 45 a 65 anos,1,general jose de san martin,salta,871,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,10,de 45 a 65 anos,6,general jose de san martin,salta,872,66056,187231
+general jose de san martin,66,salta,2021,16,dengue,10,de 45 a 65 anos,3,general jose de san martin,salta,873,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,10,de 45 a 65 anos,1,general jose de san martin,salta,874,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,10,de 45 a 65 anos,2,general jose de san martin,salta,875,66056,187231
+oran,66,salta,2021,2,dengue,10,de 45 a 65 anos,3,oran,salta,876,66126,164544
+oran,66,salta,2021,3,dengue,10,de 45 a 65 anos,3,oran,salta,877,66126,164544
+oran,66,salta,2021,4,dengue,10,de 45 a 65 anos,4,oran,salta,878,66126,164544
+oran,66,salta,2021,5,dengue,10,de 45 a 65 anos,9,oran,salta,879,66126,164544
+oran,66,salta,2021,6,dengue,10,de 45 a 65 anos,2,oran,salta,880,66126,164544
+oran,66,salta,2021,7,dengue,10,de 45 a 65 anos,8,oran,salta,881,66126,164544
+oran,66,salta,2021,8,dengue,10,de 45 a 65 anos,12,oran,salta,882,66126,164544
+oran,66,salta,2021,9,dengue,10,de 45 a 65 anos,3,oran,salta,883,66126,164544
+oran,66,salta,2021,10,dengue,10,de 45 a 65 anos,9,oran,salta,884,66126,164544
+oran,66,salta,2021,11,dengue,10,de 45 a 65 anos,11,oran,salta,885,66126,164544
+oran,66,salta,2021,12,dengue,10,de 45 a 65 anos,7,oran,salta,886,66126,164544
+oran,66,salta,2021,13,dengue,10,de 45 a 65 anos,10,oran,salta,887,66126,164544
+oran,66,salta,2021,14,dengue,10,de 45 a 65 anos,10,oran,salta,888,66126,164544
+oran,66,salta,2021,15,dengue,10,de 45 a 65 anos,21,oran,salta,889,66126,164544
+oran,66,salta,2021,16,dengue,10,de 45 a 65 anos,16,oran,salta,890,66126,164544
+oran,66,salta,2021,17,dengue,10,de 45 a 65 anos,27,oran,salta,891,66126,164544
+oran,66,salta,2021,18,dengue,10,de 45 a 65 anos,24,oran,salta,892,66126,164544
+oran,66,salta,2021,19,dengue,10,de 45 a 65 anos,8,oran,salta,893,66126,164544
+oran,66,salta,2021,20,dengue,10,de 45 a 65 anos,4,oran,salta,894,66126,164544
+oran,66,salta,2021,21,dengue,10,de 45 a 65 anos,2,oran,salta,895,66126,164544
+oran,66,salta,2021,22,dengue,10,de 45 a 65 anos,7,oran,salta,896,66126,164544
+oran,66,salta,2021,25,dengue,10,de 45 a 65 anos,1,oran,salta,897,66126,164544
+rivadavia,66,mendoza,2021,15,dengue,10,de 45 a 65 anos,1,rivadavia,salta,898,50084,64071
+rivadavia,66,mendoza,2021,17,dengue,10,de 45 a 65 anos,6,rivadavia,salta,899,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,10,de 45 a 65 anos,1,rivadavia,salta,900,50084,64071
+rivadavia,66,mendoza,2021,19,dengue,10,de 45 a 65 anos,1,rivadavia,salta,901,50084,64071
+rivadavia,66,mendoza,2021,21,dengue,10,de 45 a 65 anos,1,rivadavia,salta,902,50084,64071
+rivadavia,66,mendoza,2021,24,dengue,10,de 45 a 65 anos,4,rivadavia,salta,903,50084,64071
+rosario,82,santa fe,2021,18,dengue,10,de 45 a 65 anos,1,rosario,santa fe,904,82084,1297681
+san cristobal,82,santa fe,2021,15,dengue,10,de 45 a 65 anos,2,san cristobal,santa fe,905,82091,77917
+san cristobal,82,santa fe,2021,16,dengue,10,de 45 a 65 anos,1,san cristobal,santa fe,906,82091,77917
+san cristobal,82,santa fe,2021,17,dengue,10,de 45 a 65 anos,4,san cristobal,santa fe,907,82091,77917
+san cristobal,82,santa fe,2021,18,dengue,10,de 45 a 65 anos,1,san cristobal,santa fe,908,82091,77917
+san cristobal,82,santa fe,2021,23,dengue,10,de 45 a 65 anos,1,san cristobal,santa fe,909,82091,77917
+tucuman capital,90,tucuman,2021,16,dengue,10,de 45 a 65 anos,1,tucuman capital,tucuman,910,90084,609681
+tucuman capital,90,tucuman,2021,18,dengue,10,de 45 a 65 anos,1,tucuman capital,tucuman,911,90084,609681
+tucuman capital,90,tucuman,2021,19,dengue,10,de 45 a 65 anos,1,tucuman capital,tucuman,912,90084,609681
+tucuman capital,90,tucuman,2021,20,dengue,10,de 45 a 65 anos,1,tucuman capital,tucuman,913,90084,609681
+tucuman capital,90,tucuman,2021,22,dengue,10,de 45 a 65 anos,1,tucuman capital,tucuman,914,90084,609681
+tafi viejo,90,tucuman,2021,16,dengue,10,de 45 a 65 anos,1,tafi viejo,tucuman,915,90105,152557
+santo tome,18,corrientes,2021,15,dengue,11,mayores de 65 anos,1,santo tome,corrientes,916,18168,74106
+patino,34,formosa,2021,1,dengue,11,mayores de 65 anos,2,patino,formosa,917,34035,77488
+patino,34,formosa,2021,3,dengue,11,mayores de 65 anos,2,patino,formosa,918,34035,77488
+patino,34,formosa,2021,4,dengue,11,mayores de 65 anos,3,patino,formosa,919,34035,77488
+patino,34,formosa,2021,5,dengue,11,mayores de 65 anos,12,patino,formosa,920,34035,77488
+patino,34,formosa,2021,6,dengue,11,mayores de 65 anos,12,patino,formosa,921,34035,77488
+patino,34,formosa,2021,7,dengue,11,mayores de 65 anos,6,patino,formosa,922,34035,77488
+patino,34,formosa,2021,8,dengue,11,mayores de 65 anos,5,patino,formosa,923,34035,77488
+patino,34,formosa,2021,9,dengue,11,mayores de 65 anos,2,patino,formosa,924,34035,77488
+patino,34,formosa,2021,10,dengue,11,mayores de 65 anos,8,patino,formosa,925,34035,77488
+patino,34,formosa,2021,13,dengue,11,mayores de 65 anos,1,patino,formosa,926,34035,77488
+patino,34,formosa,2021,53,dengue,11,mayores de 65 anos,1,patino,formosa,927,34035,77488
+el carmen,38,jujuy,2021,12,dengue,11,mayores de 65 anos,1,el carmen,jujuy,928,38014,118397
+ledesma,38,jujuy,2021,16,dengue,11,mayores de 65 anos,1,ledesma,jujuy,929,38035,89823
+ledesma,38,jujuy,2021,18,dengue,11,mayores de 65 anos,1,ledesma,jujuy,930,38035,89823
+ledesma,38,jujuy,2021,19,dengue,11,mayores de 65 anos,3,ledesma,jujuy,931,38035,89823
+ledesma,38,jujuy,2021,20,dengue,11,mayores de 65 anos,1,ledesma,jujuy,932,38035,89823
+ledesma,38,jujuy,2021,22,dengue,11,mayores de 65 anos,1,ledesma,jujuy,933,38035,89823
+santa barbara,38,jujuy,2021,16,dengue,11,mayores de 65 anos,2,santa barbara,jujuy,934,38070,19185
+santa barbara,38,jujuy,2021,18,dengue,11,mayores de 65 anos,2,santa barbara,jujuy,935,38070,19185
+la rioja capital,46,la rioja,2021,7,dengue,11,mayores de 65 anos,1,la rioja capital,la rioja,936,46014,226872
+la rioja capital,46,la rioja,2021,9,dengue,11,mayores de 65 anos,1,la rioja capital,la rioja,937,46014,226872
+la rioja capital,46,la rioja,2021,10,dengue,11,mayores de 65 anos,3,la rioja capital,la rioja,938,46014,226872
+la rioja capital,46,la rioja,2021,11,dengue,11,mayores de 65 anos,3,la rioja capital,la rioja,939,46014,226872
+la rioja capital,46,la rioja,2021,12,dengue,11,mayores de 65 anos,8,la rioja capital,la rioja,940,46014,226872
+la rioja capital,46,la rioja,2021,13,dengue,11,mayores de 65 anos,3,la rioja capital,la rioja,941,46014,226872
+la rioja capital,46,la rioja,2021,14,dengue,11,mayores de 65 anos,6,la rioja capital,la rioja,942,46014,226872
+la rioja capital,46,la rioja,2021,15,dengue,11,mayores de 65 anos,11,la rioja capital,la rioja,943,46014,226872
+la rioja capital,46,la rioja,2021,16,dengue,11,mayores de 65 anos,1,la rioja capital,la rioja,944,46014,226872
+la rioja capital,46,la rioja,2021,17,dengue,11,mayores de 65 anos,1,la rioja capital,la rioja,945,46014,226872
+la rioja capital,46,la rioja,2021,18,dengue,11,mayores de 65 anos,5,la rioja capital,la rioja,946,46014,226872
+la rioja capital,46,la rioja,2021,19,dengue,11,mayores de 65 anos,4,la rioja capital,la rioja,947,46014,226872
+la rioja capital,46,la rioja,2021,21,dengue,11,mayores de 65 anos,1,la rioja capital,la rioja,948,46014,226872
+general angel vera penaloza,46,la rioja,2021,11,dengue,11,mayores de 65 anos,1,general angel v penaloza,la rioja,949,46056,3188
+general belgrano,46,chaco,2021,15,dengue,11,mayores de 65 anos,1,general belgrano,la rioja,950,22049,14977
+general juan f quiroga,46,la rioja,2021,14,dengue,11,mayores de 65 anos,1,general juan f quiroga,la rioja,951,46070,3777
+misiones capital,54,misiones,2021,11,dengue,11,mayores de 65 anos,1,misiones capital,misiones,952,54028,375429
+misiones capital,54,misiones,2021,17,dengue,11,mayores de 65 anos,1,misiones capital,misiones,953,54028,375429
+misiones capital,54,misiones,2021,18,dengue,11,mayores de 65 anos,1,misiones capital,misiones,954,54028,375429
+san ignacio,54,misiones,2021,15,dengue,11,mayores de 65 anos,1,san ignacio,misiones,955,54098,61963
+anta,66,salta,2021,14,dengue,11,mayores de 65 anos,1,anta,salta,956,66007,69909
+anta,66,salta,2021,21,dengue,11,mayores de 65 anos,1,anta,salta,957,66007,69909
+salta capital,66,salta,2021,12,dengue,11,mayores de 65 anos,1,salta capital,salta,958,66028,639055
+general jose de san martin,66,salta,2021,7,dengue,11,mayores de 65 anos,1,general jose de san martin,salta,959,66056,187231
+general jose de san martin,66,salta,2021,8,dengue,11,mayores de 65 anos,1,general jose de san martin,salta,960,66056,187231
+general jose de san martin,66,salta,2021,9,dengue,11,mayores de 65 anos,5,general jose de san martin,salta,961,66056,187231
+general jose de san martin,66,salta,2021,10,dengue,11,mayores de 65 anos,2,general jose de san martin,salta,962,66056,187231
+general jose de san martin,66,salta,2021,11,dengue,11,mayores de 65 anos,3,general jose de san martin,salta,963,66056,187231
+general jose de san martin,66,salta,2021,12,dengue,11,mayores de 65 anos,2,general jose de san martin,salta,964,66056,187231
+general jose de san martin,66,salta,2021,14,dengue,11,mayores de 65 anos,2,general jose de san martin,salta,965,66056,187231
+oran,66,salta,2021,4,dengue,11,mayores de 65 anos,1,oran,salta,966,66126,164544
+oran,66,salta,2021,5,dengue,11,mayores de 65 anos,3,oran,salta,967,66126,164544
+oran,66,salta,2021,7,dengue,11,mayores de 65 anos,1,oran,salta,968,66126,164544
+oran,66,salta,2021,8,dengue,11,mayores de 65 anos,2,oran,salta,969,66126,164544
+oran,66,salta,2021,9,dengue,11,mayores de 65 anos,2,oran,salta,970,66126,164544
+oran,66,salta,2021,10,dengue,11,mayores de 65 anos,5,oran,salta,971,66126,164544
+oran,66,salta,2021,11,dengue,11,mayores de 65 anos,4,oran,salta,972,66126,164544
+oran,66,salta,2021,13,dengue,11,mayores de 65 anos,2,oran,salta,973,66126,164544
+oran,66,salta,2021,14,dengue,11,mayores de 65 anos,1,oran,salta,974,66126,164544
+oran,66,salta,2021,15,dengue,11,mayores de 65 anos,7,oran,salta,975,66126,164544
+oran,66,salta,2021,16,dengue,11,mayores de 65 anos,2,oran,salta,976,66126,164544
+oran,66,salta,2021,17,dengue,11,mayores de 65 anos,11,oran,salta,977,66126,164544
+oran,66,salta,2021,18,dengue,11,mayores de 65 anos,5,oran,salta,978,66126,164544
+oran,66,salta,2021,19,dengue,11,mayores de 65 anos,1,oran,salta,979,66126,164544
+oran,66,salta,2021,20,dengue,11,mayores de 65 anos,1,oran,salta,980,66126,164544
+oran,66,salta,2021,21,dengue,11,mayores de 65 anos,3,oran,salta,981,66126,164544
+oran,66,salta,2021,23,dengue,11,mayores de 65 anos,1,oran,salta,982,66126,164544
+rivadavia,66,mendoza,2021,11,dengue,11,mayores de 65 anos,2,rivadavia,salta,983,50084,64071
+rivadavia,66,mendoza,2021,15,dengue,11,mayores de 65 anos,1,rivadavia,salta,984,50084,64071
+rivadavia,66,mendoza,2021,16,dengue,11,mayores de 65 anos,1,rivadavia,salta,985,50084,64071
+rivadavia,66,mendoza,2021,17,dengue,11,mayores de 65 anos,2,rivadavia,salta,986,50084,64071
+rivadavia,66,mendoza,2021,18,dengue,11,mayores de 65 anos,1,rivadavia,salta,987,50084,64071
+rivadavia,66,mendoza,2021,22,dengue,11,mayores de 65 anos,1,rivadavia,salta,988,50084,64071
+san cristobal,82,santa fe,2021,17,dengue,11,mayores de 65 anos,2,san cristobal,santa fe,989,82091,77917
+san cristobal,82,santa fe,2021,18,dengue,11,mayores de 65 anos,1,san cristobal,santa fe,990,82091,77917
+san cristobal,82,santa fe,2021,20,dengue,11,mayores de 65 anos,1,san cristobal,santa fe,991,82091,77917
+tucuman capital,90,tucuman,2021,18,dengue,11,mayores de 65 anos,1,tucuman capital,tucuman,992,90084,609681
+tucuman capital,90,tucuman,2021,19,dengue,11,mayores de 65 anos,1,tucuman capital,tucuman,993,90084,609681
+anta,66,salta,2021,10,dengue,1,posneonato 29 hasta 365 dias,1,anta,salta,994,66007,69909
+anta,66,salta,2021,10,dengue,3,de 2 a 4 anos,1,anta,salta,995,66007,69909
+anta,66,salta,2021,10,dengue,5,de 10 a 14 anos,1,anta,salta,996,66007,69909
+anta,66,salta,2021,10,dengue,8,de 25 a 34 anos,2,anta,salta,997,66007,69909
+anta,66,salta,2021,10,dengue,9,de 35 a 44 anos,2,anta,salta,998,66007,69909
+anta,66,salta,2021,10,dengue,10,de 45 a 65 anos,1,anta,salta,999,66007,69909
+anta,66,salta,2021,11,dengue,1,posneonato 29 hasta 365 dias,1,anta,salta,1000,66007,69909
+anta,66,salta,2021,11,dengue,3,de 2 a 4 anos,1,anta,salta,1001,66007,69909
+anta,66,salta,2021,11,dengue,5,de 10 a 14 anos,1,anta,salta,1002,66007,69909
+anta,66,salta,2021,11,dengue,8,de 25 a 34 anos,2,anta,salta,1003,66007,69909
+anta,66,salta,2021,11,dengue,9,de 35 a 44 anos,2,anta,salta,1004,66007,69909
+anta,66,salta,2021,11,dengue,10,de 45 a 65 anos,1,anta,salta,1005,66007,69909
+anta,66,salta,2021,13,dengue,6,de 15 a 19 anos,1,anta,salta,1006,66007,69909
+anta,66,salta,2021,14,dengue,5,de 10 a 14 anos,1,anta,salta,1007,66007,69909
+anta,66,salta,2021,14,dengue,10,de 45 a 65 anos,1,anta,salta,1008,66007,69909
+anta,66,salta,2021,15,dengue,6,de 15 a 19 anos,1,anta,salta,1009,66007,69909
+anta,66,salta,2021,15,dengue,9,de 35 a 44 anos,1,anta,salta,1010,66007,69909
+anta,66,salta,2021,15,dengue,10,de 45 a 65 anos,1,anta,salta,1011,66007,69909
+anta,66,salta,2021,16,dengue,3,de 2 a 4 anos,1,anta,salta,1012,66007,69909
+anta,66,salta,2021,16,dengue,4,de 5 a 9 anos,1,anta,salta,1013,66007,69909
+anta,66,salta,2021,16,dengue,8,de 25 a 34 anos,2,anta,salta,1014,66007,69909
+anta,66,salta,2021,16,dengue,9,de 35 a 44 anos,1,anta,salta,1015,66007,69909
+anta,66,salta,2021,16,dengue,10,de 45 a 65 anos,1,anta,salta,1016,66007,69909
+anta,66,salta,2021,17,dengue,4,de 5 a 9 anos,1,anta,salta,1017,66007,69909
+anta,66,salta,2021,17,dengue,6,de 15 a 19 anos,1,anta,salta,1018,66007,69909
+anta,66,salta,2021,17,dengue,7,de 20 a 24 anos,1,anta,salta,1019,66007,69909
+anta,66,salta,2021,17,dengue,8,de 25 a 34 anos,1,anta,salta,1020,66007,69909
+anta,66,salta,2021,17,dengue,9,de 35 a 44 anos,1,anta,salta,1021,66007,69909
+anta,66,salta,2021,17,dengue,10,de 45 a 65 anos,2,anta,salta,1022,66007,69909
+anta,66,salta,2021,17,dengue,11,mayores de 65 anos,1,anta,salta,1023,66007,69909
+anta,66,salta,2021,18,dengue,6,de 15 a 19 anos,1,anta,salta,1024,66007,69909
+anta,66,salta,2021,18,dengue,9,de 35 a 44 anos,1,anta,salta,1025,66007,69909
+anta,66,salta,2021,19,dengue,3,de 2 a 4 anos,1,anta,salta,1026,66007,69909
+anta,66,salta,2021,19,dengue,4,de 5 a 9 anos,1,anta,salta,1027,66007,69909
+anta,66,salta,2021,19,dengue,6,de 15 a 19 anos,1,anta,salta,1028,66007,69909
+anta,66,salta,2021,19,dengue,8,de 25 a 34 anos,1,anta,salta,1029,66007,69909
+anta,66,salta,2021,19,dengue,9,de 35 a 44 anos,1,anta,salta,1030,66007,69909
+anta,66,salta,2021,20,dengue,7,de 20 a 24 anos,1,anta,salta,1031,66007,69909
+anta,66,salta,2021,21,dengue,6,de 15 a 19 anos,1,anta,salta,1032,66007,69909
+anta,66,salta,2021,21,dengue,10,de 45 a 65 anos,1,anta,salta,1033,66007,69909
+general jose de san martin,66,salta,2021,17,dengue,3,de 2 a 4 anos,3,general jose de san martin,salta,1034,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,4,de 5 a 9 anos,8,general jose de san martin,salta,1035,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,5,de 10 a 14 anos,9,general jose de san martin,salta,1036,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,6,de 15 a 19 anos,5,general jose de san martin,salta,1037,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,7,de 20 a 24 anos,10,general jose de san martin,salta,1038,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,8,de 25 a 34 anos,16,general jose de san martin,salta,1039,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,9,de 35 a 44 anos,8,general jose de san martin,salta,1040,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,10,de 45 a 65 anos,5,general jose de san martin,salta,1041,66056,187231
+general jose de san martin,66,salta,2021,17,dengue,11,mayores de 65 anos,2,general jose de san martin,salta,1042,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,2,de 13 a 24 meses,1,general jose de san martin,salta,1043,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,3,de 2 a 4 anos,5,general jose de san martin,salta,1044,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,4,de 5 a 9 anos,12,general jose de san martin,salta,1045,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,5,de 10 a 14 anos,8,general jose de san martin,salta,1046,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,6,de 15 a 19 anos,8,general jose de san martin,salta,1047,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,7,de 20 a 24 anos,3,general jose de san martin,salta,1048,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,8,de 25 a 34 anos,10,general jose de san martin,salta,1049,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,9,de 35 a 44 anos,4,general jose de san martin,salta,1050,66056,187231
+general jose de san martin,66,salta,2021,18,dengue,10,de 45 a 65 anos,7,general jose de san martin,salta,1051,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,2,de 13 a 24 meses,2,general jose de san martin,salta,1052,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,3,de 2 a 4 anos,4,general jose de san martin,salta,1053,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,4,de 5 a 9 anos,5,general jose de san martin,salta,1054,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,5,de 10 a 14 anos,5,general jose de san martin,salta,1055,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,6,de 15 a 19 anos,4,general jose de san martin,salta,1056,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,7,de 20 a 24 anos,3,general jose de san martin,salta,1057,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,8,de 25 a 34 anos,8,general jose de san martin,salta,1058,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,9,de 35 a 44 anos,6,general jose de san martin,salta,1059,66056,187231
+general jose de san martin,66,salta,2021,19,dengue,10,de 45 a 65 anos,4,general jose de san martin,salta,1060,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,3,de 2 a 4 anos,1,general jose de san martin,salta,1061,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,5,de 10 a 14 anos,4,general jose de san martin,salta,1062,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,6,de 15 a 19 anos,2,general jose de san martin,salta,1063,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,7,de 20 a 24 anos,1,general jose de san martin,salta,1064,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,8,de 25 a 34 anos,3,general jose de san martin,salta,1065,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,9,de 35 a 44 anos,3,general jose de san martin,salta,1066,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,10,de 45 a 65 anos,2,general jose de san martin,salta,1067,66056,187231
+general jose de san martin,66,salta,2021,20,dengue,11,mayores de 65 anos,1,general jose de san martin,salta,1068,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,1,posneonato 29 hasta 365 dias,1,general jose de san martin,salta,1069,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,2,de 13 a 24 meses,2,general jose de san martin,salta,1070,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,3,de 2 a 4 anos,2,general jose de san martin,salta,1071,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,4,de 5 a 9 anos,4,general jose de san martin,salta,1072,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,5,de 10 a 14 anos,6,general jose de san martin,salta,1073,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,6,de 15 a 19 anos,7,general jose de san martin,salta,1074,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,7,de 20 a 24 anos,3,general jose de san martin,salta,1075,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,8,de 25 a 34 anos,4,general jose de san martin,salta,1076,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,9,de 35 a 44 anos,2,general jose de san martin,salta,1077,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,10,de 45 a 65 anos,2,general jose de san martin,salta,1078,66056,187231
+general jose de san martin,66,salta,2021,21,dengue,11,mayores de 65 anos,2,general jose de san martin,salta,1079,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,3,de 2 a 4 anos,2,general jose de san martin,salta,1080,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,4,de 5 a 9 anos,5,general jose de san martin,salta,1081,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,5,de 10 a 14 anos,5,general jose de san martin,salta,1082,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,6,de 15 a 19 anos,5,general jose de san martin,salta,1083,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,7,de 20 a 24 anos,1,general jose de san martin,salta,1084,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,8,de 25 a 34 anos,4,general jose de san martin,salta,1085,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,9,de 35 a 44 anos,3,general jose de san martin,salta,1086,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,10,de 45 a 65 anos,2,general jose de san martin,salta,1087,66056,187231
+general jose de san martin,66,salta,2021,22,dengue,11,mayores de 65 anos,1,general jose de san martin,salta,1088,66056,187231
+general jose de san martin,66,salta,2021,23,dengue,4,de 5 a 9 anos,2,general jose de san martin,salta,1089,66056,187231
+general jose de san martin,66,salta,2021,23,dengue,5,de 10 a 14 anos,4,general jose de san martin,salta,1090,66056,187231
+general jose de san martin,66,salta,2021,23,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,1091,66056,187231
+general jose de san martin,66,salta,2021,23,dengue,7,de 20 a 24 anos,1,general jose de san martin,salta,1092,66056,187231
+general jose de san martin,66,salta,2021,23,dengue,9,de 35 a 44 anos,2,general jose de san martin,salta,1093,66056,187231
+general jose de san martin,66,salta,2021,23,dengue,10,de 45 a 65 anos,1,general jose de san martin,salta,1094,66056,187231
+general jose de san martin,66,salta,2021,24,dengue,4,de 5 a 9 anos,1,general jose de san martin,salta,1095,66056,187231
+general jose de san martin,66,salta,2021,24,dengue,5,de 10 a 14 anos,1,general jose de san martin,salta,1096,66056,187231
+general jose de san martin,66,salta,2021,24,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,1097,66056,187231
+general jose de san martin,66,salta,2021,24,dengue,9,de 35 a 44 anos,1,general jose de san martin,salta,1098,66056,187231
+oran,66,salta,2021,13,dengue,3,de 2 a 4 anos,1,oran,salta,1099,66126,164544
+oran,66,salta,2021,13,dengue,4,de 5 a 9 anos,2,oran,salta,1100,66126,164544
+oran,66,salta,2021,13,dengue,5,de 10 a 14 anos,2,oran,salta,1101,66126,164544
+oran,66,salta,2021,13,dengue,6,de 15 a 19 anos,4,oran,salta,1102,66126,164544
+oran,66,salta,2021,13,dengue,7,de 20 a 24 anos,5,oran,salta,1103,66126,164544
+oran,66,salta,2021,13,dengue,8,de 25 a 34 anos,4,oran,salta,1104,66126,164544
+oran,66,salta,2021,13,dengue,9,de 35 a 44 anos,7,oran,salta,1105,66126,164544
+oran,66,salta,2021,13,dengue,10,de 45 a 65 anos,5,oran,salta,1106,66126,164544
+oran,66,salta,2021,14,dengue,3,de 2 a 4 anos,1,oran,salta,1107,66126,164544
+oran,66,salta,2021,14,dengue,5,de 10 a 14 anos,1,oran,salta,1108,66126,164544
+oran,66,salta,2021,14,dengue,6,de 15 a 19 anos,1,oran,salta,1109,66126,164544
+oran,66,salta,2021,14,dengue,7,de 20 a 24 anos,1,oran,salta,1110,66126,164544
+oran,66,salta,2021,14,dengue,8,de 25 a 34 anos,2,oran,salta,1111,66126,164544
+oran,66,salta,2021,14,dengue,9,de 35 a 44 anos,3,oran,salta,1112,66126,164544
+oran,66,salta,2021,14,dengue,10,de 45 a 65 anos,1,oran,salta,1113,66126,164544
+oran,66,salta,2021,15,dengue,4,de 5 a 9 anos,1,oran,salta,1114,66126,164544
+oran,66,salta,2021,15,dengue,5,de 10 a 14 anos,6,oran,salta,1115,66126,164544
+oran,66,salta,2021,15,dengue,6,de 15 a 19 anos,3,oran,salta,1116,66126,164544
+oran,66,salta,2021,15,dengue,7,de 20 a 24 anos,1,oran,salta,1117,66126,164544
+oran,66,salta,2021,15,dengue,8,de 25 a 34 anos,5,oran,salta,1118,66126,164544
+oran,66,salta,2021,15,dengue,10,de 45 a 65 anos,2,oran,salta,1119,66126,164544
+oran,66,salta,2021,16,dengue,5,de 10 a 14 anos,1,oran,salta,1120,66126,164544
+oran,66,salta,2021,16,dengue,6,de 15 a 19 anos,3,oran,salta,1121,66126,164544
+oran,66,salta,2021,16,dengue,7,de 20 a 24 anos,1,oran,salta,1122,66126,164544
+oran,66,salta,2021,16,dengue,8,de 25 a 34 anos,2,oran,salta,1123,66126,164544
+oran,66,salta,2021,16,dengue,9,de 35 a 44 anos,1,oran,salta,1124,66126,164544
+oran,66,salta,2021,16,dengue,10,de 45 a 65 anos,1,oran,salta,1125,66126,164544
+oran,66,salta,2021,16,dengue,11,mayores de 65 anos,1,oran,salta,1126,66126,164544
+oran,66,salta,2021,17,dengue,3,de 2 a 4 anos,2,oran,salta,1127,66126,164544
+oran,66,salta,2021,17,dengue,4,de 5 a 9 anos,1,oran,salta,1128,66126,164544
+oran,66,salta,2021,17,dengue,6,de 15 a 19 anos,1,oran,salta,1129,66126,164544
+oran,66,salta,2021,17,dengue,7,de 20 a 24 anos,1,oran,salta,1130,66126,164544
+oran,66,salta,2021,17,dengue,8,de 25 a 34 anos,4,oran,salta,1131,66126,164544
+oran,66,salta,2021,17,dengue,9,de 35 a 44 anos,3,oran,salta,1132,66126,164544
+oran,66,salta,2021,17,dengue,10,de 45 a 65 anos,2,oran,salta,1133,66126,164544
+oran,66,salta,2021,18,dengue,3,de 2 a 4 anos,1,oran,salta,1134,66126,164544
+oran,66,salta,2021,18,dengue,4,de 5 a 9 anos,1,oran,salta,1135,66126,164544
+oran,66,salta,2021,18,dengue,7,de 20 a 24 anos,2,oran,salta,1136,66126,164544
+oran,66,salta,2021,18,dengue,8,de 25 a 34 anos,2,oran,salta,1137,66126,164544
+oran,66,salta,2021,18,dengue,9,de 35 a 44 anos,1,oran,salta,1138,66126,164544
+oran,66,salta,2021,18,dengue,10,de 45 a 65 anos,3,oran,salta,1139,66126,164544
+oran,66,salta,2021,19,dengue,9,de 35 a 44 anos,2,oran,salta,1140,66126,164544
+oran,66,salta,2021,20,dengue,4,de 5 a 9 anos,1,oran,salta,1141,66126,164544
+oran,66,salta,2021,20,dengue,6,de 15 a 19 anos,1,oran,salta,1142,66126,164544
+oran,66,salta,2021,21,dengue,8,de 25 a 34 anos,1,oran,salta,1143,66126,164544
+oran,66,salta,2021,23,dengue,9,de 35 a 44 anos,1,oran,salta,1144,66126,164544

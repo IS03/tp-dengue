@@ -1,0 +1,294 @@
+departamento_id,departamento_nombre,provincia_id,provincia_nombre,ano,semanas_epidemiologicas,evento_nombre,grupo_edad_id,grupo_edad_desc,cantidad_casos
+1,caba,2,caba,2022,8,dengue,11,mayores de 65 anos,1
+1,caba,2,caba,2022,9,dengue,8,de 25 a 34 anos,1
+1,caba,2,caba,2022,16,dengue,10,de 45 a 65 anos,1
+1,caba,2,caba,2022,49,dengue,6,de 15 a 19 anos,1
+1,caba,2,caba,2022,48,dengue,10,de 45 a 65 anos,1
+1,caba,2,caba,2022,48,dengue,11,mayores de 65 anos,1
+1,caba,2,caba,2022,18,dengue,11,mayores de 65 anos,2
+1,caba,2,caba,2022,48,dengue,11,mayores de 65 anos,1
+28,almirante brown,6,buenos aires,2022,14,dengue,11,mayores de 65 anos,1
+245,ensenada,6,buenos aires,2022,17,dengue,9,de 35 a 44 anos,1
+270,ezeiza,6,buenos aires,2022,32,dengue,9,de 35 a 44 anos,1
+371,general san martin,6,buenos aires,2022,40,dengue,5,de 10 a 14 anos,1
+410,ituzaingo,6,buenos aires,2022,10,dengue,11,mayores de 65 anos,1
+410,ituzaingo,6,buenos aires,2022,11,dengue,11,mayores de 65 anos,1
+427,la matanza,6,buenos aires,2022,17,dengue,6,de 15 a 19 anos,1
+427,la matanza,6,buenos aires,2022,7,dengue,6,de 15 a 19 anos,1
+427,la matanza,6,buenos aires,2022,8,dengue,6,de 15 a 19 anos,2
+427,la matanza,6,buenos aires,2022,9,dengue,6,de 15 a 19 anos,2
+427,la matanza,6,buenos aires,2022,10,dengue,6,de 15 a 19 anos,1
+427,la matanza,6,buenos aires,2022,13,dengue,6,de 15 a 19 anos,1
+427,la matanza,6,buenos aires,2022,14,dengue,6,de 15 a 19 anos,2
+427,la matanza,6,buenos aires,2022,9,dengue,7,de 20 a 24 anos,2
+427,la matanza,6,buenos aires,2022,10,dengue,7,de 20 a 24 anos,2
+427,la matanza,6,buenos aires,2022,12,dengue,7,de 20 a 24 anos,2
+427,la matanza,6,buenos aires,2022,13,dengue,7,de 20 a 24 anos,3
+427,la matanza,6,buenos aires,2022,15,dengue,7,de 20 a 24 anos,3
+427,la matanza,6,buenos aires,2022,16,dengue,7,de 20 a 24 anos,2
+427,la matanza,6,buenos aires,2022,17,dengue,7,de 20 a 24 anos,2
+427,la matanza,6,buenos aires,2022,20,dengue,7,de 20 a 24 anos,1
+427,la matanza,6,buenos aires,2022,14,dengue,4,de 5 a 9 anos,1
+427,la matanza,6,buenos aires,2022,10,dengue,8,de 25 a 34 anos,1
+427,la matanza,6,buenos aires,2022,11,dengue,8,de 25 a 34 anos,1
+427,la matanza,6,buenos aires,2022,12,dengue,8,de 25 a 34 anos,2
+427,la matanza,6,buenos aires,2022,15,dengue,8,de 25 a 34 anos,3
+427,la matanza,6,buenos aires,2022,16,dengue,8,de 25 a 34 anos,1
+427,la matanza,6,buenos aires,2022,17,dengue,8,de 25 a 34 anos,1
+427,la matanza,6,buenos aires,2022,19,dengue,8,de 25 a 34 anos,2
+427,la matanza,6,buenos aires,2022,7,dengue,9,de 35 a 44 anos,1
+427,la matanza,6,buenos aires,2022,8,dengue,9,de 35 a 44 anos,1
+427,la matanza,6,buenos aires,2022,10,dengue,9,de 35 a 44 anos,1
+427,la matanza,6,buenos aires,2022,11,dengue,9,de 35 a 44 anos,1
+427,la matanza,6,buenos aires,2022,12,dengue,9,de 35 a 44 anos,2
+427,la matanza,6,buenos aires,2022,14,dengue,9,de 35 a 44 anos,6
+427,la matanza,6,buenos aires,2022,15,dengue,9,de 35 a 44 anos,2
+427,la matanza,6,buenos aires,2022,16,dengue,9,de 35 a 44 anos,2
+427,la matanza,6,buenos aires,2022,18,dengue,9,de 35 a 44 anos,2
+427,la matanza,6,buenos aires,2022,4,dengue,10,de 45 a 65 anos,1
+427,la matanza,6,buenos aires,2022,7,dengue,10,de 45 a 65 anos,1
+427,la matanza,6,buenos aires,2022,8,dengue,10,de 45 a 65 anos,1
+427,la matanza,6,buenos aires,2022,9,dengue,10,de 45 a 65 anos,1
+427,la matanza,6,buenos aires,2022,10,dengue,10,de 45 a 65 anos,3
+427,la matanza,6,buenos aires,2022,12,dengue,10,de 45 a 65 anos,1
+427,la matanza,6,buenos aires,2022,13,dengue,10,de 45 a 65 anos,2
+427,la matanza,6,buenos aires,2022,14,dengue,10,de 45 a 65 anos,6
+427,la matanza,6,buenos aires,2022,15,dengue,10,de 45 a 65 anos,4
+427,la matanza,6,buenos aires,2022,16,dengue,10,de 45 a 65 anos,2
+427,la matanza,6,buenos aires,2022,17,dengue,10,de 45 a 65 anos,2
+427,la matanza,6,buenos aires,2022,20,dengue,10,de 45 a 65 anos,1
+427,la matanza,6,buenos aires,2022,4,dengue,11,mayores de 65 anos,1
+427,la matanza,6,buenos aires,2022,7,dengue,11,mayores de 65 anos,1
+427,la matanza,6,buenos aires,2022,8,dengue,11,mayores de 65 anos,1
+427,la matanza,6,buenos aires,2022,9,dengue,11,mayores de 65 anos,3
+427,la matanza,6,buenos aires,2022,11,dengue,11,mayores de 65 anos,4
+427,la matanza,6,buenos aires,2022,12,dengue,11,mayores de 65 anos,3
+427,la matanza,6,buenos aires,2022,13,dengue,11,mayores de 65 anos,4
+427,la matanza,6,buenos aires,2022,14,dengue,11,mayores de 65 anos,2
+427,la matanza,6,buenos aires,2022,15,dengue,11,mayores de 65 anos,4
+427,la matanza,6,buenos aires,2022,16,dengue,11,mayores de 65 anos,5
+427,la matanza,6,buenos aires,2022,17,dengue,11,mayores de 65 anos,3
+427,la matanza,6,buenos aires,2022,18,dengue,11,mayores de 65 anos,3
+427,la matanza,6,buenos aires,2022,19,dengue,11,mayores de 65 anos,1
+427,la matanza,6,buenos aires,2022,7,dengue,5,de 10 a 14 anos,1
+427,la matanza,6,buenos aires,2022,10,dengue,5,de 10 a 14 anos,1
+427,la matanza,6,buenos aires,2022,13,dengue,5,de 10 a 14 anos,1
+427,la matanza,6,buenos aires,2022,14,dengue,5,de 10 a 14 anos,1
+427,la matanza,6,buenos aires,2022,8,dengue,11,mayores de 65 anos,1
+427,la matanza,6,buenos aires,2022,11,dengue,11,mayores de 65 anos,1
+427,la matanza,6,buenos aires,2022,14,dengue,11,mayores de 65 anos,2
+427,la matanza,6,buenos aires,2022,16,dengue,11,mayores de 65 anos,2
+427,la matanza,6,buenos aires,2022,17,dengue,11,mayores de 65 anos,2
+427,la matanza,6,buenos aires,2022,20,dengue,11,mayores de 65 anos,1
+434,lanus,6,buenos aires,2022,20,dengue,8,de 25 a 34 anos,1
+490,lomas de zamora,6,buenos aires,2022,14,dengue,11,mayores de 65 anos,1
+539,merlo,6,buenos aires,2022,15,dengue,11,mayores de 65 anos,1
+568,moron,6,buenos aires,2022,14,dengue,6,de 15 a 19 anos,1
+568,moron,6,buenos aires,2022,17,dengue,6,de 15 a 19 anos,1
+568,moron,6,buenos aires,2022,17,dengue,8,de 25 a 34 anos,2
+568,moron,6,buenos aires,2022,13,dengue,9,de 35 a 44 anos,1
+568,moron,6,buenos aires,2022,19,dengue,9,de 35 a 44 anos,1
+568,moron,6,buenos aires,2022,13,dengue,10,de 45 a 65 anos,2
+568,moron,6,buenos aires,2022,17,dengue,10,de 45 a 65 anos,1
+568,moron,6,buenos aires,2022,15,dengue,11,mayores de 65 anos,1
+749,san fernando,6,buenos aires,2022,10,dengue,11,mayores de 65 anos,1
+49,capital,10,catamarca,2022,4,dengue,11,mayores de 65 anos,1
+70,la paz,10,catamarca,2022,12,dengue,11,mayores de 65 anos,1
+14,capital,14,cordoba,2022,21,dengue,8,de 25 a 34 anos,1
+14,capital,14,cordoba,2022,48,dengue,8,de 25 a 34 anos,1
+14,capital,14,cordoba,2022,13,dengue,9,de 35 a 44 anos,1
+14,capital,14,cordoba,2022,48,dengue,9,de 35 a 44 anos,1
+14,capital,14,cordoba,2022,50,dengue,11,mayores de 65 anos,1
+21,colon,14,cordoba,2022,16,dengue,8,de 25 a 34 anos,1
+21,colon,14,cordoba,2022,17,dengue,10,de 45 a 65 anos,1
+147,santa maria,14,cordoba,2022,40,dengue,10,de 45 a 65 anos,1
+21,capital,18,corrientes,2022,31,dengue,10,de 45 a 65 anos,1
+21,godoy cruz,50,mendoza,2022,41,dengue,11,mayores de 65 anos,1
+35,junin,50,mendoza,2022,44,dengue,9,de 35 a 44 anos,1
+49,las heras,50,mendoza,2022,11,dengue,10,de 45 a 65 anos,1
+56,guarani,54,misiones,2022,19,dengue,9,de 35 a 44 anos,1
+28,capital,66,salta,2022,16,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,6,dengue,6,de 15 a 19 anos,1
+56,grl jose de san martin,66,salta,2022,10,dengue,6,de 15 a 19 anos,1
+56,grl jose de san martin,66,salta,2022,11,dengue,6,de 15 a 19 anos,5
+56,grl jose de san martin,66,salta,2022,12,dengue,6,de 15 a 19 anos,4
+56,grl jose de san martin,66,salta,2022,13,dengue,6,de 15 a 19 anos,3
+56,grl jose de san martin,66,salta,2022,14,dengue,6,de 15 a 19 anos,10
+56,grl jose de san martin,66,salta,2022,15,dengue,6,de 15 a 19 anos,8
+56,grl jose de san martin,66,salta,2022,16,dengue,6,de 15 a 19 anos,9
+56,grl jose de san martin,66,salta,2022,17,dengue,6,de 15 a 19 anos,10
+56,grl jose de san martin,66,salta,2022,18,dengue,6,de 15 a 19 anos,4
+56,grl jose de san martin,66,salta,2022,19,dengue,6,de 15 a 19 anos,4
+56,grl jose de san martin,66,salta,2022,20,dengue,6,de 15 a 19 anos,3
+56,grl jose de san martin,66,salta,2022,21,dengue,6,de 15 a 19 anos,1
+56,grl jose de san martin,66,salta,2022,22,dengue,6,de 15 a 19 anos,1
+56,grl jose de san martin,66,salta,2022,16,dengue,3,de 2 a 4 anos,1
+56,grl jose de san martin,66,salta,2022,17,dengue,3,de 2 a 4 anos,1
+56,grl jose de san martin,66,salta,2022,10,dengue,7,de 20 a 24 anos,2
+56,grl jose de san martin,66,salta,2022,11,dengue,7,de 20 a 24 anos,2
+56,grl jose de san martin,66,salta,2022,12,dengue,7,de 20 a 24 anos,2
+56,grl jose de san martin,66,salta,2022,13,dengue,7,de 20 a 24 anos,2
+56,grl jose de san martin,66,salta,2022,14,dengue,7,de 20 a 24 anos,6
+56,grl jose de san martin,66,salta,2022,15,dengue,7,de 20 a 24 anos,9
+56,grl jose de san martin,66,salta,2022,16,dengue,7,de 20 a 24 anos,10
+56,grl jose de san martin,66,salta,2022,17,dengue,7,de 20 a 24 anos,6
+56,grl jose de san martin,66,salta,2022,18,dengue,7,de 20 a 24 anos,5
+56,grl jose de san martin,66,salta,2022,19,dengue,7,de 20 a 24 anos,4
+56,grl jose de san martin,66,salta,2022,20,dengue,7,de 20 a 24 anos,1
+56,grl jose de san martin,66,salta,2022,14,dengue,4,de 5 a 9 anos,3
+56,grl jose de san martin,66,salta,2022,15,dengue,4,de 5 a 9 anos,1
+56,grl jose de san martin,66,salta,2022,16,dengue,4,de 5 a 9 anos,2
+56,grl jose de san martin,66,salta,2022,17,dengue,4,de 5 a 9 anos,4
+56,grl jose de san martin,66,salta,2022,18,dengue,4,de 5 a 9 anos,2
+56,grl jose de san martin,66,salta,2022,19,dengue,4,de 5 a 9 anos,1
+56,grl jose de san martin,66,salta,2022,5,dengue,8,de 25 a 34 anos,1
+56,grl jose de san martin,66,salta,2022,10,dengue,8,de 25 a 34 anos,3
+56,grl jose de san martin,66,salta,2022,12,dengue,8,de 25 a 34 anos,3
+56,grl jose de san martin,66,salta,2022,13,dengue,8,de 25 a 34 anos,2
+56,grl jose de san martin,66,salta,2022,14,dengue,8,de 25 a 34 anos,11
+56,grl jose de san martin,66,salta,2022,15,dengue,8,de 25 a 34 anos,9
+56,grl jose de san martin,66,salta,2022,16,dengue,8,de 25 a 34 anos,8
+56,grl jose de san martin,66,salta,2022,17,dengue,8,de 25 a 34 anos,3
+56,grl jose de san martin,66,salta,2022,18,dengue,8,de 25 a 34 anos,6
+56,grl jose de san martin,66,salta,2022,19,dengue,8,de 25 a 34 anos,8
+56,grl jose de san martin,66,salta,2022,20,dengue,8,de 25 a 34 anos,3
+56,grl jose de san martin,66,salta,2022,21,dengue,8,de 25 a 34 anos,3
+56,grl jose de san martin,66,salta,2022,4,dengue,9,de 35 a 44 anos,1
+56,grl jose de san martin,66,salta,2022,7,dengue,9,de 35 a 44 anos,1
+56,grl jose de san martin,66,salta,2022,11,dengue,9,de 35 a 44 anos,4
+56,grl jose de san martin,66,salta,2022,12,dengue,9,de 35 a 44 anos,7
+56,grl jose de san martin,66,salta,2022,13,dengue,9,de 35 a 44 anos,7
+56,grl jose de san martin,66,salta,2022,14,dengue,9,de 35 a 44 anos,14
+56,grl jose de san martin,66,salta,2022,15,dengue,9,de 35 a 44 anos,11
+56,grl jose de san martin,66,salta,2022,16,dengue,9,de 35 a 44 anos,13
+56,grl jose de san martin,66,salta,2022,17,dengue,9,de 35 a 44 anos,15
+56,grl jose de san martin,66,salta,2022,18,dengue,9,de 35 a 44 anos,13
+56,grl jose de san martin,66,salta,2022,19,dengue,9,de 35 a 44 anos,4
+56,grl jose de san martin,66,salta,2022,20,dengue,9,de 35 a 44 anos,4
+56,grl jose de san martin,66,salta,2022,21,dengue,9,de 35 a 44 anos,5
+56,grl jose de san martin,66,salta,2022,22,dengue,9,de 35 a 44 anos,1
+56,grl jose de san martin,66,salta,2022,5,dengue,10,de 45 a 65 anos,1
+56,grl jose de san martin,66,salta,2022,9,dengue,10,de 45 a 65 anos,1
+56,grl jose de san martin,66,salta,2022,10,dengue,10,de 45 a 65 anos,1
+56,grl jose de san martin,66,salta,2022,12,dengue,10,de 45 a 65 anos,11
+56,grl jose de san martin,66,salta,2022,13,dengue,10,de 45 a 65 anos,8
+56,grl jose de san martin,66,salta,2022,14,dengue,10,de 45 a 65 anos,11
+56,grl jose de san martin,66,salta,2022,15,dengue,10,de 45 a 65 anos,9
+56,grl jose de san martin,66,salta,2022,16,dengue,10,de 45 a 65 anos,19
+56,grl jose de san martin,66,salta,2022,17,dengue,10,de 45 a 65 anos,13
+56,grl jose de san martin,66,salta,2022,18,dengue,10,de 45 a 65 anos,9
+56,grl jose de san martin,66,salta,2022,19,dengue,10,de 45 a 65 anos,4
+56,grl jose de san martin,66,salta,2022,20,dengue,10,de 45 a 65 anos,1
+56,grl jose de san martin,66,salta,2022,21,dengue,10,de 45 a 65 anos,4
+56,grl jose de san martin,66,salta,2022,22,dengue,10,de 45 a 65 anos,1
+56,grl jose de san martin,66,salta,2022,5,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,8,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,10,dengue,11,mayores de 65 anos,2
+56,grl jose de san martin,66,salta,2022,11,dengue,11,mayores de 65 anos,10
+56,grl jose de san martin,66,salta,2022,12,dengue,11,mayores de 65 anos,4
+56,grl jose de san martin,66,salta,2022,13,dengue,11,mayores de 65 anos,6
+56,grl jose de san martin,66,salta,2022,14,dengue,11,mayores de 65 anos,10
+56,grl jose de san martin,66,salta,2022,15,dengue,11,mayores de 65 anos,16
+56,grl jose de san martin,66,salta,2022,16,dengue,11,mayores de 65 anos,14
+56,grl jose de san martin,66,salta,2022,17,dengue,11,mayores de 65 anos,11
+56,grl jose de san martin,66,salta,2022,18,dengue,11,mayores de 65 anos,12
+56,grl jose de san martin,66,salta,2022,19,dengue,11,mayores de 65 anos,3
+56,grl jose de san martin,66,salta,2022,20,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,21,dengue,11,mayores de 65 anos,3
+56,grl jose de san martin,66,salta,2022,22,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,4,dengue,5,de 10 a 14 anos,1
+56,grl jose de san martin,66,salta,2022,11,dengue,5,de 10 a 14 anos,1
+56,grl jose de san martin,66,salta,2022,12,dengue,5,de 10 a 14 anos,4
+56,grl jose de san martin,66,salta,2022,13,dengue,5,de 10 a 14 anos,7
+56,grl jose de san martin,66,salta,2022,14,dengue,5,de 10 a 14 anos,7
+56,grl jose de san martin,66,salta,2022,15,dengue,5,de 10 a 14 anos,5
+56,grl jose de san martin,66,salta,2022,16,dengue,5,de 10 a 14 anos,4
+56,grl jose de san martin,66,salta,2022,17,dengue,5,de 10 a 14 anos,7
+56,grl jose de san martin,66,salta,2022,18,dengue,5,de 10 a 14 anos,5
+56,grl jose de san martin,66,salta,2022,19,dengue,5,de 10 a 14 anos,2
+56,grl jose de san martin,66,salta,2022,12,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,13,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,14,dengue,11,mayores de 65 anos,4
+56,grl jose de san martin,66,salta,2022,15,dengue,11,mayores de 65 anos,2
+56,grl jose de san martin,66,salta,2022,16,dengue,11,mayores de 65 anos,2
+56,grl jose de san martin,66,salta,2022,17,dengue,11,mayores de 65 anos,3
+56,grl jose de san martin,66,salta,2022,18,dengue,11,mayores de 65 anos,3
+56,grl jose de san martin,66,salta,2022,19,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,20,dengue,11,mayores de 65 anos,1
+56,grl jose de san martin,66,salta,2022,12,dengue,2,de 13 a 24 meses,1
+56,grl jose de san martin,66,salta,2022,17,dengue,2,de 13 a 24 meses,1
+126,oran,66,salta,2022,16,dengue,6,de 15 a 19 anos,1
+126,oran,66,salta,2022,19,dengue,8,de 25 a 34 anos,1
+126,oran,66,salta,2022,13,dengue,9,de 35 a 44 anos,1
+126,oran,66,salta,2022,14,dengue,9,de 35 a 44 anos,1
+126,oran,66,salta,2022,17,dengue,9,de 35 a 44 anos,2
+126,oran,66,salta,2022,20,dengue,9,de 35 a 44 anos,1
+126,oran,66,salta,2022,21,dengue,9,de 35 a 44 anos,1
+126,oran,66,salta,2022,23,dengue,9,de 35 a 44 anos,1
+126,oran,66,salta,2022,14,dengue,11,mayores de 65 anos,1
+126,oran,66,salta,2022,19,dengue,11,mayores de 65 anos,1
+126,oran,66,salta,2022,21,dengue,11,mayores de 65 anos,1
+126,oran,66,salta,2022,18,dengue,5,de 10 a 14 anos,1
+126,oran,66,salta,2022,14,dengue,11,mayores de 65 anos,1
+126,oran,66,salta,2022,15,dengue,11,mayores de 65 anos,1
+126,oran,66,salta,2022,18,dengue,11,mayores de 65 anos,1
+133,rivadavia,66,salta,2022,15,dengue,6,de 15 a 19 anos,1
+133,rivadavia,66,salta,2022,17,dengue,6,de 15 a 19 anos,2
+133,rivadavia,66,salta,2022,14,dengue,7,de 20 a 24 anos,1
+133,rivadavia,66,salta,2022,17,dengue,7,de 20 a 24 anos,1
+133,rivadavia,66,salta,2022,18,dengue,7,de 20 a 24 anos,1
+133,rivadavia,66,salta,2022,19,dengue,7,de 20 a 24 anos,1
+133,rivadavia,66,salta,2022,22,dengue,7,de 20 a 24 anos,1
+133,rivadavia,66,salta,2022,17,dengue,4,de 5 a 9 anos,1
+133,rivadavia,66,salta,2022,15,dengue,8,de 25 a 34 anos,1
+133,rivadavia,66,salta,2022,16,dengue,8,de 25 a 34 anos,2
+133,rivadavia,66,salta,2022,12,dengue,9,de 35 a 44 anos,1
+133,rivadavia,66,salta,2022,15,dengue,9,de 35 a 44 anos,2
+133,rivadavia,66,salta,2022,17,dengue,9,de 35 a 44 anos,1
+133,rivadavia,66,salta,2022,19,dengue,9,de 35 a 44 anos,2
+133,rivadavia,66,salta,2022,20,dengue,9,de 35 a 44 anos,1
+133,rivadavia,66,salta,2022,14,dengue,10,de 45 a 65 anos,2
+133,rivadavia,66,salta,2022,16,dengue,10,de 45 a 65 anos,1
+133,rivadavia,66,salta,2022,17,dengue,10,de 45 a 65 anos,1
+133,rivadavia,66,salta,2022,18,dengue,10,de 45 a 65 anos,2
+133,rivadavia,66,salta,2022,12,dengue,11,mayores de 65 anos,1
+133,rivadavia,66,salta,2022,14,dengue,11,mayores de 65 anos,1
+133,rivadavia,66,salta,2022,15,dengue,11,mayores de 65 anos,2
+133,rivadavia,66,salta,2022,16,dengue,11,mayores de 65 anos,1
+133,rivadavia,66,salta,2022,17,dengue,11,mayores de 65 anos,4
+133,rivadavia,66,salta,2022,18,dengue,11,mayores de 65 anos,2
+133,rivadavia,66,salta,2022,22,dengue,11,mayores de 65 anos,1
+133,rivadavia,66,salta,2022,11,dengue,11,mayores de 65 anos,1
+133,rivadavia,66,salta,2022,14,dengue,2,de 13 a 24 meses,1
+56,la capital,74,san luis,2022,8,dengue,9,de 35 a 44 anos,1
+21,castellanos,82,santa fe,2022,19,dengue,6,de 15 a 19 anos,1
+21,castellanos,82,santa fe,2022,11,dengue,7,de 20 a 24 anos,1
+21,castellanos,82,santa fe,2022,12,dengue,8,de 25 a 34 anos,1
+21,castellanos,82,santa fe,2022,15,dengue,8,de 25 a 34 anos,1
+21,castellanos,82,santa fe,2022,10,dengue,9,de 35 a 44 anos,1
+21,castellanos,82,santa fe,2022,11,dengue,9,de 35 a 44 anos,1
+21,castellanos,82,santa fe,2022,20,dengue,9,de 35 a 44 anos,1
+21,castellanos,82,santa fe,2022,11,dengue,10,de 45 a 65 anos,1
+21,castellanos,82,santa fe,2022,13,dengue,10,de 45 a 65 anos,1
+21,castellanos,82,santa fe,2022,14,dengue,10,de 45 a 65 anos,1
+21,castellanos,82,santa fe,2022,18,dengue,10,de 45 a 65 anos,1
+21,castellanos,82,santa fe,2022,19,dengue,10,de 45 a 65 anos,1
+21,castellanos,82,santa fe,2022,20,dengue,10,de 45 a 65 anos,1
+21,castellanos,82,santa fe,2022,9,dengue,11,mayores de 65 anos,2
+21,castellanos,82,santa fe,2022,10,dengue,11,mayores de 65 anos,1
+21,castellanos,82,santa fe,2022,13,dengue,11,mayores de 65 anos,1
+21,castellanos,82,santa fe,2022,14,dengue,11,mayores de 65 anos,1
+21,castellanos,82,santa fe,2022,18,dengue,11,mayores de 65 anos,1
+28,constitucion,82,santa fe,2022,20,dengue,10,de 45 a 65 anos,1
+63,la capital,82,santa fe,2022,17,dengue,11,mayores de 65 anos,1
+84,rosario,82,santa fe,2022,20,dengue,8,de 25 a 34 anos,1
+84,rosario,82,santa fe,2022,5,dengue,9,de 35 a 44 anos,1
+84,rosario,82,santa fe,2022,28,dengue,10,de 45 a 65 anos,1
+119,san lorenzo,82,santa fe,2022,15,dengue,10,de 45 a 65 anos,1
+119,san lorenzo,82,santa fe,2022,29,dengue,10,de 45 a 65 anos,1
+119,san lorenzo,82,santa fe,2022,14,dengue,11,mayores de 65 anos,1
+126,san martin,82,santa fe,2022,13,dengue,9,de 35 a 44 anos,1
+35,banda,86,santiago del estero,2022,14,dengue,10,de 45 a 65 anos,1
+35,banda,86,santiago del estero,2022,16,dengue,10,de 45 a 65 anos,1
+35,banda,86,santiago del estero,2022,6,dengue,11,mayores de 65 anos,1
+49,capital,86,santiago del estero,2022,14,dengue,10,de 45 a 65 anos,1

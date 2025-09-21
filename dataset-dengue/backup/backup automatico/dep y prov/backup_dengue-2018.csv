@@ -1,0 +1,918 @@
+departamento_nombre,provincia_id,provincia_nombre,ano,semanas_epidemiologicas,evento_nombre,grupo_edad_id,grupo_edad_desc,cantidad_casos,departamento_nombre_normalizado,provincia_nombre_normalizado,fila_original
+comuna 3,2,ciudad de buenos aires,2018,15,dengue,6,de 15 a 19 anos,1,comuna 3,ciudad de buenos aires,2
+comuna 4,2,ciudad de buenos aires,2018,6,dengue,6,de 15 a 19 anos,1,comuna 4,ciudad de buenos aires,3
+berazategui,6,buenos aires,2018,11,dengue,7,de 20 a 24 anos,1,berazategui,buenos aires,4
+berazategui,6,buenos aires,2018,14,dengue,9,de 35 a 44 anos,2,berazategui,buenos aires,5
+berazategui,6,buenos aires,2018,19,dengue,11,mayores de 65 anos,1,berazategui,buenos aires,6
+berazategui,6,buenos aires,2018,21,dengue,9,de 35 a 44 anos,1,berazategui,buenos aires,7
+la matanza,6,buenos aires,2018,12,dengue,6,de 15 a 19 anos,1,la matanza,buenos aires,8
+la matanza,6,buenos aires,2018,16,dengue,6,de 15 a 19 anos,1,la matanza,buenos aires,9
+la plata,6,buenos aires,2018,14,dengue,11,mayores de 65 anos,1,la plata,buenos aires,10
+guaymallen,50,mendoza,2018,23,dengue,10,de 45 a 65 anos,1,guaymallen,mendoza,11
+9 de julio,82,santa fe,2018,20,dengue,6,de 15 a 19 anos,1,9 de julio,santa fe,12
+9 de julio,82,santa fe,2018,23,dengue,9,de 35 a 44 anos,1,9 de julio,santa fe,13
+comuna 1,2,ciudad de buenos aires,2018,16,dengue,11,mayores de 65 anos,1,comuna 1,ciudad de buenos aires,14
+comuna 1,2,ciudad de buenos aires,2018,17,dengue,9,de 35 a 44 anos,1,comuna 1,ciudad de buenos aires,15
+comuna 1,2,ciudad de buenos aires,2018,18,dengue,10,de 45 a 65 anos,1,comuna 1,ciudad de buenos aires,16
+comuna 2,2,ciudad de buenos aires,2018,10,dengue,10,de 45 a 65 anos,1,comuna 2,ciudad de buenos aires,17
+comuna 2,2,ciudad de buenos aires,2018,18,dengue,8,de 25 a 34 anos,1,comuna 2,ciudad de buenos aires,18
+comuna 3,2,ciudad de buenos aires,2018,8,dengue,10,de 45 a 65 anos,1,comuna 3,ciudad de buenos aires,19
+comuna 3,2,ciudad de buenos aires,2018,9,dengue,9,de 35 a 44 anos,1,comuna 3,ciudad de buenos aires,20
+comuna 3,2,ciudad de buenos aires,2018,9,dengue,11,mayores de 65 anos,2,comuna 3,ciudad de buenos aires,21
+comuna 3,2,ciudad de buenos aires,2018,10,dengue,7,de 20 a 24 anos,1,comuna 3,ciudad de buenos aires,22
+comuna 3,2,ciudad de buenos aires,2018,11,dengue,11,mayores de 65 anos,2,comuna 3,ciudad de buenos aires,23
+comuna 3,2,ciudad de buenos aires,2018,12,dengue,10,de 45 a 65 anos,2,comuna 3,ciudad de buenos aires,24
+comuna 3,2,ciudad de buenos aires,2018,12,dengue,11,mayores de 65 anos,2,comuna 3,ciudad de buenos aires,25
+comuna 3,2,ciudad de buenos aires,2018,13,dengue,11,mayores de 65 anos,1,comuna 3,ciudad de buenos aires,26
+comuna 3,2,ciudad de buenos aires,2018,14,dengue,7,de 20 a 24 anos,1,comuna 3,ciudad de buenos aires,27
+comuna 3,2,ciudad de buenos aires,2018,15,dengue,11,mayores de 65 anos,1,comuna 3,ciudad de buenos aires,28
+comuna 3,2,ciudad de buenos aires,2018,16,dengue,5,de 10 a 14 anos,3,comuna 3,ciudad de buenos aires,29
+comuna 3,2,ciudad de buenos aires,2018,17,dengue,8,de 25 a 34 anos,1,comuna 3,ciudad de buenos aires,30
+comuna 3,2,ciudad de buenos aires,2018,18,dengue,11,mayores de 65 anos,1,comuna 3,ciudad de buenos aires,31
+comuna 4,2,ciudad de buenos aires,2018,6,dengue,5,de 10 a 14 anos,1,comuna 4,ciudad de buenos aires,32
+comuna 4,2,ciudad de buenos aires,2018,8,dengue,9,de 35 a 44 anos,1,comuna 4,ciudad de buenos aires,33
+comuna 4,2,ciudad de buenos aires,2018,8,dengue,10,de 45 a 65 anos,1,comuna 4,ciudad de buenos aires,34
+comuna 4,2,ciudad de buenos aires,2018,9,dengue,11,mayores de 65 anos,1,comuna 4,ciudad de buenos aires,35
+comuna 4,2,ciudad de buenos aires,2018,10,dengue,7,de 20 a 24 anos,1,comuna 4,ciudad de buenos aires,36
+comuna 4,2,ciudad de buenos aires,2018,10,dengue,9,de 35 a 44 anos,1,comuna 4,ciudad de buenos aires,37
+comuna 4,2,ciudad de buenos aires,2018,10,dengue,10,de 45 a 65 anos,1,comuna 4,ciudad de buenos aires,38
+comuna 4,2,ciudad de buenos aires,2018,11,dengue,7,de 20 a 24 anos,1,comuna 4,ciudad de buenos aires,39
+comuna 4,2,ciudad de buenos aires,2018,12,dengue,7,de 20 a 24 anos,1,comuna 4,ciudad de buenos aires,40
+comuna 4,2,ciudad de buenos aires,2018,12,dengue,9,de 35 a 44 anos,2,comuna 4,ciudad de buenos aires,41
+comuna 4,2,ciudad de buenos aires,2018,12,dengue,10,de 45 a 65 anos,1,comuna 4,ciudad de buenos aires,42
+comuna 4,2,ciudad de buenos aires,2018,13,dengue,7,de 20 a 24 anos,4,comuna 4,ciudad de buenos aires,43
+comuna 4,2,ciudad de buenos aires,2018,13,dengue,11,mayores de 65 anos,1,comuna 4,ciudad de buenos aires,44
+comuna 4,2,ciudad de buenos aires,2018,14,dengue,6,de 15 a 19 anos,1,comuna 4,ciudad de buenos aires,45
+comuna 4,2,ciudad de buenos aires,2018,14,dengue,7,de 20 a 24 anos,1,comuna 4,ciudad de buenos aires,46
+comuna 4,2,ciudad de buenos aires,2018,14,dengue,10,de 45 a 65 anos,3,comuna 4,ciudad de buenos aires,47
+comuna 4,2,ciudad de buenos aires,2018,14,dengue,11,mayores de 65 anos,1,comuna 4,ciudad de buenos aires,48
+comuna 4,2,ciudad de buenos aires,2018,15,dengue,7,de 20 a 24 anos,1,comuna 4,ciudad de buenos aires,49
+comuna 4,2,ciudad de buenos aires,2018,15,dengue,7,de 20 a 24 anos,2,comuna 4,ciudad de buenos aires,50
+comuna 4,2,ciudad de buenos aires,2018,15,dengue,10,de 45 a 65 anos,1,comuna 4,ciudad de buenos aires,51
+comuna 4,2,ciudad de buenos aires,2018,15,dengue,11,mayores de 65 anos,1,comuna 4,ciudad de buenos aires,52
+comuna 4,2,ciudad de buenos aires,2018,15,dengue,11,mayores de 65 anos,1,comuna 4,ciudad de buenos aires,53
+comuna 4,2,ciudad de buenos aires,2018,16,dengue,2,de 13 a 24 meses,1,comuna 4,ciudad de buenos aires,54
+comuna 4,2,ciudad de buenos aires,2018,16,dengue,5,de 10 a 14 anos,3,comuna 4,ciudad de buenos aires,55
+comuna 4,2,ciudad de buenos aires,2018,16,dengue,6,de 15 a 19 anos,1,comuna 4,ciudad de buenos aires,56
+comuna 4,2,ciudad de buenos aires,2018,16,dengue,7,de 20 a 24 anos,2,comuna 4,ciudad de buenos aires,57
+comuna 4,2,ciudad de buenos aires,2018,16,dengue,8,de 25 a 34 anos,1,comuna 4,ciudad de buenos aires,58
+comuna 4,2,ciudad de buenos aires,2018,16,dengue,10,de 45 a 65 anos,2,comuna 4,ciudad de buenos aires,59
+comuna 4,2,ciudad de buenos aires,2018,16,dengue,11,mayores de 65 anos,1,comuna 4,ciudad de buenos aires,60
+comuna 4,2,ciudad de buenos aires,2018,16,dengue,11,mayores de 65 anos,1,comuna 4,ciudad de buenos aires,61
+comuna 4,2,ciudad de buenos aires,2018,17,dengue,5,de 10 a 14 anos,1,comuna 4,ciudad de buenos aires,62
+comuna 4,2,ciudad de buenos aires,2018,17,dengue,6,de 15 a 19 anos,2,comuna 4,ciudad de buenos aires,63
+comuna 4,2,ciudad de buenos aires,2018,17,dengue,8,de 25 a 34 anos,2,comuna 4,ciudad de buenos aires,64
+comuna 4,2,ciudad de buenos aires,2018,17,dengue,9,de 35 a 44 anos,3,comuna 4,ciudad de buenos aires,65
+comuna 4,2,ciudad de buenos aires,2018,17,dengue,11,mayores de 65 anos,1,comuna 4,ciudad de buenos aires,66
+comuna 4,2,ciudad de buenos aires,2018,18,dengue,6,de 15 a 19 anos,5,comuna 4,ciudad de buenos aires,67
+comuna 4,2,ciudad de buenos aires,2018,18,dengue,8,de 25 a 34 anos,3,comuna 4,ciudad de buenos aires,68
+comuna 4,2,ciudad de buenos aires,2018,18,dengue,9,de 35 a 44 anos,2,comuna 4,ciudad de buenos aires,69
+comuna 4,2,ciudad de buenos aires,2018,18,dengue,10,de 45 a 65 anos,4,comuna 4,ciudad de buenos aires,70
+comuna 4,2,ciudad de buenos aires,2018,18,dengue,11,mayores de 65 anos,2,comuna 4,ciudad de buenos aires,71
+comuna 4,2,ciudad de buenos aires,2018,19,dengue,5,de 10 a 14 anos,1,comuna 4,ciudad de buenos aires,72
+comuna 4,2,ciudad de buenos aires,2018,19,dengue,8,de 25 a 34 anos,1,comuna 4,ciudad de buenos aires,73
+comuna 4,2,ciudad de buenos aires,2018,19,dengue,10,de 45 a 65 anos,2,comuna 4,ciudad de buenos aires,74
+comuna 4,2,ciudad de buenos aires,2018,21,dengue,11,mayores de 65 anos,2,comuna 4,ciudad de buenos aires,75
+comuna 4,2,ciudad de buenos aires,2018,24,dengue,6,de 15 a 19 anos,1,comuna 4,ciudad de buenos aires,76
+comuna 5,2,ciudad de buenos aires,2018,11,dengue,10,de 45 a 65 anos,1,comuna 5,ciudad de buenos aires,77
+comuna 5,2,ciudad de buenos aires,2018,23,dengue,8,de 25 a 34 anos,1,comuna 5,ciudad de buenos aires,78
+comuna 6,2,ciudad de buenos aires,2018,13,dengue,11,mayores de 65 anos,1,comuna 6,ciudad de buenos aires,79
+comuna 6,2,ciudad de buenos aires,2018,19,dengue,10,de 45 a 65 anos,1,comuna 6,ciudad de buenos aires,80
+comuna 7,2,ciudad de buenos aires,2018,17,dengue,9,de 35 a 44 anos,1,comuna 7,ciudad de buenos aires,81
+comuna 7,2,ciudad de buenos aires,2018,18,dengue,9,de 35 a 44 anos,1,comuna 7,ciudad de buenos aires,82
+comuna 7,2,ciudad de buenos aires,2018,18,dengue,10,de 45 a 65 anos,1,comuna 7,ciudad de buenos aires,83
+comuna 8,2,ciudad de buenos aires,2018,12,dengue,1,posneonato 29 hasta 365 dias,1,comuna 8,ciudad de buenos aires,84
+comuna 8,2,ciudad de buenos aires,2018,15,dengue,10,de 45 a 65 anos,1,comuna 8,ciudad de buenos aires,85
+comuna 8,2,ciudad de buenos aires,2018,18,dengue,6,de 15 a 19 anos,1,comuna 8,ciudad de buenos aires,86
+comuna 8,2,ciudad de buenos aires,2018,18,dengue,10,de 45 a 65 anos,1,comuna 8,ciudad de buenos aires,87
+comuna 8,2,ciudad de buenos aires,2018,18,dengue,11,mayores de 65 anos,1,comuna 8,ciudad de buenos aires,88
+comuna 8,2,ciudad de buenos aires,2018,18,dengue,11,mayores de 65 anos,1,comuna 8,ciudad de buenos aires,89
+comuna 8,2,ciudad de buenos aires,2018,19,dengue,4,de 5 a 9 anos,1,comuna 8,ciudad de buenos aires,90
+comuna 9,2,ciudad de buenos aires,2018,5,dengue,7,de 20 a 24 anos,1,comuna 9,ciudad de buenos aires,91
+comuna 9,2,ciudad de buenos aires,2018,18,dengue,10,de 45 a 65 anos,1,comuna 9,ciudad de buenos aires,92
+comuna 9,2,ciudad de buenos aires,2018,18,dengue,11,mayores de 65 anos,1,comuna 9,ciudad de buenos aires,93
+comuna 10,2,ciudad de buenos aires,2018,16,dengue,4,de 5 a 9 anos,1,comuna 10,ciudad de buenos aires,94
+comuna 10,2,ciudad de buenos aires,2018,18,dengue,5,de 10 a 14 anos,1,comuna 10,ciudad de buenos aires,95
+comuna 10,2,ciudad de buenos aires,2018,18,dengue,6,de 15 a 19 anos,1,comuna 10,ciudad de buenos aires,96
+comuna 12,2,ciudad de buenos aires,2018,11,dengue,7,de 20 a 24 anos,1,comuna 12,ciudad de buenos aires,97
+comuna 12,2,ciudad de buenos aires,2018,11,dengue,11,mayores de 65 anos,1,comuna 12,ciudad de buenos aires,98
+comuna 12,2,ciudad de buenos aires,2018,13,dengue,11,mayores de 65 anos,1,comuna 12,ciudad de buenos aires,99
+comuna 12,2,ciudad de buenos aires,2018,17,dengue,11,mayores de 65 anos,1,comuna 12,ciudad de buenos aires,100
+comuna 12,2,ciudad de buenos aires,2018,19,dengue,9,de 35 a 44 anos,1,comuna 12,ciudad de buenos aires,101
+comuna 14,2,ciudad de buenos aires,2018,38,dengue,9,de 35 a 44 anos,1,comuna 14,ciudad de buenos aires,102
+comuna 15,2,ciudad de buenos aires,2018,9,dengue,10,de 45 a 65 anos,1,comuna 15,ciudad de buenos aires,103
+comuna 15,2,ciudad de buenos aires,2018,12,dengue,11,mayores de 65 anos,1,comuna 15,ciudad de buenos aires,104
+comuna 15,2,ciudad de buenos aires,2018,15,dengue,11,mayores de 65 anos,1,comuna 15,ciudad de buenos aires,105
+comuna 15,2,ciudad de buenos aires,2018,16,dengue,9,de 35 a 44 anos,1,comuna 15,ciudad de buenos aires,106
+comuna 15,2,ciudad de buenos aires,2018,17,dengue,11,mayores de 65 anos,1,comuna 15,ciudad de buenos aires,107
+comuna 15,2,ciudad de buenos aires,2018,18,dengue,7,de 20 a 24 anos,1,comuna 15,ciudad de buenos aires,108
+almirante brown,6,buenos aires,2018,16,dengue,11,mayores de 65 anos,1,almirante brown,buenos aires,109
+almirante brown,6,buenos aires,2018,18,dengue,11,mayores de 65 anos,1,almirante brown,buenos aires,110
+almirante brown,6,buenos aires,2018,19,dengue,10,de 45 a 65 anos,1,almirante brown,buenos aires,111
+avellaneda,6,rio negro,2018,7,dengue,7,de 20 a 24 anos,1,avellaneda,buenos aires,112
+avellaneda,6,rio negro,2018,7,dengue,11,mayores de 65 anos,1,avellaneda,buenos aires,113
+avellaneda,6,rio negro,2018,9,dengue,6,de 15 a 19 anos,1,avellaneda,buenos aires,114
+avellaneda,6,rio negro,2018,9,dengue,7,de 20 a 24 anos,1,avellaneda,buenos aires,115
+avellaneda,6,rio negro,2018,9,dengue,9,de 35 a 44 anos,1,avellaneda,buenos aires,116
+avellaneda,6,rio negro,2018,10,dengue,7,de 20 a 24 anos,1,avellaneda,buenos aires,117
+avellaneda,6,rio negro,2018,10,dengue,11,mayores de 65 anos,1,avellaneda,buenos aires,118
+avellaneda,6,rio negro,2018,11,dengue,6,de 15 a 19 anos,2,avellaneda,buenos aires,119
+avellaneda,6,rio negro,2018,11,dengue,7,de 20 a 24 anos,1,avellaneda,buenos aires,120
+avellaneda,6,rio negro,2018,11,dengue,9,de 35 a 44 anos,1,avellaneda,buenos aires,121
+avellaneda,6,rio negro,2018,11,dengue,11,mayores de 65 anos,1,avellaneda,buenos aires,122
+avellaneda,6,rio negro,2018,12,dengue,6,de 15 a 19 anos,1,avellaneda,buenos aires,123
+avellaneda,6,rio negro,2018,12,dengue,10,de 45 a 65 anos,2,avellaneda,buenos aires,124
+avellaneda,6,rio negro,2018,13,dengue,9,de 35 a 44 anos,2,avellaneda,buenos aires,125
+avellaneda,6,rio negro,2018,13,dengue,10,de 45 a 65 anos,2,avellaneda,buenos aires,126
+avellaneda,6,rio negro,2018,13,dengue,11,mayores de 65 anos,1,avellaneda,buenos aires,127
+avellaneda,6,rio negro,2018,14,dengue,5,de 10 a 14 anos,1,avellaneda,buenos aires,128
+avellaneda,6,rio negro,2018,14,dengue,6,de 15 a 19 anos,2,avellaneda,buenos aires,129
+avellaneda,6,rio negro,2018,14,dengue,7,de 20 a 24 anos,1,avellaneda,buenos aires,130
+avellaneda,6,rio negro,2018,14,dengue,9,de 35 a 44 anos,3,avellaneda,buenos aires,131
+avellaneda,6,rio negro,2018,14,dengue,10,de 45 a 65 anos,1,avellaneda,buenos aires,132
+avellaneda,6,rio negro,2018,14,dengue,11,mayores de 65 anos,2,avellaneda,buenos aires,133
+avellaneda,6,rio negro,2018,15,dengue,5,de 10 a 14 anos,2,avellaneda,buenos aires,134
+avellaneda,6,rio negro,2018,15,dengue,9,de 35 a 44 anos,3,avellaneda,buenos aires,135
+avellaneda,6,rio negro,2018,15,dengue,11,mayores de 65 anos,1,avellaneda,buenos aires,136
+avellaneda,6,rio negro,2018,16,dengue,6,de 15 a 19 anos,1,avellaneda,buenos aires,137
+avellaneda,6,rio negro,2018,16,dengue,7,de 20 a 24 anos,2,avellaneda,buenos aires,138
+avellaneda,6,rio negro,2018,16,dengue,9,de 35 a 44 anos,1,avellaneda,buenos aires,139
+avellaneda,6,rio negro,2018,16,dengue,10,de 45 a 65 anos,2,avellaneda,buenos aires,140
+avellaneda,6,rio negro,2018,17,dengue,4,de 5 a 9 anos,1,avellaneda,buenos aires,141
+avellaneda,6,rio negro,2018,17,dengue,7,de 20 a 24 anos,3,avellaneda,buenos aires,142
+avellaneda,6,rio negro,2018,17,dengue,7,de 20 a 24 anos,1,avellaneda,buenos aires,143
+avellaneda,6,rio negro,2018,18,dengue,7,de 20 a 24 anos,2,avellaneda,buenos aires,144
+avellaneda,6,rio negro,2018,18,dengue,8,de 25 a 34 anos,1,avellaneda,buenos aires,145
+avellaneda,6,rio negro,2018,18,dengue,9,de 35 a 44 anos,3,avellaneda,buenos aires,146
+avellaneda,6,rio negro,2018,19,dengue,6,de 15 a 19 anos,2,avellaneda,buenos aires,147
+avellaneda,6,rio negro,2018,19,dengue,8,de 25 a 34 anos,1,avellaneda,buenos aires,148
+avellaneda,6,rio negro,2018,19,dengue,9,de 35 a 44 anos,1,avellaneda,buenos aires,149
+avellaneda,6,rio negro,2018,20,dengue,10,de 45 a 65 anos,1,avellaneda,buenos aires,150
+escobar,6,buenos aires,2018,40,dengue,7,de 20 a 24 anos,1,escobar,buenos aires,151
+esteban echeverria,6,buenos aires,2018,19,dengue,11,mayores de 65 anos,1,esteban echeverria,buenos aires,152
+ezeiza,6,buenos aires,2018,11,dengue,10,de 45 a 65 anos,1,ezeiza,buenos aires,153
+ezeiza,6,buenos aires,2018,13,dengue,9,de 35 a 44 anos,1,ezeiza,buenos aires,154
+ezeiza,6,buenos aires,2018,18,dengue,10,de 45 a 65 anos,1,ezeiza,buenos aires,155
+ezeiza,6,buenos aires,2018,19,dengue,9,de 35 a 44 anos,1,ezeiza,buenos aires,156
+florencio varela,6,buenos aires,2018,10,dengue,7,de 20 a 24 anos,1,florencio varela,buenos aires,157
+florencio varela,6,buenos aires,2018,19,dengue,11,mayores de 65 anos,1,florencio varela,buenos aires,158
+florencio varela,6,buenos aires,2018,41,dengue,8,de 25 a 34 anos,1,florencio varela,buenos aires,159
+general san martin,6,cordoba,2018,11,dengue,7,de 20 a 24 anos,1,general san martin,buenos aires,160
+ituzaingo,6,corrientes,2018,11,dengue,11,mayores de 65 anos,1,ituzaingo,buenos aires,161
+jose c paz,6,buenos aires,2018,19,dengue,8,de 25 a 34 anos,1,jose c paz,buenos aires,162
+la matanza,6,buenos aires,2018,9,dengue,9,de 35 a 44 anos,1,la matanza,buenos aires,163
+la matanza,6,buenos aires,2018,9,dengue,11,mayores de 65 anos,1,la matanza,buenos aires,164
+la matanza,6,buenos aires,2018,12,dengue,7,de 20 a 24 anos,1,la matanza,buenos aires,165
+la matanza,6,buenos aires,2018,12,dengue,11,mayores de 65 anos,1,la matanza,buenos aires,166
+la matanza,6,buenos aires,2018,13,dengue,7,de 20 a 24 anos,1,la matanza,buenos aires,167
+la matanza,6,buenos aires,2018,13,dengue,9,de 35 a 44 anos,1,la matanza,buenos aires,168
+la matanza,6,buenos aires,2018,13,dengue,10,de 45 a 65 anos,1,la matanza,buenos aires,169
+la matanza,6,buenos aires,2018,13,dengue,11,mayores de 65 anos,2,la matanza,buenos aires,170
+la matanza,6,buenos aires,2018,14,dengue,9,de 35 a 44 anos,2,la matanza,buenos aires,171
+la matanza,6,buenos aires,2018,14,dengue,11,mayores de 65 anos,2,la matanza,buenos aires,172
+la matanza,6,buenos aires,2018,14,dengue,11,mayores de 65 anos,1,la matanza,buenos aires,173
+la matanza,6,buenos aires,2018,15,dengue,11,mayores de 65 anos,1,la matanza,buenos aires,174
+la matanza,6,buenos aires,2018,16,dengue,5,de 10 a 14 anos,1,la matanza,buenos aires,175
+la matanza,6,buenos aires,2018,16,dengue,9,de 35 a 44 anos,1,la matanza,buenos aires,176
+la matanza,6,buenos aires,2018,16,dengue,10,de 45 a 65 anos,1,la matanza,buenos aires,177
+la matanza,6,buenos aires,2018,17,dengue,6,de 15 a 19 anos,1,la matanza,buenos aires,178
+la matanza,6,buenos aires,2018,17,dengue,9,de 35 a 44 anos,4,la matanza,buenos aires,179
+la matanza,6,buenos aires,2018,17,dengue,11,mayores de 65 anos,2,la matanza,buenos aires,180
+la matanza,6,buenos aires,2018,18,dengue,9,de 35 a 44 anos,3,la matanza,buenos aires,181
+la matanza,6,buenos aires,2018,18,dengue,10,de 45 a 65 anos,3,la matanza,buenos aires,182
+la matanza,6,buenos aires,2018,18,dengue,11,mayores de 65 anos,2,la matanza,buenos aires,183
+la matanza,6,buenos aires,2018,19,dengue,10,de 45 a 65 anos,2,la matanza,buenos aires,184
+la matanza,6,buenos aires,2018,21,dengue,8,de 25 a 34 anos,1,la matanza,buenos aires,185
+la matanza,6,buenos aires,2018,21,dengue,9,de 35 a 44 anos,1,la matanza,buenos aires,186
+lanus,6,buenos aires,2018,10,dengue,9,de 35 a 44 anos,1,lanus,buenos aires,187
+lanus,6,buenos aires,2018,10,dengue,11,mayores de 65 anos,1,lanus,buenos aires,188
+lanus,6,buenos aires,2018,14,dengue,6,de 15 a 19 anos,1,lanus,buenos aires,189
+lanus,6,buenos aires,2018,14,dengue,10,de 45 a 65 anos,1,lanus,buenos aires,190
+lanus,6,buenos aires,2018,15,dengue,9,de 35 a 44 anos,1,lanus,buenos aires,191
+lanus,6,buenos aires,2018,15,dengue,10,de 45 a 65 anos,1,lanus,buenos aires,192
+lanus,6,buenos aires,2018,16,dengue,9,de 35 a 44 anos,1,lanus,buenos aires,193
+lomas de zamora,6,buenos aires,2018,11,dengue,9,de 35 a 44 anos,1,lomas de zamora,buenos aires,194
+lomas de zamora,6,buenos aires,2018,11,dengue,11,mayores de 65 anos,1,lomas de zamora,buenos aires,195
+lomas de zamora,6,buenos aires,2018,12,dengue,9,de 35 a 44 anos,1,lomas de zamora,buenos aires,196
+lomas de zamora,6,buenos aires,2018,14,dengue,7,de 20 a 24 anos,1,lomas de zamora,buenos aires,197
+lomas de zamora,6,buenos aires,2018,15,dengue,6,de 15 a 19 anos,1,lomas de zamora,buenos aires,198
+lomas de zamora,6,buenos aires,2018,15,dengue,11,mayores de 65 anos,1,lomas de zamora,buenos aires,199
+lomas de zamora,6,buenos aires,2018,17,dengue,6,de 15 a 19 anos,2,lomas de zamora,buenos aires,200
+lomas de zamora,6,buenos aires,2018,18,dengue,10,de 45 a 65 anos,1,lomas de zamora,buenos aires,201
+merlo,6,buenos aires,2018,10,dengue,5,de 10 a 14 anos,1,merlo,buenos aires,202
+merlo,6,buenos aires,2018,10,dengue,10,de 45 a 65 anos,1,merlo,buenos aires,203
+merlo,6,buenos aires,2018,14,dengue,10,de 45 a 65 anos,1,merlo,buenos aires,204
+moron,6,buenos aires,2018,9,dengue,10,de 45 a 65 anos,1,moron,buenos aires,205
+moron,6,buenos aires,2018,10,dengue,10,de 45 a 65 anos,2,moron,buenos aires,206
+moron,6,buenos aires,2018,10,dengue,11,mayores de 65 anos,1,moron,buenos aires,207
+moron,6,buenos aires,2018,11,dengue,7,de 20 a 24 anos,1,moron,buenos aires,208
+moron,6,buenos aires,2018,15,dengue,7,de 20 a 24 anos,1,moron,buenos aires,209
+moron,6,buenos aires,2018,18,dengue,7,de 20 a 24 anos,1,moron,buenos aires,210
+moron,6,buenos aires,2018,18,dengue,11,mayores de 65 anos,1,moron,buenos aires,211
+9 de julio,22,santa fe,2018,16,dengue,6,de 15 a 19 anos,1,9 de julio,chaco,212
+9 de julio,22,santa fe,2018,17,dengue,10,de 45 a 65 anos,1,9 de julio,chaco,213
+9 de julio,22,santa fe,2018,18,dengue,9,de 35 a 44 anos,1,9 de julio,chaco,214
+9 de julio,22,santa fe,2018,18,dengue,11,mayores de 65 anos,1,9 de julio,chaco,215
+9 de julio,22,santa fe,2018,19,dengue,6,de 15 a 19 anos,1,9 de julio,chaco,216
+9 de julio,22,santa fe,2018,19,dengue,10,de 45 a 65 anos,1,9 de julio,chaco,217
+9 de julio,22,santa fe,2018,19,dengue,11,mayores de 65 anos,2,9 de julio,chaco,218
+9 de julio,22,santa fe,2018,20,dengue,6,de 15 a 19 anos,3,9 de julio,chaco,219
+9 de julio,22,santa fe,2018,20,dengue,11,mayores de 65 anos,1,9 de julio,chaco,220
+9 de julio,22,santa fe,2018,21,dengue,5,de 10 a 14 anos,1,9 de julio,chaco,221
+9 de julio,22,santa fe,2018,21,dengue,7,de 20 a 24 anos,1,9 de julio,chaco,222
+9 de julio,22,santa fe,2018,21,dengue,9,de 35 a 44 anos,2,9 de julio,chaco,223
+9 de julio,22,santa fe,2018,21,dengue,11,mayores de 65 anos,2,9 de julio,chaco,224
+9 de julio,22,santa fe,2018,22,dengue,10,de 45 a 65 anos,1,9 de julio,chaco,225
+9 de julio,22,santa fe,2018,22,dengue,11,mayores de 65 anos,1,9 de julio,chaco,226
+9 de julio,22,santa fe,2018,23,dengue,11,mayores de 65 anos,1,9 de julio,chaco,227
+quilmes,6,buenos aires,2018,15,dengue,8,de 25 a 34 anos,1,quilmes,buenos aires,228
+quilmes,6,buenos aires,2018,17,dengue,10,de 45 a 65 anos,1,quilmes,buenos aires,229
+quilmes,6,buenos aires,2018,18,dengue,7,de 20 a 24 anos,3,quilmes,buenos aires,230
+quilmes,6,buenos aires,2018,19,dengue,5,de 10 a 14 anos,1,quilmes,buenos aires,231
+quilmes,6,buenos aires,2018,19,dengue,9,de 35 a 44 anos,1,quilmes,buenos aires,232
+quilmes,6,buenos aires,2018,19,dengue,11,mayores de 65 anos,1,quilmes,buenos aires,233
+quilmes,6,buenos aires,2018,20,dengue,6,de 15 a 19 anos,1,quilmes,buenos aires,234
+quilmes,6,buenos aires,2018,20,dengue,7,de 20 a 24 anos,1,quilmes,buenos aires,235
+quilmes,6,buenos aires,2018,21,dengue,10,de 45 a 65 anos,2,quilmes,buenos aires,236
+quilmes,6,buenos aires,2018,8,dengue,9,de 35 a 44 anos,1,quilmes,buenos aires,237
+quilmes,6,buenos aires,2018,11,dengue,9,de 35 a 44 anos,1,quilmes,buenos aires,238
+quilmes,6,buenos aires,2018,12,dengue,9,de 35 a 44 anos,1,quilmes,buenos aires,239
+quilmes,6,buenos aires,2018,12,dengue,11,mayores de 65 anos,1,quilmes,buenos aires,240
+quilmes,6,buenos aires,2018,14,dengue,7,de 20 a 24 anos,2,quilmes,buenos aires,241
+quilmes,6,buenos aires,2018,14,dengue,10,de 45 a 65 anos,1,quilmes,buenos aires,242
+quilmes,6,buenos aires,2018,15,dengue,7,de 20 a 24 anos,1,quilmes,buenos aires,243
+quilmes,6,buenos aires,2018,15,dengue,9,de 35 a 44 anos,3,quilmes,buenos aires,244
+quilmes,6,buenos aires,2018,15,dengue,11,mayores de 65 anos,1,quilmes,buenos aires,245
+quilmes,6,buenos aires,2018,16,dengue,9,de 35 a 44 anos,2,quilmes,buenos aires,246
+quilmes,6,buenos aires,2018,16,dengue,11,mayores de 65 anos,1,quilmes,buenos aires,247
+ramallo,6,buenos aires,2018,18,dengue,9,de 35 a 44 anos,1,ramallo,buenos aires,248
+tigre,6,buenos aires,2018,20,dengue,9,de 35 a 44 anos,1,tigre,buenos aires,249
+tigre,6,buenos aires,2018,40,dengue,9,de 35 a 44 anos,1,tigre,buenos aires,250
+tres de febrero,6,buenos aires,2018,15,dengue,7,de 20 a 24 anos,1,tres de febrero,buenos aires,251
+tres de febrero,6,buenos aires,2018,17,dengue,9,de 35 a 44 anos,1,tres de febrero,buenos aires,252
+tres de febrero,6,buenos aires,2018,18,dengue,7,de 20 a 24 anos,1,tres de febrero,buenos aires,253
+tres de febrero,6,buenos aires,2018,18,dengue,11,mayores de 65 anos,2,tres de febrero,buenos aires,254
+tres de febrero,6,buenos aires,2018,19,dengue,8,de 25 a 34 anos,1,tres de febrero,buenos aires,255
+tres de febrero,6,buenos aires,2018,19,dengue,10,de 45 a 65 anos,1,tres de febrero,buenos aires,256
+tres de febrero,6,buenos aires,2018,20,dengue,9,de 35 a 44 anos,1,tres de febrero,buenos aires,257
+vicente lopez,6,buenos aires,2018,14,dengue,6,de 15 a 19 anos,1,vicente lopez,buenos aires,258
+vicente lopez,6,buenos aires,2018,52,dengue,1,posneonato 29 hasta 365 dias,1,vicente lopez,buenos aires,259
+tercero arriba,14,cordoba,2018,21,dengue,9,de 35 a 44 anos,1,tercero arriba,cordoba,260
+corrientes capital,18,corrientes,2018,11,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,261
+corrientes capital,18,corrientes,2018,16,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,262
+corrientes capital,18,corrientes,2018,18,dengue,10,de 45 a 65 anos,1,corrientes capital,corrientes,263
+corrientes capital,18,corrientes,2018,19,dengue,1,posneonato 29 hasta 365 dias,1,corrientes capital,corrientes,264
+corrientes capital,18,corrientes,2018,19,dengue,6,de 15 a 19 anos,1,corrientes capital,corrientes,265
+corrientes capital,18,corrientes,2018,19,dengue,9,de 35 a 44 anos,1,corrientes capital,corrientes,266
+corrientes capital,18,corrientes,2018,19,dengue,10,de 45 a 65 anos,2,corrientes capital,corrientes,267
+corrientes capital,18,corrientes,2018,20,dengue,5,de 10 a 14 anos,1,corrientes capital,corrientes,268
+corrientes capital,18,corrientes,2018,20,dengue,6,de 15 a 19 anos,1,corrientes capital,corrientes,269
+corrientes capital,18,corrientes,2018,20,dengue,7,de 20 a 24 anos,3,corrientes capital,corrientes,270
+corrientes capital,18,corrientes,2018,20,dengue,9,de 35 a 44 anos,3,corrientes capital,corrientes,271
+corrientes capital,18,corrientes,2018,20,dengue,10,de 45 a 65 anos,7,corrientes capital,corrientes,272
+corrientes capital,18,corrientes,2018,20,dengue,11,mayores de 65 anos,3,corrientes capital,corrientes,273
+corrientes capital,18,corrientes,2018,20,dengue,11,mayores de 65 anos,3,corrientes capital,corrientes,274
+corrientes capital,18,corrientes,2018,21,dengue,6,de 15 a 19 anos,1,corrientes capital,corrientes,275
+corrientes capital,18,corrientes,2018,21,dengue,7,de 20 a 24 anos,1,corrientes capital,corrientes,276
+corrientes capital,18,corrientes,2018,21,dengue,8,de 25 a 34 anos,3,corrientes capital,corrientes,277
+corrientes capital,18,corrientes,2018,21,dengue,9,de 35 a 44 anos,3,corrientes capital,corrientes,278
+corrientes capital,18,corrientes,2018,21,dengue,10,de 45 a 65 anos,2,corrientes capital,corrientes,279
+corrientes capital,18,corrientes,2018,21,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,280
+corrientes capital,18,corrientes,2018,22,dengue,4,de 5 a 9 anos,1,corrientes capital,corrientes,281
+corrientes capital,18,corrientes,2018,22,dengue,5,de 10 a 14 anos,1,corrientes capital,corrientes,282
+corrientes capital,18,corrientes,2018,22,dengue,9,de 35 a 44 anos,2,corrientes capital,corrientes,283
+corrientes capital,18,corrientes,2018,22,dengue,10,de 45 a 65 anos,1,corrientes capital,corrientes,284
+corrientes capital,18,corrientes,2018,22,dengue,11,mayores de 65 anos,3,corrientes capital,corrientes,285
+corrientes capital,18,corrientes,2018,22,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,286
+corrientes capital,18,corrientes,2018,23,dengue,4,de 5 a 9 anos,1,corrientes capital,corrientes,287
+corrientes capital,18,corrientes,2018,23,dengue,5,de 10 a 14 anos,1,corrientes capital,corrientes,288
+corrientes capital,18,corrientes,2018,23,dengue,6,de 15 a 19 anos,1,corrientes capital,corrientes,289
+corrientes capital,18,corrientes,2018,23,dengue,8,de 25 a 34 anos,2,corrientes capital,corrientes,290
+corrientes capital,18,corrientes,2018,23,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,291
+corrientes capital,18,corrientes,2018,23,dengue,11,mayores de 65 anos,2,corrientes capital,corrientes,292
+corrientes capital,18,corrientes,2018,24,dengue,6,de 15 a 19 anos,1,corrientes capital,corrientes,293
+corrientes capital,18,corrientes,2018,24,dengue,8,de 25 a 34 anos,1,corrientes capital,corrientes,294
+corrientes capital,18,corrientes,2018,24,dengue,10,de 45 a 65 anos,1,corrientes capital,corrientes,295
+corrientes capital,18,corrientes,2018,24,dengue,11,mayores de 65 anos,4,corrientes capital,corrientes,296
+corrientes capital,18,corrientes,2018,24,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,297
+corrientes capital,18,corrientes,2018,25,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,298
+corrientes capital,18,corrientes,2018,26,dengue,8,de 25 a 34 anos,1,corrientes capital,corrientes,299
+corrientes capital,18,corrientes,2018,26,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,300
+corrientes capital,18,corrientes,2018,27,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,301
+corrientes capital,18,corrientes,2018,28,dengue,11,mayores de 65 anos,1,corrientes capital,corrientes,302
+saladas,18,corrientes,2018,18,dengue,4,de 5 a 9 anos,1,saladas,corrientes,303
+saladas,18,corrientes,2018,18,dengue,9,de 35 a 44 anos,2,saladas,corrientes,304
+saladas,18,corrientes,2018,19,dengue,4,de 5 a 9 anos,1,saladas,corrientes,305
+saladas,18,corrientes,2018,19,dengue,5,de 10 a 14 anos,1,saladas,corrientes,306
+saladas,18,corrientes,2018,19,dengue,6,de 15 a 19 anos,1,saladas,corrientes,307
+saladas,18,corrientes,2018,19,dengue,7,de 20 a 24 anos,3,saladas,corrientes,308
+saladas,18,corrientes,2018,19,dengue,8,de 25 a 34 anos,1,saladas,corrientes,309
+saladas,18,corrientes,2018,19,dengue,9,de 35 a 44 anos,6,saladas,corrientes,310
+saladas,18,corrientes,2018,19,dengue,10,de 45 a 65 anos,6,saladas,corrientes,311
+saladas,18,corrientes,2018,19,dengue,11,mayores de 65 anos,5,saladas,corrientes,312
+saladas,18,corrientes,2018,19,dengue,11,mayores de 65 anos,2,saladas,corrientes,313
+saladas,18,corrientes,2018,20,dengue,7,de 20 a 24 anos,2,saladas,corrientes,314
+saladas,18,corrientes,2018,20,dengue,8,de 25 a 34 anos,3,saladas,corrientes,315
+saladas,18,corrientes,2018,20,dengue,10,de 45 a 65 anos,1,saladas,corrientes,316
+saladas,18,corrientes,2018,20,dengue,11,mayores de 65 anos,5,saladas,corrientes,317
+saladas,18,corrientes,2018,21,dengue,6,de 15 a 19 anos,2,saladas,corrientes,318
+saladas,18,corrientes,2018,21,dengue,7,de 20 a 24 anos,1,saladas,corrientes,319
+saladas,18,corrientes,2018,21,dengue,8,de 25 a 34 anos,1,saladas,corrientes,320
+saladas,18,corrientes,2018,21,dengue,9,de 35 a 44 anos,3,saladas,corrientes,321
+saladas,18,corrientes,2018,21,dengue,10,de 45 a 65 anos,1,saladas,corrientes,322
+saladas,18,corrientes,2018,21,dengue,11,mayores de 65 anos,1,saladas,corrientes,323
+saladas,18,corrientes,2018,22,dengue,9,de 35 a 44 anos,1,saladas,corrientes,324
+saladas,18,corrientes,2018,24,dengue,7,de 20 a 24 anos,1,saladas,corrientes,325
+san cosme,18,corrientes,2018,21,dengue,8,de 25 a 34 anos,1,san cosme,corrientes,326
+san miguel,6,corrientes,2018,18,dengue,10,de 45 a 65 anos,1,san miguel,buenos aires,327
+santo tome,18,corrientes,2018,16,dengue,10,de 45 a 65 anos,1,santo tome,corrientes,328
+santo tome,18,corrientes,2018,19,dengue,9,de 35 a 44 anos,1,santo tome,corrientes,329
+bermejo,22,formosa,2018,13,dengue,5,de 10 a 14 anos,1,bermejo,chaco,330
+bermejo,22,formosa,2018,14,dengue,11,mayores de 65 anos,2,bermejo,chaco,331
+bermejo,22,formosa,2018,17,dengue,9,de 35 a 44 anos,1,bermejo,chaco,332
+bermejo,22,formosa,2018,17,dengue,10,de 45 a 65 anos,1,bermejo,chaco,333
+bermejo,22,formosa,2018,17,dengue,11,mayores de 65 anos,1,bermejo,chaco,334
+bermejo,22,formosa,2018,17,dengue,11,mayores de 65 anos,1,bermejo,chaco,335
+bermejo,22,formosa,2018,18,dengue,5,de 10 a 14 anos,1,bermejo,chaco,336
+bermejo,22,formosa,2018,19,dengue,5,de 10 a 14 anos,1,bermejo,chaco,337
+bermejo,22,formosa,2018,19,dengue,11,mayores de 65 anos,1,bermejo,chaco,338
+bermejo,22,formosa,2018,20,dengue,6,de 15 a 19 anos,1,bermejo,chaco,339
+bermejo,22,formosa,2018,20,dengue,10,de 45 a 65 anos,1,bermejo,chaco,340
+comandante fernandez,22,chaco,2018,13,dengue,9,de 35 a 44 anos,1,comandante fernandez,chaco,341
+comandante fernandez,22,chaco,2018,15,dengue,11,mayores de 65 anos,1,comandante fernandez,chaco,342
+comandante fernandez,22,chaco,2018,18,dengue,7,de 20 a 24 anos,1,comandante fernandez,chaco,343
+comandante fernandez,22,chaco,2018,19,dengue,7,de 20 a 24 anos,1,comandante fernandez,chaco,344
+comandante fernandez,22,chaco,2018,20,dengue,9,de 35 a 44 anos,1,comandante fernandez,chaco,345
+comandante fernandez,22,chaco,2018,20,dengue,11,mayores de 65 anos,4,comandante fernandez,chaco,346
+comandante fernandez,22,chaco,2018,20,dengue,11,mayores de 65 anos,1,comandante fernandez,chaco,347
+comandante fernandez,22,chaco,2018,21,dengue,6,de 15 a 19 anos,1,comandante fernandez,chaco,348
+comandante fernandez,22,chaco,2018,21,dengue,10,de 45 a 65 anos,1,comandante fernandez,chaco,349
+comandante fernandez,22,chaco,2018,22,dengue,6,de 15 a 19 anos,1,comandante fernandez,chaco,350
+comandante fernandez,22,chaco,2018,22,dengue,9,de 35 a 44 anos,1,comandante fernandez,chaco,351
+comandante fernandez,22,chaco,2018,22,dengue,10,de 45 a 65 anos,1,comandante fernandez,chaco,352
+comandante fernandez,22,chaco,2018,23,dengue,4,de 5 a 9 anos,1,comandante fernandez,chaco,353
+comandante fernandez,22,chaco,2018,23,dengue,10,de 45 a 65 anos,1,comandante fernandez,chaco,354
+comandante fernandez,22,chaco,2018,25,dengue,9,de 35 a 44 anos,1,comandante fernandez,chaco,355
+comandante fernandez,22,chaco,2018,27,dengue,9,de 35 a 44 anos,1,comandante fernandez,chaco,356
+comandante fernandez,22,chaco,2018,28,dengue,7,de 20 a 24 anos,1,comandante fernandez,chaco,357
+comandante fernandez,22,chaco,2018,28,dengue,11,mayores de 65 anos,1,comandante fernandez,chaco,358
+12 de octubre,22,chaco,2018,17,dengue,8,de 25 a 34 anos,1,12 de octubre,chaco,359
+12 de octubre,22,chaco,2018,17,dengue,11,mayores de 65 anos,1,12 de octubre,chaco,360
+12 de octubre,22,chaco,2018,18,dengue,11,mayores de 65 anos,1,12 de octubre,chaco,361
+12 de octubre,22,chaco,2018,20,dengue,9,de 35 a 44 anos,2,12 de octubre,chaco,362
+12 de octubre,22,chaco,2018,20,dengue,10,de 45 a 65 anos,1,12 de octubre,chaco,363
+12 de octubre,22,chaco,2018,21,dengue,9,de 35 a 44 anos,1,12 de octubre,chaco,364
+12 de octubre,22,chaco,2018,21,dengue,11,mayores de 65 anos,2,12 de octubre,chaco,365
+12 de octubre,22,chaco,2018,22,dengue,7,de 20 a 24 anos,1,12 de octubre,chaco,366
+12 de octubre,22,chaco,2018,22,dengue,8,de 25 a 34 anos,1,12 de octubre,chaco,367
+12 de octubre,22,chaco,2018,22,dengue,10,de 45 a 65 anos,1,12 de octubre,chaco,368
+12 de octubre,22,chaco,2018,24,dengue,11,mayores de 65 anos,1,12 de octubre,chaco,369
+2 de abril,22,chaco,2018,4,dengue,9,de 35 a 44 anos,1,2 de abril,chaco,370
+2 de abril,22,chaco,2018,12,dengue,9,de 35 a 44 anos,1,2 de abril,chaco,371
+2 de abril,22,chaco,2018,14,dengue,9,de 35 a 44 anos,2,2 de abril,chaco,372
+2 de abril,22,chaco,2018,14,dengue,11,mayores de 65 anos,1,2 de abril,chaco,373
+2 de abril,22,chaco,2018,15,dengue,11,mayores de 65 anos,1,2 de abril,chaco,374
+2 de abril,22,chaco,2018,16,dengue,4,de 5 a 9 anos,2,2 de abril,chaco,375
+2 de abril,22,chaco,2018,16,dengue,5,de 10 a 14 anos,4,2 de abril,chaco,376
+2 de abril,22,chaco,2018,16,dengue,6,de 15 a 19 anos,1,2 de abril,chaco,377
+2 de abril,22,chaco,2018,16,dengue,7,de 20 a 24 anos,3,2 de abril,chaco,378
+2 de abril,22,chaco,2018,16,dengue,7,de 20 a 24 anos,7,2 de abril,chaco,379
+2 de abril,22,chaco,2018,16,dengue,8,de 25 a 34 anos,2,2 de abril,chaco,380
+2 de abril,22,chaco,2018,16,dengue,9,de 35 a 44 anos,6,2 de abril,chaco,381
+2 de abril,22,chaco,2018,16,dengue,10,de 45 a 65 anos,3,2 de abril,chaco,382
+2 de abril,22,chaco,2018,16,dengue,11,mayores de 65 anos,8,2 de abril,chaco,383
+2 de abril,22,chaco,2018,16,dengue,11,mayores de 65 anos,4,2 de abril,chaco,384
+2 de abril,22,chaco,2018,16,dengue,11,mayores de 65 anos,2,2 de abril,chaco,385
+2 de abril,22,chaco,2018,16,dengue,11,mayores de 65 anos,1,2 de abril,chaco,386
+2 de abril,22,chaco,2018,17,dengue,5,de 10 a 14 anos,3,2 de abril,chaco,387
+2 de abril,22,chaco,2018,17,dengue,6,de 15 a 19 anos,1,2 de abril,chaco,388
+2 de abril,22,chaco,2018,17,dengue,7,de 20 a 24 anos,3,2 de abril,chaco,389
+2 de abril,22,chaco,2018,17,dengue,7,de 20 a 24 anos,3,2 de abril,chaco,390
+2 de abril,22,chaco,2018,17,dengue,8,de 25 a 34 anos,4,2 de abril,chaco,391
+2 de abril,22,chaco,2018,17,dengue,9,de 35 a 44 anos,7,2 de abril,chaco,392
+2 de abril,22,chaco,2018,17,dengue,10,de 45 a 65 anos,5,2 de abril,chaco,393
+2 de abril,22,chaco,2018,17,dengue,11,mayores de 65 anos,3,2 de abril,chaco,394
+2 de abril,22,chaco,2018,17,dengue,11,mayores de 65 anos,10,2 de abril,chaco,395
+2 de abril,22,chaco,2018,17,dengue,11,mayores de 65 anos,1,2 de abril,chaco,396
+2 de abril,22,chaco,2018,17,dengue,11,mayores de 65 anos,6,2 de abril,chaco,397
+2 de abril,22,chaco,2018,18,dengue,4,de 5 a 9 anos,1,2 de abril,chaco,398
+2 de abril,22,chaco,2018,18,dengue,5,de 10 a 14 anos,3,2 de abril,chaco,399
+2 de abril,22,chaco,2018,18,dengue,6,de 15 a 19 anos,1,2 de abril,chaco,400
+2 de abril,22,chaco,2018,18,dengue,7,de 20 a 24 anos,5,2 de abril,chaco,401
+2 de abril,22,chaco,2018,18,dengue,8,de 25 a 34 anos,2,2 de abril,chaco,402
+2 de abril,22,chaco,2018,18,dengue,9,de 35 a 44 anos,8,2 de abril,chaco,403
+2 de abril,22,chaco,2018,18,dengue,10,de 45 a 65 anos,10,2 de abril,chaco,404
+2 de abril,22,chaco,2018,18,dengue,11,mayores de 65 anos,8,2 de abril,chaco,405
+2 de abril,22,chaco,2018,18,dengue,11,mayores de 65 anos,6,2 de abril,chaco,406
+2 de abril,22,chaco,2018,19,dengue,3,de 2 a 4 anos,1,2 de abril,chaco,407
+2 de abril,22,chaco,2018,19,dengue,4,de 5 a 9 anos,1,2 de abril,chaco,408
+2 de abril,22,chaco,2018,19,dengue,5,de 10 a 14 anos,2,2 de abril,chaco,409
+2 de abril,22,chaco,2018,19,dengue,6,de 15 a 19 anos,4,2 de abril,chaco,410
+2 de abril,22,chaco,2018,19,dengue,7,de 20 a 24 anos,9,2 de abril,chaco,411
+2 de abril,22,chaco,2018,19,dengue,8,de 25 a 34 anos,9,2 de abril,chaco,412
+2 de abril,22,chaco,2018,19,dengue,9,de 35 a 44 anos,8,2 de abril,chaco,413
+2 de abril,22,chaco,2018,19,dengue,10,de 45 a 65 anos,11,2 de abril,chaco,414
+2 de abril,22,chaco,2018,19,dengue,11,mayores de 65 anos,10,2 de abril,chaco,415
+2 de abril,22,chaco,2018,19,dengue,11,mayores de 65 anos,2,2 de abril,chaco,416
+2 de abril,22,chaco,2018,20,dengue,4,de 5 a 9 anos,4,2 de abril,chaco,417
+2 de abril,22,chaco,2018,20,dengue,5,de 10 a 14 anos,2,2 de abril,chaco,418
+2 de abril,22,chaco,2018,20,dengue,6,de 15 a 19 anos,3,2 de abril,chaco,419
+2 de abril,22,chaco,2018,20,dengue,7,de 20 a 24 anos,4,2 de abril,chaco,420
+2 de abril,22,chaco,2018,20,dengue,8,de 25 a 34 anos,5,2 de abril,chaco,421
+2 de abril,22,chaco,2018,20,dengue,9,de 35 a 44 anos,5,2 de abril,chaco,422
+2 de abril,22,chaco,2018,20,dengue,10,de 45 a 65 anos,5,2 de abril,chaco,423
+2 de abril,22,chaco,2018,20,dengue,11,mayores de 65 anos,6,2 de abril,chaco,424
+2 de abril,22,chaco,2018,20,dengue,11,mayores de 65 anos,3,2 de abril,chaco,425
+2 de abril,22,chaco,2018,21,dengue,5,de 10 a 14 anos,1,2 de abril,chaco,426
+2 de abril,22,chaco,2018,21,dengue,9,de 35 a 44 anos,7,2 de abril,chaco,427
+2 de abril,22,chaco,2018,21,dengue,11,mayores de 65 anos,1,2 de abril,chaco,428
+2 de abril,22,chaco,2018,22,dengue,7,de 20 a 24 anos,1,2 de abril,chaco,429
+2 de abril,22,chaco,2018,22,dengue,9,de 35 a 44 anos,3,2 de abril,chaco,430
+fray justo santa maria de oro,22,chaco,2018,16,dengue,8,de 25 a 34 anos,1,fray justo santa maria de oro,chaco,431
+fray justo santa maria de oro,22,chaco,2018,16,dengue,11,mayores de 65 anos,1,fray justo santa maria de oro,chaco,432
+fray justo santa maria de oro,22,chaco,2018,19,dengue,8,de 25 a 34 anos,1,fray justo santa maria de oro,chaco,433
+fray justo santa maria de oro,22,chaco,2018,19,dengue,10,de 45 a 65 anos,2,fray justo santa maria de oro,chaco,434
+fray justo santa maria de oro,22,chaco,2018,20,dengue,7,de 20 a 24 anos,1,fray justo santa maria de oro,chaco,435
+fray justo santa maria de oro,22,chaco,2018,20,dengue,8,de 25 a 34 anos,1,fray justo santa maria de oro,chaco,436
+fray justo santa maria de oro,22,chaco,2018,20,dengue,11,mayores de 65 anos,1,fray justo santa maria de oro,chaco,437
+independencia,22,la rioja,2018,15,dengue,10,de 45 a 65 anos,1,independencia,chaco,438
+independencia,22,la rioja,2018,17,dengue,5,de 10 a 14 anos,1,independencia,chaco,439
+independencia,22,la rioja,2018,17,dengue,8,de 25 a 34 anos,1,independencia,chaco,440
+independencia,22,la rioja,2018,17,dengue,9,de 35 a 44 anos,1,independencia,chaco,441
+independencia,22,la rioja,2018,18,dengue,7,de 20 a 24 anos,1,independencia,chaco,442
+independencia,22,la rioja,2018,19,dengue,9,de 35 a 44 anos,1,independencia,chaco,443
+independencia,22,la rioja,2018,19,dengue,11,mayores de 65 anos,2,independencia,chaco,444
+independencia,22,la rioja,2018,20,dengue,7,de 20 a 24 anos,1,independencia,chaco,445
+independencia,22,la rioja,2018,20,dengue,8,de 25 a 34 anos,1,independencia,chaco,446
+independencia,22,la rioja,2018,20,dengue,10,de 45 a 65 anos,1,independencia,chaco,447
+independencia,22,la rioja,2018,21,dengue,8,de 25 a 34 anos,1,independencia,chaco,448
+libertador general san martin,22,san luis,2018,18,dengue,6,de 15 a 19 anos,1,libertador general san martin,chaco,449
+libertador general san martin,22,san luis,2018,19,dengue,7,de 20 a 24 anos,2,libertador general san martin,chaco,450
+libertador general san martin,22,san luis,2018,19,dengue,9,de 35 a 44 anos,1,libertador general san martin,chaco,451
+libertador general san martin,22,san luis,2018,20,dengue,8,de 25 a 34 anos,3,libertador general san martin,chaco,452
+libertador general san martin,22,san luis,2018,20,dengue,10,de 45 a 65 anos,2,libertador general san martin,chaco,453
+libertador general san martin,22,san luis,2018,21,dengue,7,de 20 a 24 anos,1,libertador general san martin,chaco,454
+libertador general san martin,22,san luis,2018,21,dengue,8,de 25 a 34 anos,1,libertador general san martin,chaco,455
+libertador general san martin,22,san luis,2018,21,dengue,10,de 45 a 65 anos,1,libertador general san martin,chaco,456
+libertador general san martin,22,san luis,2018,22,dengue,8,de 25 a 34 anos,1,libertador general san martin,chaco,457
+libertador general san martin,22,san luis,2018,22,dengue,11,mayores de 65 anos,1,libertador general san martin,chaco,458
+libertador general san martin,22,san luis,2018,24,dengue,9,de 35 a 44 anos,1,libertador general san martin,chaco,459
+mayor luis j fontana,22,chaco,2018,17,dengue,11,mayores de 65 anos,2,mayor luis j fontana,chaco,460
+mayor luis j fontana,22,chaco,2018,19,dengue,5,de 10 a 14 anos,1,mayor luis j fontana,chaco,461
+mayor luis j fontana,22,chaco,2018,19,dengue,7,de 20 a 24 anos,1,mayor luis j fontana,chaco,462
+mayor luis j fontana,22,chaco,2018,19,dengue,9,de 35 a 44 anos,1,mayor luis j fontana,chaco,463
+mayor luis j fontana,22,chaco,2018,19,dengue,10,de 45 a 65 anos,1,mayor luis j fontana,chaco,464
+mayor luis j fontana,22,chaco,2018,20,dengue,7,de 20 a 24 anos,1,mayor luis j fontana,chaco,465
+mayor luis j fontana,22,chaco,2018,20,dengue,11,mayores de 65 anos,1,mayor luis j fontana,chaco,466
+mayor luis j fontana,22,chaco,2018,21,dengue,10,de 45 a 65 anos,1,mayor luis j fontana,chaco,467
+mayor luis j fontana,22,chaco,2018,21,dengue,11,mayores de 65 anos,2,mayor luis j fontana,chaco,468
+mayor luis j fontana,22,chaco,2018,37,dengue,5,de 10 a 14 anos,1,mayor luis j fontana,chaco,469
+o higgins,22,chaco,2018,2,dengue,9,de 35 a 44 anos,1,o higgins,chaco,470
+o higgins,22,chaco,2018,17,dengue,9,de 35 a 44 anos,1,o higgins,chaco,471
+o higgins,22,chaco,2018,18,dengue,7,de 20 a 24 anos,1,o higgins,chaco,472
+o higgins,22,chaco,2018,18,dengue,9,de 35 a 44 anos,1,o higgins,chaco,473
+o higgins,22,chaco,2018,18,dengue,10,de 45 a 65 anos,1,o higgins,chaco,474
+o higgins,22,chaco,2018,18,dengue,11,mayores de 65 anos,3,o higgins,chaco,475
+o higgins,22,chaco,2018,19,dengue,7,de 20 a 24 anos,2,o higgins,chaco,476
+o higgins,22,chaco,2018,19,dengue,8,de 25 a 34 anos,2,o higgins,chaco,477
+o higgins,22,chaco,2018,19,dengue,9,de 35 a 44 anos,4,o higgins,chaco,478
+o higgins,22,chaco,2018,19,dengue,10,de 45 a 65 anos,4,o higgins,chaco,479
+o higgins,22,chaco,2018,19,dengue,11,mayores de 65 anos,4,o higgins,chaco,480
+o higgins,22,chaco,2018,20,dengue,7,de 20 a 24 anos,1,o higgins,chaco,481
+o higgins,22,chaco,2018,20,dengue,9,de 35 a 44 anos,1,o higgins,chaco,482
+o higgins,22,chaco,2018,21,dengue,7,de 20 a 24 anos,1,o higgins,chaco,483
+san fernando,22,chaco,2018,10,dengue,11,mayores de 65 anos,1,san fernando,chaco,484
+san fernando,22,chaco,2018,11,dengue,9,de 35 a 44 anos,1,san fernando,chaco,485
+san fernando,22,chaco,2018,12,dengue,9,de 35 a 44 anos,1,san fernando,chaco,486
+san fernando,22,chaco,2018,15,dengue,10,de 45 a 65 anos,1,san fernando,chaco,487
+san fernando,22,chaco,2018,16,dengue,7,de 20 a 24 anos,1,san fernando,chaco,488
+san fernando,22,chaco,2018,16,dengue,11,mayores de 65 anos,1,san fernando,chaco,489
+san fernando,22,chaco,2018,17,dengue,6,de 15 a 19 anos,1,san fernando,chaco,490
+san fernando,22,chaco,2018,17,dengue,10,de 45 a 65 anos,1,san fernando,chaco,491
+san fernando,22,chaco,2018,17,dengue,11,mayores de 65 anos,1,san fernando,chaco,492
+san fernando,22,chaco,2018,18,dengue,6,de 15 a 19 anos,1,san fernando,chaco,493
+san fernando,22,chaco,2018,18,dengue,10,de 45 a 65 anos,3,san fernando,chaco,494
+san fernando,22,chaco,2018,18,dengue,11,mayores de 65 anos,1,san fernando,chaco,495
+san fernando,22,chaco,2018,19,dengue,6,de 15 a 19 anos,2,san fernando,chaco,496
+san fernando,22,chaco,2018,19,dengue,7,de 20 a 24 anos,1,san fernando,chaco,497
+san fernando,22,chaco,2018,19,dengue,8,de 25 a 34 anos,3,san fernando,chaco,498
+san fernando,22,chaco,2018,19,dengue,10,de 45 a 65 anos,1,san fernando,chaco,499
+san fernando,22,chaco,2018,19,dengue,11,mayores de 65 anos,1,san fernando,chaco,500
+san fernando,22,chaco,2018,20,dengue,1,posneonato 29 hasta 365 dias,1,san fernando,chaco,501
+san fernando,22,chaco,2018,20,dengue,6,de 15 a 19 anos,2,san fernando,chaco,502
+san fernando,22,chaco,2018,20,dengue,7,de 20 a 24 anos,1,san fernando,chaco,503
+san fernando,22,chaco,2018,20,dengue,8,de 25 a 34 anos,1,san fernando,chaco,504
+san fernando,22,chaco,2018,20,dengue,9,de 35 a 44 anos,2,san fernando,chaco,505
+san fernando,22,chaco,2018,20,dengue,10,de 45 a 65 anos,2,san fernando,chaco,506
+san fernando,22,chaco,2018,20,dengue,11,mayores de 65 anos,1,san fernando,chaco,507
+san fernando,22,chaco,2018,21,dengue,7,de 20 a 24 anos,1,san fernando,chaco,508
+san fernando,22,chaco,2018,21,dengue,10,de 45 a 65 anos,2,san fernando,chaco,509
+san fernando,22,chaco,2018,21,dengue,11,mayores de 65 anos,1,san fernando,chaco,510
+san fernando,22,chaco,2018,21,dengue,11,mayores de 65 anos,1,san fernando,chaco,511
+san fernando,22,chaco,2018,22,dengue,7,de 20 a 24 anos,1,san fernando,chaco,512
+san fernando,22,chaco,2018,22,dengue,10,de 45 a 65 anos,1,san fernando,chaco,513
+san fernando,22,chaco,2018,22,dengue,11,mayores de 65 anos,1,san fernando,chaco,514
+san fernando,22,chaco,2018,23,dengue,6,de 15 a 19 anos,2,san fernando,chaco,515
+san fernando,22,chaco,2018,23,dengue,11,mayores de 65 anos,1,san fernando,chaco,516
+san fernando,22,chaco,2018,26,dengue,9,de 35 a 44 anos,1,san fernando,chaco,517
+san fernando,22,chaco,2018,50,dengue,11,mayores de 65 anos,1,san fernando,chaco,518
+concordia,30,entre rios,2018,20,dengue,9,de 35 a 44 anos,1,concordia,entre rios,519
+concordia,30,entre rios,2018,50,dengue,9,de 35 a 44 anos,1,concordia,entre rios,520
+parana,30,entre rios,2018,14,dengue,11,mayores de 65 anos,1,parana,entre rios,521
+parana,30,entre rios,2018,16,dengue,10,de 45 a 65 anos,1,parana,entre rios,522
+parana,30,entre rios,2018,16,dengue,11,mayores de 65 anos,1,parana,entre rios,523
+parana,30,entre rios,2018,22,dengue,11,mayores de 65 anos,1,parana,entre rios,524
+formosa,34,formosa,2018,1,dengue,7,de 20 a 24 anos,3,formosa,formosa,525
+formosa,34,formosa,2018,3,dengue,11,mayores de 65 anos,1,formosa,formosa,526
+formosa,34,formosa,2018,7,dengue,9,de 35 a 44 anos,1,formosa,formosa,527
+formosa,34,formosa,2018,8,dengue,9,de 35 a 44 anos,1,formosa,formosa,528
+formosa,34,formosa,2018,9,dengue,7,de 20 a 24 anos,1,formosa,formosa,529
+formosa,34,formosa,2018,9,dengue,10,de 45 a 65 anos,1,formosa,formosa,530
+formosa,34,formosa,2018,10,dengue,7,de 20 a 24 anos,1,formosa,formosa,531
+formosa,34,formosa,2018,10,dengue,11,mayores de 65 anos,1,formosa,formosa,532
+formosa,34,formosa,2018,11,dengue,6,de 15 a 19 anos,1,formosa,formosa,533
+formosa,34,formosa,2018,11,dengue,7,de 20 a 24 anos,1,formosa,formosa,534
+formosa,34,formosa,2018,11,dengue,10,de 45 a 65 anos,1,formosa,formosa,535
+formosa,34,formosa,2018,11,dengue,11,mayores de 65 anos,1,formosa,formosa,536
+formosa,34,formosa,2018,12,dengue,9,de 35 a 44 anos,1,formosa,formosa,537
+formosa,34,formosa,2018,12,dengue,11,mayores de 65 anos,1,formosa,formosa,538
+formosa,34,formosa,2018,12,dengue,11,mayores de 65 anos,1,formosa,formosa,539
+formosa,34,formosa,2018,13,dengue,11,mayores de 65 anos,1,formosa,formosa,540
+formosa,34,formosa,2018,17,dengue,11,mayores de 65 anos,1,formosa,formosa,541
+formosa,34,formosa,2018,19,dengue,8,de 25 a 34 anos,1,formosa,formosa,542
+formosa,34,formosa,2018,20,dengue,10,de 45 a 65 anos,1,formosa,formosa,543
+matacos,34,formosa,2018,18,dengue,11,mayores de 65 anos,1,matacos,formosa,544
+matacos,34,formosa,2018,20,dengue,4,de 5 a 9 anos,1,matacos,formosa,545
+patino,34,formosa,2018,7,dengue,9,de 35 a 44 anos,1,patino,formosa,546
+general belgrano,22,chaco,2018,17,dengue,7,de 20 a 24 anos,1,general belgrano,chaco,547
+general belgrano,22,chaco,2018,17,dengue,10,de 45 a 65 anos,1,general belgrano,chaco,548
+general belgrano,22,chaco,2018,17,dengue,11,mayores de 65 anos,1,general belgrano,chaco,549
+general belgrano,22,chaco,2018,18,dengue,8,de 25 a 34 anos,2,general belgrano,chaco,550
+general belgrano,22,chaco,2018,18,dengue,9,de 35 a 44 anos,2,general belgrano,chaco,551
+general belgrano,22,chaco,2018,18,dengue,11,mayores de 65 anos,2,general belgrano,chaco,552
+general belgrano,22,chaco,2018,19,dengue,4,de 5 a 9 anos,1,general belgrano,chaco,553
+general belgrano,22,chaco,2018,19,dengue,5,de 10 a 14 anos,3,general belgrano,chaco,554
+general belgrano,22,chaco,2018,19,dengue,6,de 15 a 19 anos,1,general belgrano,chaco,555
+general belgrano,22,chaco,2018,19,dengue,7,de 20 a 24 anos,5,general belgrano,chaco,556
+general belgrano,22,chaco,2018,19,dengue,8,de 25 a 34 anos,6,general belgrano,chaco,557
+general belgrano,22,chaco,2018,19,dengue,9,de 35 a 44 anos,4,general belgrano,chaco,558
+general belgrano,22,chaco,2018,19,dengue,10,de 45 a 65 anos,6,general belgrano,chaco,559
+general belgrano,22,chaco,2018,19,dengue,11,mayores de 65 anos,6,general belgrano,chaco,560
+general belgrano,22,chaco,2018,20,dengue,3,de 2 a 4 anos,1,general belgrano,chaco,561
+general belgrano,22,chaco,2018,20,dengue,4,de 5 a 9 anos,2,general belgrano,chaco,562
+general belgrano,22,chaco,2018,20,dengue,5,de 10 a 14 anos,2,general belgrano,chaco,563
+general belgrano,22,chaco,2018,20,dengue,6,de 15 a 19 anos,9,general belgrano,chaco,564
+general belgrano,22,chaco,2018,20,dengue,7,de 20 a 24 anos,8,general belgrano,chaco,565
+general belgrano,22,chaco,2018,20,dengue,8,de 25 a 34 anos,2,general belgrano,chaco,566
+general belgrano,22,chaco,2018,20,dengue,9,de 35 a 44 anos,8,general belgrano,chaco,567
+general belgrano,22,chaco,2018,20,dengue,10,de 45 a 65 anos,12,general belgrano,chaco,568
+general belgrano,22,chaco,2018,20,dengue,11,mayores de 65 anos,6,general belgrano,chaco,569
+general belgrano,22,chaco,2018,20,dengue,11,mayores de 65 anos,2,general belgrano,chaco,570
+general belgrano,22,chaco,2018,21,dengue,1,posneonato 29 hasta 365 dias,1,general belgrano,chaco,571
+general belgrano,22,chaco,2018,21,dengue,5,de 10 a 14 anos,1,general belgrano,chaco,572
+general belgrano,22,chaco,2018,21,dengue,6,de 15 a 19 anos,2,general belgrano,chaco,573
+general belgrano,22,chaco,2018,21,dengue,7,de 20 a 24 anos,4,general belgrano,chaco,574
+general belgrano,22,chaco,2018,21,dengue,8,de 25 a 34 anos,1,general belgrano,chaco,575
+general belgrano,22,chaco,2018,21,dengue,9,de 35 a 44 anos,5,general belgrano,chaco,576
+general belgrano,22,chaco,2018,21,dengue,10,de 45 a 65 anos,1,general belgrano,chaco,577
+general belgrano,22,chaco,2018,21,dengue,11,mayores de 65 anos,2,general belgrano,chaco,578
+general belgrano,22,chaco,2018,21,dengue,11,mayores de 65 anos,2,general belgrano,chaco,579
+general belgrano,22,chaco,2018,22,dengue,5,de 10 a 14 anos,1,general belgrano,chaco,580
+general belgrano,22,chaco,2018,22,dengue,7,de 20 a 24 anos,1,general belgrano,chaco,581
+general belgrano,22,chaco,2018,22,dengue,9,de 35 a 44 anos,1,general belgrano,chaco,582
+general belgrano,22,chaco,2018,22,dengue,10,de 45 a 65 anos,1,general belgrano,chaco,583
+general belgrano,22,chaco,2018,22,dengue,11,mayores de 65 anos,1,general belgrano,chaco,584
+general belgrano,22,chaco,2018,23,dengue,6,de 15 a 19 anos,2,general belgrano,chaco,585
+general belgrano,22,chaco,2018,23,dengue,7,de 20 a 24 anos,2,general belgrano,chaco,586
+general belgrano,22,chaco,2018,23,dengue,8,de 25 a 34 anos,4,general belgrano,chaco,587
+general belgrano,22,chaco,2018,23,dengue,9,de 35 a 44 anos,1,general belgrano,chaco,588
+general belgrano,22,chaco,2018,23,dengue,10,de 45 a 65 anos,1,general belgrano,chaco,589
+general belgrano,22,chaco,2018,23,dengue,11,mayores de 65 anos,1,general belgrano,chaco,590
+misiones capital,54,misiones,2018,2,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,591
+misiones capital,54,misiones,2018,8,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,592
+misiones capital,54,misiones,2018,8,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,593
+misiones capital,54,misiones,2018,10,dengue,7,de 20 a 24 anos,1,misiones capital,misiones,594
+misiones capital,54,misiones,2018,15,dengue,6,de 15 a 19 anos,1,misiones capital,misiones,595
+misiones capital,54,misiones,2018,15,dengue,11,mayores de 65 anos,1,misiones capital,misiones,596
+misiones capital,54,misiones,2018,16,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,597
+misiones capital,54,misiones,2018,17,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,598
+misiones capital,54,misiones,2018,18,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,599
+misiones capital,54,misiones,2018,18,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,600
+misiones capital,54,misiones,2018,19,dengue,5,de 10 a 14 anos,1,misiones capital,misiones,601
+misiones capital,54,misiones,2018,19,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,602
+misiones capital,54,misiones,2018,19,dengue,9,de 35 a 44 anos,2,misiones capital,misiones,603
+misiones capital,54,misiones,2018,19,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,604
+misiones capital,54,misiones,2018,19,dengue,11,mayores de 65 anos,5,misiones capital,misiones,605
+misiones capital,54,misiones,2018,20,dengue,7,de 20 a 24 anos,3,misiones capital,misiones,606
+misiones capital,54,misiones,2018,20,dengue,9,de 35 a 44 anos,2,misiones capital,misiones,607
+misiones capital,54,misiones,2018,20,dengue,11,mayores de 65 anos,2,misiones capital,misiones,608
+misiones capital,54,misiones,2018,21,dengue,11,mayores de 65 anos,1,misiones capital,misiones,609
+misiones capital,54,misiones,2018,22,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,610
+misiones capital,54,misiones,2018,22,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,611
+misiones capital,54,misiones,2018,23,dengue,6,de 15 a 19 anos,1,misiones capital,misiones,612
+misiones capital,54,misiones,2018,23,dengue,9,de 35 a 44 anos,1,misiones capital,misiones,613
+misiones capital,54,misiones,2018,23,dengue,11,mayores de 65 anos,1,misiones capital,misiones,614
+misiones capital,54,misiones,2018,26,dengue,8,de 25 a 34 anos,2,misiones capital,misiones,615
+misiones capital,54,misiones,2018,26,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,616
+misiones capital,54,misiones,2018,46,dengue,10,de 45 a 65 anos,1,misiones capital,misiones,617
+misiones capital,54,misiones,2018,49,dengue,8,de 25 a 34 anos,1,misiones capital,misiones,618
+misiones capital,54,misiones,2018,49,dengue,11,mayores de 65 anos,2,misiones capital,misiones,619
+concepcion,18,corrientes,2018,19,dengue,11,mayores de 65 anos,1,concepcion,corrientes,620
+iguazu,54,misiones,2018,11,dengue,6,de 15 a 19 anos,1,iguazu,misiones,621
+iguazu,54,misiones,2018,13,dengue,5,de 10 a 14 anos,1,iguazu,misiones,622
+iguazu,54,misiones,2018,13,dengue,11,mayores de 65 anos,1,iguazu,misiones,623
+iguazu,54,misiones,2018,14,dengue,10,de 45 a 65 anos,2,iguazu,misiones,624
+iguazu,54,misiones,2018,14,dengue,11,mayores de 65 anos,1,iguazu,misiones,625
+iguazu,54,misiones,2018,17,dengue,7,de 20 a 24 anos,1,iguazu,misiones,626
+iguazu,54,misiones,2018,17,dengue,10,de 45 a 65 anos,1,iguazu,misiones,627
+iguazu,54,misiones,2018,17,dengue,11,mayores de 65 anos,1,iguazu,misiones,628
+iguazu,54,misiones,2018,18,dengue,10,de 45 a 65 anos,1,iguazu,misiones,629
+iguazu,54,misiones,2018,19,dengue,6,de 15 a 19 anos,1,iguazu,misiones,630
+iguazu,54,misiones,2018,19,dengue,11,mayores de 65 anos,1,iguazu,misiones,631
+iguazu,54,misiones,2018,21,dengue,7,de 20 a 24 anos,1,iguazu,misiones,632
+iguazu,54,misiones,2018,21,dengue,8,de 25 a 34 anos,1,iguazu,misiones,633
+libertador general san martin,54,san luis,2018,10,dengue,7,de 20 a 24 anos,1,libertador general san martin,misiones,634
+libertador general san martin,54,san luis,2018,11,dengue,10,de 45 a 65 anos,2,libertador general san martin,misiones,635
+libertador general san martin,54,san luis,2018,11,dengue,11,mayores de 65 anos,1,libertador general san martin,misiones,636
+libertador general san martin,54,san luis,2018,12,dengue,4,de 5 a 9 anos,1,libertador general san martin,misiones,637
+libertador general san martin,54,san luis,2018,12,dengue,6,de 15 a 19 anos,1,libertador general san martin,misiones,638
+libertador general san martin,54,san luis,2018,12,dengue,7,de 20 a 24 anos,2,libertador general san martin,misiones,639
+libertador general san martin,54,san luis,2018,12,dengue,10,de 45 a 65 anos,2,libertador general san martin,misiones,640
+libertador general san martin,54,san luis,2018,13,dengue,7,de 20 a 24 anos,1,libertador general san martin,misiones,641
+libertador general san martin,54,san luis,2018,13,dengue,9,de 35 a 44 anos,2,libertador general san martin,misiones,642
+libertador general san martin,54,san luis,2018,14,dengue,4,de 5 a 9 anos,1,libertador general san martin,misiones,643
+libertador general san martin,54,san luis,2018,14,dengue,5,de 10 a 14 anos,1,libertador general san martin,misiones,644
+libertador general san martin,54,san luis,2018,14,dengue,7,de 20 a 24 anos,3,libertador general san martin,misiones,645
+libertador general san martin,54,san luis,2018,14,dengue,9,de 35 a 44 anos,1,libertador general san martin,misiones,646
+libertador general san martin,54,san luis,2018,14,dengue,11,mayores de 65 anos,1,libertador general san martin,misiones,647
+libertador general san martin,54,san luis,2018,15,dengue,6,de 15 a 19 anos,1,libertador general san martin,misiones,648
+libertador general san martin,54,san luis,2018,15,dengue,7,de 20 a 24 anos,1,libertador general san martin,misiones,649
+libertador general san martin,54,san luis,2018,15,dengue,9,de 35 a 44 anos,1,libertador general san martin,misiones,650
+libertador general san martin,54,san luis,2018,15,dengue,11,mayores de 65 anos,1,libertador general san martin,misiones,651
+libertador general san martin,54,san luis,2018,16,dengue,7,de 20 a 24 anos,2,libertador general san martin,misiones,652
+libertador general san martin,54,san luis,2018,16,dengue,10,de 45 a 65 anos,1,libertador general san martin,misiones,653
+libertador general san martin,54,san luis,2018,16,dengue,11,mayores de 65 anos,2,libertador general san martin,misiones,654
+libertador general san martin,54,san luis,2018,17,dengue,5,de 10 a 14 anos,1,libertador general san martin,misiones,655
+libertador general san martin,54,san luis,2018,17,dengue,6,de 15 a 19 anos,2,libertador general san martin,misiones,656
+libertador general san martin,54,san luis,2018,17,dengue,7,de 20 a 24 anos,4,libertador general san martin,misiones,657
+libertador general san martin,54,san luis,2018,17,dengue,9,de 35 a 44 anos,3,libertador general san martin,misiones,658
+libertador general san martin,54,san luis,2018,17,dengue,10,de 45 a 65 anos,3,libertador general san martin,misiones,659
+libertador general san martin,54,san luis,2018,17,dengue,11,mayores de 65 anos,2,libertador general san martin,misiones,660
+libertador general san martin,54,san luis,2018,17,dengue,11,mayores de 65 anos,2,libertador general san martin,misiones,661
+libertador general san martin,54,san luis,2018,18,dengue,5,de 10 a 14 anos,2,libertador general san martin,misiones,662
+libertador general san martin,54,san luis,2018,18,dengue,6,de 15 a 19 anos,1,libertador general san martin,misiones,663
+libertador general san martin,54,san luis,2018,18,dengue,7,de 20 a 24 anos,2,libertador general san martin,misiones,664
+libertador general san martin,54,san luis,2018,18,dengue,8,de 25 a 34 anos,1,libertador general san martin,misiones,665
+libertador general san martin,54,san luis,2018,18,dengue,9,de 35 a 44 anos,3,libertador general san martin,misiones,666
+libertador general san martin,54,san luis,2018,18,dengue,10,de 45 a 65 anos,1,libertador general san martin,misiones,667
+libertador general san martin,54,san luis,2018,18,dengue,11,mayores de 65 anos,3,libertador general san martin,misiones,668
+libertador general san martin,54,san luis,2018,18,dengue,11,mayores de 65 anos,2,libertador general san martin,misiones,669
+libertador general san martin,54,san luis,2018,19,dengue,7,de 20 a 24 anos,3,libertador general san martin,misiones,670
+libertador general san martin,54,san luis,2018,19,dengue,8,de 25 a 34 anos,4,libertador general san martin,misiones,671
+libertador general san martin,54,san luis,2018,19,dengue,9,de 35 a 44 anos,1,libertador general san martin,misiones,672
+libertador general san martin,54,san luis,2018,19,dengue,10,de 45 a 65 anos,3,libertador general san martin,misiones,673
+libertador general san martin,54,san luis,2018,19,dengue,11,mayores de 65 anos,5,libertador general san martin,misiones,674
+libertador general san martin,54,san luis,2018,19,dengue,11,mayores de 65 anos,1,libertador general san martin,misiones,675
+libertador general san martin,54,san luis,2018,20,dengue,6,de 15 a 19 anos,2,libertador general san martin,misiones,676
+libertador general san martin,54,san luis,2018,20,dengue,7,de 20 a 24 anos,1,libertador general san martin,misiones,677
+libertador general san martin,54,san luis,2018,20,dengue,8,de 25 a 34 anos,2,libertador general san martin,misiones,678
+libertador general san martin,54,san luis,2018,20,dengue,9,de 35 a 44 anos,3,libertador general san martin,misiones,679
+libertador general san martin,54,san luis,2018,20,dengue,11,mayores de 65 anos,2,libertador general san martin,misiones,680
+libertador general san martin,54,san luis,2018,20,dengue,11,mayores de 65 anos,1,libertador general san martin,misiones,681
+libertador general san martin,54,san luis,2018,21,dengue,6,de 15 a 19 anos,1,libertador general san martin,misiones,682
+libertador general san martin,54,san luis,2018,21,dengue,7,de 20 a 24 anos,1,libertador general san martin,misiones,683
+libertador general san martin,54,san luis,2018,21,dengue,8,de 25 a 34 anos,2,libertador general san martin,misiones,684
+libertador general san martin,54,san luis,2018,21,dengue,10,de 45 a 65 anos,1,libertador general san martin,misiones,685
+libertador general san martin,54,san luis,2018,21,dengue,11,mayores de 65 anos,1,libertador general san martin,misiones,686
+libertador general san martin,54,san luis,2018,22,dengue,10,de 45 a 65 anos,1,libertador general san martin,misiones,687
+libertador general san martin,54,san luis,2018,22,dengue,11,mayores de 65 anos,2,libertador general san martin,misiones,688
+libertador general san martin,54,san luis,2018,23,dengue,6,de 15 a 19 anos,1,libertador general san martin,misiones,689
+libertador general san martin,54,san luis,2018,23,dengue,7,de 20 a 24 anos,1,libertador general san martin,misiones,690
+libertador general san martin,54,san luis,2018,26,dengue,5,de 10 a 14 anos,1,libertador general san martin,misiones,691
+libertador general san martin,54,san luis,2018,26,dengue,10,de 45 a 65 anos,1,libertador general san martin,misiones,692
+montecarlo,54,misiones,2018,20,dengue,10,de 45 a 65 anos,1,montecarlo,misiones,693
+san ignacio,54,misiones,2018,22,dengue,10,de 45 a 65 anos,1,san ignacio,misiones,694
+colon,14,cordoba,2018,12,dengue,9,de 35 a 44 anos,1,colon,cordoba,695
+salta capital,66,salta,2018,20,dengue,11,mayores de 65 anos,1,salta capital,salta,696
+salta capital,66,salta,2018,23,dengue,10,de 45 a 65 anos,1,salta capital,salta,697
+general guemes,22,chaco,2018,15,dengue,7,de 20 a 24 anos,1,general guemes,chaco,698
+general guemes,22,chaco,2018,15,dengue,9,de 35 a 44 anos,1,general guemes,chaco,699
+general guemes,22,chaco,2018,16,dengue,9,de 35 a 44 anos,1,general guemes,chaco,700
+general guemes,22,chaco,2018,45,dengue,8,de 25 a 34 anos,1,general guemes,chaco,701
+general jose de san martin,66,salta,2018,15,dengue,7,de 20 a 24 anos,1,general jose de san martin,salta,702
+general jose de san martin,66,salta,2018,19,dengue,1,posneonato 29 hasta 365 dias,1,general jose de san martin,salta,703
+general jose de san martin,66,salta,2018,19,dengue,8,de 25 a 34 anos,1,general jose de san martin,salta,704
+general jose de san martin,66,salta,2018,19,dengue,10,de 45 a 65 anos,1,general jose de san martin,salta,705
+general jose de san martin,66,salta,2018,19,dengue,11,mayores de 65 anos,1,general jose de san martin,salta,706
+general jose de san martin,66,salta,2018,20,dengue,3,de 2 a 4 anos,1,general jose de san martin,salta,707
+general jose de san martin,66,salta,2018,20,dengue,4,de 5 a 9 anos,2,general jose de san martin,salta,708
+general jose de san martin,66,salta,2018,20,dengue,5,de 10 a 14 anos,2,general jose de san martin,salta,709
+general jose de san martin,66,salta,2018,20,dengue,9,de 35 a 44 anos,4,general jose de san martin,salta,710
+general jose de san martin,66,salta,2018,20,dengue,10,de 45 a 65 anos,2,general jose de san martin,salta,711
+general jose de san martin,66,salta,2018,21,dengue,5,de 10 a 14 anos,1,general jose de san martin,salta,712
+general jose de san martin,66,salta,2018,21,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,713
+general jose de san martin,66,salta,2018,22,dengue,6,de 15 a 19 anos,1,general jose de san martin,salta,714
+general jose de san martin,66,salta,2018,22,dengue,10,de 45 a 65 anos,2,general jose de san martin,salta,715
+general jose de san martin,66,salta,2018,22,dengue,11,mayores de 65 anos,1,general jose de san martin,salta,716
+los andes,66,salta,2018,11,dengue,6,de 15 a 19 anos,1,los andes,salta,717
+oran,66,salta,2018,11,dengue,8,de 25 a 34 anos,1,oran,salta,718
+oran,66,salta,2018,18,dengue,7,de 20 a 24 anos,1,oran,salta,719
+oran,66,salta,2018,18,dengue,8,de 25 a 34 anos,1,oran,salta,720
+oran,66,salta,2018,18,dengue,9,de 35 a 44 anos,1,oran,salta,721
+oran,66,salta,2018,19,dengue,7,de 20 a 24 anos,2,oran,salta,722
+oran,66,salta,2018,19,dengue,8,de 25 a 34 anos,2,oran,salta,723
+oran,66,salta,2018,19,dengue,9,de 35 a 44 anos,3,oran,salta,724
+oran,66,salta,2018,19,dengue,10,de 45 a 65 anos,1,oran,salta,725
+oran,66,salta,2018,19,dengue,11,mayores de 65 anos,1,oran,salta,726
+oran,66,salta,2018,20,dengue,5,de 10 a 14 anos,1,oran,salta,727
+oran,66,salta,2018,20,dengue,7,de 20 a 24 anos,1,oran,salta,728
+oran,66,salta,2018,20,dengue,8,de 25 a 34 anos,2,oran,salta,729
+oran,66,salta,2018,20,dengue,9,de 35 a 44 anos,2,oran,salta,730
+oran,66,salta,2018,20,dengue,10,de 45 a 65 anos,3,oran,salta,731
+oran,66,salta,2018,20,dengue,11,mayores de 65 anos,1,oran,salta,732
+oran,66,salta,2018,21,dengue,7,de 20 a 24 anos,1,oran,salta,733
+oran,66,salta,2018,21,dengue,9,de 35 a 44 anos,2,oran,salta,734
+oran,66,salta,2018,22,dengue,6,de 15 a 19 anos,2,oran,salta,735
+oran,66,salta,2018,22,dengue,10,de 45 a 65 anos,1,oran,salta,736
+oran,66,salta,2018,22,dengue,11,mayores de 65 anos,1,oran,salta,737
+oran,66,salta,2018,22,dengue,11,mayores de 65 anos,1,oran,salta,738
+oran,66,salta,2018,23,dengue,7,de 20 a 24 anos,1,oran,salta,739
+oran,66,salta,2018,23,dengue,9,de 35 a 44 anos,1,oran,salta,740
+chacabuco,22,buenos aires,2018,12,dengue,10,de 45 a 65 anos,4,chacabuco,chaco,741
+chacabuco,22,buenos aires,2018,12,dengue,11,mayores de 65 anos,1,chacabuco,chaco,742
+chacabuco,22,buenos aires,2018,13,dengue,6,de 15 a 19 anos,1,chacabuco,chaco,743
+chacabuco,22,buenos aires,2018,13,dengue,7,de 20 a 24 anos,1,chacabuco,chaco,744
+chacabuco,22,buenos aires,2018,13,dengue,9,de 35 a 44 anos,3,chacabuco,chaco,745
+chacabuco,22,buenos aires,2018,13,dengue,10,de 45 a 65 anos,1,chacabuco,chaco,746
+chacabuco,22,buenos aires,2018,13,dengue,11,mayores de 65 anos,6,chacabuco,chaco,747
+chacabuco,22,buenos aires,2018,14,dengue,5,de 10 a 14 anos,1,chacabuco,chaco,748
+chacabuco,22,buenos aires,2018,14,dengue,6,de 15 a 19 anos,1,chacabuco,chaco,749
+chacabuco,22,buenos aires,2018,14,dengue,7,de 20 a 24 anos,1,chacabuco,chaco,750
+chacabuco,22,buenos aires,2018,14,dengue,7,de 20 a 24 anos,4,chacabuco,chaco,751
+chacabuco,22,buenos aires,2018,14,dengue,9,de 35 a 44 anos,1,chacabuco,chaco,752
+chacabuco,22,buenos aires,2018,14,dengue,10,de 45 a 65 anos,2,chacabuco,chaco,753
+chacabuco,22,buenos aires,2018,14,dengue,11,mayores de 65 anos,2,chacabuco,chaco,754
+chacabuco,22,buenos aires,2018,15,dengue,7,de 20 a 24 anos,1,chacabuco,chaco,755
+chacabuco,22,buenos aires,2018,15,dengue,9,de 35 a 44 anos,1,chacabuco,chaco,756
+chacabuco,22,buenos aires,2018,15,dengue,10,de 45 a 65 anos,3,chacabuco,chaco,757
+chacabuco,22,buenos aires,2018,15,dengue,11,mayores de 65 anos,2,chacabuco,chaco,758
+chacabuco,22,buenos aires,2018,16,dengue,7,de 20 a 24 anos,2,chacabuco,chaco,759
+chacabuco,22,buenos aires,2018,16,dengue,9,de 35 a 44 anos,3,chacabuco,chaco,760
+chacabuco,22,buenos aires,2018,16,dengue,10,de 45 a 65 anos,2,chacabuco,chaco,761
+chacabuco,22,buenos aires,2018,16,dengue,11,mayores de 65 anos,1,chacabuco,chaco,762
+chacabuco,22,buenos aires,2018,17,dengue,3,de 2 a 4 anos,1,chacabuco,chaco,763
+chacabuco,22,buenos aires,2018,17,dengue,5,de 10 a 14 anos,1,chacabuco,chaco,764
+chacabuco,22,buenos aires,2018,17,dengue,6,de 15 a 19 anos,1,chacabuco,chaco,765
+chacabuco,22,buenos aires,2018,17,dengue,7,de 20 a 24 anos,4,chacabuco,chaco,766
+chacabuco,22,buenos aires,2018,17,dengue,7,de 20 a 24 anos,5,chacabuco,chaco,767
+chacabuco,22,buenos aires,2018,17,dengue,8,de 25 a 34 anos,2,chacabuco,chaco,768
+chacabuco,22,buenos aires,2018,17,dengue,9,de 35 a 44 anos,2,chacabuco,chaco,769
+chacabuco,22,buenos aires,2018,17,dengue,10,de 45 a 65 anos,4,chacabuco,chaco,770
+chacabuco,22,buenos aires,2018,17,dengue,11,mayores de 65 anos,2,chacabuco,chaco,771
+chacabuco,22,buenos aires,2018,17,dengue,11,mayores de 65 anos,3,chacabuco,chaco,772
+chacabuco,22,buenos aires,2018,17,dengue,11,mayores de 65 anos,1,chacabuco,chaco,773
+chacabuco,22,buenos aires,2018,17,dengue,11,mayores de 65 anos,1,chacabuco,chaco,774
+chacabuco,22,buenos aires,2018,18,dengue,5,de 10 a 14 anos,1,chacabuco,chaco,775
+chacabuco,22,buenos aires,2018,18,dengue,6,de 15 a 19 anos,3,chacabuco,chaco,776
+chacabuco,22,buenos aires,2018,18,dengue,7,de 20 a 24 anos,5,chacabuco,chaco,777
+chacabuco,22,buenos aires,2018,18,dengue,8,de 25 a 34 anos,1,chacabuco,chaco,778
+chacabuco,22,buenos aires,2018,18,dengue,9,de 35 a 44 anos,5,chacabuco,chaco,779
+chacabuco,22,buenos aires,2018,18,dengue,10,de 45 a 65 anos,4,chacabuco,chaco,780
+chacabuco,22,buenos aires,2018,18,dengue,11,mayores de 65 anos,8,chacabuco,chaco,781
+chacabuco,22,buenos aires,2018,19,dengue,5,de 10 a 14 anos,2,chacabuco,chaco,782
+chacabuco,22,buenos aires,2018,19,dengue,6,de 15 a 19 anos,5,chacabuco,chaco,783
+chacabuco,22,buenos aires,2018,19,dengue,7,de 20 a 24 anos,10,chacabuco,chaco,784
+chacabuco,22,buenos aires,2018,19,dengue,8,de 25 a 34 anos,5,chacabuco,chaco,785
+chacabuco,22,buenos aires,2018,19,dengue,9,de 35 a 44 anos,9,chacabuco,chaco,786
+chacabuco,22,buenos aires,2018,19,dengue,10,de 45 a 65 anos,3,chacabuco,chaco,787
+chacabuco,22,buenos aires,2018,19,dengue,11,mayores de 65 anos,5,chacabuco,chaco,788
+chacabuco,22,buenos aires,2018,20,dengue,3,de 2 a 4 anos,1,chacabuco,chaco,789
+chacabuco,22,buenos aires,2018,20,dengue,5,de 10 a 14 anos,4,chacabuco,chaco,790
+chacabuco,22,buenos aires,2018,20,dengue,6,de 15 a 19 anos,1,chacabuco,chaco,791
+chacabuco,22,buenos aires,2018,20,dengue,7,de 20 a 24 anos,2,chacabuco,chaco,792
+chacabuco,22,buenos aires,2018,20,dengue,8,de 25 a 34 anos,3,chacabuco,chaco,793
+chacabuco,22,buenos aires,2018,20,dengue,9,de 35 a 44 anos,1,chacabuco,chaco,794
+chacabuco,22,buenos aires,2018,20,dengue,10,de 45 a 65 anos,3,chacabuco,chaco,795
+chacabuco,22,buenos aires,2018,20,dengue,11,mayores de 65 anos,3,chacabuco,chaco,796
+chacabuco,22,buenos aires,2018,21,dengue,6,de 15 a 19 anos,1,chacabuco,chaco,797
+chacabuco,22,buenos aires,2018,21,dengue,7,de 20 a 24 anos,3,chacabuco,chaco,798
+chacabuco,22,buenos aires,2018,21,dengue,8,de 25 a 34 anos,1,chacabuco,chaco,799
+chacabuco,22,buenos aires,2018,21,dengue,9,de 35 a 44 anos,1,chacabuco,chaco,800
+chacabuco,22,buenos aires,2018,21,dengue,10,de 45 a 65 anos,2,chacabuco,chaco,801
+chacabuco,22,buenos aires,2018,21,dengue,11,mayores de 65 anos,2,chacabuco,chaco,802
+chacabuco,22,buenos aires,2018,22,dengue,6,de 15 a 19 anos,2,chacabuco,chaco,803
+chacabuco,22,buenos aires,2018,22,dengue,7,de 20 a 24 anos,2,chacabuco,chaco,804
+chacabuco,22,buenos aires,2018,22,dengue,11,mayores de 65 anos,1,chacabuco,chaco,805
+chacabuco,22,buenos aires,2018,23,dengue,7,de 20 a 24 anos,2,chacabuco,chaco,806
+chacabuco,22,buenos aires,2018,23,dengue,9,de 35 a 44 anos,1,chacabuco,chaco,807
+chacabuco,22,buenos aires,2018,23,dengue,10,de 45 a 65 anos,1,chacabuco,chaco,808
+castellanos,82,santa fe,2018,20,dengue,9,de 35 a 44 anos,1,castellanos,santa fe,809
+general obligado,82,santa fe,2018,19,dengue,8,de 25 a 34 anos,1,general obligado,santa fe,810
+general obligado,82,santa fe,2018,21,dengue,8,de 25 a 34 anos,1,general obligado,santa fe,811
+general obligado,82,santa fe,2018,22,dengue,9,de 35 a 44 anos,1,general obligado,santa fe,812
+general obligado,82,santa fe,2018,23,dengue,9,de 35 a 44 anos,1,general obligado,santa fe,813
+rosario,82,santa fe,2018,15,dengue,9,de 35 a 44 anos,1,rosario,santa fe,814
+rosario,82,santa fe,2018,18,dengue,10,de 45 a 65 anos,1,rosario,santa fe,815
+rosario,82,santa fe,2018,19,dengue,9,de 35 a 44 anos,1,rosario,santa fe,816
+rosario,82,santa fe,2018,50,dengue,11,mayores de 65 anos,1,rosario,santa fe,817
+san lorenzo,22,chaco,2018,19,dengue,9,de 35 a 44 anos,1,san lorenzo,chaco,818
+banda,86,santiago del estero,2018,5,dengue,7,de 20 a 24 anos,1,banda,santiago del estero,819
+banda,86,santiago del estero,2018,15,dengue,4,de 5 a 9 anos,1,banda,santiago del estero,820
+banda,86,santiago del estero,2018,16,dengue,1,posneonato 29 hasta 365 dias,1,banda,santiago del estero,821
+banda,86,santiago del estero,2018,17,dengue,7,de 20 a 24 anos,1,banda,santiago del estero,822
+banda,86,santiago del estero,2018,17,dengue,7,de 20 a 24 anos,1,banda,santiago del estero,823
+banda,86,santiago del estero,2018,18,dengue,3,de 2 a 4 anos,1,banda,santiago del estero,824
+santiago del estero capital,86,santiago del estero,2018,5,dengue,9,de 35 a 44 anos,1,santiago del estero capital,santiago del estero,825
+santiago del estero capital,86,santiago del estero,2018,5,dengue,11,mayores de 65 anos,1,santiago del estero capital,santiago del estero,826
+santiago del estero capital,86,santiago del estero,2018,14,dengue,10,de 45 a 65 anos,1,santiago del estero capital,santiago del estero,827
+santiago del estero capital,86,santiago del estero,2018,15,dengue,7,de 20 a 24 anos,1,santiago del estero capital,santiago del estero,828
+santiago del estero capital,86,santiago del estero,2018,15,dengue,9,de 35 a 44 anos,1,santiago del estero capital,santiago del estero,829
+santiago del estero capital,86,santiago del estero,2018,15,dengue,10,de 45 a 65 anos,1,santiago del estero capital,santiago del estero,830
+santiago del estero capital,86,santiago del estero,2018,15,dengue,11,mayores de 65 anos,3,santiago del estero capital,santiago del estero,831
+santiago del estero capital,86,santiago del estero,2018,16,dengue,1,posneonato 29 hasta 365 dias,1,santiago del estero capital,santiago del estero,832
+santiago del estero capital,86,santiago del estero,2018,16,dengue,4,de 5 a 9 anos,1,santiago del estero capital,santiago del estero,833
+santiago del estero capital,86,santiago del estero,2018,16,dengue,5,de 10 a 14 anos,1,santiago del estero capital,santiago del estero,834
+santiago del estero capital,86,santiago del estero,2018,16,dengue,6,de 15 a 19 anos,2,santiago del estero capital,santiago del estero,835
+santiago del estero capital,86,santiago del estero,2018,16,dengue,7,de 20 a 24 anos,10,santiago del estero capital,santiago del estero,836
+santiago del estero capital,86,santiago del estero,2018,16,dengue,9,de 35 a 44 anos,7,santiago del estero capital,santiago del estero,837
+santiago del estero capital,86,santiago del estero,2018,16,dengue,10,de 45 a 65 anos,2,santiago del estero capital,santiago del estero,838
+santiago del estero capital,86,santiago del estero,2018,16,dengue,11,mayores de 65 anos,8,santiago del estero capital,santiago del estero,839
+santiago del estero capital,86,santiago del estero,2018,16,dengue,11,mayores de 65 anos,1,santiago del estero capital,santiago del estero,840
+santiago del estero capital,86,santiago del estero,2018,16,dengue,11,mayores de 65 anos,1,santiago del estero capital,santiago del estero,841
+santiago del estero capital,86,santiago del estero,2018,17,dengue,1,posneonato 29 hasta 365 dias,1,santiago del estero capital,santiago del estero,842
+santiago del estero capital,86,santiago del estero,2018,17,dengue,3,de 2 a 4 anos,1,santiago del estero capital,santiago del estero,843
+santiago del estero capital,86,santiago del estero,2018,17,dengue,4,de 5 a 9 anos,4,santiago del estero capital,santiago del estero,844
+santiago del estero capital,86,santiago del estero,2018,17,dengue,5,de 10 a 14 anos,4,santiago del estero capital,santiago del estero,845
+santiago del estero capital,86,santiago del estero,2018,17,dengue,6,de 15 a 19 anos,6,santiago del estero capital,santiago del estero,846
+santiago del estero capital,86,santiago del estero,2018,17,dengue,7,de 20 a 24 anos,2,santiago del estero capital,santiago del estero,847
+santiago del estero capital,86,santiago del estero,2018,17,dengue,7,de 20 a 24 anos,5,santiago del estero capital,santiago del estero,848
+santiago del estero capital,86,santiago del estero,2018,17,dengue,8,de 25 a 34 anos,2,santiago del estero capital,santiago del estero,849
+santiago del estero capital,86,santiago del estero,2018,17,dengue,9,de 35 a 44 anos,3,santiago del estero capital,santiago del estero,850
+santiago del estero capital,86,santiago del estero,2018,17,dengue,10,de 45 a 65 anos,3,santiago del estero capital,santiago del estero,851
+santiago del estero capital,86,santiago del estero,2018,17,dengue,11,mayores de 65 anos,2,santiago del estero capital,santiago del estero,852
+santiago del estero capital,86,santiago del estero,2018,17,dengue,11,mayores de 65 anos,1,santiago del estero capital,santiago del estero,853
+santiago del estero capital,86,santiago del estero,2018,18,dengue,4,de 5 a 9 anos,2,santiago del estero capital,santiago del estero,854
+santiago del estero capital,86,santiago del estero,2018,18,dengue,5,de 10 a 14 anos,5,santiago del estero capital,santiago del estero,855
+santiago del estero capital,86,santiago del estero,2018,18,dengue,6,de 15 a 19 anos,6,santiago del estero capital,santiago del estero,856
+santiago del estero capital,86,santiago del estero,2018,18,dengue,7,de 20 a 24 anos,1,santiago del estero capital,santiago del estero,857
+santiago del estero capital,86,santiago del estero,2018,18,dengue,8,de 25 a 34 anos,1,santiago del estero capital,santiago del estero,858
+santiago del estero capital,86,santiago del estero,2018,18,dengue,9,de 35 a 44 anos,2,santiago del estero capital,santiago del estero,859
+santiago del estero capital,86,santiago del estero,2018,18,dengue,11,mayores de 65 anos,1,santiago del estero capital,santiago del estero,860
+santiago del estero capital,86,santiago del estero,2018,20,dengue,11,mayores de 65 anos,1,santiago del estero capital,santiago del estero,861
+santiago del estero capital,86,santiago del estero,2018,21,dengue,3,de 2 a 4 anos,1,santiago del estero capital,santiago del estero,862
+santiago del estero capital,86,santiago del estero,2018,21,dengue,5,de 10 a 14 anos,2,santiago del estero capital,santiago del estero,863
+santiago del estero capital,86,santiago del estero,2018,21,dengue,6,de 15 a 19 anos,2,santiago del estero capital,santiago del estero,864
+santiago del estero capital,86,santiago del estero,2018,21,dengue,7,de 20 a 24 anos,1,santiago del estero capital,santiago del estero,865
+santiago del estero capital,86,santiago del estero,2018,21,dengue,8,de 25 a 34 anos,1,santiago del estero capital,santiago del estero,866
+santiago del estero capital,86,santiago del estero,2018,21,dengue,9,de 35 a 44 anos,1,santiago del estero capital,santiago del estero,867
+santiago del estero capital,86,santiago del estero,2018,21,dengue,11,mayores de 65 anos,3,santiago del estero capital,santiago del estero,868
+ciudad de buenos aires,2,ciudad de buenos aires,2018,18,dengue,9,de 35 a 44 anos,1,ciudad de buenos aires,buenos aires,869
+rio hondo,86,santiago del estero,2018,18,dengue,4,de 5 a 9 anos,1,rio hondo,santiago del estero,870
+rio hondo,86,santiago del estero,2018,20,dengue,10,de 45 a 65 anos,1,rio hondo,santiago del estero,871
+rio hondo,86,santiago del estero,2018,21,dengue,1,posneonato 29 hasta 365 dias,1,rio hondo,santiago del estero,872
+chicligasta,90,tucuman,2018,14,dengue,10,de 45 a 65 anos,1,chicligasta,tucuman,873
+cordoba capital,14,cordoba,2018,12,dengue,7,de 20 a 24 anos,1,cordoba capital,cordoba,874
+cordoba capital,14,cordoba,2018,12,dengue,9,de 35 a 44 anos,2,cordoba capital,cordoba,875
+cordoba capital,14,cordoba,2018,13,dengue,7,de 20 a 24 anos,1,cordoba capital,cordoba,876
+cordoba capital,14,cordoba,2018,13,dengue,9,de 35 a 44 anos,1,cordoba capital,cordoba,877
+cordoba capital,14,cordoba,2018,13,dengue,10,de 45 a 65 anos,1,cordoba capital,cordoba,878
+cordoba capital,14,cordoba,2018,13,dengue,11,mayores de 65 anos,1,cordoba capital,cordoba,879
+cordoba capital,14,cordoba,2018,15,dengue,7,de 20 a 24 anos,1,cordoba capital,cordoba,880
+cordoba capital,14,cordoba,2018,16,dengue,10,de 45 a 65 anos,1,cordoba capital,cordoba,881
+cordoba capital,14,cordoba,2018,16,dengue,11,mayores de 65 anos,1,cordoba capital,cordoba,882
+cordoba capital,14,cordoba,2018,17,dengue,11,mayores de 65 anos,1,cordoba capital,cordoba,883
+yerba buena,90,tucuman,2018,20,dengue,6,de 15 a 19 anos,1,yerba buena,tucuman,884
+la matanza,6,buenos aires,2018,11,enfermedad por virus del zika,11,mayores de 65 anos,1,la matanza,buenos aires,885
+salta capital,66,salta,2018,23,enfermedad por virus del zika,10,de 45 a 65 anos,1,salta capital,salta,886
+general jose de san martin,66,salta,2018,10,enfermedad por virus del zika,10,de 45 a 65 anos,1,general jose de san martin,salta,887
+general jose de san martin,66,salta,2018,11,enfermedad por virus del zika,9,de 35 a 44 anos,1,general jose de san martin,salta,888
+general jose de san martin,66,salta,2018,12,enfermedad por virus del zika,8,de 25 a 34 anos,1,general jose de san martin,salta,889
+general jose de san martin,66,salta,2018,12,enfermedad por virus del zika,2,de 13 a 24 meses,1,general jose de san martin,salta,890
+general jose de san martin,66,salta,2018,14,enfermedad por virus del zika,9,de 35 a 44 anos,2,general jose de san martin,salta,891
+general jose de san martin,66,salta,2018,15,enfermedad por virus del zika,9,de 35 a 44 anos,1,general jose de san martin,salta,892
+general jose de san martin,66,salta,2018,15,enfermedad por virus del zika,10,de 45 a 65 anos,1,general jose de san martin,salta,893
+general jose de san martin,66,salta,2018,16,enfermedad por virus del zika,9,de 35 a 44 anos,1,general jose de san martin,salta,894
+general jose de san martin,66,salta,2018,16,enfermedad por virus del zika,10,de 45 a 65 anos,1,general jose de san martin,salta,895
+general jose de san martin,66,salta,2018,19,enfermedad por virus del zika,1,posneonato 29 hasta 365 dias,1,general jose de san martin,salta,896
+general jose de san martin,66,salta,2018,19,enfermedad por virus del zika,8,de 25 a 34 anos,1,general jose de san martin,salta,897
+general jose de san martin,66,salta,2018,19,enfermedad por virus del zika,10,de 45 a 65 anos,1,general jose de san martin,salta,898
+general jose de san martin,66,salta,2018,20,enfermedad por virus del zika,3,de 2 a 4 anos,1,general jose de san martin,salta,899
+general jose de san martin,66,salta,2018,20,enfermedad por virus del zika,4,de 5 a 9 anos,1,general jose de san martin,salta,900
+general jose de san martin,66,salta,2018,20,enfermedad por virus del zika,9,de 35 a 44 anos,1,general jose de san martin,salta,901
+general jose de san martin,66,salta,2018,21,enfermedad por virus del zika,5,de 10 a 14 anos,1,general jose de san martin,salta,902
+general jose de san martin,66,salta,2018,22,enfermedad por virus del zika,7,de 20 a 24 anos,1,general jose de san martin,salta,903
+general jose de san martin,66,salta,2018,22,enfermedad por virus del zika,10,de 45 a 65 anos,1,general jose de san martin,salta,904
+general jose de san martin,66,salta,2018,22,enfermedad por virus del zika,11,mayores de 65 anos,1,general jose de san martin,salta,905
+oran,66,salta,2018,18,enfermedad por virus del zika,7,de 20 a 24 anos,1,oran,salta,906
+oran,66,salta,2018,18,enfermedad por virus del zika,9,de 35 a 44 anos,1,oran,salta,907
+oran,66,salta,2018,19,enfermedad por virus del zika,7,de 20 a 24 anos,2,oran,salta,908
+oran,66,salta,2018,19,enfermedad por virus del zika,8,de 25 a 34 anos,1,oran,salta,909
+oran,66,salta,2018,19,enfermedad por virus del zika,9,de 35 a 44 anos,2,oran,salta,910
+oran,66,salta,2018,20,enfermedad por virus del zika,5,de 10 a 14 anos,1,oran,salta,911
+oran,66,salta,2018,20,enfermedad por virus del zika,7,de 20 a 24 anos,1,oran,salta,912
+oran,66,salta,2018,20,enfermedad por virus del zika,8,de 25 a 34 anos,1,oran,salta,913
+oran,66,salta,2018,20,enfermedad por virus del zika,11,mayores de 65 anos,1,oran,salta,914
+oran,66,salta,2018,21,enfermedad por virus del zika,9,de 35 a 44 anos,1,oran,salta,915
+oran,66,salta,2018,22,enfermedad por virus del zika,6,de 15 a 19 anos,1,oran,salta,916
+oran,66,salta,2018,23,enfermedad por virus del zika,7,de 20 a 24 anos,1,oran,salta,917
+oran,66,salta,2018,23,enfermedad por virus del zika,9,de 35 a 44 anos,1,oran,salta,918

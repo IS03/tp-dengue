@@ -1,0 +1,294 @@
+departamento_id;departamento_nombre;provincia_id;provincia_nombre;año;semanas_epidemiologicas;evento_nombre;grupo_edad_id;grupo_edad_desc;cantidad_casos
+1;CABA;2;CABA;2022;8;Dengue;11;De 45 a 65 años;1
+1;CABA;2;CABA;2022;9;Dengue;8;De 20 a 24 años;1
+1;CABA;2;CABA;2022;16;Dengue;10;De 35 a 44 años;1
+1;CABA;2;CABA;2022;49;Dengue;6;De 10 a 14 años;1
+1;CABA;2;CABA;2022;48;Dengue;10;De 35 a 44 años;1
+1;CABA;2;CABA;2022;48;Dengue;11;De 45 a 65 años;1
+1;CABA;2;CABA;2022;18;Dengue;11;De 45 a 65 años;2
+1;CABA;2;CABA;2022;48;Dengue;11;De 45 a 65 años;1
+28;Almirante Brown;6;Buenos Aires;2022;14;Dengue;11;De 45 a 65 años;1
+245;Ensenada;6;Buenos Aires;2022;17;Dengue;9;De 25 a 34 años;1
+270;Ezeiza;6;Buenos Aires;2022;32;Dengue;9;De 25 a 34 años;1
+371;General San Martín;6;Buenos Aires;2022;40;Dengue;5;De 5 a 9 años;1
+410;Ituzaingó;6;Buenos Aires;2022;10;Dengue;11;De 45 a 65 años;1
+410;Ituzaingó;6;Buenos Aires;2022;11;Dengue;12;Mayores de 65 años;1
+427;La Matanza;6;Buenos Aires;2022;17;Dengue;6;De 10 a 14 años;1
+427;La Matanza;6;Buenos Aires;2022;7;Dengue;6;De 10 a 14 años;1
+427;La Matanza;6;Buenos Aires;2022;8;Dengue;6;De 10 a 14 años;2
+427;La Matanza;6;Buenos Aires;2022;9;Dengue;6;De 10 a 14 años;2
+427;La Matanza;6;Buenos Aires;2022;10;Dengue;6;De 10 a 14 años;1
+427;La Matanza;6;Buenos Aires;2022;13;Dengue;6;De 10 a 14 años;1
+427;La Matanza;6;Buenos Aires;2022;14;Dengue;6;De 10 a 14 años;2
+427;La Matanza;6;Buenos Aires;2022;9;Dengue;7;De 15 a 19 años;2
+427;La Matanza;6;Buenos Aires;2022;10;Dengue;7;De 15 a 19 años;2
+427;La Matanza;6;Buenos Aires;2022;12;Dengue;7;De 15 a 19 años;2
+427;La Matanza;6;Buenos Aires;2022;13;Dengue;7;De 15 a 19 años;3
+427;La Matanza;6;Buenos Aires;2022;15;Dengue;7;De 15 a 19 años;3
+427;La Matanza;6;Buenos Aires;2022;16;Dengue;7;De 15 a 19 años;2
+427;La Matanza;6;Buenos Aires;2022;17;Dengue;7;De 15 a 19 años;2
+427;La Matanza;6;Buenos Aires;2022;20;Dengue;7;De 15 a 19 años;1
+427;La Matanza;6;Buenos Aires;2022;14;Dengue;4;De 2 a 4 años;1
+427;La Matanza;6;Buenos Aires;2022;10;Dengue;8;De 20 a 24 años;1
+427;La Matanza;6;Buenos Aires;2022;11;Dengue;8;De 20 a 24 años;1
+427;La Matanza;6;Buenos Aires;2022;12;Dengue;8;De 20 a 24 años;2
+427;La Matanza;6;Buenos Aires;2022;15;Dengue;8;De 20 a 24 años;3
+427;La Matanza;6;Buenos Aires;2022;16;Dengue;8;De 20 a 24 años;1
+427;La Matanza;6;Buenos Aires;2022;17;Dengue;8;De 20 a 24 años;1
+427;La Matanza;6;Buenos Aires;2022;19;Dengue;8;De 20 a 24 años;2
+427;La Matanza;6;Buenos Aires;2022;7;Dengue;9;De 25 a 34 años;1
+427;La Matanza;6;Buenos Aires;2022;8;Dengue;9;De 25 a 34 años;1
+427;La Matanza;6;Buenos Aires;2022;10;Dengue;9;De 25 a 34 años;1
+427;La Matanza;6;Buenos Aires;2022;11;Dengue;9;De 25 a 34 años;1
+427;La Matanza;6;Buenos Aires;2022;12;Dengue;9;De 25 a 34 años;2
+427;La Matanza;6;Buenos Aires;2022;14;Dengue;9;De 25 a 34 años;6
+427;La Matanza;6;Buenos Aires;2022;15;Dengue;9;De 25 a 34 años;2
+427;La Matanza;6;Buenos Aires;2022;16;Dengue;9;De 25 a 34 años;2
+427;La Matanza;6;Buenos Aires;2022;18;Dengue;9;De 25 a 34 años;2
+427;La Matanza;6;Buenos Aires;2022;4;Dengue;10;De 35 a 44 años;1
+427;La Matanza;6;Buenos Aires;2022;7;Dengue;10;De 35 a 44 años;1
+427;La Matanza;6;Buenos Aires;2022;8;Dengue;10;De 35 a 44 años;1
+427;La Matanza;6;Buenos Aires;2022;9;Dengue;10;De 35 a 44 años;1
+427;La Matanza;6;Buenos Aires;2022;10;Dengue;10;De 35 a 44 años;3
+427;La Matanza;6;Buenos Aires;2022;12;Dengue;10;De 35 a 44 años;1
+427;La Matanza;6;Buenos Aires;2022;13;Dengue;10;De 35 a 44 años;2
+427;La Matanza;6;Buenos Aires;2022;14;Dengue;10;De 35 a 44 años;6
+427;La Matanza;6;Buenos Aires;2022;15;Dengue;10;De 35 a 44 años;4
+427;La Matanza;6;Buenos Aires;2022;16;Dengue;10;De 35 a 44 años;2
+427;La Matanza;6;Buenos Aires;2022;17;Dengue;10;De 35 a 44 años;2
+427;La Matanza;6;Buenos Aires;2022;20;Dengue;10;De 35 a 44 años;1
+427;La Matanza;6;Buenos Aires;2022;4;Dengue;11;De 45 a 65 años;1
+427;La Matanza;6;Buenos Aires;2022;7;Dengue;11;De 45 a 65 años;1
+427;La Matanza;6;Buenos Aires;2022;8;Dengue;11;De 45 a 65 años;1
+427;La Matanza;6;Buenos Aires;2022;9;Dengue;11;De 45 a 65 años;3
+427;La Matanza;6;Buenos Aires;2022;11;Dengue;11;De 45 a 65 años;4
+427;La Matanza;6;Buenos Aires;2022;12;Dengue;11;De 45 a 65 años;3
+427;La Matanza;6;Buenos Aires;2022;13;Dengue;11;De 45 a 65 años;4
+427;La Matanza;6;Buenos Aires;2022;14;Dengue;11;De 45 a 65 años;2
+427;La Matanza;6;Buenos Aires;2022;15;Dengue;11;De 45 a 65 años;4
+427;La Matanza;6;Buenos Aires;2022;16;Dengue;11;De 45 a 65 años;5
+427;La Matanza;6;Buenos Aires;2022;17;Dengue;11;De 45 a 65 años;3
+427;La Matanza;6;Buenos Aires;2022;18;Dengue;11;De 45 a 65 años;3
+427;La Matanza;6;Buenos Aires;2022;19;Dengue;11;De 45 a 65 años;1
+427;La Matanza;6;Buenos Aires;2022;7;Dengue;5;De 5 a 9 años;1
+427;La Matanza;6;Buenos Aires;2022;10;Dengue;5;De 5 a 9 años;1
+427;La Matanza;6;Buenos Aires;2022;13;Dengue;5;De 5 a 9 años;1
+427;La Matanza;6;Buenos Aires;2022;14;Dengue;5;De 5 a 9 años;1
+427;La Matanza;6;Buenos Aires;2022;8;Dengue;12;Mayores de 65 años;1
+427;La Matanza;6;Buenos Aires;2022;11;Dengue;12;Mayores de 65 años;1
+427;La Matanza;6;Buenos Aires;2022;14;Dengue;12;Mayores de 65 años;2
+427;La Matanza;6;Buenos Aires;2022;16;Dengue;12;Mayores de 65 años;2
+427;La Matanza;6;Buenos Aires;2022;17;Dengue;12;Mayores de 65 años;2
+427;La Matanza;6;Buenos Aires;2022;20;Dengue;12;Mayores de 65 años;1
+434;Lanús;6;Buenos Aires;2022;20;Dengue;8;De 20 a 24 años;1
+490;Lomas de Zamora;6;Buenos Aires;2022;14;Dengue;11;De 45 a 65 años;1
+539;Merlo;6;Buenos Aires;2022;15;Dengue;11;De 45 a 65 años;1
+568;Morón;6;Buenos Aires;2022;14;Dengue;6;De 10 a 14 años;1
+568;Morón;6;Buenos Aires;2022;17;Dengue;6;De 10 a 14 años;1
+568;Morón;6;Buenos Aires;2022;17;Dengue;8;De 20 a 24 años;2
+568;Morón;6;Buenos Aires;2022;13;Dengue;9;De 25 a 34 años;1
+568;Morón;6;Buenos Aires;2022;19;Dengue;9;De 25 a 34 años;1
+568;Morón;6;Buenos Aires;2022;13;Dengue;10;De 35 a 44 años;2
+568;Morón;6;Buenos Aires;2022;17;Dengue;10;De 35 a 44 años;1
+568;Morón;6;Buenos Aires;2022;15;Dengue;11;De 45 a 65 años;1
+749;San Fernando;6;Buenos Aires;2022;10;Dengue;11;De 45 a 65 años;1
+49;Capital;10;Catamarca;2022;4;Dengue;11;De 45 a 65 años;1
+70;La Paz;10;Catamarca;2022;12;Dengue;11;De 45 a 65 años;1
+14;Capital;14;Córdoba;2022;21;Dengue;8;De 20 a 24 años;1
+14;Capital;14;Córdoba;2022;48;Dengue;8;De 20 a 24 años;1
+14;Capital;14;Córdoba;2022;13;Dengue;9;De 25 a 34 años;1
+14;Capital;14;Córdoba;2022;48;Dengue;9;De 25 a 34 años;1
+14;Capital;14;Córdoba;2022;50;Dengue;11;De 45 a 65 años;1
+21;Colón;14;Córdoba;2022;16;Dengue;8;De 20 a 24 años;1
+21;Colón;14;Córdoba;2022;17;Dengue;10;De 35 a 44 años;1
+147;Santa María;14;Córdoba;2022;40;Dengue;10;De 35 a 44 años;1
+21;Capital;18;Corrientes;2022;31;Dengue;10;De 35 a 44 años;1
+21;Godoy Cruz;50;Mendoza;2022;41;Dengue;11;De 45 a 65 años;1
+35;Junín;50;Mendoza;2022;44;Dengue;9;De 25 a 34 años;1
+49;Las Heras;50;Mendoza;2022;11;Dengue;10;De 35 a 44 años;1
+56;Guaraní;54;Misiones;2022;19;Dengue;9;De 25 a 34 años;1
+28;Capital;66;Salta;2022;16;Dengue;11;De 45 a 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;6;Dengue;6;De 10 a 14 años;1
+56;Grl. José de San Martín;66;Salta;2022;10;Dengue;6;De 10 a 14 años;1
+56;Grl. José de San Martín;66;Salta;2022;11;Dengue;6;De 10 a 14 años;5
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;6;De 10 a 14 años;4
+56;Grl. José de San Martín;66;Salta;2022;13;Dengue;6;De 10 a 14 años;3
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;6;De 10 a 14 años;10
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;6;De 10 a 14 años;8
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;6;De 10 a 14 años;9
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;6;De 10 a 14 años;10
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;6;De 10 a 14 años;4
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;6;De 10 a 14 años;4
+56;Grl. José de San Martín;66;Salta;2022;20;Dengue;6;De 10 a 14 años;3
+56;Grl. José de San Martín;66;Salta;2022;21;Dengue;6;De 10 a 14 años;1
+56;Grl. José de San Martín;66;Salta;2022;22;Dengue;6;De 10 a 14 años;1
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;3;De 13 a 24 meses;1
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;3;De 13 a 24 meses;1
+56;Grl. José de San Martín;66;Salta;2022;10;Dengue;7;De 15 a 19 años;2
+56;Grl. José de San Martín;66;Salta;2022;11;Dengue;7;De 15 a 19 años;2
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;7;De 15 a 19 años;2
+56;Grl. José de San Martín;66;Salta;2022;13;Dengue;7;De 15 a 19 años;2
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;7;De 15 a 19 años;6
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;7;De 15 a 19 años;9
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;7;De 15 a 19 años;10
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;7;De 15 a 19 años;6
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;7;De 15 a 19 años;5
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;7;De 15 a 19 años;4
+56;Grl. José de San Martín;66;Salta;2022;20;Dengue;7;De 15 a 19 años;1
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;4;De 2 a 4 años;3
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;4;De 2 a 4 años;1
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;4;De 2 a 4 años;2
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;4;De 2 a 4 años;4
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;4;De 2 a 4 años;2
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;4;De 2 a 4 años;1
+56;Grl. José de San Martín;66;Salta;2022;5;Dengue;8;De 20 a 24 años;1
+56;Grl. José de San Martín;66;Salta;2022;10;Dengue;8;De 20 a 24 años;3
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;8;De 20 a 24 años;3
+56;Grl. José de San Martín;66;Salta;2022;13;Dengue;8;De 20 a 24 años;2
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;8;De 20 a 24 años;11
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;8;De 20 a 24 años;9
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;8;De 20 a 24 años;8
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;8;De 20 a 24 años;3
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;8;De 20 a 24 años;6
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;8;De 20 a 24 años;8
+56;Grl. José de San Martín;66;Salta;2022;20;Dengue;8;De 20 a 24 años;3
+56;Grl. José de San Martín;66;Salta;2022;21;Dengue;8;De 20 a 24 años;3
+56;Grl. José de San Martín;66;Salta;2022;4;Dengue;9;De 25 a 34 años;1
+56;Grl. José de San Martín;66;Salta;2022;7;Dengue;9;De 25 a 34 años;1
+56;Grl. José de San Martín;66;Salta;2022;11;Dengue;9;De 25 a 34 años;4
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;9;De 25 a 34 años;7
+56;Grl. José de San Martín;66;Salta;2022;13;Dengue;9;De 25 a 34 años;7
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;9;De 25 a 34 años;14
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;9;De 25 a 34 años;11
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;9;De 25 a 34 años;13
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;9;De 25 a 34 años;15
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;9;De 25 a 34 años;13
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;9;De 25 a 34 años;4
+56;Grl. José de San Martín;66;Salta;2022;20;Dengue;9;De 25 a 34 años;4
+56;Grl. José de San Martín;66;Salta;2022;21;Dengue;9;De 25 a 34 años;5
+56;Grl. José de San Martín;66;Salta;2022;22;Dengue;9;De 25 a 34 años;1
+56;Grl. José de San Martín;66;Salta;2022;5;Dengue;10;De 35 a 44 años;1
+56;Grl. José de San Martín;66;Salta;2022;9;Dengue;10;De 35 a 44 años;1
+56;Grl. José de San Martín;66;Salta;2022;10;Dengue;10;De 35 a 44 años;1
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;10;De 35 a 44 años;11
+56;Grl. José de San Martín;66;Salta;2022;13;Dengue;10;De 35 a 44 años;8
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;10;De 35 a 44 años;11
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;10;De 35 a 44 años;9
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;10;De 35 a 44 años;19
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;10;De 35 a 44 años;13
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;10;De 35 a 44 años;9
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;10;De 35 a 44 años;4
+56;Grl. José de San Martín;66;Salta;2022;20;Dengue;10;De 35 a 44 años;1
+56;Grl. José de San Martín;66;Salta;2022;21;Dengue;10;De 35 a 44 años;4
+56;Grl. José de San Martín;66;Salta;2022;22;Dengue;10;De 35 a 44 años;1
+56;Grl. José de San Martín;66;Salta;2022;5;Dengue;11;De 45 a 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;8;Dengue;11;De 45 a 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;10;Dengue;11;De 45 a 65 años;2
+56;Grl. José de San Martín;66;Salta;2022;11;Dengue;11;De 45 a 65 años;10
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;11;De 45 a 65 años;4
+56;Grl. José de San Martín;66;Salta;2022;13;Dengue;11;De 45 a 65 años;6
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;11;De 45 a 65 años;10
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;11;De 45 a 65 años;16
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;11;De 45 a 65 años;14
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;11;De 45 a 65 años;11
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;11;De 45 a 65 años;12
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;11;De 45 a 65 años;3
+56;Grl. José de San Martín;66;Salta;2022;20;Dengue;11;De 45 a 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;21;Dengue;11;De 45 a 65 años;3
+56;Grl. José de San Martín;66;Salta;2022;22;Dengue;11;De 45 a 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;4;Dengue;5;De 5 a 9 años;1
+56;Grl. José de San Martín;66;Salta;2022;11;Dengue;5;De 5 a 9 años;1
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;5;De 5 a 9 años;4
+56;Grl. José de San Martín;66;Salta;2022;13;Dengue;5;De 5 a 9 años;7
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;5;De 5 a 9 años;7
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;5;De 5 a 9 años;5
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;5;De 5 a 9 años;4
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;5;De 5 a 9 años;7
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;5;De 5 a 9 años;5
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;5;De 5 a 9 años;2
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;12;Mayores de 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;13;Dengue;12;Mayores de 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;14;Dengue;12;Mayores de 65 años;4
+56;Grl. José de San Martín;66;Salta;2022;15;Dengue;12;Mayores de 65 años;2
+56;Grl. José de San Martín;66;Salta;2022;16;Dengue;12;Mayores de 65 años;2
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;12;Mayores de 65 años;3
+56;Grl. José de San Martín;66;Salta;2022;18;Dengue;12;Mayores de 65 años;3
+56;Grl. José de San Martín;66;Salta;2022;19;Dengue;12;Mayores de 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;20;Dengue;12;Mayores de 65 años;1
+56;Grl. José de San Martín;66;Salta;2022;12;Dengue;2;Posneonato (29 hasta 365 dias);1
+56;Grl. José de San Martín;66;Salta;2022;17;Dengue;2;Posneonato (29 hasta 365 dias);1
+126;Orán;66;Salta;2022;16;Dengue;6;De 10 a 14 años;1
+126;Orán;66;Salta;2022;19;Dengue;8;De 20 a 24 años;1
+126;Orán;66;Salta;2022;13;Dengue;9;De 25 a 34 años;1
+126;Orán;66;Salta;2022;14;Dengue;9;De 25 a 34 años;1
+126;Orán;66;Salta;2022;17;Dengue;9;De 25 a 34 años;2
+126;Orán;66;Salta;2022;20;Dengue;9;De 25 a 34 años;1
+126;Orán;66;Salta;2022;21;Dengue;9;De 25 a 34 años;1
+126;Orán;66;Salta;2022;23;Dengue;9;De 25 a 34 años;1
+126;Orán;66;Salta;2022;14;Dengue;11;De 45 a 65 años;1
+126;Orán;66;Salta;2022;19;Dengue;11;De 45 a 65 años;1
+126;Orán;66;Salta;2022;21;Dengue;11;De 45 a 65 años;1
+126;Orán;66;Salta;2022;18;Dengue;5;De 5 a 9 años;1
+126;Orán;66;Salta;2022;14;Dengue;12;Mayores de 65 años;1
+126;Orán;66;Salta;2022;15;Dengue;12;Mayores de 65 años;1
+126;Orán;66;Salta;2022;18;Dengue;12;Mayores de 65 años;1
+133;Rivadavia;66;Salta;2022;15;Dengue;6;De 10 a 14 años;1
+133;Rivadavia;66;Salta;2022;17;Dengue;6;De 10 a 14 años;2
+133;Rivadavia;66;Salta;2022;14;Dengue;7;De 15 a 19 años;1
+133;Rivadavia;66;Salta;2022;17;Dengue;7;De 15 a 19 años;1
+133;Rivadavia;66;Salta;2022;18;Dengue;7;De 15 a 19 años;1
+133;Rivadavia;66;Salta;2022;19;Dengue;7;De 15 a 19 años;1
+133;Rivadavia;66;Salta;2022;22;Dengue;7;De 15 a 19 años;1
+133;Rivadavia;66;Salta;2022;17;Dengue;4;De 2 a 4 años;1
+133;Rivadavia;66;Salta;2022;15;Dengue;8;De 20 a 24 años;1
+133;Rivadavia;66;Salta;2022;16;Dengue;8;De 20 a 24 años;2
+133;Rivadavia;66;Salta;2022;12;Dengue;9;De 25 a 34 años;1
+133;Rivadavia;66;Salta;2022;15;Dengue;9;De 25 a 34 años;2
+133;Rivadavia;66;Salta;2022;17;Dengue;9;De 25 a 34 años;1
+133;Rivadavia;66;Salta;2022;19;Dengue;9;De 25 a 34 años;2
+133;Rivadavia;66;Salta;2022;20;Dengue;9;De 25 a 34 años;1
+133;Rivadavia;66;Salta;2022;14;Dengue;10;De 35 a 44 años;2
+133;Rivadavia;66;Salta;2022;16;Dengue;10;De 35 a 44 años;1
+133;Rivadavia;66;Salta;2022;17;Dengue;10;De 35 a 44 años;1
+133;Rivadavia;66;Salta;2022;18;Dengue;10;De 35 a 44 años;2
+133;Rivadavia;66;Salta;2022;12;Dengue;11;De 45 a 65 años;1
+133;Rivadavia;66;Salta;2022;14;Dengue;11;De 45 a 65 años;1
+133;Rivadavia;66;Salta;2022;15;Dengue;11;De 45 a 65 años;2
+133;Rivadavia;66;Salta;2022;16;Dengue;11;De 45 a 65 años;1
+133;Rivadavia;66;Salta;2022;17;Dengue;11;De 45 a 65 años;4
+133;Rivadavia;66;Salta;2022;18;Dengue;11;De 45 a 65 años;2
+133;Rivadavia;66;Salta;2022;22;Dengue;11;De 45 a 65 años;1
+133;Rivadavia;66;Salta;2022;11;Dengue;12;Mayores de 65 años;1
+133;Rivadavia;66;Salta;2022;14;Dengue;2;Posneonato (29 hasta 365 dias);1
+56;La Capital;74;San Luis;2022;8;Dengue;9;De 25 a 34 años;1
+21;Castellanos;82;Santa Fe;2022;19;Dengue;6;De 10 a 14 años;1
+21;Castellanos;82;Santa Fe;2022;11;Dengue;7;De 15 a 19 años;1
+21;Castellanos;82;Santa Fe;2022;12;Dengue;8;De 20 a 24 años;1
+21;Castellanos;82;Santa Fe;2022;15;Dengue;8;De 20 a 24 años;1
+21;Castellanos;82;Santa Fe;2022;10;Dengue;9;De 25 a 34 años;1
+21;Castellanos;82;Santa Fe;2022;11;Dengue;9;De 25 a 34 años;1
+21;Castellanos;82;Santa Fe;2022;20;Dengue;9;De 25 a 34 años;1
+21;Castellanos;82;Santa Fe;2022;11;Dengue;10;De 35 a 44 años;1
+21;Castellanos;82;Santa Fe;2022;13;Dengue;10;De 35 a 44 años;1
+21;Castellanos;82;Santa Fe;2022;14;Dengue;10;De 35 a 44 años;1
+21;Castellanos;82;Santa Fe;2022;18;Dengue;10;De 35 a 44 años;1
+21;Castellanos;82;Santa Fe;2022;19;Dengue;10;De 35 a 44 años;1
+21;Castellanos;82;Santa Fe;2022;20;Dengue;10;De 35 a 44 años;1
+21;Castellanos;82;Santa Fe;2022;9;Dengue;11;De 45 a 65 años;2
+21;Castellanos;82;Santa Fe;2022;10;Dengue;11;De 45 a 65 años;1
+21;Castellanos;82;Santa Fe;2022;13;Dengue;11;De 45 a 65 años;1
+21;Castellanos;82;Santa Fe;2022;14;Dengue;11;De 45 a 65 años;1
+21;Castellanos;82;Santa Fe;2022;18;Dengue;12;Mayores de 65 años;1
+28;Constitución;82;Santa Fe;2022;20;Dengue;10;De 35 a 44 años;1
+63;La Capital;82;Santa Fe;2022;17;Dengue;12;Mayores de 65 años;1
+84;Rosario;82;Santa Fe;2022;20;Dengue;8;De 20 a 24 años;1
+84;Rosario;82;Santa Fe;2022;5;Dengue;9;De 25 a 34 años;1
+84;Rosario;82;Santa Fe;2022;28;Dengue;10;De 35 a 44 años;1
+119;San Lorenzo;82;Santa Fe;2022;15;Dengue;10;De 35 a 44 años;1
+119;San Lorenzo;82;Santa Fe;2022;29;Dengue;10;De 35 a 44 años;1
+119;San Lorenzo;82;Santa Fe;2022;14;Dengue;11;De 45 a 65 años;1
+126;San Martín;82;Santa Fe;2022;13;Dengue;9;De 25 a 34 años;1
+35;Banda;86;Santiago del Estero;2022;14;Dengue;10;De 35 a 44 años;1
+35;Banda;86;Santiago del Estero;2022;16;Dengue;10;De 35 a 44 años;1
+35;Banda;86;Santiago del Estero;2022;6;Dengue;11;De 45 a 65 años;1
+49;Capital;86;Santiago del Estero;2022;14;Dengue;10;De 35 a 44 años;1

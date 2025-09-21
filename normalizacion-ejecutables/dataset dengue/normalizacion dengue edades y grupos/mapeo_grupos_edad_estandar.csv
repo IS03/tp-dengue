@@ -1,0 +1,13 @@
+grupo_edad_id,grupo_edad_desc
+0,neonato hasta 28 dias
+1,posneonato 29 hasta 365 dias
+2,de 13 a 24 meses
+3,de 2 a 4 anos
+4,de 5 a 9 anos
+5,de 10 a 14 anos
+6,de 15 a 19 anos
+7,de 20 a 24 anos
+8,de 25 a 34 anos
+9,de 35 a 44 anos
+10,de 45 a 65 anos
+11,mayores de 65 anos
