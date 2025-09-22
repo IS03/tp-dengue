@@ -11,3 +11,6 @@
     - **Hacer una tabla con las unidades de medida de las columnas seleccionadas.** Hacer esto nos va a servir al momento de hacer el analisis exploratorio de los datos y para evitar confusiones.
 
     - **Generar base de datos para unificar tablas de *dengue* y *clima*.**
+
+    - **Hacer transformaciones (ETL) para cada estación por separado.**
+
