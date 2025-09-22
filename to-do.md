@@ -1,16 +1,7 @@
-## Cosas por hacer:
+- <mark>22/9.</mark> Descubri que en la tabla de datos climaticos, hay estaciones que registraron temperaturas extremadamente frias en fechas de verano, estamos hablando de temperaturas menos a -20 grados, algo imposible. Dado este hallazgo, se me ocurre investigar las temperaturas promedias para cada provincia en cada estación del año (invierno, otoño, primavera y verano).
 
-- ### **🗃️ Selección de variables.**
+- <mark>22/9.</mark> Tengo que terminar el análisis y transformación para las columans de `temperatura`
 
-    - **Definir que criterio tomamos para eliminar las columnas.** Por ejemplo, podemos quedarnos con mas cantidad de datos (verticalmente) pero con menos features, dejando unicamente las que tengan pocos valores nulos. Por el contrario, podemos dejar mas cantidad de variables y tener gran cantidad de datos (horizontalmente) pero con muchos valores nulos. 
+- <mark>22/9.</mark> Como forma de imputar valor a los nulos, independientemente de la columna, podemos hacer un promedio de los ultimos tres registros (es decir, los tres dias anteriores) en vez de hacer una interpolación. Creo que es mas preciso por lo menos para mi razonamiento.
 
-- ### **🫧 Limpieza y tratamiento de valores nulos**
-    - **¿Conviene convertir los valores nulos en la media o mediana?** Explorar si es viable hacerlo.
-
-- ### **🔮 Extra**
-    - **Hacer una tabla con las unidades de medida de las columnas seleccionadas.** Hacer esto nos va a servir al momento de hacer el analisis exploratorio de los datos y para evitar confusiones.
-
-    - **Generar base de datos para unificar tablas de *dengue* y *clima*.**
-
-    - **Hacer transformaciones (ETL) para cada estación por separado.**
-
+- <mark>22/9.</mark> Tenemos un total de casi 33.000 filas con todos datos nulos. Decidir si los eliminamos o ver la manera de "rescatarlos". (representan el 4% del dataset).   
