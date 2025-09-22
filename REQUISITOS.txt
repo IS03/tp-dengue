@@ -1,0 +1,320 @@
+REQUISITOS DEL SISTEMA DE PROCESAMIENTO Y NORMALIZACIÓN DE DATOS DE DENGUE EN ARGENTINA
+=======================================================================================
+
+DESCRIPCIÓN GENERAL
+===================
+Sistema completo de procesamiento, normalización y análisis de datos epidemiológicos de dengue en Argentina. 
+El sistema integra datos de casos de dengue con información demográfica y geográfica para crear un dataset 
+unificado y normalizado que permite análisis epidemiológicos detallados.
+
+OBJETIVOS PRINCIPALES
+=====================
+1. Normalización de datos: Estandarizar formatos, nombres y códigos de identificación
+2. Integración de fuentes: Combinar datos de dengue con información demográfica y geográfica
+3. Calidad de datos: Implementar verificaciones y correcciones automáticas
+4. Trazabilidad: Mantener backups y registros de todos los cambios realizados
+5. Análisis epidemiológico: Facilitar estudios de incidencia, distribución temporal y espacial
+
+FUENTES DE DATOS
+================
+
+1. DATOS DE DENGUE
+------------------
+- Fuente: Ministerio de Salud de Argentina
+- Período: 2018-2025
+- Formato original: Excel/CSV con información semanal
+- Variables: Casos por departamento, provincia, grupo etario, semana epidemiológica
+- Ubicación: dataset-dengue/bruto/
+- Archivos procesados: dataset-dengue/procesado/
+
+2. DATOS DEMOGRÁFICOS
+---------------------
+- Fuente: INDEC (Instituto Nacional de Estadística y Censos)
+- Período: 2018-2025
+- Cobertura: Todos los departamentos de Argentina
+- Variables: Población por departamento y año
+- Ubicación: dataset-poblacion/bruto/
+- Archivos procesados: dataset-poblacion/procesado/
+
+3. DATOS GEOGRÁFICOS
+--------------------
+- Fuente: Lista oficial de departamentos
+- Cobertura: 531 departamentos de Argentina
+- Variables: Códigos UTA 2020, coordenadas, información socioeconómica
+- Ubicación: dataset-departamentos/bruto/
+- Archivo procesado: dataset-departamentos/procesado/lista-departamentos.csv
+
+ESTRUCTURA DEL PROYECTO
+=======================
+tp-dengue/
+├── A-final/                          # Dataset final consolidado
+│   └── dengue-final.csv              # Dataset unificado y normalizado (68,127 registros)
+├── dataset-dengue/                   # Datos de casos de dengue
+│   ├── bruto/                        # Datos originales sin procesar
+│   ├── procesado/                    # Datos normalizados por año
+│   └── backup/                       # Backups automáticos
+├── dataset-departamentos/            # Información geográfica
+│   ├── bruto/                        # Lista original de departamentos
+│   └── procesado/                    # Lista normalizada
+├── dataset-poblacion/                # Datos demográficos
+│   ├── bruto/                        # Archivos originales por provincia
+│   ├── procesado/                    # Archivos normalizados
+│   └── backup/                       # Backups automáticos
+└── normalizacion-ejecutables/        # Scripts de procesamiento
+    ├── dataset dengue/               # Scripts específicos para dengue
+    ├── dataset poblacion/            # Scripts para datos demográficos
+    └── normalizacion simple/         # Scripts de normalización básica
+
+FLUJO DE PROCESAMIENTO
+======================
+
+FASE 1: NORMALIZACIÓN BÁSICA
+-----------------------------
+1. Conversión de formatos: Excel → CSV
+2. Limpieza de texto: Eliminación de acentos, caracteres especiales
+3. Estandarización de columnas: Nombres consistentes
+4. Eliminación de datos vacíos: Filas y columnas sin información
+
+Scripts principales:
+- normalizar_dengue.py: Normalización básica de archivos de dengue
+- limpiar_csv.py: Limpieza general de archivos CSV
+- normalizar_texto.py: Normalización de texto
+
+FASE 2: NORMALIZACIÓN DE DATOS DE DENGUE
+----------------------------------------
+1. Normalización de departamentos y provincias:
+   - Verificación contra lista oficial
+   - Corrección de nombres inconsistentes
+   - Asignación de códigos UTA 2020
+
+2. Normalización de grupos etarios:
+   - Estandarización de rangos de edad
+   - Corrección de inconsistencias temporales
+
+3. Manejo de datos faltantes:
+   - Identificación de valores desconocidos
+   - Corrección automática e interactiva
+
+Scripts principales:
+- verificar_departamentos_provincias.py: Verificación de consistencia geográfica
+- normalizar_grupos_edad.py: Estandarización de rangos etarios
+- corregir_problemas_automatico.py: Corrección automática de problemas
+
+FASE 3: NORMALIZACIÓN DE DATOS DEMOGRÁFICOS
+-------------------------------------------
+1. Verificación de partidos:
+   - Validación contra lista oficial
+   - Corrección de nombres incorrectos
+
+2. Verificación de valores:
+   - Detección de valores nulos o incorrectos
+   - Conversión a enteros
+
+3. Asignación de códigos UTA:
+   - Agregación de identificadores únicos
+
+Scripts principales:
+- verificar_y_corregir_partidos.py: Validación de nombres de partidos
+- verificar_valores_poblacion.py: Detección de valores incorrectos
+- agregar_uta_id_poblacion.py: Asignación de códigos UTA
+
+FASE 4: INTEGRACIÓN DE DATOS
+-----------------------------
+1. Merge con población:
+   - Agregación de datos demográficos por departamento y año
+   - Matching: provincia + departamento + año
+
+2. Consolidación final:
+   - Unificación de todos los datasets
+   - Verificación de consistencia
+
+Scripts principales:
+- agregar_poblacion_dengue.py: Merge de datos demográficos con dengue
+- crear_columna_uta_id.py: Asignación de códigos UTA 2020
+
+DATASET FINAL
+=============
+
+Estructura del Dataset Consolidado (dengue-final.csv):
+- Registros: 68,127 filas
+- Período: 2018-2025
+- Departamentos: 531 departamentos de Argentina
+- Cobertura: 24 provincias + CABA
+- Variables: 14 columnas normalizadas
+
+Columnas del dataset final:
+1. departamento_nombre: Nombre del departamento
+2. provincia_id: ID numérico de la provincia
+3. provincia_nombre: Nombre de la provincia
+4. ano: Año de los datos
+5. semanas_epidemiologicas: Semana epidemiológica
+6. evento_nombre: Tipo de evento (dengue)
+7. grupo_edad_id: ID del grupo etario
+8. grupo_edad_desc: Descripción del grupo etario
+9. cantidad_casos: Número de casos
+10. departamento_nombre_normalizado: Nombre normalizado
+11. provincia_nombre_normalizado: Provincia normalizada
+12. fila_original: Referencia al archivo original
+13. departamento_id_uta_2020: Código UTA 2020
+14. poblacion: Población del departamento
+
+CARACTERÍSTICAS TÉCNICAS
+========================
+
+Sistema de Backups:
+- Backups automáticos antes de cada modificación
+- Numeración secuencial: back1, back2, back3, etc.
+- Ubicación organizada por tipo de procesamiento
+- Preservación de originales sin pérdida de datos
+
+Normalización de Texto:
+- Eliminación de acentos: "año" → "ano"
+- Minúsculas: Estandarización de mayúsculas
+- Caracteres especiales: Limpieza de símbolos
+- Espacios: Normalización de espacios múltiples
+
+Verificación de Calidad:
+- Validación cruzada entre diferentes fuentes
+- Detección de errores automática e interactiva
+- Sugerencias inteligentes para correcciones
+- Reportes detallados de errores y correcciones
+
+REQUISITOS TÉCNICOS
+===================
+
+Software:
+- Python 3.6+
+- pandas
+- Acceso a archivos del proyecto
+
+Dependencias Python:
+- pandas: Manipulación de datos
+- os: Operaciones del sistema
+- csv: Manejo de archivos CSV
+- shutil: Operaciones de archivos
+- datetime: Manejo de fechas
+- unicodedata: Normalización de texto
+- re: Expresiones regulares
+- difflib: Comparación de texto
+
+Estructura de Archivos:
+- Separador: coma (,)
+- Codificación: UTF-8
+- Formato: CSV
+- Backup automático antes de modificaciones
+
+ANÁLISIS POSIBLES
+=================
+
+Epidemiológicos:
+- Tendencias temporales: Evolución de casos por año
+- Distribución espacial: Patrones geográficos
+- Análisis por edad: Grupos etarios más afectados
+- Estacionalidad: Patrones por semana epidemiológica
+
+Demográficos:
+- Tasas de incidencia: Casos por 100,000 habitantes
+- Comparaciones regionales: Entre provincias
+- Análisis urbano-rural: Por tipo de departamento
+- Proyecciones: Basadas en datos demográficos
+
+Integrados:
+- Factores de riesgo: Relación con variables socioeconómicas
+- Modelos predictivos: Basados en datos históricos
+- Análisis de clusters: Agrupaciones espaciales
+- Correlaciones: Entre variables epidemiológicas y demográficas
+
+FLUJO DE EJECUCIÓN RECOMENDADO
+==============================
+
+1. Normalización básica de archivos originales
+2. Verificación y corrección de datos geográficos
+3. Normalización de población y verificación de valores
+4. Integración de datos demográficos
+5. Asignación de códigos UTA para identificación única
+6. Consolidación final en dataset unificado
+
+COMANDOS DE EJECUCIÓN
+=====================
+
+# Normalización básica
+cd normalizacion-ejecutables/normalizacion\ simple/
+python normalizar_dengue.py
+
+# Verificación de departamentos
+cd normalizacion-ejecutables/dataset\ dengue/normalizacion\ departamentos\ y\ provincias/
+python verificar_departamentos_provincias.py
+
+# Integración de población
+cd normalizacion-ejecutables/dataset\ dengue/merch\ con\ la\ poblacion\ en\ dengue/
+python agregar_poblacion_dengue.py
+
+# Asignación de códigos UTA
+cd normalizacion-ejecutables/dataset\ dengue/uta\ IDs/
+python crear_columna_uta_id.py
+
+NOTAS IMPORTANTES
+=================
+
+Calidad de Datos:
+- Fuente de verdad: lista-departamentos.csv para datos geográficos
+- Matching estricto: Combinación exacta de provincia + departamento + año
+- Verificación cruzada: Entre diferentes fuentes de datos
+- Corrección interactiva: Para casos complejos
+
+Trazabilidad:
+- Backups automáticos: Preservación de versiones anteriores
+- Registro de cambios: Documentación de modificaciones
+- Referencias originales: Mantenimiento de vínculos con datos fuente
+- Auditoría: Posibilidad de rastrear origen de cada dato
+
+Escalabilidad:
+- Procesamiento por lotes: Manejo eficiente de grandes volúmenes
+- Modularidad: Scripts independientes y reutilizables
+- Automatización: Procesos repetibles y consistentes
+- Extensibilidad: Fácil incorporación de nuevos años o variables
+
+RESULTADOS LOGRADOS
+===================
+
+El proyecto ha logrado crear un dataset epidemiológico robusto y normalizado que permite:
+
+- Análisis epidemiológicos precisos y confiables
+- Comparaciones temporales y espaciales consistentes
+- Integración de múltiples fuentes de datos
+- Trazabilidad completa de todos los cambios realizados
+- Base sólida para investigaciones futuras sobre dengue en Argentina
+
+Este sistema representa una herramienta valiosa para la vigilancia epidemiológica y la investigación en salud pública, proporcionando datos de alta calidad para la toma de decisiones informadas en el control y prevención del dengue.
+
+MANTENIMIENTO
+=============
+
+Actualización de Datos:
+1. Agregar nuevos archivos en las carpetas bruto/
+2. Ejecutar scripts de normalización correspondientes
+3. Verificar calidad de datos procesados
+4. Actualizar dataset consolidado
+
+Resolución de Problemas:
+- Revisar logs de errores en los scripts
+- Verificar backups automáticos
+- Consultar documentación específica en cada carpeta
+- Validar consistencia con archivos de referencia
+
+ARCHIVOS CLAVE
+==============
+
+Datasets Principales:
+- A-final/dengue-final.csv: Dataset consolidado final
+- dataset-departamentos/procesado/lista-departamentos.csv: Lista oficial de departamentos
+- dataset-dengue/procesado/dengue-*.csv: Datos de dengue por año
+- dataset-poblacion/procesado/*.csv: Datos demográficos por provincia
+
+Scripts de Procesamiento:
+- normalizacion-ejecutables/normalizacion simple/: Normalización básica
+- normalizacion-ejecutables/dataset dengue/: Procesamiento específico de dengue
+- normalizacion-ejecutables/dataset poblacion/: Procesamiento de datos demográficos
+
+Desarrollado para análisis epidemiológico de dengue en Argentina
+Sistema de procesamiento y normalización de datos de vigilancia epidemiológica
