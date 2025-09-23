@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis EDA - Dataset de Dengue</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-top: 30px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        th {
+            background: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #e3f2fd;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Análisis EDA - Dataset de Dengue Argentina</h1>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">68,126</div>
+                <div class="stat-label">Total Registros</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">9</div>
+                <div class="stat-label">Columnas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">765,848.0</div>
+                <div class="stat-label">Total Casos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">216,043</div>
+                <div class="stat-label">Población Promedio</div>
+            </div>
+        </div>
+
+        <h2>📋 Información de Columnas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna</th>
+                    <th>Tipo</th>
+                    <th>Valores Únicos</th>
+                    <th>Valores Faltantes</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td><strong>id_uta</strong></td>
+                    <td>int64</td>
+                    <td>429</td>
+                    <td>0</td>
+                    <td>Código UTA 2020 único</td>
+                </tr>
+
+                <tr>
+                    <td><strong>departamento_nombre</strong></td>
+                    <td>object</td>
+                    <td>429</td>
+                    <td>0</td>
+                    <td>Nombre del departamento/partido</td>
+                </tr>
+
+                <tr>
+                    <td><strong>provincia_nombre</strong></td>
+                    <td>object</td>
+                    <td>24</td>
+                    <td>0</td>
+                    <td>Nombre de la provincia</td>
+                </tr>
+
+                <tr>
+                    <td><strong>ano</strong></td>
+                    <td>int64</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>Año de los datos epidemiológicos</td>
+                </tr>
+
+                <tr>
+                    <td><strong>semanas_epidemiologicas</strong></td>
+                    <td>float64</td>
+                    <td>53</td>
+                    <td>0</td>
+                    <td>Semana epidemiológica (1-52)</td>
+                </tr>
+
+                <tr>
+                    <td><strong>grupo_edad_id</strong></td>
+                    <td>int64</td>
+                    <td>11</td>
+                    <td>0</td>
+                    <td>ID numérico del grupo etario</td>
+                </tr>
+
+                <tr>
+                    <td><strong>grupo_edad_desc</strong></td>
+                    <td>object</td>
+                    <td>11</td>
+                    <td>0</td>
+                    <td>Descripción del grupo etario</td>
+                </tr>
+
+                <tr>
+                    <td><strong>cantidad_casos</strong></td>
+                    <td>float64</td>
+                    <td>430</td>
+                    <td>0</td>
+                    <td>Número de casos de dengue</td>
+                </tr>
+
+                <tr>
+                    <td><strong>poblacion</strong></td>
+                    <td>int64</td>
+                    <td>1,474</td>
+                    <td>0</td>
+                    <td>Población del departamento</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h2>🏆 Top 10 Departamentos con Más Registros</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Posición</th>
+                    <th>Departamento</th>
+                    <th>Registros</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>san fernando</td>
+                    <td>1,053</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>general jose de san martin</td>
+                    <td>1,003</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>rosario</td>
+                    <td>908</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>formosa</td>
+                    <td>868</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>general guemes</td>
+                    <td>829</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>cordoba capital</td>
+                    <td>769</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>corrientes capital</td>
+                    <td>744</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>patino</td>
+                    <td>725</td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>la capital</td>
+                    <td>711</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>general san martin</td>
+                    <td>705</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h2>🦠 Top 10 Departamentos con Más Casos de Dengue</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Posición</th>
+                    <th>Departamento</th>
+                    <th>Casos</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>cordoba capital</td>
+                    <td>63,655.0</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>rosario</td>
+                    <td>42,999.0</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>tucuman capital</td>
+                    <td>38,893.0</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>santiago del estero capital</td>
+                    <td>24,395.0</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>san fernando</td>
+                    <td>21,037.0</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>cruz alta</td>
+                    <td>19,143.0</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>salta capital</td>
+                    <td>16,344.0</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>comuna 1</td>
+                    <td>14,849.0</td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>la matanza</td>
+                    <td>13,987.0</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>san justo</td>
+                    <td>13,505.0</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h2>📅 Casos de Dengue por Año</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Casos</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>2018</td>
+                    <td>1,607.0</td>
+                </tr>
+
+                <tr>
+                    <td>2019</td>
+                    <td>2,790.0</td>
+                </tr>
+
+                <tr>
+                    <td>2020</td>
+                    <td>45,079.0</td>
+                </tr>
+
+                <tr>
+                    <td>2021</td>
+                    <td>3,847.0</td>
+                </tr>
+
+                <tr>
+                    <td>2022</td>
+                    <td>793.0</td>
+                </tr>
+
+                <tr>
+                    <td>2023</td>
+                    <td>141,429.0</td>
+                </tr>
+
+                <tr>
+                    <td>2024</td>
+                    <td>553,535.0</td>
+                </tr>
+
+                <tr>
+                    <td>2025</td>
+                    <td>16,768.0</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <div class="footer">
+            <p>Reporte generado el 22/09/2025 a las 21:46</p>
+            <p>Dataset: dengue-final.csv | Total de registros: 68,126</p>
+        </div>
+    </div>
+</body>
+</html>

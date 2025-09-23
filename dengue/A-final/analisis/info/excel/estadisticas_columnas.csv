@@ -1,0 +1,10 @@
+Columna,Tipo,Media,Mediana,Desv_Std,Minimo,Maximo,Valores_Unicos,Valores_Faltantes,Moda
+id_uta,Numérica,37954.488359803894,30028.0,30283.96429209172,2001.0,94028.0,429,0,
+departamento_nombre,Categórica,,,,,,429,0,san fernando
+provincia_nombre,Categórica,,,,,,24,0,buenos aires
+ano,Numérica,2022.9882423744239,2024.0,1.6301993220480955,2018.0,2025.0,8,0,
+semanas_epidemiologicas,Numérica,15.329184158764642,14.0,8.983698767124263,1.0,53.0,53,0,
+grupo_edad_id,Numérica,8.079352963626222,9.0,2.4643752182991823,1.0,11.0,11,0,
+grupo_edad_desc,Categórica,,,,,,11,0,mayores de 65 anos
+cantidad_casos,Numérica,11.241640489680885,2.0,41.212239050417466,1.0,2351.0,430,0,
+poblacion,Numérica,216042.76199982385,99211.0,328065.33672652376,313.0,2509547.0,1474,0,
