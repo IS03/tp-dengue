@@ -2,3 +2,4 @@ env/
 .env
 datos-estaciones/
 poblacion/
+__pycache__/
