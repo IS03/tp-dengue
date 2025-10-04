@@ -3,9 +3,12 @@
 Transformaciones EDA por archivo (una estación por archivo)
 -----------------------------------------------------------
 Versión con manejo básico de errores, validaciones y mensajes de logging.
-No usa patrones avanzados para mantenerlo simple y legible.
+Incluye:
+- agregar_id_estacion(): infiere id_estacion desde el nombre de archivo si falta.
+- Regressiones SIEMPRE intentadas (sin chequear tamaño mínimo); se capturan errores.
 """
 
+import os
 import logging
 from typing import Iterable, List, Optional
 
@@ -50,8 +53,6 @@ VARIABLES_RENOMBRADAS = {
     "humedad_media_8_14_20": "humedad_media",
 }
 
-MIN_REG_SAMPLES = 10  # mínimo de ejemplos para entrenar regresiones simples
-
 
 # -----------------------------------------------------------------------------
 # Utilidades
@@ -63,16 +64,32 @@ def _coerce_list(x) -> List[str]:
         return list(x)
     return [x]
 
-def agregar_id_estacion(df, nombre_archivo):
-    nombre_archivo = nombre_archivo.split('/')[-1].strip('.xls')
-    df['id_estacion'] = nombre_archivo
-    return df
+
+def agregar_id_estacion(df: pd.DataFrame, nombre_archivo: Optional[str]) -> pd.DataFrame:
+    """
+    Si no existe 'id_estacion' o está vacío, lo infiere desde el nombre de archivo.
+    Ej: '/path/ABC123.xlsx' -> id_estacion='ABC123'
+    """
+    out = df.copy()
+    needs_id = ("id_estacion" not in out.columns) or out["id_estacion"].isna().all() or (out["id_estacion"] == "").all()
+    if not needs_id:
+        return out
+    if not nombre_archivo:
+        log.warning("No se pasó 'nombre_archivo'; no se puede inferir 'id_estacion'.")
+        return out
+    base = os.path.basename(str(nombre_archivo))
+    stem, _ext = os.path.splitext(base)  # maneja .xls, .xlsx, .csv, .parquet, etc.
+    if not stem:
+        stem = "sin_id"
+    out["id_estacion"] = stem
+    log.info(f"id_estacion inferido desde archivo: {stem}")
+    return out
+
 
 def normalizar_columnas(df: pd.DataFrame) -> pd.DataFrame:
     """Pasa nombres a minúsculas, reemplaza espacios por guión bajo y trimea."""
     out = df.copy()
     out.columns = [str(col).replace(" ", "_").lower().strip() for col in out.columns]
-    out
     return out
 
 
@@ -119,7 +136,7 @@ def eliminar_duplicados(df: pd.DataFrame, subset: Optional[Iterable[str]] = None
 
 
 def eliminar_nulos(df: pd.DataFrame, subset: Iterable[str]) -> pd.DataFrame:
-    """Elimina filas con NaN en todas las columnas del subset dado."""
+    """Elimina filas con NaN en al menos una de las columnas del subset dado."""
     out = df.copy()
     subset = _coerce_list(subset)
     before = len(out)
@@ -176,7 +193,7 @@ def transform_temperatura(df: pd.DataFrame) -> pd.DataFrame:
     # 2) Temperatura media desde (min+max)/2
     mask_temp = out["temperatura_media"].isna() & out["temperatura_minima"].notna() & out["temperatura_maxima"].notna()
     out.loc[mask_temp, "temperatura_media"] = (
-        (out.loc[mask_temp, "temperatura_minima"] + out.loc[mask_temp, "temperatura_maxima"]) / 2
+        (out.loc[mask_temp, "temperatura_minima"] + out["temperatura_maxima"]) / 2
     )
 
     # 3) Imputar min y max desde media con diferencias promedio
@@ -190,7 +207,6 @@ def transform_temperatura(df: pd.DataFrame) -> pd.DataFrame:
     out.loc[mask_minima, "temperatura_minima"] = out.loc[mask_minima, "temperatura_media"] - dmin
 
     mask_maxima = out["temperatura_maxima"].isna() & out["temperatura_media"].notna()
-    # OJO: bug corregido (antes restaba en vez de sumar)
     out.loc[mask_maxima, "temperatura_maxima"] = out.loc[mask_maxima, "temperatura_media"] + dmax
 
     # 4) Interpolación lineal
@@ -249,21 +265,19 @@ def transform_radiacion_global(df: pd.DataFrame) -> pd.DataFrame:
         return df
     out = df.copy()
 
-    mask_train = out["radiacion_global"].notna() & out["heliofania_efectiva"].notna()
-    if mask_train.sum() >= MIN_REG_SAMPLES:
+    # Entrenar SIEMPRE que haya al menos algún dato (si no, el try/except lo captura)
+    try:
+        mask_train = out["radiacion_global"].notna() & out["heliofania_efectiva"].notna()
         X = out.loc[mask_train, ["heliofania_efectiva"]].to_numpy()
         y = out.loc[mask_train, "radiacion_global"].to_numpy()
-        try:
-            model = LinearRegression().fit(X, y)
-            mask_null = out["radiacion_global"].isna() & out["heliofania_efectiva"].notna()
-            if mask_null.any():
-                out.loc[mask_null, "radiacion_global"] = model.predict(
-                    out.loc[mask_null, ["heliofania_efectiva"]].to_numpy()
-                )
-        except Exception as e:
-            log.warning(f"Radiación: regresión falló ({e}); se omite predicción.")
-    else:
-        log.info("Radiación: muy pocas muestras para entrenar regresión; se omite predicción.")
+        model = LinearRegression().fit(X, y)
+        mask_null = out["radiacion_global"].isna() & out["heliofania_efectiva"].notna()
+        if mask_null.any():
+            out.loc[mask_null, "radiacion_global"] = model.predict(
+                out.loc[mask_null, ["heliofania_efectiva"]].to_numpy()
+            )
+    except Exception as e:
+        log.warning(f"Radiación: regresión no pudo entrenarse/aplicarse ({e}). Se continúa con interpolación.")
 
     out["radiacion_global"] = out["radiacion_global"].interpolate(method="linear")
 
@@ -279,33 +293,33 @@ def transform_heliofania(df: pd.DataFrame) -> pd.DataFrame:
 
     out = df.copy()
 
-    # a) efectiva ~ relativa
-    mask_valid = out["heliofania_efectiva"].notna() & out["heliofania_relativa"].notna()
-    mask_null = out["heliofania_efectiva"].isna() & out["heliofania_relativa"].notna()
-    if mask_valid.sum() >= MIN_REG_SAMPLES and mask_null.any():
-        try:
+    # a) efectiva ~ relativa (intentar siempre)
+    try:
+        mask_valid = out["heliofania_efectiva"].notna() & out["heliofania_relativa"].notna()
+        mask_null = out["heliofania_efectiva"].isna() & out["heliofania_relativa"].notna()
+        if mask_null.any():
             X = out.loc[mask_valid, ["heliofania_relativa"]].to_numpy()
             y = out.loc[mask_valid, "heliofania_efectiva"].to_numpy()
             model = LinearRegression().fit(X, y)
             out.loc[mask_null, "heliofania_efectiva"] = model.predict(
                 out.loc[mask_null, ["heliofania_relativa"]].to_numpy()
             )
-        except Exception as e:
-            log.warning(f"Heliofanía (efectiva~relativa) regresión falló: {e}")
+    except Exception as e:
+        log.warning(f"Heliofanía (efectiva~relativa): regresión falló ({e}).")
 
-    # b) relativa ~ efectiva
-    mask_valid = out["heliofania_relativa"].notna() & out["heliofania_efectiva"].notna()
-    mask_null = out["heliofania_relativa"].isna() & out["heliofania_efectiva"].notna()
-    if mask_valid.sum() >= MIN_REG_SAMPLES and mask_null.any():
-        try:
+    # b) relativa ~ efectiva (intentar siempre)
+    try:
+        mask_valid = out["heliofania_relativa"].notna() & out["heliofania_efectiva"].notna()
+        mask_null = out["heliofania_relativa"].isna() & out["heliofania_efectiva"].notna()
+        if mask_null.any():
             X = out.loc[mask_valid, ["heliofania_efectiva"]].to_numpy()
             y = out.loc[mask_valid, "heliofania_relativa"].to_numpy()
             model = LinearRegression().fit(X, y)
             out.loc[mask_null, "heliofania_relativa"] = model.predict(
                 out.loc[mask_null, ["heliofania_efectiva"]].to_numpy()
             )
-        except Exception as e:
-            log.warning(f"Heliofanía (relativa~efectiva) regresión falló: {e}")
+    except Exception as e:
+        log.warning(f"Heliofanía (relativa~efectiva): regresión falló ({e}).")
 
     out["heliofania_efectiva"] = out["heliofania_efectiva"].interpolate(method="linear")
     out["heliofania_relativa"] = out["heliofania_relativa"].interpolate(method="linear")
@@ -318,18 +332,21 @@ def transform_heliofania(df: pd.DataFrame) -> pd.DataFrame:
 # -----------------------------------------------------------------------------
 # Pipeline
 # -----------------------------------------------------------------------------
-def pipeline(df: pd.DataFrame) -> pd.DataFrame:
+def pipeline(df: pd.DataFrame, nombre_archivo: Optional[str] = None) -> pd.DataFrame:
     """
-    Ejecuta el pipeline de transformaciones sobre un DF de una estación (un archivo).
-    Incluye manejo básico de errores por etapa para no abortar todo el proceso.
+    Ejecuta el pipeline sobre un DF de una estación (un archivo).
+    - Si falta 'id_estacion', lo agrega desde el nombre de archivo.
+    - Todas las regresiones se intentan; errores se registran y el flujo continúa.
     """
-    def _step(name, func, data):
+    def _step(name, func, data, *args, **kwargs):
         try:
-            return func(data)
+            return func(data, *args, **kwargs)
         except Exception as e:
             log.error(f"Falla en paso '{name}': {e}. Se devuelve DF sin cambios en este paso.")
             return data
 
+    out = df.copy()
+    out = _step("agregar_id_estacion", agregar_id_estacion, out, nombre_archivo)
     steps = [
         ("normalizar_columnas", normalizar_columnas),
         ("seleccion_columnas", seleccion_columnas),
@@ -345,7 +362,6 @@ def pipeline(df: pd.DataFrame) -> pd.DataFrame:
         ("transform_heliofania", transform_heliofania),
     ]
 
-    out = df.copy()
     for name, func in steps:
         out = _step(name, func, out)
     return out
