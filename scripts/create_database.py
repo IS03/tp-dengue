@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 # 1) conectar/crear archivo SQLite
-engine = create_engine("sqlite:///clima.db", future=True)
+engine = create_engine("sqlite:///database.db", future=True)
 
 # 2) esquema (dimensiones + hechos) — SQLite
 ddl = """
@@ -149,7 +149,3 @@ try:
     if "IdFecha" not in df_med.columns and "fecha" in df_med.columns:
         dt = pd.to_datetime(df_med["fecha"], errors="coerce")
         df_med["IdFecha"] = dt.dt.strftime("%Y%m%d").astype("Int64")
-
-    # columnas climáticas disponibles
-    metricas = [
-        "precipitacion_pluviometrica","temperatura_minima","temperatura_maxima","temperatura_promedio",
