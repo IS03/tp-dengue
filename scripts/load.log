@@ -1,0 +1,953 @@
+2025-10-17 20:47:35,845 - INFO - Iniciando carga completa de datos...
+2025-10-17 20:47:35,845 - INFO - Cargando dimensión fecha...
+2025-10-17 20:47:35,921 - ERROR - Error cargando dim_fecha: no such table: dim_fecha
+2025-10-17 20:47:35,923 - INFO - Cargando dimensión ubicación...
+2025-10-17 20:47:35,937 - ERROR - Error cargando dim_ubicacion: no such table: dim_ubicacion
+2025-10-17 20:47:35,938 - INFO - Cargando dimensión estación...
+2025-10-17 20:47:35,938 - ERROR - Error cargando dim_estacion: no such table: dim_ubicacion
+2025-10-17 20:47:35,938 - INFO - Cargando dimensión población...
+2025-10-17 20:47:35,939 - ERROR - Error cargando dim_poblacion: no such table: dim_ubicacion
+2025-10-17 20:47:35,939 - INFO - Cargando hechos climáticos...
+2025-10-17 20:47:36,348 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 20:47:36,348 - INFO - Shape: (923778, 12)
+2025-10-17 20:47:36,357 - ERROR - Error cargando fact_clima: no such table: dim_fecha
+2025-10-17 20:47:36,361 - INFO - Carga completa finalizada en 0:00:00.515217
+2025-10-17 20:48:18,082 - INFO - Iniciando carga completa de datos...
+2025-10-17 20:48:18,082 - INFO - Cargando dimensión fecha...
+2025-10-17 20:48:18,251 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 20:48:18,252 - INFO - Cargando dimensión ubicación...
+2025-10-17 20:48:18,281 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 20:48:18,281 - INFO - Cargando dimensión estación...
+2025-10-17 20:48:18,299 - INFO - Insertadas 169 estaciones
+2025-10-17 20:48:18,299 - INFO - Cargando dimensión población...
+2025-10-17 20:48:18,668 - INFO - Insertadas 9072 filas de población
+2025-10-17 20:48:18,669 - INFO - Cargando hechos climáticos...
+2025-10-17 20:48:18,784 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 20:48:18,784 - INFO - Shape: (923778, 12)
+2025-10-17 20:48:18,793 - ERROR - Error cargando fact_clima: invalid literal for int() with base 10: 'NH0358'
+2025-10-17 20:48:18,797 - INFO - Carga completa finalizada en 0:00:00.714697
+2025-10-17 20:48:45,883 - INFO - Iniciando carga completa de datos...
+2025-10-17 20:48:45,883 - INFO - Cargando dimensión fecha...
+2025-10-17 20:48:46,035 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 20:48:46,037 - INFO - Cargando dimensión ubicación...
+2025-10-17 20:48:46,062 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 20:48:46,062 - INFO - Cargando dimensión estación...
+2025-10-17 20:48:46,076 - INFO - Insertadas 169 estaciones
+2025-10-17 20:48:46,076 - INFO - Cargando dimensión población...
+2025-10-17 20:48:46,459 - INFO - Insertadas 9072 filas de población
+2025-10-17 20:48:46,460 - INFO - Cargando hechos climáticos...
+2025-10-17 20:48:46,594 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 20:48:46,594 - INFO - Shape: (923778, 12)
+2025-10-17 20:48:48,459 - INFO - Procesado lote 1, 10000 filas insertadas
+2025-10-17 20:48:49,386 - INFO - Procesado lote 2, 20000 filas insertadas
+2025-10-17 20:48:50,315 - INFO - Procesado lote 3, 30000 filas insertadas
+2025-10-17 20:48:51,240 - INFO - Procesado lote 4, 40000 filas insertadas
+2025-10-17 20:48:52,161 - INFO - Procesado lote 5, 50000 filas insertadas
+2025-10-17 20:48:53,082 - INFO - Procesado lote 6, 60000 filas insertadas
+2025-10-17 20:48:54,013 - INFO - Procesado lote 7, 70000 filas insertadas
+2025-10-17 20:48:54,902 - INFO - Procesado lote 8, 80000 filas insertadas
+2025-10-17 20:48:55,787 - INFO - Procesado lote 9, 90000 filas insertadas
+2025-10-17 20:48:56,736 - INFO - Procesado lote 10, 100000 filas insertadas
+2025-10-17 20:48:57,614 - INFO - Procesado lote 11, 110000 filas insertadas
+2025-10-17 20:48:58,517 - INFO - Procesado lote 12, 120000 filas insertadas
+2025-10-17 20:48:59,421 - INFO - Procesado lote 13, 130000 filas insertadas
+2025-10-17 20:49:00,336 - INFO - Procesado lote 14, 140000 filas insertadas
+2025-10-17 20:49:01,229 - INFO - Procesado lote 15, 150000 filas insertadas
+2025-10-17 20:49:02,131 - INFO - Procesado lote 16, 160000 filas insertadas
+2025-10-17 20:49:03,014 - INFO - Procesado lote 17, 170000 filas insertadas
+2025-10-17 20:49:03,897 - INFO - Procesado lote 18, 180000 filas insertadas
+2025-10-17 20:49:04,784 - INFO - Procesado lote 19, 190000 filas insertadas
+2025-10-17 20:49:05,657 - INFO - Procesado lote 20, 200000 filas insertadas
+2025-10-17 20:49:06,598 - INFO - Procesado lote 21, 210000 filas insertadas
+2025-10-17 20:49:07,472 - INFO - Procesado lote 22, 220000 filas insertadas
+2025-10-17 20:49:08,366 - INFO - Procesado lote 23, 230000 filas insertadas
+2025-10-17 20:49:09,247 - INFO - Procesado lote 24, 240000 filas insertadas
+2025-10-17 20:49:10,125 - INFO - Procesado lote 25, 250000 filas insertadas
+2025-10-17 20:49:11,034 - INFO - Procesado lote 26, 260000 filas insertadas
+2025-10-17 20:49:11,920 - INFO - Procesado lote 27, 270000 filas insertadas
+2025-10-17 20:49:12,813 - INFO - Procesado lote 28, 280000 filas insertadas
+2025-10-17 20:49:13,683 - INFO - Procesado lote 29, 290000 filas insertadas
+2025-10-17 20:49:14,569 - INFO - Procesado lote 30, 300000 filas insertadas
+2025-10-17 20:49:15,452 - INFO - Procesado lote 31, 310000 filas insertadas
+2025-10-17 20:49:16,347 - INFO - Procesado lote 32, 320000 filas insertadas
+2025-10-17 20:49:17,230 - INFO - Procesado lote 33, 330000 filas insertadas
+2025-10-17 20:49:18,135 - INFO - Procesado lote 34, 340000 filas insertadas
+2025-10-17 20:49:19,014 - INFO - Procesado lote 35, 350000 filas insertadas
+2025-10-17 20:49:19,978 - INFO - Procesado lote 36, 360000 filas insertadas
+2025-10-17 20:49:20,940 - INFO - Procesado lote 37, 370000 filas insertadas
+2025-10-17 20:49:21,923 - INFO - Procesado lote 38, 380000 filas insertadas
+2025-10-17 20:49:22,832 - INFO - Procesado lote 39, 390000 filas insertadas
+2025-10-17 20:49:23,741 - INFO - Procesado lote 40, 400000 filas insertadas
+2025-10-17 20:49:24,737 - INFO - Procesado lote 41, 410000 filas insertadas
+2025-10-17 20:49:25,629 - INFO - Procesado lote 42, 420000 filas insertadas
+2025-10-17 20:49:26,523 - INFO - Procesado lote 43, 430000 filas insertadas
+2025-10-17 20:49:27,425 - INFO - Procesado lote 44, 440000 filas insertadas
+2025-10-17 20:49:28,312 - INFO - Procesado lote 45, 450000 filas insertadas
+2025-10-17 20:49:29,254 - INFO - Procesado lote 46, 460000 filas insertadas
+2025-10-17 20:49:30,176 - INFO - Procesado lote 47, 470000 filas insertadas
+2025-10-17 20:49:31,112 - INFO - Procesado lote 48, 480000 filas insertadas
+2025-10-17 20:49:32,030 - INFO - Procesado lote 49, 490000 filas insertadas
+2025-10-17 20:49:32,970 - INFO - Procesado lote 50, 500000 filas insertadas
+2025-10-17 20:49:33,873 - INFO - Procesado lote 51, 510000 filas insertadas
+2025-10-17 20:49:34,759 - INFO - Procesado lote 52, 520000 filas insertadas
+2025-10-17 20:49:35,678 - INFO - Procesado lote 53, 530000 filas insertadas
+2025-10-17 20:49:36,559 - INFO - Procesado lote 54, 540000 filas insertadas
+2025-10-17 20:49:37,482 - INFO - Procesado lote 55, 550000 filas insertadas
+2025-10-17 20:49:38,368 - INFO - Procesado lote 56, 560000 filas insertadas
+2025-10-17 20:49:39,270 - INFO - Procesado lote 57, 570000 filas insertadas
+2025-10-17 20:49:40,157 - INFO - Procesado lote 58, 580000 filas insertadas
+2025-10-17 20:49:41,043 - INFO - Procesado lote 59, 590000 filas insertadas
+2025-10-17 20:49:41,957 - INFO - Procesado lote 60, 600000 filas insertadas
+2025-10-17 20:49:42,872 - INFO - Procesado lote 61, 610000 filas insertadas
+2025-10-17 20:49:43,775 - INFO - Procesado lote 62, 620000 filas insertadas
+2025-10-17 20:49:44,657 - INFO - Procesado lote 63, 630000 filas insertadas
+2025-10-17 20:49:45,548 - INFO - Procesado lote 64, 640000 filas insertadas
+2025-10-17 20:49:46,469 - INFO - Procesado lote 65, 650000 filas insertadas
+2025-10-17 20:49:47,349 - INFO - Procesado lote 66, 660000 filas insertadas
+2025-10-17 20:49:48,241 - INFO - Procesado lote 67, 670000 filas insertadas
+2025-10-17 20:49:49,117 - INFO - Procesado lote 68, 680000 filas insertadas
+2025-10-17 20:49:50,038 - INFO - Procesado lote 69, 690000 filas insertadas
+2025-10-17 20:49:50,941 - INFO - Procesado lote 70, 700000 filas insertadas
+2025-10-17 20:49:51,844 - INFO - Procesado lote 71, 710000 filas insertadas
+2025-10-17 20:49:52,780 - INFO - Procesado lote 72, 720000 filas insertadas
+2025-10-17 20:49:53,657 - INFO - Procesado lote 73, 730000 filas insertadas
+2025-10-17 20:49:54,552 - INFO - Procesado lote 74, 740000 filas insertadas
+2025-10-17 20:49:55,489 - INFO - Procesado lote 75, 750000 filas insertadas
+2025-10-17 20:49:56,384 - INFO - Procesado lote 76, 760000 filas insertadas
+2025-10-17 20:49:57,264 - INFO - Procesado lote 77, 770000 filas insertadas
+2025-10-17 20:49:58,138 - INFO - Procesado lote 78, 780000 filas insertadas
+2025-10-17 20:49:59,042 - INFO - Procesado lote 79, 790000 filas insertadas
+2025-10-17 20:49:59,986 - INFO - Procesado lote 80, 800000 filas insertadas
+2025-10-17 20:50:00,856 - INFO - Procesado lote 81, 810000 filas insertadas
+2025-10-17 20:50:01,747 - INFO - Procesado lote 82, 820000 filas insertadas
+2025-10-17 20:50:02,670 - INFO - Procesado lote 83, 830000 filas insertadas
+2025-10-17 20:50:03,562 - INFO - Procesado lote 84, 840000 filas insertadas
+2025-10-17 20:50:04,508 - INFO - Procesado lote 85, 850000 filas insertadas
+2025-10-17 20:50:05,422 - INFO - Procesado lote 86, 860000 filas insertadas
+2025-10-17 20:50:06,332 - INFO - Procesado lote 87, 870000 filas insertadas
+2025-10-17 20:50:07,240 - INFO - Procesado lote 88, 880000 filas insertadas
+2025-10-17 20:50:08,164 - INFO - Procesado lote 89, 890000 filas insertadas
+2025-10-17 20:50:09,048 - INFO - Procesado lote 90, 900000 filas insertadas
+2025-10-17 20:50:09,953 - INFO - Procesado lote 91, 910000 filas insertadas
+2025-10-17 20:50:10,832 - INFO - Procesado lote 92, 920000 filas insertadas
+2025-10-17 20:50:11,172 - INFO - Procesado lote 93, 923778 filas insertadas
+2025-10-17 20:50:11,177 - INFO - Total filas climáticas insertadas: 923778
+2025-10-17 20:50:11,180 - INFO - Carga completa finalizada en 0:01:25.296338
+2025-10-17 21:16:12,200 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:16:12,201 - INFO - Cargando dimensión fecha...
+2025-10-17 21:16:12,345 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 21:16:12,346 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:16:12,377 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 21:16:12,378 - INFO - Cargando dimensión estación...
+2025-10-17 21:16:12,392 - INFO - Insertadas 169 estaciones
+2025-10-17 21:16:12,392 - INFO - Cargando dimensión población...
+2025-10-17 21:16:12,781 - INFO - Insertadas 9072 filas de población
+2025-10-17 21:16:12,781 - INFO - Cargando hechos climáticos...
+2025-10-17 21:16:12,940 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:16:12,941 - INFO - Shape: (923778, 12)
+2025-10-17 21:16:14,768 - INFO - Procesado lote 1, 10000 filas insertadas
+2025-10-17 21:16:15,677 - INFO - Procesado lote 2, 20000 filas insertadas
+2025-10-17 21:16:16,609 - INFO - Procesado lote 3, 30000 filas insertadas
+2025-10-17 21:16:17,541 - INFO - Procesado lote 4, 40000 filas insertadas
+2025-10-17 21:16:18,473 - INFO - Procesado lote 5, 50000 filas insertadas
+2025-10-17 21:16:19,399 - INFO - Procesado lote 6, 60000 filas insertadas
+2025-10-17 21:16:20,325 - INFO - Procesado lote 7, 70000 filas insertadas
+2025-10-17 21:16:21,217 - INFO - Procesado lote 8, 80000 filas insertadas
+2025-10-17 21:16:22,143 - INFO - Procesado lote 9, 90000 filas insertadas
+2025-10-17 21:16:23,034 - INFO - Procesado lote 10, 100000 filas insertadas
+2025-10-17 21:16:23,996 - INFO - Procesado lote 11, 110000 filas insertadas
+2025-10-17 21:16:24,880 - INFO - Procesado lote 12, 120000 filas insertadas
+2025-10-17 21:16:25,776 - INFO - Procesado lote 13, 130000 filas insertadas
+2025-10-17 21:16:26,661 - INFO - Procesado lote 14, 140000 filas insertadas
+2025-10-17 21:16:27,569 - INFO - Procesado lote 15, 150000 filas insertadas
+2025-10-17 21:16:28,465 - INFO - Procesado lote 16, 160000 filas insertadas
+2025-10-17 21:16:29,394 - INFO - Procesado lote 17, 170000 filas insertadas
+2025-10-17 21:16:30,301 - INFO - Procesado lote 18, 180000 filas insertadas
+2025-10-17 21:16:31,193 - INFO - Procesado lote 19, 190000 filas insertadas
+2025-10-17 21:16:32,062 - INFO - Procesado lote 20, 200000 filas insertadas
+2025-10-17 21:16:32,948 - INFO - Procesado lote 21, 210000 filas insertadas
+2025-10-17 21:16:33,818 - INFO - Procesado lote 22, 220000 filas insertadas
+2025-10-17 21:16:34,733 - INFO - Procesado lote 23, 230000 filas insertadas
+2025-10-17 21:16:35,625 - INFO - Procesado lote 24, 240000 filas insertadas
+2025-10-17 21:16:36,498 - INFO - Procesado lote 25, 250000 filas insertadas
+2025-10-17 21:16:37,430 - INFO - Procesado lote 26, 260000 filas insertadas
+2025-10-17 21:16:38,298 - INFO - Procesado lote 27, 270000 filas insertadas
+2025-10-17 21:16:39,174 - INFO - Procesado lote 28, 280000 filas insertadas
+2025-10-17 21:16:40,082 - INFO - Procesado lote 29, 290000 filas insertadas
+2025-10-17 21:16:40,951 - INFO - Procesado lote 30, 300000 filas insertadas
+2025-10-17 21:16:41,853 - INFO - Procesado lote 31, 310000 filas insertadas
+2025-10-17 21:16:42,749 - INFO - Procesado lote 32, 320000 filas insertadas
+2025-10-17 21:16:43,705 - INFO - Procesado lote 33, 330000 filas insertadas
+2025-10-17 21:16:44,574 - INFO - Procesado lote 34, 340000 filas insertadas
+2025-10-17 21:16:45,493 - INFO - Procesado lote 35, 350000 filas insertadas
+2025-10-17 21:16:46,461 - INFO - Procesado lote 36, 360000 filas insertadas
+2025-10-17 21:16:47,391 - INFO - Procesado lote 37, 370000 filas insertadas
+2025-10-17 21:16:48,289 - INFO - Procesado lote 38, 380000 filas insertadas
+2025-10-17 21:16:49,190 - INFO - Procesado lote 39, 390000 filas insertadas
+2025-10-17 21:16:50,096 - INFO - Procesado lote 40, 400000 filas insertadas
+2025-10-17 21:16:50,990 - INFO - Procesado lote 41, 410000 filas insertadas
+2025-10-17 21:16:51,860 - INFO - Procesado lote 42, 420000 filas insertadas
+2025-10-17 21:16:52,756 - INFO - Procesado lote 43, 430000 filas insertadas
+2025-10-17 21:16:53,633 - INFO - Procesado lote 44, 440000 filas insertadas
+2025-10-17 21:16:54,505 - INFO - Procesado lote 45, 450000 filas insertadas
+2025-10-17 21:16:55,396 - INFO - Procesado lote 46, 460000 filas insertadas
+2025-10-17 21:16:56,327 - INFO - Procesado lote 47, 470000 filas insertadas
+2025-10-17 21:16:57,226 - INFO - Procesado lote 48, 480000 filas insertadas
+2025-10-17 21:16:58,101 - INFO - Procesado lote 49, 490000 filas insertadas
+2025-10-17 21:16:59,011 - INFO - Procesado lote 50, 500000 filas insertadas
+2025-10-17 21:16:59,890 - INFO - Procesado lote 51, 510000 filas insertadas
+2025-10-17 21:17:00,786 - INFO - Procesado lote 52, 520000 filas insertadas
+2025-10-17 21:17:01,674 - INFO - Procesado lote 53, 530000 filas insertadas
+2025-10-17 21:17:02,602 - INFO - Procesado lote 54, 540000 filas insertadas
+2025-10-17 21:17:03,499 - INFO - Procesado lote 55, 550000 filas insertadas
+2025-10-17 21:17:04,389 - INFO - Procesado lote 56, 560000 filas insertadas
+2025-10-17 21:17:05,274 - INFO - Procesado lote 57, 570000 filas insertadas
+2025-10-17 21:17:06,169 - INFO - Procesado lote 58, 580000 filas insertadas
+2025-10-17 21:17:07,068 - INFO - Procesado lote 59, 590000 filas insertadas
+2025-10-17 21:17:07,966 - INFO - Procesado lote 60, 600000 filas insertadas
+2025-10-17 21:17:08,884 - INFO - Procesado lote 61, 610000 filas insertadas
+2025-10-17 21:17:09,783 - INFO - Procesado lote 62, 620000 filas insertadas
+2025-10-17 21:17:10,669 - INFO - Procesado lote 63, 630000 filas insertadas
+2025-10-17 21:17:11,565 - INFO - Procesado lote 64, 640000 filas insertadas
+2025-10-17 21:17:12,461 - INFO - Procesado lote 65, 650000 filas insertadas
+2025-10-17 21:17:13,342 - INFO - Procesado lote 66, 660000 filas insertadas
+2025-10-17 21:17:14,232 - INFO - Procesado lote 67, 670000 filas insertadas
+2025-10-17 21:17:15,150 - INFO - Procesado lote 68, 680000 filas insertadas
+2025-10-17 21:17:16,056 - INFO - Procesado lote 69, 690000 filas insertadas
+2025-10-17 21:17:16,944 - INFO - Procesado lote 70, 700000 filas insertadas
+2025-10-17 21:17:17,865 - INFO - Procesado lote 71, 710000 filas insertadas
+2025-10-17 21:17:18,773 - INFO - Procesado lote 72, 720000 filas insertadas
+2025-10-17 21:17:19,667 - INFO - Procesado lote 73, 730000 filas insertadas
+2025-10-17 21:17:20,568 - INFO - Procesado lote 74, 740000 filas insertadas
+2025-10-17 21:17:21,475 - INFO - Procesado lote 75, 750000 filas insertadas
+2025-10-17 21:17:22,364 - INFO - Procesado lote 76, 760000 filas insertadas
+2025-10-17 21:17:23,266 - INFO - Procesado lote 77, 770000 filas insertadas
+2025-10-17 21:17:24,179 - INFO - Procesado lote 78, 780000 filas insertadas
+2025-10-17 21:17:25,051 - INFO - Procesado lote 79, 790000 filas insertadas
+2025-10-17 21:17:25,958 - INFO - Procesado lote 80, 800000 filas insertadas
+2025-10-17 21:17:26,849 - INFO - Procesado lote 81, 810000 filas insertadas
+2025-10-17 21:17:27,761 - INFO - Procesado lote 82, 820000 filas insertadas
+2025-10-17 21:17:28,654 - INFO - Procesado lote 83, 830000 filas insertadas
+2025-10-17 21:17:29,546 - INFO - Procesado lote 84, 840000 filas insertadas
+2025-10-17 21:17:30,420 - INFO - Procesado lote 85, 850000 filas insertadas
+2025-10-17 21:17:31,294 - INFO - Procesado lote 86, 860000 filas insertadas
+2025-10-17 21:17:32,196 - INFO - Procesado lote 87, 870000 filas insertadas
+2025-10-17 21:17:33,090 - INFO - Procesado lote 88, 880000 filas insertadas
+2025-10-17 21:17:34,056 - INFO - Procesado lote 89, 890000 filas insertadas
+2025-10-17 21:17:34,933 - INFO - Procesado lote 90, 900000 filas insertadas
+2025-10-17 21:17:35,809 - INFO - Procesado lote 91, 910000 filas insertadas
+2025-10-17 21:17:36,714 - INFO - Procesado lote 92, 920000 filas insertadas
+2025-10-17 21:17:37,052 - INFO - Procesado lote 93, 923778 filas insertadas
+2025-10-17 21:17:37,060 - INFO - Total filas climáticas insertadas: 923778
+2025-10-17 21:17:37,063 - INFO - Carga completa finalizada en 0:01:24.861571
+2025-10-17 21:24:23,035 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:24:23,035 - INFO - Cargando dimensión fecha...
+2025-10-17 21:24:23,131 - ERROR - Error cargando dim_fecha: no such table: dim_fecha
+2025-10-17 21:24:23,133 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:24:23,149 - ERROR - Error cargando dim_ubicacion: no such table: dim_ubicacion
+2025-10-17 21:24:23,149 - INFO - Cargando dimensión estación...
+2025-10-17 21:24:23,149 - ERROR - Error cargando dim_estacion: no such table: dim_ubicacion
+2025-10-17 21:24:23,150 - INFO - Cargando dimensión población...
+2025-10-17 21:24:23,150 - ERROR - Error cargando dim_poblacion: no such table: dim_ubicacion
+2025-10-17 21:24:23,150 - INFO - Cargando hechos climáticos...
+2025-10-17 21:24:23,262 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:24:23,262 - INFO - Shape: (923778, 12)
+2025-10-17 21:24:23,269 - ERROR - Error cargando fact_clima: no such table: dim_fecha
+2025-10-17 21:24:23,274 - INFO - Carga completa finalizada en 0:00:00.239744
+2025-10-17 21:27:45,638 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:27:45,638 - INFO - Cargando dimensión fecha...
+2025-10-17 21:27:45,733 - ERROR - Error cargando dim_fecha: no such table: dim_fecha
+2025-10-17 21:27:45,734 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:27:45,749 - ERROR - Error cargando dim_ubicacion: no such table: dim_ubicacion
+2025-10-17 21:27:45,749 - INFO - Cargando dimensión estación...
+2025-10-17 21:27:45,750 - ERROR - Error cargando dim_estacion: no such table: dim_ubicacion
+2025-10-17 21:27:45,750 - INFO - Cargando dimensión población...
+2025-10-17 21:27:45,750 - ERROR - Error cargando dim_poblacion: no such table: dim_ubicacion
+2025-10-17 21:27:45,751 - INFO - Cargando hechos climáticos...
+2025-10-17 21:27:46,190 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:27:46,190 - INFO - Shape: (923778, 12)
+2025-10-17 21:27:46,199 - ERROR - Error cargando fact_clima: no such table: dim_fecha
+2025-10-17 21:27:46,203 - INFO - Carga completa finalizada en 0:00:00.565099
+2025-10-17 21:28:08,836 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:28:08,836 - INFO - Cargando dimensión fecha...
+2025-10-17 21:28:08,998 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 21:28:09,000 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:28:09,026 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 21:28:09,026 - INFO - Cargando dimensión estación...
+2025-10-17 21:28:09,044 - INFO - Insertadas 169 estaciones
+2025-10-17 21:28:09,044 - INFO - Cargando dimensión población...
+2025-10-17 21:28:09,422 - INFO - Insertadas 9072 filas de población
+2025-10-17 21:28:09,423 - INFO - Cargando hechos climáticos...
+2025-10-17 21:28:09,534 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:28:09,534 - INFO - Shape: (923778, 12)
+2025-10-17 21:28:11,303 - INFO - Procesado lote 1, 10000 filas insertadas
+2025-10-17 21:28:12,200 - INFO - Procesado lote 2, 20000 filas insertadas
+2025-10-17 21:28:13,102 - INFO - Procesado lote 3, 30000 filas insertadas
+2025-10-17 21:28:14,007 - INFO - Procesado lote 4, 40000 filas insertadas
+2025-10-17 21:28:14,899 - INFO - Procesado lote 5, 50000 filas insertadas
+2025-10-17 21:28:15,780 - INFO - Procesado lote 6, 60000 filas insertadas
+2025-10-17 21:28:16,692 - INFO - Procesado lote 7, 70000 filas insertadas
+2025-10-17 21:28:17,578 - INFO - Procesado lote 8, 80000 filas insertadas
+2025-10-17 21:28:18,446 - INFO - Procesado lote 9, 90000 filas insertadas
+2025-10-17 21:28:19,303 - INFO - Procesado lote 10, 100000 filas insertadas
+2025-10-17 21:28:20,164 - INFO - Procesado lote 11, 110000 filas insertadas
+2025-10-17 21:28:21,038 - INFO - Procesado lote 12, 120000 filas insertadas
+2025-10-17 21:28:21,922 - INFO - Procesado lote 13, 130000 filas insertadas
+2025-10-17 21:28:22,796 - INFO - Procesado lote 14, 140000 filas insertadas
+2025-10-17 21:28:23,664 - INFO - Procesado lote 15, 150000 filas insertadas
+2025-10-17 21:28:24,548 - INFO - Procesado lote 16, 160000 filas insertadas
+2025-10-17 21:28:25,440 - INFO - Procesado lote 17, 170000 filas insertadas
+2025-10-17 21:28:26,305 - INFO - Procesado lote 18, 180000 filas insertadas
+2025-10-17 21:28:27,224 - INFO - Procesado lote 19, 190000 filas insertadas
+2025-10-17 21:28:28,075 - INFO - Procesado lote 20, 200000 filas insertadas
+2025-10-17 21:28:28,938 - INFO - Procesado lote 21, 210000 filas insertadas
+2025-10-17 21:28:29,801 - INFO - Procesado lote 22, 220000 filas insertadas
+2025-10-17 21:28:30,657 - INFO - Procesado lote 23, 230000 filas insertadas
+2025-10-17 21:28:31,533 - INFO - Procesado lote 24, 240000 filas insertadas
+2025-10-17 21:28:32,407 - INFO - Procesado lote 25, 250000 filas insertadas
+2025-10-17 21:28:33,291 - INFO - Procesado lote 26, 260000 filas insertadas
+2025-10-17 21:28:34,157 - INFO - Procesado lote 27, 270000 filas insertadas
+2025-10-17 21:28:35,033 - INFO - Procesado lote 28, 280000 filas insertadas
+2025-10-17 21:28:35,926 - INFO - Procesado lote 29, 290000 filas insertadas
+2025-10-17 21:28:36,799 - INFO - Procesado lote 30, 300000 filas insertadas
+2025-10-17 21:28:37,674 - INFO - Procesado lote 31, 310000 filas insertadas
+2025-10-17 21:28:38,537 - INFO - Procesado lote 32, 320000 filas insertadas
+2025-10-17 21:28:39,404 - INFO - Procesado lote 33, 330000 filas insertadas
+2025-10-17 21:28:40,258 - INFO - Procesado lote 34, 340000 filas insertadas
+2025-10-17 21:28:41,147 - INFO - Procesado lote 35, 350000 filas insertadas
+2025-10-17 21:28:42,048 - INFO - Procesado lote 36, 360000 filas insertadas
+2025-10-17 21:28:42,896 - INFO - Procesado lote 37, 370000 filas insertadas
+2025-10-17 21:28:43,743 - INFO - Procesado lote 38, 380000 filas insertadas
+2025-10-17 21:28:44,608 - INFO - Procesado lote 39, 390000 filas insertadas
+2025-10-17 21:28:45,482 - INFO - Procesado lote 40, 400000 filas insertadas
+2025-10-17 21:28:46,373 - INFO - Procesado lote 41, 410000 filas insertadas
+2025-10-17 21:28:47,242 - INFO - Procesado lote 42, 420000 filas insertadas
+2025-10-17 21:28:48,118 - INFO - Procesado lote 43, 430000 filas insertadas
+2025-10-17 21:28:48,989 - INFO - Procesado lote 44, 440000 filas insertadas
+2025-10-17 21:28:49,878 - INFO - Procesado lote 45, 450000 filas insertadas
+2025-10-17 21:28:50,737 - INFO - Procesado lote 46, 460000 filas insertadas
+2025-10-17 21:28:51,656 - INFO - Procesado lote 47, 470000 filas insertadas
+2025-10-17 21:28:52,521 - INFO - Procesado lote 48, 480000 filas insertadas
+2025-10-17 21:28:53,418 - INFO - Procesado lote 49, 490000 filas insertadas
+2025-10-17 21:28:54,296 - INFO - Procesado lote 50, 500000 filas insertadas
+2025-10-17 21:28:55,184 - INFO - Procesado lote 51, 510000 filas insertadas
+2025-10-17 21:28:56,048 - INFO - Procesado lote 52, 520000 filas insertadas
+2025-10-17 21:28:56,940 - INFO - Procesado lote 53, 530000 filas insertadas
+2025-10-17 21:28:57,841 - INFO - Procesado lote 54, 540000 filas insertadas
+2025-10-17 21:28:58,742 - INFO - Procesado lote 55, 550000 filas insertadas
+2025-10-17 21:28:59,649 - INFO - Procesado lote 56, 560000 filas insertadas
+2025-10-17 21:29:00,535 - INFO - Procesado lote 57, 570000 filas insertadas
+2025-10-17 21:29:01,458 - INFO - Procesado lote 58, 580000 filas insertadas
+2025-10-17 21:29:02,344 - INFO - Procesado lote 59, 590000 filas insertadas
+2025-10-17 21:29:03,221 - INFO - Procesado lote 60, 600000 filas insertadas
+2025-10-17 21:29:04,121 - INFO - Procesado lote 61, 610000 filas insertadas
+2025-10-17 21:29:05,006 - INFO - Procesado lote 62, 620000 filas insertadas
+2025-10-17 21:29:05,938 - INFO - Procesado lote 63, 630000 filas insertadas
+2025-10-17 21:29:06,827 - INFO - Procesado lote 64, 640000 filas insertadas
+2025-10-17 21:29:07,728 - INFO - Procesado lote 65, 650000 filas insertadas
+2025-10-17 21:29:08,606 - INFO - Procesado lote 66, 660000 filas insertadas
+2025-10-17 21:29:09,495 - INFO - Procesado lote 67, 670000 filas insertadas
+2025-10-17 21:29:10,415 - INFO - Procesado lote 68, 680000 filas insertadas
+2025-10-17 21:29:11,315 - INFO - Procesado lote 69, 690000 filas insertadas
+2025-10-17 21:29:12,180 - INFO - Procesado lote 70, 700000 filas insertadas
+2025-10-17 21:29:13,045 - INFO - Procesado lote 71, 710000 filas insertadas
+2025-10-17 21:29:13,916 - INFO - Procesado lote 72, 720000 filas insertadas
+2025-10-17 21:29:14,781 - INFO - Procesado lote 73, 730000 filas insertadas
+2025-10-17 21:29:15,644 - INFO - Procesado lote 74, 740000 filas insertadas
+2025-10-17 21:29:16,513 - INFO - Procesado lote 75, 750000 filas insertadas
+2025-10-17 21:29:17,391 - INFO - Procesado lote 76, 760000 filas insertadas
+2025-10-17 21:29:18,260 - INFO - Procesado lote 77, 770000 filas insertadas
+2025-10-17 21:29:19,120 - INFO - Procesado lote 78, 780000 filas insertadas
+2025-10-17 21:29:19,990 - INFO - Procesado lote 79, 790000 filas insertadas
+2025-10-17 21:29:20,855 - INFO - Procesado lote 80, 800000 filas insertadas
+2025-10-17 21:29:21,718 - INFO - Procesado lote 81, 810000 filas insertadas
+2025-10-17 21:29:22,577 - INFO - Procesado lote 82, 820000 filas insertadas
+2025-10-17 21:29:23,442 - INFO - Procesado lote 83, 830000 filas insertadas
+2025-10-17 21:29:24,314 - INFO - Procesado lote 84, 840000 filas insertadas
+2025-10-17 21:29:25,165 - INFO - Procesado lote 85, 850000 filas insertadas
+2025-10-17 21:29:26,025 - INFO - Procesado lote 86, 860000 filas insertadas
+2025-10-17 21:29:26,883 - INFO - Procesado lote 87, 870000 filas insertadas
+2025-10-17 21:29:27,749 - INFO - Procesado lote 88, 880000 filas insertadas
+2025-10-17 21:29:28,634 - INFO - Procesado lote 89, 890000 filas insertadas
+2025-10-17 21:29:29,525 - INFO - Procesado lote 90, 900000 filas insertadas
+2025-10-17 21:29:30,411 - INFO - Procesado lote 91, 910000 filas insertadas
+2025-10-17 21:29:31,266 - INFO - Procesado lote 92, 920000 filas insertadas
+2025-10-17 21:29:31,592 - INFO - Procesado lote 93, 923778 filas insertadas
+2025-10-17 21:29:31,597 - INFO - Total filas climáticas insertadas: 923778
+2025-10-17 21:29:31,600 - INFO - Carga completa finalizada en 0:01:22.764383
+2025-10-17 21:35:44,023 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:35:44,024 - INFO - Cargando dimensión fecha...
+2025-10-17 21:35:44,144 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 21:35:44,145 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:35:44,172 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 21:35:44,172 - INFO - Cargando dimensión estación...
+2025-10-17 21:35:44,185 - INFO - Insertadas 169 estaciones
+2025-10-17 21:35:44,185 - INFO - Cargando dimensión población...
+2025-10-17 21:35:44,567 - INFO - Insertadas 9072 filas de población
+2025-10-17 21:35:44,568 - INFO - Cargando hechos climáticos...
+2025-10-17 21:35:44,675 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:35:44,675 - INFO - Shape: (923778, 12)
+2025-10-17 21:35:46,180 - INFO - Procesado lote 1, 10000 filas insertadas
+2025-10-17 21:35:46,803 - INFO - Procesado lote 2, 20000 filas insertadas
+2025-10-17 21:35:47,420 - INFO - Procesado lote 3, 30000 filas insertadas
+2025-10-17 21:35:48,060 - INFO - Procesado lote 4, 40000 filas insertadas
+2025-10-17 21:35:48,669 - INFO - Procesado lote 5, 50000 filas insertadas
+2025-10-17 21:35:49,282 - INFO - Procesado lote 6, 60000 filas insertadas
+2025-10-17 21:35:49,888 - INFO - Procesado lote 7, 70000 filas insertadas
+2025-10-17 21:35:50,489 - INFO - Procesado lote 8, 80000 filas insertadas
+2025-10-17 21:35:51,105 - INFO - Procesado lote 9, 90000 filas insertadas
+2025-10-17 21:35:51,713 - INFO - Procesado lote 10, 100000 filas insertadas
+2025-10-17 21:35:52,316 - INFO - Procesado lote 11, 110000 filas insertadas
+2025-10-17 21:35:52,915 - INFO - Procesado lote 12, 120000 filas insertadas
+2025-10-17 21:35:53,501 - INFO - Procesado lote 13, 130000 filas insertadas
+2025-10-17 21:35:54,084 - INFO - Procesado lote 14, 140000 filas insertadas
+2025-10-17 21:35:54,669 - INFO - Procesado lote 15, 150000 filas insertadas
+2025-10-17 21:35:55,263 - INFO - Procesado lote 16, 160000 filas insertadas
+2025-10-17 21:35:55,869 - INFO - Procesado lote 17, 170000 filas insertadas
+2025-10-17 21:35:56,474 - INFO - Procesado lote 18, 180000 filas insertadas
+2025-10-17 21:35:57,063 - INFO - Procesado lote 19, 190000 filas insertadas
+2025-10-17 21:35:57,659 - INFO - Procesado lote 20, 200000 filas insertadas
+2025-10-17 21:35:58,243 - INFO - Procesado lote 21, 210000 filas insertadas
+2025-10-17 21:35:58,832 - INFO - Procesado lote 22, 220000 filas insertadas
+2025-10-17 21:35:59,418 - INFO - Procesado lote 23, 230000 filas insertadas
+2025-10-17 21:36:00,017 - INFO - Procesado lote 24, 240000 filas insertadas
+2025-10-17 21:36:00,598 - INFO - Procesado lote 25, 250000 filas insertadas
+2025-10-17 21:36:01,204 - INFO - Procesado lote 26, 260000 filas insertadas
+2025-10-17 21:36:01,790 - INFO - Procesado lote 27, 270000 filas insertadas
+2025-10-17 21:36:02,393 - INFO - Procesado lote 28, 280000 filas insertadas
+2025-10-17 21:36:02,989 - INFO - Procesado lote 29, 290000 filas insertadas
+2025-10-17 21:36:03,582 - INFO - Procesado lote 30, 300000 filas insertadas
+2025-10-17 21:36:04,174 - INFO - Procesado lote 31, 310000 filas insertadas
+2025-10-17 21:36:04,763 - INFO - Procesado lote 32, 320000 filas insertadas
+2025-10-17 21:36:05,364 - INFO - Procesado lote 33, 330000 filas insertadas
+2025-10-17 21:36:05,949 - INFO - Procesado lote 34, 340000 filas insertadas
+2025-10-17 21:36:06,534 - INFO - Procesado lote 35, 350000 filas insertadas
+2025-10-17 21:36:07,159 - INFO - Procesado lote 36, 360000 filas insertadas
+2025-10-17 21:36:07,747 - INFO - Procesado lote 37, 370000 filas insertadas
+2025-10-17 21:36:08,332 - INFO - Procesado lote 38, 380000 filas insertadas
+2025-10-17 21:36:08,930 - INFO - Procesado lote 39, 390000 filas insertadas
+2025-10-17 21:36:09,523 - INFO - Procesado lote 40, 400000 filas insertadas
+2025-10-17 21:36:10,111 - INFO - Procesado lote 41, 410000 filas insertadas
+2025-10-17 21:36:10,709 - INFO - Procesado lote 42, 420000 filas insertadas
+2025-10-17 21:36:11,293 - INFO - Procesado lote 43, 430000 filas insertadas
+2025-10-17 21:36:11,883 - INFO - Procesado lote 44, 440000 filas insertadas
+2025-10-17 21:36:12,475 - INFO - Procesado lote 45, 450000 filas insertadas
+2025-10-17 21:36:13,072 - INFO - Procesado lote 46, 460000 filas insertadas
+2025-10-17 21:36:13,701 - INFO - Procesado lote 47, 470000 filas insertadas
+2025-10-17 21:36:14,294 - INFO - Procesado lote 48, 480000 filas insertadas
+2025-10-17 21:36:14,884 - INFO - Procesado lote 49, 490000 filas insertadas
+2025-10-17 21:36:15,475 - INFO - Procesado lote 50, 500000 filas insertadas
+2025-10-17 21:36:16,077 - INFO - Procesado lote 51, 510000 filas insertadas
+2025-10-17 21:36:16,667 - INFO - Procesado lote 52, 520000 filas insertadas
+2025-10-17 21:36:17,266 - INFO - Procesado lote 53, 530000 filas insertadas
+2025-10-17 21:36:17,882 - INFO - Procesado lote 54, 540000 filas insertadas
+2025-10-17 21:36:18,470 - INFO - Procesado lote 55, 550000 filas insertadas
+2025-10-17 21:36:19,065 - INFO - Procesado lote 56, 560000 filas insertadas
+2025-10-17 21:36:19,670 - INFO - Procesado lote 57, 570000 filas insertadas
+2025-10-17 21:36:20,269 - INFO - Procesado lote 58, 580000 filas insertadas
+2025-10-17 21:36:20,859 - INFO - Procesado lote 59, 590000 filas insertadas
+2025-10-17 21:36:21,457 - INFO - Procesado lote 60, 600000 filas insertadas
+2025-10-17 21:36:22,079 - INFO - Procesado lote 61, 610000 filas insertadas
+2025-10-17 21:36:22,675 - INFO - Procesado lote 62, 620000 filas insertadas
+2025-10-17 21:36:23,272 - INFO - Procesado lote 63, 630000 filas insertadas
+2025-10-17 21:36:23,869 - INFO - Procesado lote 64, 640000 filas insertadas
+2025-10-17 21:36:24,470 - INFO - Procesado lote 65, 650000 filas insertadas
+2025-10-17 21:36:25,070 - INFO - Procesado lote 66, 660000 filas insertadas
+2025-10-17 21:36:25,671 - INFO - Procesado lote 67, 670000 filas insertadas
+2025-10-17 21:36:26,271 - INFO - Procesado lote 68, 680000 filas insertadas
+2025-10-17 21:36:26,884 - INFO - Procesado lote 69, 690000 filas insertadas
+2025-10-17 21:36:27,485 - INFO - Procesado lote 70, 700000 filas insertadas
+2025-10-17 21:36:28,085 - INFO - Procesado lote 71, 710000 filas insertadas
+2025-10-17 21:36:28,693 - INFO - Procesado lote 72, 720000 filas insertadas
+2025-10-17 21:36:29,328 - INFO - Procesado lote 73, 730000 filas insertadas
+2025-10-17 21:36:29,914 - INFO - Procesado lote 74, 740000 filas insertadas
+2025-10-17 21:36:30,508 - INFO - Procesado lote 75, 750000 filas insertadas
+2025-10-17 21:36:31,120 - INFO - Procesado lote 76, 760000 filas insertadas
+2025-10-17 21:36:31,709 - INFO - Procesado lote 77, 770000 filas insertadas
+2025-10-17 21:36:32,304 - INFO - Procesado lote 78, 780000 filas insertadas
+2025-10-17 21:36:32,901 - INFO - Procesado lote 79, 790000 filas insertadas
+2025-10-17 21:36:33,520 - INFO - Procesado lote 80, 800000 filas insertadas
+2025-10-17 21:36:34,130 - INFO - Procesado lote 81, 810000 filas insertadas
+2025-10-17 21:36:34,741 - INFO - Procesado lote 82, 820000 filas insertadas
+2025-10-17 21:36:35,438 - INFO - Procesado lote 83, 830000 filas insertadas
+2025-10-17 21:36:36,093 - INFO - Procesado lote 84, 840000 filas insertadas
+2025-10-17 21:36:36,715 - INFO - Procesado lote 85, 850000 filas insertadas
+2025-10-17 21:36:37,359 - INFO - Procesado lote 86, 860000 filas insertadas
+2025-10-17 21:36:37,996 - INFO - Procesado lote 87, 870000 filas insertadas
+2025-10-17 21:36:38,642 - INFO - Procesado lote 88, 880000 filas insertadas
+2025-10-17 21:36:39,263 - INFO - Procesado lote 89, 890000 filas insertadas
+2025-10-17 21:36:39,881 - INFO - Procesado lote 90, 900000 filas insertadas
+2025-10-17 21:36:40,496 - INFO - Procesado lote 91, 910000 filas insertadas
+2025-10-17 21:36:41,112 - INFO - Procesado lote 92, 920000 filas insertadas
+2025-10-17 21:36:41,342 - INFO - Procesado lote 93, 923778 filas insertadas
+2025-10-17 21:36:41,349 - INFO - Total filas climáticas insertadas: 923778
+2025-10-17 21:36:41,353 - INFO - Cargando hechos dengue...
+2025-10-17 21:36:41,412 - INFO - Columnas en datos dengue: ['id_uta', 'departamento_nombre', 'provincia_nombre', 'ano', 'semanas_epidemiologicas', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'poblacion']
+2025-10-17 21:36:41,412 - INFO - Shape: (68126, 9)
+2025-10-17 21:36:51,772 - INFO - Total filas dengue insertadas: 0
+2025-10-17 21:36:51,773 - INFO - Carga completa finalizada en 0:01:07.749391
+2025-10-17 21:38:28,847 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:38:28,847 - INFO - Cargando dimensión fecha...
+2025-10-17 21:38:28,964 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 21:38:28,966 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:38:28,997 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 21:38:28,997 - INFO - Cargando dimensión estación...
+2025-10-17 21:38:29,012 - INFO - Insertadas 169 estaciones
+2025-10-17 21:38:29,012 - INFO - Cargando dimensión población...
+2025-10-17 21:38:29,403 - INFO - Insertadas 9072 filas de población
+2025-10-17 21:38:29,404 - INFO - Cargando hechos climáticos...
+2025-10-17 21:38:29,503 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:38:29,503 - INFO - Shape: (923778, 12)
+2025-10-17 21:38:31,026 - INFO - Procesado lote 1, 10000 filas insertadas
+2025-10-17 21:38:31,646 - INFO - Procesado lote 2, 20000 filas insertadas
+2025-10-17 21:38:32,265 - INFO - Procesado lote 3, 30000 filas insertadas
+2025-10-17 21:38:32,932 - INFO - Procesado lote 4, 40000 filas insertadas
+2025-10-17 21:38:33,533 - INFO - Procesado lote 5, 50000 filas insertadas
+2025-10-17 21:38:34,148 - INFO - Procesado lote 6, 60000 filas insertadas
+2025-10-17 21:38:34,753 - INFO - Procesado lote 7, 70000 filas insertadas
+2025-10-17 21:38:35,349 - INFO - Procesado lote 8, 80000 filas insertadas
+2025-10-17 21:38:35,950 - INFO - Procesado lote 9, 90000 filas insertadas
+2025-10-17 21:38:36,582 - INFO - Procesado lote 10, 100000 filas insertadas
+2025-10-17 21:38:37,228 - INFO - Procesado lote 11, 110000 filas insertadas
+2025-10-17 21:38:37,824 - INFO - Procesado lote 12, 120000 filas insertadas
+2025-10-17 21:38:38,421 - INFO - Procesado lote 13, 130000 filas insertadas
+2025-10-17 21:38:39,028 - INFO - Procesado lote 14, 140000 filas insertadas
+2025-10-17 21:38:39,634 - INFO - Procesado lote 15, 150000 filas insertadas
+2025-10-17 21:38:40,253 - INFO - Procesado lote 16, 160000 filas insertadas
+2025-10-17 21:38:40,856 - INFO - Procesado lote 17, 170000 filas insertadas
+2025-10-17 21:38:41,449 - INFO - Procesado lote 18, 180000 filas insertadas
+2025-10-17 21:38:42,047 - INFO - Procesado lote 19, 190000 filas insertadas
+2025-10-17 21:38:42,647 - INFO - Procesado lote 20, 200000 filas insertadas
+2025-10-17 21:38:43,246 - INFO - Procesado lote 21, 210000 filas insertadas
+2025-10-17 21:38:43,847 - INFO - Procesado lote 22, 220000 filas insertadas
+2025-10-17 21:38:44,463 - INFO - Procesado lote 23, 230000 filas insertadas
+2025-10-17 21:38:45,067 - INFO - Procesado lote 24, 240000 filas insertadas
+2025-10-17 21:38:45,666 - INFO - Procesado lote 25, 250000 filas insertadas
+2025-10-17 21:38:46,262 - INFO - Procesado lote 26, 260000 filas insertadas
+2025-10-17 21:38:46,865 - INFO - Procesado lote 27, 270000 filas insertadas
+2025-10-17 21:38:47,480 - INFO - Procesado lote 28, 280000 filas insertadas
+2025-10-17 21:38:48,109 - INFO - Procesado lote 29, 290000 filas insertadas
+2025-10-17 21:38:48,708 - INFO - Procesado lote 30, 300000 filas insertadas
+2025-10-17 21:38:49,307 - INFO - Procesado lote 31, 310000 filas insertadas
+2025-10-17 21:38:49,913 - INFO - Procesado lote 32, 320000 filas insertadas
+2025-10-17 21:38:50,516 - INFO - Procesado lote 33, 330000 filas insertadas
+2025-10-17 21:38:51,114 - INFO - Procesado lote 34, 340000 filas insertadas
+2025-10-17 21:38:51,734 - INFO - Procesado lote 35, 350000 filas insertadas
+2025-10-17 21:38:52,336 - INFO - Procesado lote 36, 360000 filas insertadas
+2025-10-17 21:38:52,936 - INFO - Procesado lote 37, 370000 filas insertadas
+2025-10-17 21:38:53,535 - INFO - Procesado lote 38, 380000 filas insertadas
+2025-10-17 21:38:54,152 - INFO - Procesado lote 39, 390000 filas insertadas
+2025-10-17 21:38:54,767 - INFO - Procesado lote 40, 400000 filas insertadas
+2025-10-17 21:38:55,372 - INFO - Procesado lote 41, 410000 filas insertadas
+2025-10-17 21:38:56,001 - INFO - Procesado lote 42, 420000 filas insertadas
+2025-10-17 21:38:56,606 - INFO - Procesado lote 43, 430000 filas insertadas
+2025-10-17 21:38:57,201 - INFO - Procesado lote 44, 440000 filas insertadas
+2025-10-17 21:38:57,807 - INFO - Procesado lote 45, 450000 filas insertadas
+2025-10-17 21:38:58,407 - INFO - Procesado lote 46, 460000 filas insertadas
+2025-10-17 21:38:59,018 - INFO - Procesado lote 47, 470000 filas insertadas
+2025-10-17 21:38:59,642 - INFO - Procesado lote 48, 480000 filas insertadas
+2025-10-17 21:39:00,245 - INFO - Procesado lote 49, 490000 filas insertadas
+2025-10-17 21:39:00,862 - INFO - Procesado lote 50, 500000 filas insertadas
+2025-10-17 21:39:01,514 - INFO - Procesado lote 51, 510000 filas insertadas
+2025-10-17 21:39:02,117 - INFO - Procesado lote 52, 520000 filas insertadas
+2025-10-17 21:39:02,716 - INFO - Procesado lote 53, 530000 filas insertadas
+2025-10-17 21:39:03,336 - INFO - Procesado lote 54, 540000 filas insertadas
+2025-10-17 21:39:03,941 - INFO - Procesado lote 55, 550000 filas insertadas
+2025-10-17 21:39:04,547 - INFO - Procesado lote 56, 560000 filas insertadas
+2025-10-17 21:39:05,157 - INFO - Procesado lote 57, 570000 filas insertadas
+2025-10-17 21:39:05,763 - INFO - Procesado lote 58, 580000 filas insertadas
+2025-10-17 21:39:06,371 - INFO - Procesado lote 59, 590000 filas insertadas
+2025-10-17 21:39:06,978 - INFO - Procesado lote 60, 600000 filas insertadas
+2025-10-17 21:39:07,618 - INFO - Procesado lote 61, 610000 filas insertadas
+2025-10-17 21:39:08,222 - INFO - Procesado lote 62, 620000 filas insertadas
+2025-10-17 21:39:08,828 - INFO - Procesado lote 63, 630000 filas insertadas
+2025-10-17 21:39:09,439 - INFO - Procesado lote 64, 640000 filas insertadas
+2025-10-17 21:39:10,045 - INFO - Procesado lote 65, 650000 filas insertadas
+2025-10-17 21:39:10,658 - INFO - Procesado lote 66, 660000 filas insertadas
+2025-10-17 21:39:11,317 - INFO - Procesado lote 67, 670000 filas insertadas
+2025-10-17 21:39:11,953 - INFO - Procesado lote 68, 680000 filas insertadas
+2025-10-17 21:39:12,581 - INFO - Procesado lote 69, 690000 filas insertadas
+2025-10-17 21:39:13,196 - INFO - Procesado lote 70, 700000 filas insertadas
+2025-10-17 21:39:13,804 - INFO - Procesado lote 71, 710000 filas insertadas
+2025-10-17 21:39:14,425 - INFO - Procesado lote 72, 720000 filas insertadas
+2025-10-17 21:39:15,055 - INFO - Procesado lote 73, 730000 filas insertadas
+2025-10-17 21:39:15,672 - INFO - Procesado lote 74, 740000 filas insertadas
+2025-10-17 21:39:16,293 - INFO - Procesado lote 75, 750000 filas insertadas
+2025-10-17 21:39:16,908 - INFO - Procesado lote 76, 760000 filas insertadas
+2025-10-17 21:39:17,535 - INFO - Procesado lote 77, 770000 filas insertadas
+2025-10-17 21:39:18,185 - INFO - Procesado lote 78, 780000 filas insertadas
+2025-10-17 21:39:18,812 - INFO - Procesado lote 79, 790000 filas insertadas
+2025-10-17 21:39:19,453 - INFO - Procesado lote 80, 800000 filas insertadas
+2025-10-17 21:39:20,077 - INFO - Procesado lote 81, 810000 filas insertadas
+2025-10-17 21:39:20,700 - INFO - Procesado lote 82, 820000 filas insertadas
+2025-10-17 21:39:21,334 - INFO - Procesado lote 83, 830000 filas insertadas
+2025-10-17 21:39:22,014 - INFO - Procesado lote 84, 840000 filas insertadas
+2025-10-17 21:39:22,641 - INFO - Procesado lote 85, 850000 filas insertadas
+2025-10-17 21:39:23,286 - INFO - Procesado lote 86, 860000 filas insertadas
+2025-10-17 21:39:23,923 - INFO - Procesado lote 87, 870000 filas insertadas
+2025-10-17 21:39:24,554 - INFO - Procesado lote 88, 880000 filas insertadas
+2025-10-17 21:39:25,185 - INFO - Procesado lote 89, 890000 filas insertadas
+2025-10-17 21:39:25,817 - INFO - Procesado lote 90, 900000 filas insertadas
+2025-10-17 21:39:26,456 - INFO - Procesado lote 91, 910000 filas insertadas
+2025-10-17 21:39:27,078 - INFO - Procesado lote 92, 920000 filas insertadas
+2025-10-17 21:39:27,314 - INFO - Procesado lote 93, 923778 filas insertadas
+2025-10-17 21:39:27,320 - INFO - Total filas climáticas insertadas: 923778
+2025-10-17 21:39:27,324 - INFO - Cargando hechos dengue...
+2025-10-17 21:39:27,380 - INFO - Columnas en datos dengue: ['id_uta', 'departamento_nombre', 'provincia_nombre', 'ano', 'semanas_epidemiologicas', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'poblacion']
+2025-10-17 21:39:27,380 - INFO - Shape: (68126, 9)
+2025-10-17 21:39:37,728 - INFO - Total filas dengue insertadas: 0
+2025-10-17 21:39:37,729 - INFO - Carga completa finalizada en 0:01:08.881944
+2025-10-17 21:40:58,887 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:40:58,887 - INFO - Cargando dimensión fecha...
+2025-10-17 21:40:59,023 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 21:40:59,025 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:40:59,055 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 21:40:59,055 - INFO - Cargando dimensión estación...
+2025-10-17 21:40:59,069 - INFO - Insertadas 169 estaciones
+2025-10-17 21:40:59,070 - INFO - Cargando dimensión población...
+2025-10-17 21:40:59,468 - INFO - Insertadas 9072 filas de población
+2025-10-17 21:40:59,468 - INFO - Cargando hechos climáticos...
+2025-10-17 21:40:59,597 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:40:59,597 - INFO - Shape: (923778, 12)
+2025-10-17 21:41:01,120 - INFO - Procesado lote 1, 10000 filas insertadas
+2025-10-17 21:41:01,776 - INFO - Procesado lote 2, 20000 filas insertadas
+2025-10-17 21:41:02,424 - INFO - Procesado lote 3, 30000 filas insertadas
+2025-10-17 21:41:03,066 - INFO - Procesado lote 4, 40000 filas insertadas
+2025-10-17 21:41:03,715 - INFO - Procesado lote 5, 50000 filas insertadas
+2025-10-17 21:41:04,358 - INFO - Procesado lote 6, 60000 filas insertadas
+2025-10-17 21:41:04,973 - INFO - Procesado lote 7, 70000 filas insertadas
+2025-10-17 21:41:05,587 - INFO - Procesado lote 8, 80000 filas insertadas
+2025-10-17 21:41:06,211 - INFO - Procesado lote 9, 90000 filas insertadas
+2025-10-17 21:41:06,917 - INFO - Procesado lote 10, 100000 filas insertadas
+2025-10-17 21:41:07,525 - INFO - Procesado lote 11, 110000 filas insertadas
+2025-10-17 21:41:08,122 - INFO - Procesado lote 12, 120000 filas insertadas
+2025-10-17 21:41:08,714 - INFO - Procesado lote 13, 130000 filas insertadas
+2025-10-17 21:41:09,302 - INFO - Procesado lote 14, 140000 filas insertadas
+2025-10-17 21:41:09,914 - INFO - Procesado lote 15, 150000 filas insertadas
+2025-10-17 21:41:10,514 - INFO - Procesado lote 16, 160000 filas insertadas
+2025-10-17 21:41:11,126 - INFO - Procesado lote 17, 170000 filas insertadas
+2025-10-17 21:41:11,730 - INFO - Procesado lote 18, 180000 filas insertadas
+2025-10-17 21:41:12,355 - INFO - Procesado lote 19, 190000 filas insertadas
+2025-10-17 21:41:12,954 - INFO - Procesado lote 20, 200000 filas insertadas
+2025-10-17 21:41:13,552 - INFO - Procesado lote 21, 210000 filas insertadas
+2025-10-17 21:41:14,143 - INFO - Procesado lote 22, 220000 filas insertadas
+2025-10-17 21:41:14,737 - INFO - Procesado lote 23, 230000 filas insertadas
+2025-10-17 21:41:15,327 - INFO - Procesado lote 24, 240000 filas insertadas
+2025-10-17 21:41:15,943 - INFO - Procesado lote 25, 250000 filas insertadas
+2025-10-17 21:41:16,550 - INFO - Procesado lote 26, 260000 filas insertadas
+2025-10-17 21:41:17,150 - INFO - Procesado lote 27, 270000 filas insertadas
+2025-10-17 21:41:17,756 - INFO - Procesado lote 28, 280000 filas insertadas
+2025-10-17 21:41:18,350 - INFO - Procesado lote 29, 290000 filas insertadas
+2025-10-17 21:41:18,950 - INFO - Procesado lote 30, 300000 filas insertadas
+2025-10-17 21:41:19,566 - INFO - Procesado lote 31, 310000 filas insertadas
+2025-10-17 21:41:20,172 - INFO - Procesado lote 32, 320000 filas insertadas
+2025-10-17 21:41:20,763 - INFO - Procesado lote 33, 330000 filas insertadas
+2025-10-17 21:41:21,359 - INFO - Procesado lote 34, 340000 filas insertadas
+2025-10-17 21:41:21,954 - INFO - Procesado lote 35, 350000 filas insertadas
+2025-10-17 21:41:22,547 - INFO - Procesado lote 36, 360000 filas insertadas
+2025-10-17 21:41:23,163 - INFO - Procesado lote 37, 370000 filas insertadas
+2025-10-17 21:41:23,810 - INFO - Procesado lote 38, 380000 filas insertadas
+2025-10-17 21:41:24,417 - INFO - Procesado lote 39, 390000 filas insertadas
+2025-10-17 21:41:25,014 - INFO - Procesado lote 40, 400000 filas insertadas
+2025-10-17 21:41:25,621 - INFO - Procesado lote 41, 410000 filas insertadas
+2025-10-17 21:41:26,225 - INFO - Procesado lote 42, 420000 filas insertadas
+2025-10-17 21:41:26,828 - INFO - Procesado lote 43, 430000 filas insertadas
+2025-10-17 21:41:27,438 - INFO - Procesado lote 44, 440000 filas insertadas
+2025-10-17 21:41:28,046 - INFO - Procesado lote 45, 450000 filas insertadas
+2025-10-17 21:41:28,644 - INFO - Procesado lote 46, 460000 filas insertadas
+2025-10-17 21:41:29,264 - INFO - Procesado lote 47, 470000 filas insertadas
+2025-10-17 21:41:29,865 - INFO - Procesado lote 48, 480000 filas insertadas
+2025-10-17 21:41:30,473 - INFO - Procesado lote 49, 490000 filas insertadas
+2025-10-17 21:41:31,075 - INFO - Procesado lote 50, 500000 filas insertadas
+2025-10-17 21:41:31,681 - INFO - Procesado lote 51, 510000 filas insertadas
+2025-10-17 21:41:32,288 - INFO - Procesado lote 52, 520000 filas insertadas
+2025-10-17 21:41:32,913 - INFO - Procesado lote 53, 530000 filas insertadas
+2025-10-17 21:41:33,520 - INFO - Procesado lote 54, 540000 filas insertadas
+2025-10-17 21:41:34,118 - INFO - Procesado lote 55, 550000 filas insertadas
+2025-10-17 21:41:34,743 - INFO - Procesado lote 56, 560000 filas insertadas
+2025-10-17 21:41:35,340 - INFO - Procesado lote 57, 570000 filas insertadas
+2025-10-17 21:41:35,956 - INFO - Procesado lote 58, 580000 filas insertadas
+2025-10-17 21:41:36,562 - INFO - Procesado lote 59, 590000 filas insertadas
+2025-10-17 21:41:37,163 - INFO - Procesado lote 60, 600000 filas insertadas
+2025-10-17 21:41:37,773 - INFO - Procesado lote 61, 610000 filas insertadas
+2025-10-17 21:41:38,381 - INFO - Procesado lote 62, 620000 filas insertadas
+2025-10-17 21:41:39,035 - INFO - Procesado lote 63, 630000 filas insertadas
+2025-10-17 21:41:39,657 - INFO - Procesado lote 64, 640000 filas insertadas
+2025-10-17 21:41:40,263 - INFO - Procesado lote 65, 650000 filas insertadas
+2025-10-17 21:41:40,866 - INFO - Procesado lote 66, 660000 filas insertadas
+2025-10-17 21:41:41,473 - INFO - Procesado lote 67, 670000 filas insertadas
+2025-10-17 21:41:42,071 - INFO - Procesado lote 68, 680000 filas insertadas
+2025-10-17 21:41:42,687 - INFO - Procesado lote 69, 690000 filas insertadas
+2025-10-17 21:41:43,308 - INFO - Procesado lote 70, 700000 filas insertadas
+2025-10-17 21:41:43,908 - INFO - Procesado lote 71, 710000 filas insertadas
+2025-10-17 21:41:44,513 - INFO - Procesado lote 72, 720000 filas insertadas
+2025-10-17 21:41:45,112 - INFO - Procesado lote 73, 730000 filas insertadas
+2025-10-17 21:41:45,719 - INFO - Procesado lote 74, 740000 filas insertadas
+2025-10-17 21:41:46,339 - INFO - Procesado lote 75, 750000 filas insertadas
+2025-10-17 21:41:46,939 - INFO - Procesado lote 76, 760000 filas insertadas
+2025-10-17 21:41:47,550 - INFO - Procesado lote 77, 770000 filas insertadas
+2025-10-17 21:41:48,153 - INFO - Procesado lote 78, 780000 filas insertadas
+2025-10-17 21:41:48,761 - INFO - Procesado lote 79, 790000 filas insertadas
+2025-10-17 21:41:49,357 - INFO - Procesado lote 80, 800000 filas insertadas
+2025-10-17 21:41:49,980 - INFO - Procesado lote 81, 810000 filas insertadas
+2025-10-17 21:41:50,580 - INFO - Procesado lote 82, 820000 filas insertadas
+2025-10-17 21:41:51,191 - INFO - Procesado lote 83, 830000 filas insertadas
+2025-10-17 21:41:51,815 - INFO - Procesado lote 84, 840000 filas insertadas
+2025-10-17 21:41:52,475 - INFO - Procesado lote 85, 850000 filas insertadas
+2025-10-17 21:41:53,081 - INFO - Procesado lote 86, 860000 filas insertadas
+2025-10-17 21:41:53,700 - INFO - Procesado lote 87, 870000 filas insertadas
+2025-10-17 21:41:54,308 - INFO - Procesado lote 88, 880000 filas insertadas
+2025-10-17 21:41:54,907 - INFO - Procesado lote 89, 890000 filas insertadas
+2025-10-17 21:41:55,509 - INFO - Procesado lote 90, 900000 filas insertadas
+2025-10-17 21:41:56,108 - INFO - Procesado lote 91, 910000 filas insertadas
+2025-10-17 21:41:56,709 - INFO - Procesado lote 92, 920000 filas insertadas
+2025-10-17 21:41:56,964 - INFO - Procesado lote 93, 923778 filas insertadas
+2025-10-17 21:41:56,971 - INFO - Total filas climáticas insertadas: 923778
+2025-10-17 21:41:56,974 - INFO - Cargando hechos dengue...
+2025-10-17 21:41:57,030 - INFO - Columnas en datos dengue: ['id_uta', 'departamento_nombre', 'provincia_nombre', 'ano', 'semanas_epidemiologicas', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'poblacion']
+2025-10-17 21:41:57,030 - INFO - Shape: (68126, 9)
+2025-10-17 21:42:00,312 - INFO - Procesado lote 1, 8751 filas insertadas
+2025-10-17 21:42:02,743 - INFO - Procesado lote 2, 17654 filas insertadas
+2025-10-17 21:42:05,217 - INFO - Procesado lote 3, 26273 filas insertadas
+2025-10-17 21:42:07,501 - INFO - Procesado lote 4, 35828 filas insertadas
+2025-10-17 21:42:09,727 - INFO - Procesado lote 5, 44896 filas insertadas
+2025-10-17 21:42:12,130 - INFO - Procesado lote 6, 53815 filas insertadas
+2025-10-17 21:42:14,143 - INFO - Procesado lote 7, 60920 filas insertadas
+2025-10-17 21:42:14,161 - INFO - Total filas dengue insertadas: 60920
+2025-10-17 21:42:14,162 - INFO - Carga completa finalizada en 0:01:15.275510
+2025-10-17 21:42:55,657 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:42:55,657 - INFO - Cargando dimensión fecha...
+2025-10-17 21:42:55,776 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 21:42:55,778 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:42:55,809 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 21:42:55,809 - INFO - Cargando dimensión estación...
+2025-10-17 21:42:55,823 - INFO - Insertadas 169 estaciones
+2025-10-17 21:42:55,824 - INFO - Cargando dimensión población...
+2025-10-17 21:42:56,226 - INFO - Insertadas 9072 filas de población
+2025-10-17 21:42:56,226 - INFO - Cargando hechos climáticos...
+2025-10-17 21:42:56,334 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:42:56,334 - INFO - Shape: (923778, 12)
+2025-10-17 21:42:57,876 - INFO - Procesado lote 1, 10000 filas insertadas
+2025-10-17 21:42:58,485 - INFO - Procesado lote 2, 20000 filas insertadas
+2025-10-17 21:42:59,096 - INFO - Procesado lote 3, 30000 filas insertadas
+2025-10-17 21:42:59,734 - INFO - Procesado lote 4, 40000 filas insertadas
+2025-10-17 21:43:00,325 - INFO - Procesado lote 5, 50000 filas insertadas
+2025-10-17 21:43:00,927 - INFO - Procesado lote 6, 60000 filas insertadas
+2025-10-17 21:43:01,516 - INFO - Procesado lote 7, 70000 filas insertadas
+2025-10-17 21:43:02,107 - INFO - Procesado lote 8, 80000 filas insertadas
+2025-10-17 21:43:02,723 - INFO - Procesado lote 9, 90000 filas insertadas
+2025-10-17 21:43:03,332 - INFO - Procesado lote 10, 100000 filas insertadas
+2025-10-17 21:43:03,927 - INFO - Procesado lote 11, 110000 filas insertadas
+2025-10-17 21:43:04,517 - INFO - Procesado lote 12, 120000 filas insertadas
+2025-10-17 21:43:05,098 - INFO - Procesado lote 13, 130000 filas insertadas
+2025-10-17 21:43:05,675 - INFO - Procesado lote 14, 140000 filas insertadas
+2025-10-17 21:43:06,265 - INFO - Procesado lote 15, 150000 filas insertadas
+2025-10-17 21:43:06,884 - INFO - Procesado lote 16, 160000 filas insertadas
+2025-10-17 21:43:07,494 - INFO - Procesado lote 17, 170000 filas insertadas
+2025-10-17 21:43:08,083 - INFO - Procesado lote 18, 180000 filas insertadas
+2025-10-17 21:43:08,682 - INFO - Procesado lote 19, 190000 filas insertadas
+2025-10-17 21:43:09,267 - INFO - Procesado lote 20, 200000 filas insertadas
+2025-10-17 21:43:09,846 - INFO - Procesado lote 21, 210000 filas insertadas
+2025-10-17 21:43:10,520 - INFO - Procesado lote 22, 220000 filas insertadas
+2025-10-17 21:43:11,099 - INFO - Procesado lote 23, 230000 filas insertadas
+2025-10-17 21:43:11,678 - INFO - Procesado lote 24, 240000 filas insertadas
+2025-10-17 21:43:12,263 - INFO - Procesado lote 25, 250000 filas insertadas
+2025-10-17 21:43:12,854 - INFO - Procesado lote 26, 260000 filas insertadas
+2025-10-17 21:43:13,465 - INFO - Procesado lote 27, 270000 filas insertadas
+2025-10-17 21:43:14,067 - INFO - Procesado lote 28, 280000 filas insertadas
+2025-10-17 21:43:14,650 - INFO - Procesado lote 29, 290000 filas insertadas
+2025-10-17 21:43:15,237 - INFO - Procesado lote 30, 300000 filas insertadas
+2025-10-17 21:43:15,819 - INFO - Procesado lote 31, 310000 filas insertadas
+2025-10-17 21:43:16,422 - INFO - Procesado lote 32, 320000 filas insertadas
+2025-10-17 21:43:17,005 - INFO - Procesado lote 33, 330000 filas insertadas
+2025-10-17 21:43:17,595 - INFO - Procesado lote 34, 340000 filas insertadas
+2025-10-17 21:43:18,179 - INFO - Procesado lote 35, 350000 filas insertadas
+2025-10-17 21:43:18,767 - INFO - Procesado lote 36, 360000 filas insertadas
+2025-10-17 21:43:19,380 - INFO - Procesado lote 37, 370000 filas insertadas
+2025-10-17 21:43:19,969 - INFO - Procesado lote 38, 380000 filas insertadas
+2025-10-17 21:43:20,562 - INFO - Procesado lote 39, 390000 filas insertadas
+2025-10-17 21:43:21,141 - INFO - Procesado lote 40, 400000 filas insertadas
+2025-10-17 21:43:21,732 - INFO - Procesado lote 41, 410000 filas insertadas
+2025-10-17 21:43:22,351 - INFO - Procesado lote 42, 420000 filas insertadas
+2025-10-17 21:43:22,940 - INFO - Procesado lote 43, 430000 filas insertadas
+2025-10-17 21:43:23,529 - INFO - Procesado lote 44, 440000 filas insertadas
+2025-10-17 21:43:24,121 - INFO - Procesado lote 45, 450000 filas insertadas
+2025-10-17 21:43:24,709 - INFO - Procesado lote 46, 460000 filas insertadas
+2025-10-17 21:43:25,313 - INFO - Procesado lote 47, 470000 filas insertadas
+2025-10-17 21:43:25,961 - INFO - Procesado lote 48, 480000 filas insertadas
+2025-10-17 21:43:26,554 - INFO - Procesado lote 49, 490000 filas insertadas
+2025-10-17 21:43:27,144 - INFO - Procesado lote 50, 500000 filas insertadas
+2025-10-17 21:43:27,747 - INFO - Procesado lote 51, 510000 filas insertadas
+2025-10-17 21:43:28,374 - INFO - Procesado lote 52, 520000 filas insertadas
+2025-10-17 21:43:28,964 - INFO - Procesado lote 53, 530000 filas insertadas
+2025-10-17 21:43:29,556 - INFO - Procesado lote 54, 540000 filas insertadas
+2025-10-17 21:43:30,157 - INFO - Procesado lote 55, 550000 filas insertadas
+2025-10-17 21:43:30,755 - INFO - Procesado lote 56, 560000 filas insertadas
+2025-10-17 21:43:31,363 - INFO - Procesado lote 57, 570000 filas insertadas
+2025-10-17 21:43:31,952 - INFO - Procesado lote 58, 580000 filas insertadas
+2025-10-17 21:43:32,568 - INFO - Procesado lote 59, 590000 filas insertadas
+2025-10-17 21:43:33,167 - INFO - Procesado lote 60, 600000 filas insertadas
+2025-10-17 21:43:33,781 - INFO - Procesado lote 61, 610000 filas insertadas
+2025-10-17 21:43:34,395 - INFO - Procesado lote 62, 620000 filas insertadas
+2025-10-17 21:43:34,989 - INFO - Procesado lote 63, 630000 filas insertadas
+2025-10-17 21:43:35,580 - INFO - Procesado lote 64, 640000 filas insertadas
+2025-10-17 21:43:36,174 - INFO - Procesado lote 65, 650000 filas insertadas
+2025-10-17 21:43:36,775 - INFO - Procesado lote 66, 660000 filas insertadas
+2025-10-17 21:43:37,392 - INFO - Procesado lote 67, 670000 filas insertadas
+2025-10-17 21:43:38,001 - INFO - Procesado lote 68, 680000 filas insertadas
+2025-10-17 21:43:38,596 - INFO - Procesado lote 69, 690000 filas insertadas
+2025-10-17 21:43:39,257 - INFO - Procesado lote 70, 700000 filas insertadas
+2025-10-17 21:43:39,856 - INFO - Procesado lote 71, 710000 filas insertadas
+2025-10-17 21:43:40,483 - INFO - Procesado lote 72, 720000 filas insertadas
+2025-10-17 21:43:41,109 - INFO - Procesado lote 73, 730000 filas insertadas
+2025-10-17 21:43:41,741 - INFO - Procesado lote 74, 740000 filas insertadas
+2025-10-17 21:43:42,367 - INFO - Procesado lote 75, 750000 filas insertadas
+2025-10-17 21:43:42,979 - INFO - Procesado lote 76, 760000 filas insertadas
+2025-10-17 21:43:43,581 - INFO - Procesado lote 77, 770000 filas insertadas
+2025-10-17 21:43:44,193 - INFO - Procesado lote 78, 780000 filas insertadas
+2025-10-17 21:43:44,790 - INFO - Procesado lote 79, 790000 filas insertadas
+2025-10-17 21:43:45,397 - INFO - Procesado lote 80, 800000 filas insertadas
+2025-10-17 21:43:45,999 - INFO - Procesado lote 81, 810000 filas insertadas
+2025-10-17 21:43:46,599 - INFO - Procesado lote 82, 820000 filas insertadas
+2025-10-17 21:43:47,223 - INFO - Procesado lote 83, 830000 filas insertadas
+2025-10-17 21:43:47,835 - INFO - Procesado lote 84, 840000 filas insertadas
+2025-10-17 21:43:48,424 - INFO - Procesado lote 85, 850000 filas insertadas
+2025-10-17 21:43:49,023 - INFO - Procesado lote 86, 860000 filas insertadas
+2025-10-17 21:43:49,611 - INFO - Procesado lote 87, 870000 filas insertadas
+2025-10-17 21:43:50,223 - INFO - Procesado lote 88, 880000 filas insertadas
+2025-10-17 21:43:50,810 - INFO - Procesado lote 89, 890000 filas insertadas
+2025-10-17 21:43:51,460 - INFO - Procesado lote 90, 900000 filas insertadas
+2025-10-17 21:43:52,063 - INFO - Procesado lote 91, 910000 filas insertadas
+2025-10-17 21:43:52,663 - INFO - Procesado lote 92, 920000 filas insertadas
+2025-10-17 21:43:52,915 - INFO - Procesado lote 93, 923778 filas insertadas
+2025-10-17 21:43:52,921 - INFO - Total filas climáticas insertadas: 923778
+2025-10-17 21:43:52,925 - INFO - Cargando hechos dengue...
+2025-10-17 21:43:52,979 - INFO - Columnas en datos dengue: ['id_uta', 'departamento_nombre', 'provincia_nombre', 'ano', 'semanas_epidemiologicas', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'poblacion']
+2025-10-17 21:43:52,979 - INFO - Shape: (68126, 9)
+2025-10-17 21:43:56,356 - INFO - Procesado lote 1, 8751 filas insertadas
+2025-10-17 21:43:58,888 - INFO - Procesado lote 2, 17654 filas insertadas
+2025-10-17 21:44:01,622 - INFO - Procesado lote 3, 26273 filas insertadas
+2025-10-17 21:44:03,943 - INFO - Procesado lote 4, 35828 filas insertadas
+2025-10-17 21:44:06,259 - INFO - Procesado lote 5, 44896 filas insertadas
+2025-10-17 21:44:08,764 - INFO - Procesado lote 6, 53815 filas insertadas
+2025-10-17 21:44:10,811 - INFO - Procesado lote 7, 60920 filas insertadas
+2025-10-17 21:44:10,827 - INFO - Total filas dengue insertadas: 60920
+2025-10-17 21:44:10,829 - INFO - Carga completa finalizada en 0:01:15.172625
+2025-10-17 21:45:21,861 - INFO - Iniciando carga completa de datos...
+2025-10-17 21:45:21,861 - INFO - Cargando dimensión fecha...
+2025-10-17 21:45:21,982 - INFO - Insertadas 24004 filas en dim_fecha
+2025-10-17 21:45:21,984 - INFO - Cargando dimensión ubicación...
+2025-10-17 21:45:22,016 - INFO - Insertadas 714 ubicaciones únicas
+2025-10-17 21:45:22,016 - INFO - Cargando dimensión estación...
+2025-10-17 21:45:22,030 - INFO - Insertadas 169 estaciones
+2025-10-17 21:45:22,030 - INFO - Cargando dimensión población...
+2025-10-17 21:45:22,445 - INFO - Insertadas 9072 filas de población
+2025-10-17 21:45:22,446 - INFO - Cargando hechos climáticos...
+2025-10-17 21:45:22,554 - INFO - Columnas en datos climáticos: ['fecha', 'id_estacion', 'precipitacion_pluviometrica', 'temperatura_minima', 'temperatura_maxima', 'temperatura_media', 'humedad_media', 'rocio_medio', 'tesion_vapor_media', 'radiacion_global', 'heliofania_efectiva', 'heliofania_relativa']
+2025-10-17 21:45:22,554 - INFO - Shape: (923778, 12)
+2025-10-17 21:45:24,116 - INFO - Procesado lote 1, 10000 filas insertadas
+2025-10-17 21:45:24,752 - INFO - Procesado lote 2, 20000 filas insertadas
+2025-10-17 21:45:25,417 - INFO - Procesado lote 3, 30000 filas insertadas
+2025-10-17 21:45:26,050 - INFO - Procesado lote 4, 40000 filas insertadas
+2025-10-17 21:45:26,690 - INFO - Procesado lote 5, 50000 filas insertadas
+2025-10-17 21:45:27,309 - INFO - Procesado lote 6, 60000 filas insertadas
+2025-10-17 21:45:27,910 - INFO - Procesado lote 7, 70000 filas insertadas
+2025-10-17 21:45:28,523 - INFO - Procesado lote 8, 80000 filas insertadas
+2025-10-17 21:45:29,144 - INFO - Procesado lote 9, 90000 filas insertadas
+2025-10-17 21:45:29,776 - INFO - Procesado lote 10, 100000 filas insertadas
+2025-10-17 21:45:30,410 - INFO - Procesado lote 11, 110000 filas insertadas
+2025-10-17 21:45:31,018 - INFO - Procesado lote 12, 120000 filas insertadas
+2025-10-17 21:45:31,639 - INFO - Procesado lote 13, 130000 filas insertadas
+2025-10-17 21:45:32,248 - INFO - Procesado lote 14, 140000 filas insertadas
+2025-10-17 21:45:32,863 - INFO - Procesado lote 15, 150000 filas insertadas
+2025-10-17 21:45:33,535 - INFO - Procesado lote 16, 160000 filas insertadas
+2025-10-17 21:45:34,359 - INFO - Procesado lote 17, 170000 filas insertadas
+2025-10-17 21:45:34,964 - INFO - Procesado lote 18, 180000 filas insertadas
+2025-10-17 21:45:35,567 - INFO - Procesado lote 19, 190000 filas insertadas
+2025-10-17 21:45:36,177 - INFO - Procesado lote 20, 200000 filas insertadas
+2025-10-17 21:45:36,772 - INFO - Procesado lote 21, 210000 filas insertadas
+2025-10-17 21:45:37,366 - INFO - Procesado lote 22, 220000 filas insertadas
+2025-10-17 21:45:37,970 - INFO - Procesado lote 23, 230000 filas insertadas
+2025-10-17 21:45:38,577 - INFO - Procesado lote 24, 240000 filas insertadas
+2025-10-17 21:45:39,175 - INFO - Procesado lote 25, 250000 filas insertadas
+2025-10-17 21:45:39,771 - INFO - Procesado lote 26, 260000 filas insertadas
+2025-10-17 21:45:40,367 - INFO - Procesado lote 27, 270000 filas insertadas
+2025-10-17 21:45:40,968 - INFO - Procesado lote 28, 280000 filas insertadas
+2025-10-17 21:45:41,614 - INFO - Procesado lote 29, 290000 filas insertadas
+2025-10-17 21:45:42,227 - INFO - Procesado lote 30, 300000 filas insertadas
+2025-10-17 21:45:42,852 - INFO - Procesado lote 31, 310000 filas insertadas
+2025-10-17 21:45:43,490 - INFO - Procesado lote 32, 320000 filas insertadas
+2025-10-17 21:45:44,119 - INFO - Procesado lote 33, 330000 filas insertadas
+2025-10-17 21:45:44,737 - INFO - Procesado lote 34, 340000 filas insertadas
+2025-10-17 21:45:45,345 - INFO - Procesado lote 35, 350000 filas insertadas
+2025-10-17 21:45:45,959 - INFO - Procesado lote 36, 360000 filas insertadas
+2025-10-17 21:45:46,573 - INFO - Procesado lote 37, 370000 filas insertadas
+2025-10-17 21:45:47,191 - INFO - Procesado lote 38, 380000 filas insertadas
+2025-10-17 21:45:47,822 - INFO - Procesado lote 39, 390000 filas insertadas
+2025-10-17 21:45:48,432 - INFO - Procesado lote 40, 400000 filas insertadas
+2025-10-17 21:45:49,046 - INFO - Procesado lote 41, 410000 filas insertadas
+2025-10-17 21:45:49,670 - INFO - Procesado lote 42, 420000 filas insertadas
+2025-10-17 21:45:50,278 - INFO - Procesado lote 43, 430000 filas insertadas
+2025-10-17 21:45:50,969 - INFO - Procesado lote 44, 440000 filas insertadas
+2025-10-17 21:45:51,687 - INFO - Procesado lote 45, 450000 filas insertadas
+2025-10-17 21:45:52,343 - INFO - Procesado lote 46, 460000 filas insertadas
+2025-10-17 21:45:52,955 - INFO - Procesado lote 47, 470000 filas insertadas
+2025-10-17 21:45:53,561 - INFO - Procesado lote 48, 480000 filas insertadas
+2025-10-17 21:45:54,192 - INFO - Procesado lote 49, 490000 filas insertadas
+2025-10-17 21:45:54,801 - INFO - Procesado lote 50, 500000 filas insertadas
+2025-10-17 21:45:55,421 - INFO - Procesado lote 51, 510000 filas insertadas
+2025-10-17 21:45:56,021 - INFO - Procesado lote 52, 520000 filas insertadas
+2025-10-17 21:45:56,632 - INFO - Procesado lote 53, 530000 filas insertadas
+2025-10-17 21:45:57,244 - INFO - Procesado lote 54, 540000 filas insertadas
+2025-10-17 21:45:57,854 - INFO - Procesado lote 55, 550000 filas insertadas
+2025-10-17 21:45:58,462 - INFO - Procesado lote 56, 560000 filas insertadas
+2025-10-17 21:45:59,070 - INFO - Procesado lote 57, 570000 filas insertadas
+2025-10-17 21:45:59,676 - INFO - Procesado lote 58, 580000 filas insertadas
+2025-10-17 21:46:00,279 - INFO - Procesado lote 59, 590000 filas insertadas
+2025-10-17 21:46:00,892 - INFO - Procesado lote 60, 600000 filas insertadas
+2025-10-17 21:46:01,506 - INFO - Procesado lote 61, 610000 filas insertadas
+2025-10-17 21:46:02,111 - INFO - Procesado lote 62, 620000 filas insertadas
+2025-10-17 21:46:02,729 - INFO - Procesado lote 63, 630000 filas insertadas
+2025-10-17 21:46:03,343 - INFO - Procesado lote 64, 640000 filas insertadas
+2025-10-17 21:46:03,946 - INFO - Procesado lote 65, 650000 filas insertadas
+2025-10-17 21:46:04,552 - INFO - Procesado lote 66, 660000 filas insertadas
+2025-10-17 21:46:05,158 - INFO - Procesado lote 67, 670000 filas insertadas
+2025-10-17 21:46:05,768 - INFO - Procesado lote 68, 680000 filas insertadas
+2025-10-17 21:46:06,364 - INFO - Procesado lote 69, 690000 filas insertadas
+2025-10-17 21:46:06,968 - INFO - Procesado lote 70, 700000 filas insertadas
+2025-10-17 21:46:07,582 - INFO - Procesado lote 71, 710000 filas insertadas
+2025-10-17 21:46:08,207 - INFO - Procesado lote 72, 720000 filas insertadas
+2025-10-17 21:46:08,887 - INFO - Procesado lote 73, 730000 filas insertadas
+2025-10-17 21:46:09,508 - INFO - Procesado lote 74, 740000 filas insertadas
+2025-10-17 21:46:10,118 - INFO - Procesado lote 75, 750000 filas insertadas
+2025-10-17 21:46:10,742 - INFO - Procesado lote 76, 760000 filas insertadas
+2025-10-17 21:46:11,372 - INFO - Procesado lote 77, 770000 filas insertadas
+2025-10-17 21:46:12,000 - INFO - Procesado lote 78, 780000 filas insertadas
+2025-10-17 21:46:12,640 - INFO - Procesado lote 79, 790000 filas insertadas
+2025-10-17 21:46:13,265 - INFO - Procesado lote 80, 800000 filas insertadas
+2025-10-17 21:46:13,888 - INFO - Procesado lote 81, 810000 filas insertadas
+2025-10-17 21:46:14,494 - INFO - Procesado lote 82, 820000 filas insertadas
+2025-10-17 21:46:15,098 - INFO - Procesado lote 83, 830000 filas insertadas
+2025-10-17 21:46:15,709 - INFO - Procesado lote 84, 840000 filas insertadas
+2025-10-17 21:46:16,316 - INFO - Procesado lote 85, 850000 filas insertadas
+2025-10-17 21:46:16,922 - INFO - Procesado lote 86, 860000 filas insertadas
+2025-10-17 21:46:17,529 - INFO - Procesado lote 87, 870000 filas insertadas
+2025-10-17 21:46:18,134 - INFO - Procesado lote 88, 880000 filas insertadas
+2025-10-17 21:46:18,750 - INFO - Procesado lote 89, 890000 filas insertadas
+2025-10-17 21:46:19,353 - INFO - Procesado lote 90, 900000 filas insertadas
+2025-10-17 21:46:19,961 - INFO - Procesado lote 91, 910000 filas insertadas
+2025-10-17 21:46:20,573 - INFO - Procesado lote 92, 920000 filas insertadas
+2025-10-17 21:46:20,804 - INFO - Procesado lote 93, 923778 filas insertadas
+2025-10-17 21:46:20,896 - INFO - Total filas climáticas insertadas: 923778
+2025-10-17 21:46:20,899 - INFO - Cargando hechos dengue...
+2025-10-17 21:46:20,953 - INFO - Columnas en datos dengue: ['id_uta', 'departamento_nombre', 'provincia_nombre', 'ano', 'semanas_epidemiologicas', 'grupo_edad_id', 'grupo_edad_desc', 'cantidad_casos', 'poblacion']
+2025-10-17 21:46:20,953 - INFO - Shape: (68126, 9)
+2025-10-17 21:46:24,500 - INFO - Procesado lote 1, 8751 filas insertadas
+2025-10-17 21:46:27,118 - INFO - Procesado lote 2, 17654 filas insertadas
+2025-10-17 21:46:29,801 - INFO - Procesado lote 3, 26273 filas insertadas
+2025-10-17 21:46:32,152 - INFO - Procesado lote 4, 35828 filas insertadas
+2025-10-17 21:46:34,542 - INFO - Procesado lote 5, 44896 filas insertadas
+2025-10-17 21:46:37,121 - INFO - Procesado lote 6, 53815 filas insertadas
+2025-10-17 21:46:39,281 - INFO - Procesado lote 7, 60920 filas insertadas
+2025-10-17 21:46:39,296 - INFO - Total filas dengue insertadas: 60920
+2025-10-17 21:46:39,297 - INFO - Carga completa finalizada en 0:01:17.435376
