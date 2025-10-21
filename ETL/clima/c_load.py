@@ -15,8 +15,8 @@ from sqlalchemy.exc import SQLAlchemyError
 from typing import Tuple, Optional
 import sys
 sys.path.append(os.path.dirname(__file__))
-from .2_transform import run_eda_transformations
-import scripts.baseDatos as baseDatos  # Importar para usar el engine y crear tablas si es necesario
+from b_transform import transform_clima_data
+import scripts.create_database as baseDatos  # Importar para usar el engine y crear tablas si es necesario
 
 # Configuración de logging
 log = logging.getLogger(__name__)
@@ -379,7 +379,7 @@ def main(input_path: str) -> bool:
             return False
 
         df_in = pd.read_parquet(input_path) if input_path.lower().endswith(".parquet") else pd.read_csv(input_path)
-        df_transformed = run_eda_transformations(df_in)
+        df_transformed = transform_clima_data(df_in)
 
         # Ejecutar pipeline de carga
         success = pipeline(engine, df_transformed)
