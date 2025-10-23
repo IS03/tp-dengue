@@ -21,7 +21,6 @@ ids_estaciones = list(df_estaciones.id_interno.unique())
 proceso(ids_estaciones)
 ruta_estaciones = 'data/datos-estaciones'
 
-
 # Transformar datos
 df_combined = process_all_station_files(ruta_estaciones)
 

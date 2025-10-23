@@ -92,7 +92,7 @@ def transform_precipitacion(df):
     """
     Transforma la columna precipitacion_pluviometrica:
     - Logarítmica seguida de Min-Max
-    - Interpolación spline para nulos
+    - Interpolación spline cúbica para nulos
     """
     if "precipitacion_pluviometrica" not in df.columns:
         return df
@@ -104,8 +104,8 @@ def transform_precipitacion(df):
     else:
         df["precipitacion_pluviometrica"] = col_log
 
-    # Interpolación spline para valores nulos
-    df["precipitacion_pluviometrica"] = df["precipitacion_pluviometrica"].interpolate(method='spline', order=2)
+    # Interpolación spline cúbica para valores nulos
+    df["precipitacion_pluviometrica"] = df["precipitacion_pluviometrica"].interpolate(method='spline', order=3)
 
     return df
 
@@ -162,8 +162,10 @@ def transform_humedad(df):
     """
     Transforma la columna humedad_media con interpolación lineal.
     """
-    if "humedad_media" in df.columns:
-        df["humedad_media"] = df["humedad_media"].interpolate(method='linear')
+    if "humedad_media" not in df.columns:
+        return df
+
+    df["humedad_media"] = df["humedad_media"].interpolate(method='linear')
     return df
 
 def transform_rocio(df):
@@ -201,7 +203,7 @@ def transform_tension_vapor(df):
         df["tesion_vapor_media"].isna() &
         df["temperatura_media"].notna() &
         df["humedad_media"].notna()
-    ) 
+    )
     if mask_tension_vapor.sum() > 0:
         df.loc[mask_tension_vapor, "tesion_vapor_media"] = tension_vapor(
             df.loc[mask_tension_vapor, "temperatura_media"],
@@ -232,9 +234,6 @@ def transform_radiacion_global(df):
 
     # Interpolación lineal para valores restantes
     df.radiacion_global = df.radiacion_global.interpolate(method='linear')
-
-    # Imputación con media para valores nulos restantes
-    df.radiacion_global = df.radiacion_global.fillna(df.radiacion_global.mean())
 
     return df
 
@@ -276,10 +275,6 @@ def transform_heliofania(df):
     # Interpolación lineal para valores restantes
     for col in helio_cols:
         df[col] = df[col].interpolate(method='linear')
-
-    # Imputación con media para valores nulos restantes
-    for col in helio_cols:
-        df[col] = df[col].fillna(df[col].mean())
 
     return df
 
