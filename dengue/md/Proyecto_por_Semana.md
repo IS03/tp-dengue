@@ -220,6 +220,36 @@ Este documento detalla el desarrollo cronológico del proyecto de análisis epid
 
 ---
 
+## **SEMANA 8** (24-31 octubre)
+### **Integración de Estaciones Meteorológicas (Join por UTA)**
+
+**Actividad Principal**: Agregar columna `estacion_id_interno` a `dengue-final.csv` usando mapping de departamentos con estaciones.
+- Fuente de mapping: `estaciones/departamentos_con_estacion.csv`
+- Claves de unión: `id_uta` (dengue) = `departamento_id` (estaciones)
+
+**Trabajo Técnico Realizado**:
+- Creación de script: `scripts/merge_estaciones.py`
+  - Lectura segura con tipado flexible y normalización de `departamento_id`
+  - Detección de IDs no numéricos en el mapping y descarte de esas filas
+  - Verificación de duplicados: `departamento_id` con múltiples `estacion_id_interno`
+  - Left join y agregado de `estacion_id_interno` a `dengue-final.csv`
+- Ejecución y validaciones:
+  - Filas sin match en el merge: `0` de `68,126`
+  - Duplicados en mapping por `departamento_id`: `0`
+  - Fila problemática en mapping (ID no numérico) detectada y descartada: línea 194 (`departamento_id = "el"`)
+
+**Problemas Técnicos Resueltos**:
+- Normalización de `departamento_id` en mapping con valores no numéricos
+- Confirmación de ausencia de claves duplicadas en el mapping
+- Integración sin pérdidas: columna resultante completa (sin vacíos)
+
+**Resultado**:
+- `dengue-final.csv` actualizado con la columna `estacion_id_interno` completa
+- Se preservó el archivo con overwrite (backup previo ya existente)
+- Script reutilizable para futuras actualizaciones del mapping
+
+---
+
 ## **RESUMEN DE PROBLEMAS RESUELTOS POR SEMANA**
 
 ### **Semana 4 - Identificación de Problemas**:

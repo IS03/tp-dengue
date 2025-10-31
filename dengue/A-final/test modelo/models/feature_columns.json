@@ -1,0 +1,19 @@
+{
+  "features": [
+    "semana",
+    "poblacion",
+    "sin_semana",
+    "cos_semana",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_4",
+    "lag_8",
+    "lag_12",
+    "ma_2",
+    "ma_4",
+    "ma_8",
+    "prov_spill_lag1"
+  ],
+  "target": "target_t1"
+}

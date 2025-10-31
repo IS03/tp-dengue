@@ -14,7 +14,7 @@ Entradas/salidas:
 - Salidas:
   - `data/panel.parquet`, `data/features.parquet`.
   - `models/random_forest.pkl` y `models/feature_columns.json`.
-  - `reports/metrics_global.json`, `reports/metrics_by_province.csv`, `reports/metrics_by_pop_decile.csv`.
+  - `reports/metrics_global.json`, `reports/metrics_by_province.csv`, `reports/metrics_by_pop_decile.csv`, `reports/rf_metrics.json`.
 
 Partición temporal:
 - Train: 2018–2023
@@ -26,3 +26,8 @@ Métricas:
 
 Notas:
 - No se usan columnas de edad. El objetivo es casos t+1 por `id_uta`.
+
+Resultados actuales (RF rápido):
+- Validación (2024): ver `reports/rf_metrics.json` (MAE ~16.71; RMSLE ~0.61)
+- Test (2025): ver `reports/rf_metrics.json` (MAE ~0.58; RMSLE ~0.25)
+- Baselines: `reports/baselines_metrics.json`
