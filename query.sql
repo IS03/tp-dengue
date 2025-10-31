@@ -1,164 +1,100 @@
-WITH
--- 0) Calendario semanal: lunes como inicio de semana
-cal_sem AS (
-  SELECT
-    fecha,
-    anio,
-    semana,
-    diaNumeroSemana,
-    DATE(fecha) AS semana_inicio
-  FROM calendario
-  WHERE diaNumeroSemana = 0          -- Lunes
+WITH contagios_semanal AS (
+    -- 1️⃣ Agrupo contagios por provincia, departamento, año y semana
+    SELECT
+        c.id_provincia,
+        c.departamento,
+        c.provincia,
+        c.ano,
+        c.semanas_epidemiologicas AS semana,
+        SUM(c.cantidad_casos) AS total_casos
+    FROM contagios AS c
+    GROUP BY c.id_provincia, c.departamento, c.provincia, c.ano, c.semanas_epidemiologicas
 ),
 
--- 1) Clima diario normalizado
-clima_d AS (
-  SELECT
-    DATE(c.fecha)                       AS fecha,
-    c.id_estacion                       AS id_interno,   -- A872xxx
-    c.precipitacion_pluviometrica       AS precip,
-    c.temperatura_media                 AS t_media,
-    c.humedad_media                     AS h_media,
-    c.temperatura_minima                AS t_min,
-    c.temperatura_maxima                AS t_max
-  FROM clima c
+clima_semanal AS (
+    -- 2️⃣ Agrupo clima por estación y semana (con promedio de variables)
+    SELECT
+        e.id_provincia,
+        e.id_departamento,
+        e.id_estacion,
+        strftime('%Y', cl.fecha) AS ano,
+        CAST(strftime('%W', cl.fecha) AS INTEGER) AS semana,
+        AVG(cl.precipitacion_pluviometrica) AS precip_prom,
+        AVG(cl.temperatura_minima) AS temp_min_prom,
+        AVG(cl.temperatura_maxima) AS temp_max_prom,
+        AVG(cl.temperatura_media) AS temp_med_prom,
+        AVG(cl.humedad_media) AS humedad_prom,
+        AVG(cl.rocio_medio) AS rocio_prom,
+        AVG(cl.tesion_vapor_media) AS vapor_prom,
+        AVG(cl.radiacion_global) AS radiacion_prom,
+        AVG(cl.heliofania_efectiva) AS heliofania_prom,
+        AVG(cl.heliofania_relativa) AS heliofania_rel_prom
+    FROM clima AS cl
+    JOIN estaciones AS e ON cl.id_estacion = e.id_interno
+    GROUP BY e.id_provincia, e.id_departamento, e.id_estacion, ano, semana
 ),
 
--- 2) Mapeo estación -> departamento
-est_dep AS (
-  SELECT
-    e.id_interno,                       -- A872xxx
-    e.id_estacion,                      -- id numérico si lo necesitás
-    e.id_departamento
-  FROM estaciones e
+base_unificada AS (
+    -- 3️⃣ Relaciono contagios con clima por provincia, departamento, año y semana
+    SELECT
+        cs.id_provincia,
+        cs.departamento,
+        cs.provincia,
+        cs.ano,
+        cs.semana,
+        cs.total_casos,
+        AVG(cl.precip_prom) AS precip_prom,
+        AVG(cl.temp_min_prom) AS temp_min_prom,
+        AVG(cl.temp_max_prom) AS temp_max_prom,
+        AVG(cl.temp_med_prom) AS temp_med_prom,
+        AVG(cl.humedad_prom) AS humedad_prom,
+        AVG(cl.rocio_prom) AS rocio_prom,
+        AVG(cl.vapor_prom) AS vapor_prom,
+        AVG(cl.radiacion_prom) AS radiacion_prom,
+        AVG(cl.heliofania_prom) AS heliofania_prom,
+        AVG(cl.heliofania_rel_prom) AS heliofania_rel_prom
+    FROM contagios_semanal cs
+    LEFT JOIN clima_semanal cl
+        ON cs.id_provincia = cl.id_provincia
+        AND cs.ano = cl.ano
+        AND cs.semana = cl.semana
+    GROUP BY cs.id_provincia, cs.departamento, cs.provincia, cs.ano, cs.semana
 ),
 
--- 3) Clima semanal por departamento
-clima_sem AS (
-  SELECT
-    cs.semana_inicio,
-    ed.id_departamento,
-    AVG(cd.t_media)  AS t_media_sem,
-    AVG(cd.h_media)  AS h_media_sem,
-    AVG(cd.t_min)    AS t_min_sem,
-    AVG(cd.t_max)    AS t_max_sem,
-    SUM(cd.precip)   AS precip_sem
-  FROM clima_d cd
-  JOIN cal_sem cs   ON cd.fecha = cs.fecha
-  JOIN est_dep ed   ON ed.id_interno = cd.id_interno
-  GROUP BY cs.semana_inicio, ed.id_departamento
-),
+lags AS (
+    -- 4️⃣ Creo variables "lag" (1 a 4 semanas anteriores) usando ventanas
+    SELECT
+        b.*,
+        LAG(b.total_casos, 1) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag1_casos,
+        LAG(b.total_casos, 2) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag2_casos,
+        LAG(b.total_casos, 3) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag3_casos,
+        LAG(b.total_casos, 4) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag4_casos,
 
--- 4) Dim de departamentos
-dep_dim AS (
-  SELECT
-    d.id_departamento,
-    UPPER(TRIM(d.departamento)) AS dep_name_u,
-    d.id_provincia
-  FROM departamentos d
-),
+        LAG(b.precip_prom, 1) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag1_precip,
+        LAG(b.precip_prom, 2) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag2_precip,
+        LAG(b.precip_prom, 3) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag3_precip,
+        LAG(b.precip_prom, 4) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag4_precip,
 
--- 5) Contagios semanales (por texto + provincia)
-contagios_sem_raw AS (
-  SELECT
-    CAST(co.ano AS INT)                                 AS anio,
-    CAST(co.semanas_epidemiologicas AS INT)             AS semana,
-    UPPER(TRIM(co.departamento))                        AS dep_name_u,
-    co.id_provincia,
-    SUM(COALESCE(co.cantidad_casos,0))                  AS y_cont_sem
-  FROM contagios co
-  GROUP BY anio, semana, dep_name_u, id_provincia
-),
+        LAG(b.temp_med_prom, 1) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag1_temp,
+        LAG(b.temp_med_prom, 2) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag2_temp,
+        LAG(b.temp_med_prom, 3) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag3_temp,
+        LAG(b.temp_med_prom, 4) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag4_temp,
 
--- 6) Índice (anio, semana) -> semana_inicio (desde cal_sem)  ⬅️ AQUÍ EL FIX
-sem_idx AS (
-  SELECT DISTINCT
-    anio,
-    semana,
-    semana_inicio
-  FROM cal_sem
-),
-
--- 7) Labels con id_departamento
-label_sem AS (
-  SELECT
-    si.semana_inicio,
-    dd.id_departamento,
-    csr.y_cont_sem AS y
-  FROM contagios_sem_raw csr
-  JOIN dep_dim dd
-       ON dd.dep_name_u   = csr.dep_name_u
-      AND dd.id_provincia = csr.id_provincia
-  JOIN sem_idx si
-       ON si.anio   = csr.anio
-      AND si.semana = csr.semana
-),
-
--- 8) Universo base
-base AS (
-  SELECT DISTINCT
-    ls.semana_inicio,
-    ls.id_departamento
-  FROM label_sem ls
-),
-
--- 9) Features climáticas semana t
-feat_sem AS (
-  SELECT
-    b.semana_inicio,
-    b.id_departamento,
-    cs.t_media_sem,
-    cs.h_media_sem,
-    cs.t_min_sem,
-    cs.t_max_sem,
-    cs.precip_sem
-  FROM base b
-  LEFT JOIN clima_sem cs
-    ON cs.semana_inicio = b.semana_inicio
-   AND cs.id_departamento = b.id_departamento
-),
-
--- 10) Lags/rolling sin fuga (hasta t-1)
-feat_lags AS (
-  SELECT
-    f.*,
-    LAG(t_media_sem,1)  OVER (PARTITION BY id_departamento ORDER BY semana_inicio) AS lag1_t_media,
-    LAG(h_media_sem,1)  OVER (PARTITION BY id_departamento ORDER BY semana_inicio) AS lag1_h_media,
-    LAG(t_min_sem,1)    OVER (PARTITION BY id_departamento ORDER BY semana_inicio) AS lag1_t_min,
-    LAG(t_max_sem,1)    OVER (PARTITION BY id_departamento ORDER BY semana_inicio) AS lag1_t_max,
-    LAG(precip_sem,1)   OVER (PARTITION BY id_departamento ORDER BY semana_inicio) AS lag1_precip,
-    AVG(t_media_sem)    OVER (PARTITION BY id_departamento ORDER BY semana_inicio ROWS BETWEEN 3 PRECEDING AND 1 PRECEDING) AS roll4_t_media,
-    SUM(precip_sem)     OVER (PARTITION BY id_departamento ORDER BY semana_inicio ROWS BETWEEN 3 PRECEDING AND 1 PRECEDING) AS roll4_precip
-  FROM feat_sem f
-),
-
--- 11) Lags del target
-label_lags AS (
-  SELECT
-    ls.*,
-    LAG(y,1) OVER (PARTITION BY id_departamento ORDER BY semana_inicio) AS lag1_y,
-    SUM(y)   OVER (PARTITION BY id_departamento ORDER BY semana_inicio ROWS BETWEEN 3 PRECEDING AND 1 PRECEDING) AS roll4_y
-  FROM label_sem ls
+        LAG(b.humedad_prom, 1) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag1_humedad,
+        LAG(b.humedad_prom, 2) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag2_humedad,
+        LAG(b.humedad_prom, 3) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag3_humedad,
+        LAG(b.humedad_prom, 4) OVER (PARTITION BY b.departamento ORDER BY b.ano, b.semana) AS lag4_humedad
+    FROM base_unificada b
 )
 
--- 12) Salida final
+-- 5️⃣ Creo la variable target de clasificación (rango de contagios)
 SELECT
-  fl.semana_inicio,
-  fl.id_departamento,
-  fl.lag1_t_media,
-  fl.lag1_h_media,
-  fl.lag1_t_min,
-  fl.lag1_t_max,
-  fl.lag1_precip,
-  fl.roll4_t_media,
-  fl.roll4_precip,
-  ll.lag1_y,
-  ll.roll4_y,
-  ll.y AS y
-FROM feat_lags fl
-LEFT JOIN label_lags ll
-  ON ll.semana_inicio = fl.semana_inicio
- AND ll.id_departamento = fl.id_departamento
-WHERE fl.lag1_t_media IS NOT NULL
-  AND ll.lag1_y IS NOT NULL
-;
+    *,
+    CASE
+        WHEN total_casos BETWEEN 0 AND 5 THEN '0-5'
+        WHEN total_casos BETWEEN 6 AND 10 THEN '6-10'
+        WHEN total_casos BETWEEN 11 AND 15 THEN '11-15'
+        ELSE '16+'
+    END AS rango_contagios
+FROM lags
+WHERE total_casos IS NOT NULL;
